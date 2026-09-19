@@ -1,5 +1,9 @@
 # Research Workspace
 
+## September 2026 review
+
+Start with [RESEARCH_GAP_REPORT.md](RESEARCH_GAP_REPORT.md). Supporting decisions are in [candidate_gaps.md](candidate_gaps.md) and [novelty_threat_matrix.md](novelty_threat_matrix.md). The [literature index](literature/README.md) links the evidence. This phase produced research artifacts only; no method implementation or empirical results.
+
 This directory structures the conceptual, scientific, and literature-driven foundation of the **EvoMem** project.
 
 ---

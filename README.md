@@ -15,7 +15,7 @@ Autonomous LLM agents deployed over extended operational horizons interact with 
 - **Irrelevant accumulated memories** that saturate context windows and degrade inference quality.
 - **Uncertain or unverified information** requiring probabilistic or conditional retention.
 
-Standard retrieval approaches (such as naive semantic-similarity lookup over static vector stores) treat memory as static key-value stores. They do not model temporal dynamics, validity windows, or belief revision, often retrieving obsolete or contradictory contexts.
+A naive similarity-only store does not enforce temporal validity or belief revision. However, many existing memory systems already support updates, historical state, dependency propagation and learned lifecycle control. The [September 2026 literature review](research/RESEARCH_GAP_REPORT.md) identifies these precedents and narrows the proposed research accordingly.
 
 ---
 
@@ -44,12 +44,14 @@ Standard retrieval approaches (such as naive semantic-similarity lookup over sta
 
 ## 4. Current Status
 
-**Phase 0 — Repository Initialization & Literature Review**
+**Literature review completed through 19 September 2026; experimental validation pending.**
+
+The [research report](research/RESEARCH_GAP_REPORT.md) covers 100 retained works and 25 deep reads. The leading conditional direction is selective memory repair under uncertain dependency lineage. No EvoMem method has been implemented or experimentally validated. See the [three candidate directions](research/candidate_gaps.md) and [novelty threats](research/novelty_threat_matrix.md).
 
 - [x] Repository environment, tooling, and quality gates established.
-- [ ] Systematic literature review of agent memory systems, continual learning, and belief revision.
-- [ ] Formalization of research gaps, baseline definitions, and empirical hypotheses.
-- [ ] Controlled experimental design and diagnostic benchmark selection.
+- [x] Broad, evidence-labeled literature review of agent memory, revision and evaluation.
+- [x] Conditional research gaps, closest baselines and falsifiable hypotheses documented.
+- [x] Initial experimental design and benchmark candidates documented; novelty/annotation pilot pending.
 - [ ] Method design, ablation studies, and empirical evaluation.
 
 ---
