@@ -1,0 +1,4210 @@
+# Master literature matrix
+
+Cutoff: **19 September 2026**. 100 unique retained works; 25 deep reads, 22 additional targeted inspections, and 53 bibliographic/abstract screens. Screened entries are discovery records, not full-paper capability judgments.
+
+`year` means **first public year**, not conference year. arXiv revisions and conference versions count once. NR means not established here, not absent. A paper-linked code URL is not a license audit or a successful reproduction. Main results are author reports unless explicitly described as reviewer inference.
+
+The [CSV](master_paper_matrix.csv) contains every required field. Compact index followed by full records avoids an unreadable 38-column Markdown table.
+
+| ID | Work | Year | Depth |
+|---|---|---|---|
+| [2303.11366](https://arxiv.org/abs/2303.11366v4) | Reflexion | 2023 | bibliographic and abstract screening |
+| [2304.03442](https://arxiv.org/abs/2304.03442v2) | Generative Agents | 2023 | bibliographic and abstract screening |
+| [2305.10250](https://arxiv.org/abs/2305.10250v3) | MemoryBank | 2023 | bibliographic and abstract screening |
+| [2305.16291](https://arxiv.org/abs/2305.16291v2) | Voyager | 2023 | bibliographic and abstract screening |
+| [2308.10144](https://arxiv.org/abs/2308.10144v3) | ExpeL | 2023 | bibliographic and abstract screening |
+| [2310.08560](https://arxiv.org/abs/2310.08560v2) | MemGPT | 2023 | bibliographic and abstract screening |
+| [2310.11511](https://arxiv.org/abs/2310.11511v1) | Self-RAG | 2023 | bibliographic and abstract screening |
+| [2401.15884](https://arxiv.org/abs/2401.15884v3) | Corrective RAG | 2024 | bibliographic and abstract screening |
+| [2401.18059](https://arxiv.org/abs/2401.18059v1) | RAPTOR | 2024 | bibliographic and abstract screening |
+| [2402.04624](https://arxiv.org/abs/2402.04624v2) | MEMORYLLM | 2024 | bibliographic and abstract screening |
+| [2402.17753](https://arxiv.org/abs/2402.17753v1) | LoCoMo | 2024 | bibliographic and abstract screening |
+| [2403.14403](https://arxiv.org/abs/2403.14403v2) | Adaptive-RAG | 2024 | bibliographic and abstract screening |
+| [2404.13501](https://arxiv.org/abs/2404.13501v1) | Memory Mechanism Survey | 2024 | bibliographic and abstract screening |
+| [2405.14831](https://arxiv.org/abs/2405.14831v3) | HippoRAG | 2024 | bibliographic and abstract screening |
+| [2407.04363](https://arxiv.org/abs/2407.04363v3) | AriGraph | 2024 | bibliographic and abstract screening |
+| [2407.12784](https://arxiv.org/abs/2407.12784v1) | AgentPoison | 2024 | bibliographic and abstract screening |
+| [2410.10813](https://arxiv.org/abs/2410.10813v2) | LongMemEval | 2024 | deep primary read |
+| [2501.13956](https://arxiv.org/abs/2501.13956v1) | Zep | 2025 | deep primary read |
+| [2502.12110](https://arxiv.org/abs/2502.12110v11) | A-MEM | 2025 | deep primary read |
+| [2502.14802](https://arxiv.org/abs/2502.14802v2) | HippoRAG 2 | 2025 | bibliographic and abstract screening |
+| [2502.15957](https://arxiv.org/abs/2502.15957v1) | R3Mem | 2025 | targeted primary inspection |
+| [2504.07952](https://arxiv.org/abs/2504.07952v1) | Dynamic Cheatsheet | 2025 | bibliographic and abstract screening |
+| [2504.14225](https://arxiv.org/abs/2504.14225v2) | PersonaMem | 2025 | targeted primary inspection |
+| [2504.19413](https://arxiv.org/abs/2504.19413v1) | Mem0 | 2025 | deep primary read |
+| [2507.03724](https://arxiv.org/abs/2507.03724v4) | MemOS | 2025 | bibliographic and abstract screening |
+| [2507.05257](https://arxiv.org/abs/2507.05257v4) | MemoryAgentBench | 2025 | deep primary read |
+| [2508.19828](https://arxiv.org/abs/2508.19828v5) | Memory-R1 | 2025 | deep primary read |
+| [2509.25911](https://arxiv.org/abs/2509.25911v1) | Mem-alpha | 2025 | deep primary read |
+| [2509.18868](https://arxiv.org/abs/2509.18868v1) | Memory Mechanisms Survey | 2025 | bibliographic and abstract screening |
+| [2510.01353](https://arxiv.org/abs/2510.01353v1) | MEMTRACK | 2025 | targeted primary inspection |
+| [2510.18866](https://arxiv.org/abs/2510.18866v4) | LightMem | 2025 | bibliographic and abstract screening |
+| [2511.03506](https://arxiv.org/abs/2511.03506v3) | HaluMem | 2025 | deep primary read |
+| [2511.20857](https://arxiv.org/abs/2511.20857v2) | Evo-Memory | 2025 | bibliographic and abstract screening |
+| [2512.12818](https://arxiv.org/abs/2512.12818v1) | Hindsight | 2025 | deep primary read |
+| [2512.13564](https://arxiv.org/abs/2512.13564v2) | Memory in the Age of AI Agents | 2025 | bibliographic and abstract screening |
+| [2601.01885](https://arxiv.org/abs/2601.01885v3) | AgeMem | 2026 | deep primary read |
+| [2602.03224](https://arxiv.org/abs/2602.03224v2) | TAME | 2026 | bibliographic and abstract screening |
+| [2602.06025](https://arxiv.org/abs/2602.06025v3) | BudgetMem | 2026 | bibliographic and abstract screening |
+| [2602.16313](https://arxiv.org/abs/2602.16313v1) | MemoryArena | 2026 | targeted primary inspection |
+| [2602.17913](https://arxiv.org/abs/2602.17913v1) | TierMem | 2026 | targeted primary inspection |
+| [2603.15658](https://arxiv.org/abs/2603.15658v1) | Right Pocket | 2026 | targeted primary inspection |
+| [2603.17244](https://arxiv.org/abs/2603.17244v1) | Kumiho | 2026 | bibliographic and abstract screening |
+| [2604.01560](https://arxiv.org/abs/2604.01560v1) | DeltaMem | 2026 | bibliographic and abstract screening |
+| [2604.16548](https://arxiv.org/abs/2604.16548v2) | Memory Security Survey | 2026 | bibliographic and abstract screening |
+| [2604.20006](https://arxiv.org/abs/2604.20006v1) | Memora | 2026 | deep primary read |
+| [2605.05583](https://arxiv.org/abs/2605.05583v2) | BeliefMem | 2026 | deep primary read |
+| [2605.06527](https://arxiv.org/abs/2605.06527v1) | STALE / CUPMem | 2026 | deep primary read |
+| [2605.06716](https://arxiv.org/abs/2605.06716v1) | Storage to Experience Survey | 2026 | bibliographic and abstract screening |
+| [2605.12493](https://arxiv.org/abs/2605.12493v1) | LongMemEval-V2 | 2026 | targeted primary inspection |
+| [2605.15338](https://arxiv.org/abs/2605.15338v2) | Sleeper Memory Poisoning | 2026 | bibliographic and abstract screening |
+| [2605.16045](https://arxiv.org/abs/2605.16045v1) | RecMem | 2026 | bibliographic and abstract screening |
+| [2605.18421](https://arxiv.org/abs/2605.18421v2) | EvoMemBench | 2026 | targeted primary inspection |
+| [2605.22842](https://arxiv.org/abs/2605.22842v1) | Misattribution Gap | 2026 | bibliographic and abstract screening |
+| [2605.23723](https://arxiv.org/abs/2605.23723v1) | MemAudit | 2026 | bibliographic and abstract screening |
+| [2605.23986](https://arxiv.org/abs/2605.23986v3) | MemForest | 2026 | bibliographic and abstract screening |
+| [2605.25338](https://arxiv.org/abs/2605.25338v1) | CausalFlow | 2026 | bibliographic and abstract screening |
+| [2605.26252](https://arxiv.org/abs/2605.26252v1) | GEM / MemState | 2026 | bibliographic and abstract screening |
+| [2605.26302](https://arxiv.org/abs/2605.26302v1) | AgingBench | 2026 | deep primary read |
+| [2605.26667](https://arxiv.org/abs/2605.26667v1) | MemFail | 2026 | targeted primary inspection |
+| [2606.06240](https://arxiv.org/abs/2606.06240v1) | TOKI | 2026 | bibliographic and abstract screening |
+| [2606.08275](https://arxiv.org/abs/2606.08275v1) | Causal Agent Replay | 2026 | bibliographic and abstract screening |
+| [2606.09483](https://arxiv.org/abs/2606.09483v1) | DCPM | 2026 | bibliographic and abstract screening |
+| [2606.25161](https://arxiv.org/abs/2606.25161v1) | TRUSTMEM | 2026 | deep primary read |
+| [2606.26511](https://arxiv.org/abs/2606.26511v1) | MemStrata | 2026 | bibliographic and abstract screening |
+| [2606.27472](https://arxiv.org/abs/2606.27472v1) | Supersede | 2026 | bibliographic and abstract screening |
+| [2607.01071](https://arxiv.org/abs/2607.01071v2) | MemSyco-Bench | 2026 | bibliographic and abstract screening |
+| [2607.01988](https://arxiv.org/abs/2607.01988v1) | Identity-safe Consolidation | 2026 | bibliographic and abstract screening |
+| [2607.02579](https://arxiv.org/abs/2607.02579v1) | GovMem | 2026 | targeted primary inspection |
+| [2607.08032](https://arxiv.org/abs/2607.08032v1) | Rate-Distortion Compaction | 2026 | targeted primary inspection |
+| [2607.12893](https://arxiv.org/abs/2607.12893v1) | MemOps | 2026 | targeted primary inspection |
+| [2607.13591](https://arxiv.org/abs/2607.13591v1) | MemCon | 2026 | targeted primary inspection |
+| [2607.17545](https://arxiv.org/abs/2607.17545v2) | OAS | 2026 | deep primary read |
+| [2607.23929](https://arxiv.org/abs/2607.23929v2) | MemTX | 2026 | deep primary read |
+| [2607.27080](https://arxiv.org/abs/2607.27080v1) | MemSecBench | 2026 | deep primary read |
+| [2607.27773](https://arxiv.org/abs/2607.27773v2) | ChronoMem | 2026 | targeted primary inspection |
+| [2607.29104](https://arxiv.org/abs/2607.29104v1) | LightMem Reproduction | 2026 | bibliographic and abstract screening |
+| [2607.29167](https://arxiv.org/abs/2607.29167v1) | Provenance Laundering | 2026 | bibliographic and abstract screening |
+| [2608.01285](https://arxiv.org/abs/2608.01285v1) | Router-Mem | 2026 | bibliographic and abstract screening |
+| [2608.01619](https://arxiv.org/abs/2608.01619v1) | StateAuditor | 2026 | deep primary read |
+| [2608.01679](https://arxiv.org/abs/2608.01679v2) | AuthMem-Bench | 2026 | deep primary read |
+| [2608.03137](https://arxiv.org/abs/2608.03137v1) | VerMem | 2026 | deep primary read |
+| [2608.05604](https://arxiv.org/abs/2608.05604v1) | SkillZip-Tan | 2026 | targeted primary inspection |
+| [2608.05906](https://arxiv.org/abs/2608.05906v2) | MERIT | 2026 | bibliographic and abstract screening |
+| [2608.10502](https://arxiv.org/abs/2608.10502v1) | Dependency-guided Rollback | 2026 | deep primary read |
+| [2608.11079](https://arxiv.org/abs/2608.11079v2) | SkillZip-Bai | 2026 | targeted primary inspection |
+| [2608.13883](https://arxiv.org/abs/2608.13883v1) | MemoryLake Matched Study | 2026 | bibliographic and abstract screening |
+| [2608.19564](https://arxiv.org/abs/2608.19564v1) | Memory Commitment Boundary | 2026 | targeted primary inspection |
+| [2608.19652](https://arxiv.org/abs/2608.19652v1) | StateMem | 2026 | deep primary read |
+| [2608.19701](https://arxiv.org/abs/2608.19701v1) | CAMA | 2026 | targeted primary inspection |
+| [2608.20685](https://arxiv.org/abs/2608.20685v1) | MemStrata Software Histories | 2026 | bibliographic and abstract screening |
+| [2608.21230](https://arxiv.org/abs/2608.21230v1) | Utility Under Attack | 2026 | bibliographic and abstract screening |
+| [2608.21381](https://arxiv.org/abs/2608.21381v1) | PersonaMem-v3 | 2026 | targeted primary inspection |
+| [2608.22215](https://arxiv.org/abs/2608.22215v2) | Dual-Layer Memory | 2026 | bibliographic and abstract screening |
+| [2608.30785](https://arxiv.org/abs/2608.30785v1) | SkillZip Pro | 2026 | targeted primary inspection |
+| [2609.01852](https://arxiv.org/abs/2609.01852v1) | Memory Trust Gap | 2026 | targeted primary inspection |
+| [2609.03340](https://arxiv.org/abs/2609.03340v1) | PlanFence | 2026 | deep primary read |
+| [2609.04875](https://arxiv.org/abs/2609.04875v1) | Execution-state Unlearning | 2026 | deep primary read |
+| [2609.08258](https://arxiv.org/abs/2609.08258v1) | Revocation Enforcement | 2026 | bibliographic and abstract screening |
+| [2609.08599](https://arxiv.org/abs/2609.08599v1) | Graph Personalized Memory Survey | 2026 | bibliographic and abstract screening |
+| [2609.10263](https://arxiv.org/abs/2609.10263v1) | RD-Forget | 2026 | targeted primary inspection |
+
+## 2303.11366 — Reflexion
+
+- **paper_id:** 2303.11366
+- **title:** Reflexion: Language Agents with Verbal Reinforcement Learning
+- **authors:** Shinn, Noah; Cassano, Federico; Berman, Edward; Gopinath, Ashwin; Narasimhan, Karthik; Yao, Shunyu
+- **year:** 2023
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2023-03-20
+- **paper_url:** https://arxiv.org/abs/2303.11366v4
+- **code_url:** No verified link
+- **research_problem:** Reuse verbal feedback to improve later attempts
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Episodic textual reflections
+- **memory_retrieval:** LLM reflection and retry
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** LLM reflection and retry
+- **main_contribution:** Reuse verbal feedback to improve later attempts
+- **main_results:** Screening conclusion: Reuse verbal feedback to improve later attempts. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Verbal reinforcement is not gradient-based learned memory control
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Reuse verbal feedback to improve later attempts
+- **possible_remaining_gap:** Verbal reinforcement is not gradient-based learned memory control
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v4 (2023-10-10)
+- **canonical_publication_url:** No verified link
+
+## 2304.03442 — Generative Agents
+
+- **paper_id:** 2304.03442
+- **title:** Generative Agents: Interactive Simulacra of Human Behavior
+- **authors:** Park, Joon Sung; O'Brien, Joseph C.; Cai, Carrie J.; Morris, Meredith Ringel; Liang, Percy; Bernstein, Michael S.
+- **year:** 2023
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2023-04-07
+- **paper_url:** https://arxiv.org/abs/2304.03442v2
+- **code_url:** No verified link
+- **research_problem:** Maintain experience and reflections for persistent simulated behavior
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Raw memory stream and higher-level reflections
+- **memory_retrieval:** Recency, relevance and importance retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Recency, relevance and importance retrieval
+- **main_contribution:** Maintain experience and reflections for persistent simulated behavior
+- **main_results:** Screening conclusion: Maintain experience and reflections for persistent simulated behavior. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Believability is not a test of safe epistemic revision
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Maintain experience and reflections for persistent simulated behavior
+- **possible_remaining_gap:** Believability is not a test of safe epistemic revision
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2023-08-06)
+- **canonical_publication_url:** No verified link
+
+## 2305.10250 — MemoryBank
+
+- **paper_id:** 2305.10250
+- **title:** MemoryBank: Enhancing Large Language Models with Long-Term Memory
+- **authors:** Zhong, Wanjun; Guo, Lianghong; Gao, Qiqi; Ye, He; Wang, Yanlin
+- **year:** 2023
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2023-05-17
+- **paper_url:** https://arxiv.org/abs/2305.10250v3
+- **code_url:** No verified link
+- **research_problem:** Long-term personalized conversation with forgetting and reinforcement
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Conversation memories and user summaries
+- **memory_retrieval:** Time/importance-dependent decay and retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Time/importance-dependent decay and retrieval
+- **main_contribution:** Long-term personalized conversation with forgetting and reinforcement
+- **main_results:** Screening conclusion: Long-term personalized conversation with forgetting and reinforcement. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Decay does not establish that a fact is false or superseded
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Long-term personalized conversation with forgetting and reinforcement
+- **possible_remaining_gap:** Decay does not establish that a fact is false or superseded
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2023-05-21)
+- **canonical_publication_url:** No verified link
+
+## 2305.16291 — Voyager
+
+- **paper_id:** 2305.16291
+- **title:** Voyager: An Open-Ended Embodied Agent with Large Language Models
+- **authors:** Wang, Guanzhi; Xie, Yuqi; Jiang, Yunfan; Mandlekar, Ajay; Xiao, Chaowei; Zhu, Yuke; Fan, Linxi; Anandkumar, Anima
+- **year:** 2023
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2023-05-25
+- **paper_url:** https://arxiv.org/abs/2305.16291v2
+- **code_url:** No verified link
+- **research_problem:** Accumulate reusable executable skills during exploration
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Code skill library
+- **memory_retrieval:** Embedding retrieval and LLM curriculum
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Embedding retrieval and LLM curriculum
+- **main_contribution:** Accumulate reusable executable skills during exploration
+- **main_results:** Screening conclusion: Accumulate reusable executable skills during exploration. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Procedural reuse does not imply general semantic invalidation
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Accumulate reusable executable skills during exploration
+- **possible_remaining_gap:** Procedural reuse does not imply general semantic invalidation
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2023-10-19)
+- **canonical_publication_url:** No verified link
+
+## 2308.10144 — ExpeL
+
+- **paper_id:** 2308.10144
+- **title:** ExpeL: LLM Agents Are Experiential Learners
+- **authors:** Zhao, Andrew; Huang, Daniel; Xu, Quentin; Lin, Matthieu; Liu, Yong-Jin; Huang, Gao
+- **year:** 2023
+- **venue_or_status:** Author-reported status: Accepted by the 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24)
+- **publication_date:** 2023-08-20
+- **paper_url:** https://arxiv.org/abs/2308.10144v3
+- **code_url:** No verified link
+- **research_problem:** Learn task insights from accumulated successful and failed experience
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Textual insights and trajectories
+- **memory_retrieval:** LLM extraction and experience retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** LLM extraction and experience retrieval
+- **main_contribution:** Learn task insights from accumulated successful and failed experience
+- **main_results:** Screening conclusion: Learn task insights from accumulated successful and failed experience. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Nonparametric experiential learning differs from trained lifecycle policy
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Learn task insights from accumulated successful and failed experience
+- **possible_remaining_gap:** Nonparametric experiential learning differs from trained lifecycle policy
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2024-12-20)
+- **canonical_publication_url:** No verified link
+
+## 2310.08560 — MemGPT
+
+- **paper_id:** 2310.08560
+- **title:** MemGPT: Towards LLMs as Operating Systems
+- **authors:** Packer, Charles; Wooders, Sarah; Lin, Kevin; Fang, Vivian; Patil, Shishir G.; Stoica, Ion; Gonzalez, Joseph E.
+- **year:** 2023
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2023-10-12
+- **paper_url:** https://arxiv.org/abs/2310.08560v2
+- **code_url:** No verified link
+- **research_problem:** Manage context by moving information between memory tiers
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Working context, archival and recall stores
+- **memory_retrieval:** LLM function calls and interrupts
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** LLM function calls and interrupts
+- **main_contribution:** Manage context by moving information between memory tiers
+- **main_results:** Screening conclusion: Manage context by moving information between memory tiers. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Virtual context capacity does not guarantee evidence validity
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Manage context by moving information between memory tiers
+- **possible_remaining_gap:** Virtual context capacity does not guarantee evidence validity
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2024-02-12)
+- **canonical_publication_url:** No verified link
+
+## 2310.11511 — Self-RAG
+
+- **paper_id:** 2310.11511
+- **title:** Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
+- **authors:** Asai, Akari; Wu, Zeqiu; Wang, Yizhong; Sil, Avirup; Hajishirzi, Hannaneh
+- **year:** 2023
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2023-10-17
+- **paper_url:** https://arxiv.org/abs/2310.11511v1
+- **code_url:** No verified link
+- **research_problem:** Learn when to retrieve and critique evidence and generation
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Retrieved passages and reflection tokens
+- **memory_retrieval:** Trained LM adaptive retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** ◐ — see capability matrix definition and cited sections
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Adaptive external retrieval precedent; not itself a full persistent-memory lifecycle
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Trained LM adaptive retrieval
+- **main_contribution:** Learn when to retrieve and critique evidence and generation
+- **main_results:** Screening conclusion: Learn when to retrieve and critique evidence and generation. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Evidence critique is not durable-memory version management
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Learn when to retrieve and critique evidence and generation
+- **possible_remaining_gap:** Evidence critique is not durable-memory version management
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2023-10-17)
+- **canonical_publication_url:** No verified link
+
+## 2401.15884 — Corrective RAG
+
+- **paper_id:** 2401.15884
+- **title:** Corrective Retrieval Augmented Generation
+- **authors:** Yan, Shi-Qi; Gu, Jia-Chen; Zhu, Yun; Ling, Zhen-Hua
+- **year:** 2024
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2024-01-29
+- **paper_url:** https://arxiv.org/abs/2401.15884v3
+- **code_url:** No verified link
+- **research_problem:** Recover from poor retrieved evidence using evaluation and web search
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Documents and filtered evidence
+- **memory_retrieval:** Retrieval evaluator selects corrective actions
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** ◐ — see capability matrix definition and cited sections
+- **learned_policy:** ◐ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Adaptive external retrieval precedent; not itself a full persistent-memory lifecycle
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Retrieval evaluator selects corrective actions
+- **main_contribution:** Recover from poor retrieved evidence using evaluation and web search
+- **main_results:** Screening conclusion: Recover from poor retrieved evidence using evaluation and web search. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** External retrieval routing is already prior art
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Recover from poor retrieved evidence using evaluation and web search
+- **possible_remaining_gap:** External retrieval routing is already prior art
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2024-10-07)
+- **canonical_publication_url:** No verified link
+
+## 2401.18059 — RAPTOR
+
+- **paper_id:** 2401.18059
+- **title:** RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval
+- **authors:** Sarthi, Parth; Abdullah, Salman; Tuli, Aditi; Khanna, Shubh; Goldie, Anna; Manning, Christopher D.
+- **year:** 2024
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2024-01-31
+- **paper_url:** https://arxiv.org/abs/2401.18059v1
+- **code_url:** No verified link
+- **research_problem:** Retrieve information across abstraction levels of long documents
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Recursive summary tree
+- **memory_retrieval:** Embedding, clustering and hierarchical retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Embedding, clustering and hierarchical retrieval
+- **main_contribution:** Retrieve information across abstraction levels of long documents
+- **main_results:** Screening conclusion: Retrieve information across abstraction levels of long documents. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Summary organization does not by itself validate downstream revision
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Retrieve information across abstraction levels of long documents
+- **possible_remaining_gap:** Summary organization does not by itself validate downstream revision
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2024-01-31)
+- **canonical_publication_url:** No verified link
+
+## 2402.04624 — MEMORYLLM
+
+- **paper_id:** 2402.04624
+- **title:** MEMORYLLM: Towards Self-Updatable Large Language Models
+- **authors:** Wang, Yu; Gao, Yifan; Chen, Xiusi; Jiang, Haoming; Li, Shiyang; Yang, Jingfeng; Yin, Qingyu; Li, Zheng; Li, Xian; Yin, Bing; Shang, Jingbo; McAuley, Julian
+- **year:** 2024
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2024-02-07
+- **paper_url:** https://arxiv.org/abs/2402.04624v2
+- **code_url:** https://github.com/wangyu-ustc/MemoryLLM
+- **research_problem:** Update knowledge in a fixed-size latent memory pool
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Transformer latent memory
+- **memory_retrieval:** Learned text-conditioned self-update
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Learned text-conditioned self-update
+- **main_contribution:** Update knowledge in a fixed-size latent memory pool
+- **main_results:** Screening conclusion: Update knowledge in a fixed-size latent memory pool. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Different storage and training regime from API-accessible text memory
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Update knowledge in a fixed-size latent memory pool
+- **possible_remaining_gap:** Different storage and training regime from API-accessible text memory
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2024-05-26)
+- **canonical_publication_url:** No verified link
+
+## 2402.17753 — LoCoMo
+
+- **paper_id:** 2402.17753
+- **title:** Evaluating Very Long-Term Conversational Memory of LLM Agents
+- **authors:** Maharana, Adyasha; Lee, Dong-Ho; Tulyakov, Sergey; Bansal, Mohit; Barbieri, Francesco; Fang, Yuwei
+- **year:** 2024
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2024-02-27
+- **paper_url:** https://arxiv.org/abs/2402.17753v1
+- **code_url:** https://snap-research.github.io/locomo/
+- **research_problem:** Evaluate long-term dialogue understanding across sessions
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Persona/event-grounded conversations
+- **memory_retrieval:** QA, summarization and dialogue evaluation
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LoCoMo: Multi-session dialogue QA, summarization and generation; original paper averages ~300 turns/9K tokens, up to 35 sessions; common released evaluation uses 10 longer conversations
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** QA F1/judged correctness, summarization; cost not the original central target
+- **main_method:** QA, summarization and dialogue evaluation
+- **main_contribution:** Evaluate long-term dialogue understanding across sessions
+- **main_results:** Screening conclusion: Evaluate long-term dialogue understanding across sessions. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Original corpus statistics differ from commonly reused released subset
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Evaluate long-term dialogue understanding across sessions
+- **possible_remaining_gap:** Original corpus statistics differ from commonly reused released subset
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2024-02-27)
+- **canonical_publication_url:** No verified link
+
+## 2403.14403 — Adaptive-RAG
+
+- **paper_id:** 2403.14403
+- **title:** Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity
+- **authors:** Jeong, Soyeong; Baek, Jinheon; Cho, Sukmin; Hwang, Sung Ju; Park, Jong C.
+- **year:** 2024
+- **venue_or_status:** Author-reported status: NAACL 2024
+- **publication_date:** 2024-03-21
+- **paper_url:** https://arxiv.org/abs/2403.14403v2
+- **code_url:** https://github.com/starsuzi/Adaptive-RAG
+- **research_problem:** Choose retrieval complexity appropriate to a query
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** External corpus
+- **memory_retrieval:** Small classifier selects no, single or iterative retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Adaptive external retrieval precedent; not itself a full persistent-memory lifecycle
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Small classifier selects no, single or iterative retrieval
+- **main_contribution:** Choose retrieval complexity appropriate to a query
+- **main_results:** Screening conclusion: Choose retrieval complexity appropriate to a query. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Relevance/complexity routing is not evidence-freshness calibration
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Choose retrieval complexity appropriate to a query
+- **possible_remaining_gap:** Relevance/complexity routing is not evidence-freshness calibration
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2024-03-28)
+- **canonical_publication_url:** No verified link
+
+## 2404.13501 — Memory Mechanism Survey
+
+- **paper_id:** 2404.13501
+- **title:** A Survey on the Memory Mechanism of Large Language Model based Agents
+- **authors:** Zhang, Zeyu; Bo, Xiaohe; Ma, Chen; Li, Rui; Chen, Xu; Dai, Quanyu; Zhu, Jieming; Dong, Zhenhua; Wen, Ji-Rong
+- **year:** 2024
+- **venue_or_status:** ACM TOIS 2025; journal version identified; arXiv taxonomy screened
+- **publication_date:** 2024-04-21
+- **paper_url:** https://arxiv.org/abs/2404.13501v1
+- **code_url:** https://github.com/nuster1128/LLM_Agent_Memory_Survey
+- **research_problem:** Map agent-memory design and evaluation
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Survey taxonomy
+- **memory_retrieval:** Secondary literature map
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Secondary literature map
+- **main_contribution:** Map agent-memory design and evaluation
+- **main_results:** Screening conclusion: Map agent-memory design and evaluation. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Use primary papers to establish capability or novelty
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Map agent-memory design and evaluation
+- **possible_remaining_gap:** Use primary papers to establish capability or novelty
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2024-04-21)
+- **canonical_publication_url:** https://doi.org/10.1145/3748302
+
+## 2405.14831 — HippoRAG
+
+- **paper_id:** 2405.14831
+- **title:** HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models
+- **authors:** Gutiérrez, Bernal Jiménez; Shu, Yiheng; Gu, Yu; Yasunaga, Michihiro; Su, Yu
+- **year:** 2024
+- **venue_or_status:** Author-reported status: NeurIPS 2024. Code and data: this https URL
+- **publication_date:** 2024-05-23
+- **paper_url:** https://arxiv.org/abs/2405.14831v3
+- **code_url:** https://github.com/OSU-NLP-Group/HippoRAG
+- **research_problem:** Integrate knowledge and support associative multi-hop retrieval
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Knowledge graph and passage index
+- **memory_retrieval:** Personalized PageRank
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Personalized PageRank
+- **main_contribution:** Integrate knowledge and support associative multi-hop retrieval
+- **main_results:** Screening conclusion: Integrate knowledge and support associative multi-hop retrieval. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Graph reachability is not a logical dependency proof
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Integrate knowledge and support associative multi-hop retrieval
+- **possible_remaining_gap:** Graph reachability is not a logical dependency proof
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2025-01-14)
+- **canonical_publication_url:** No verified link
+
+## 2407.04363 — AriGraph
+
+- **paper_id:** 2407.04363
+- **title:** AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents
+- **authors:** Anokhin, Petr; Semenov, Nikita; Sorokin, Artyom; Evseev, Dmitry; Kravchenko, Andrey; Burtsev, Mikhail; Burnaev, Evgeny
+- **year:** 2024
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2024-07-05
+- **paper_url:** https://arxiv.org/abs/2407.04363v3
+- **code_url:** https://github.com/AIRI-Institute/AriGraph
+- **research_problem:** Maintain semantic and episodic world knowledge for interactive tasks
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Episodic/semantic graph
+- **memory_retrieval:** Graph update and retrieval for planning
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Graph update and retrieval for planning
+- **main_contribution:** Maintain semantic and episodic world knowledge for interactive tasks
+- **main_results:** Screening conclusion: Maintain semantic and episodic world knowledge for interactive tasks. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Environment-specific state tracking does not establish universal revision safety
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Maintain semantic and episodic world knowledge for interactive tasks
+- **possible_remaining_gap:** Environment-specific state tracking does not establish universal revision safety
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2025-05-15)
+- **canonical_publication_url:** No verified link
+
+## 2407.12784 — AgentPoison
+
+- **paper_id:** 2407.12784
+- **title:** AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases
+- **authors:** Chen, Zhaorun; Xiang, Zhen; Xiao, Chaowei; Song, Dawn; Li, Bo
+- **year:** 2024
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2024-07-17
+- **paper_url:** https://arxiv.org/abs/2407.12784v1
+- **code_url:** No verified link
+- **research_problem:** Study poisoning of agent memory and retrieval stores
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Poisoned memory/knowledge records
+- **memory_retrieval:** Optimized triggers influence retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Optimized triggers influence retrieval
+- **main_contribution:** Study poisoning of agent memory and retrieval stores
+- **main_results:** Screening conclusion: Study poisoning of agent memory and retrieval stores. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Attack success is conditional on threat model and retriever access
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Study poisoning of agent memory and retrieval stores
+- **possible_remaining_gap:** Attack success is conditional on threat model and retriever access
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2024-07-17)
+- **canonical_publication_url:** No verified link
+
+## 2410.10813 — LongMemEval
+
+- **paper_id:** 2410.10813
+- **title:** LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory
+- **authors:** Wu, Di; Wang, Hongwei; Yu, Wenhao; Zhang, Yuwei; Chang, Kai-Wei; Yu, Dong
+- **year:** 2024
+- **venue_or_status:** Author-reported status: ICLR 2025
+- **publication_date:** 2024-10-14
+- **paper_url:** https://arxiv.org/abs/2410.10813v2
+- **code_url:** https://github.com/xiaowu0162/LongMemEval
+- **research_problem:** Evaluate five long-term interactive memory abilities
+- **memory_write:** Index history at different granularities
+- **memory_representation:** Scalable chat histories with evidence annotations
+- **memory_retrieval:** Evaluate evidence retrieval and reading
+- **memory_update:** Knowledge-update probes
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Knowledge-update/abstention tasks, not executable lifecycle traces
+- **forgetting:** No comprehensive deletion-policy benchmark
+- **consolidation:** Compare compression/indexing designs
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LongMemEval-S approximately 115K tokens/history; LongMemEval-M approximately 1.5M; oracle-evidence condition distinct.
+- **baselines:** Commercial assistants, long-context models and retrieval-augmented memory configurations.
+- **metrics:** Question accuracy with model judging; evidence recall/NDCG; human agreement checks.
+- **main_method:** Construct 500 questions testing information extraction, multi-session reasoning, knowledge updates, temporal reasoning and abstention. Scale histories while retaining evidence annotations, and analyze indexing, retrieval and reading separately.
+- **main_contribution:** Evaluate five long-term interactive memory abilities
+- **main_results:** Long-term memory is broader than literal recall even in this earlier benchmark. Perfect evidence retrieval can still leave reader errors; lossy summaries can omit important details.
+- **limitations_stated_by_authors:** Synthetic/scalable history construction and automated grading require care; benchmark does not represent every deployment.
+- **limitations_you_identify:** Static post-hoc questions can test updates without exercising an online agent’s executed write/delete decisions. Oracle history access is an information advantage, not a deployable method.
+- **compute_requirement:** Scales strongly with history length; API evaluation can be staged using S and oracle subsets.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Evaluate five long-term interactive memory abilities
+- **possible_remaining_gap:** Oracle evidence and full-history settings must not be compared as equivalent
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 five abilities and construction; S4 protocols; S5 indexing/retrieval/reading analyses; grader human-agreement validation.
+- **reviewed_version:** v2 (2025-03-04)
+- **canonical_publication_url:** No verified link
+
+## 2501.13956 — Zep
+
+- **paper_id:** 2501.13956
+- **title:** Zep: A Temporal Knowledge Graph Architecture for Agent Memory
+- **authors:** Rasmussen, Preston; Paliychuk, Pavlo; Beauvais, Travis; Ryan, Jack; Chalef, Daniel
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-01-20
+- **paper_url:** https://arxiv.org/abs/2501.13956v1
+- **code_url:** https://github.com/getzep/graphiti
+- **research_problem:** Maintain evolving relational facts with temporal provenance
+- **memory_write:** Extract facts from episodes
+- **memory_representation:** Bitemporal knowledge graph plus episodes
+- **memory_retrieval:** Cosine, BM25 and graph traversal; fusion and reranking
+- **memory_update:** Invalidate conflicting edges and insert new facts
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Temporal invalidation of conflicting edges
+- **forgetting:** Historical edges retained; not equivalent to physical deletion
+- **consolidation:** Community summaries
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Deep Memory Retrieval (500 conversations, five sessions); LongMemEval-S (approximately 115K tokens per history).
+- **baselines:** MemGPT, full context and retrieval-based configurations under the paper’s model-specific protocols.
+- **metrics:** Answer accuracy, judge scores, context tokens and latency.
+- **main_method:** Episodes feed entity and semantic-edge extraction; community summaries organize broader context. Event-time validity and ingestion-time information coexist. Conflicting edges can expire without erasing their historical record.
+- **main_contribution:** Maintain evolving relational facts with temporal provenance
+- **main_results:** Demonstrates temporal graph memory on conversational QA. DMR is near saturation for some full-context settings, so improvements there do not settle hard lifecycle management. Later temporal-memory proposals cannot claim timestamped historical retention is new.
+- **limitations_stated_by_authors:** Conclusion motivates further applications and retrieval improvements; no separately quantified guarantee of complete semantic conflict detection.
+- **limitations_you_identify:** Entity/edge extraction and contradiction adjudication remain fallible. Temporal conflict on a fact is not a proof that all derived beliefs or pending actions have been repaired. Benchmark comparisons use particular answerer/judge choices.
+- **compute_requirement:** API LLM extraction/answering plus embeddings, graph infrastructure and reranking; full reproducible dollar total not established here.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Maintain evolving relational facts with temporal provenance
+- **possible_remaining_gap:** Temporal edge invalidation is not general downstream belief repair
+- **evidence_level:** deep primary read
+- **evidence_sections:** S2 defines graph and temporal fields; S3 gives hybrid retrieval; S4 specifies datasets, compared models and results.
+- **reviewed_version:** v1 (2025-01-20)
+- **canonical_publication_url:** No verified link
+
+## 2502.12110 — A-MEM
+
+- **paper_id:** 2502.12110
+- **title:** A-MEM: Agentic Memory for LLM Agents
+- **authors:** Xu, Wujiang; Liang, Zujie; Mei, Kai; Gao, Hang; Tan, Juntao; Zhang, Yongfeng
+- **year:** 2025
+- **venue_or_status:** Author-reported status: Advances in Neural Information Processing Systems (NeurIPS 2025)
+- **publication_date:** 2025-02-17
+- **paper_url:** https://arxiv.org/abs/2502.12110v11
+- **code_url:** https://github.com/WujiangXu/A-mem-sys
+- **research_problem:** Organize notes and evolve their contextual links
+- **memory_write:** LLM constructs structured notes
+- **memory_representation:** Zettelkasten-like text notes and links
+- **memory_retrieval:** Cosine similarity and linked context
+- **memory_update:** Revise neighboring note metadata/context
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** No explicit general invalidation semantics established
+- **forgetting:** No explicit selective deletion result established
+- **consolidation:** Contextual note evolution
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LoCoMo and DialSim; settings span several backbone models and retrieval counts.
+- **baselines:** Long-context and memory/retrieval systems listed in S4.
+- **metrics:** QA F1/BLEU and reported efficiency/scaling measurements.
+- **main_method:** Create a note with content, timestamp, keywords, tags, contextual description and links. Retrieve nearby notes and ask an LLM to establish links and revise their contextual descriptions. Query-time dense retrieval returns an augmented memory neighborhood.
+- **main_contribution:** Organize notes and evolve their contextual links
+- **main_results:** Linked note evolution can improve memory use in the tested dialogue tasks. It supplies a strong baseline for an adaptive graph memory, but links express association rather than a verified entailment relation.
+- **limitations_stated_by_authors:** Text-focused setting and dependence on LLM quality are discussed in S6.
+- **limitations_you_identify:** Rewriting neighboring context may spread an incorrect inference. There is no demonstrated invariant that updates retract precisely the logically dependent notes while preserving independent support.
+- **compute_requirement:** Frozen/API LLM calls for writing and evolution; dense indexing. Per-update cost grows with selected neighborhood.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Organize notes and evolve their contextual links
+- **possible_remaining_gap:** Associative links are not entailment dependencies
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 note fields, linking and evolution; S4 component ablations and S4.6 scaling; S6 limitations.
+- **reviewed_version:** v11 (2025-10-08)
+- **canonical_publication_url:** No verified link
+
+## 2502.14802 — HippoRAG 2
+
+- **paper_id:** 2502.14802
+- **title:** From RAG to Memory: Non-Parametric Continual Learning for Large Language Models
+- **authors:** Gutiérrez, Bernal Jiménez; Shu, Yiheng; Qi, Weijian; Zhou, Sizhe; Su, Yu
+- **year:** 2025
+- **venue_or_status:** Author-reported status: ICML 2025. Code and data are available at: this https URL
+- **publication_date:** 2025-02-20
+- **paper_url:** https://arxiv.org/abs/2502.14802v2
+- **code_url:** https://github.com/OSU-NLP-Group/HippoRAG
+- **research_problem:** Improve nonparametric continual learning and associative retrieval
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Passage/entity graph
+- **memory_retrieval:** Recognition and graph retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Recognition and graph retrieval
+- **main_contribution:** Improve nonparametric continual learning and associative retrieval
+- **main_results:** Screening conclusion: Improve nonparametric continual learning and associative retrieval. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Continual ingestion is not the same as resolving all stale beliefs
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Improve nonparametric continual learning and associative retrieval
+- **possible_remaining_gap:** Continual ingestion is not the same as resolving all stale beliefs
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2025-06-19)
+- **canonical_publication_url:** No verified link
+
+## 2502.15957 — R3Mem
+
+- **paper_id:** 2502.15957
+- **title:** R$^3$Mem: Bridging Memory Retention and Retrieval via Reversible Compression
+- **authors:** Wang, Xiaoqiang; Wang, Suyuchen; Zhu, Yun; Liu, Bang
+- **year:** 2025
+- **venue_or_status:** Findings of ACL 2025; independently indexed
+- **publication_date:** 2025-02-21
+- **paper_url:** https://arxiv.org/abs/2502.15957v1
+- **code_url:** No verified link
+- **research_problem:** Retain and reconstruct context through learned reversible compression
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Hierarchical virtual memory tokens
+- **memory_retrieval:** Parameter-efficient trained compression/reconstruction
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Parameter-efficient trained compression/reconstruction
+- **main_contribution:** Retain and reconstruct context through learned reversible compression
+- **main_results:** Screening conclusion: Retain and reconstruct context through learned reversible compression. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Reconstruction quality is not a guarantee of future correction support
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Retain and reconstruct context through learned reversible compression
+- **possible_remaining_gap:** Reconstruction quality is not a guarantee of future correction support
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S2 hierarchical compression/reconstruction; evaluation long-context language modeling, RAG and conversational memory; ACL Findings 2025 canonical publication.
+- **reviewed_version:** v1 (2025-02-21)
+- **canonical_publication_url:** https://aclanthology.org/2025.findings-acl.235/
+
+## 2504.07952 — Dynamic Cheatsheet
+
+- **paper_id:** 2504.07952
+- **title:** Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory
+- **authors:** Suzgun, Mirac; Yuksekgonul, Mert; Bianchi, Federico; Jurafsky, Dan; Zou, James
+- **year:** 2025
+- **venue_or_status:** EACL 2026; independently indexed
+- **publication_date:** 2025-04-10
+- **paper_url:** https://arxiv.org/abs/2504.07952v1
+- **code_url:** https://github.com/suzgunmirac/dynamic-cheatsheet
+- **research_problem:** Reuse test-time experience across tasks
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Adaptive textual cheatsheet
+- **memory_retrieval:** LLM updating and optional retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** LLM updating and optional retrieval
+- **main_contribution:** Reuse test-time experience across tasks
+- **main_results:** Screening conclusion: Reuse test-time experience across tasks. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Feedback availability and task stream influence claimed improvement
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Reuse test-time experience across tasks
+- **possible_remaining_gap:** Feedback availability and task stream influence claimed improvement
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2025-04-10)
+- **canonical_publication_url:** https://aclanthology.org/2026.eacl-long.333/
+
+## 2504.14225 — PersonaMem
+
+- **paper_id:** 2504.14225
+- **title:** Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale
+- **authors:** Jiang, Bowen; Hao, Zhuoqun; Cho, Young-Min; Li, Bryan; Yuan, Yuan; Chen, Sihao; Ungar, Lyle; Taylor, Camillo J.; Roth, Dan
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-04-19
+- **paper_url:** https://arxiv.org/abs/2504.14225v2
+- **code_url:** http://github.com/bowen-upenn/PersonaMem
+- **research_problem:** Evaluate evolving user profiles and personalized responses
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Dynamic user histories
+- **memory_retrieval:** Personalization probes
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** PersonaMem: 20 personas, >180 histories; seven personalized query categories
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Four-option accuracy; stale/irrelevant distractor options
+- **main_method:** Personalization probes
+- **main_contribution:** Evaluate evolving user profiles and personalized responses
+- **main_results:** Screening conclusion: Evaluate evolving user profiles and personalized responses. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** User-profile reasoning is distinct from verified state-transition execution
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Evaluate evolving user profiles and personalized responses
+- **possible_remaining_gap:** User-profile reasoning is distinct from verified state-transition execution
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S2:20 personas,>180 histories,seven query types; current versus historical preferences and update reasons.
+- **reviewed_version:** v2 (2025-10-27)
+- **canonical_publication_url:** No verified link
+
+## 2504.19413 — Mem0
+
+- **paper_id:** 2504.19413
+- **title:** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
+- **authors:** Chhikara, Prateek; Khant, Dev; Aryan, Saket; Singh, Taranjeet; Yadav, Deshraj
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-04-28
+- **paper_url:** https://arxiv.org/abs/2504.19413v1
+- **code_url:** No verified link
+- **research_problem:** Extract and manage compact conversational memories
+- **memory_write:** LLM extraction and selective insertion
+- **memory_representation:** Text memories; optional graph
+- **memory_retrieval:** Dense candidate retrieval; graph variant
+- **memory_update:** LLM CRUD adjudication
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Via update/delete; no general dependency contract
+- **forgetting:** Explicit DELETE
+- **consolidation:** Summaries supply extraction context
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** ◐ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LoCoMo released conversations; evaluation omits adversarial questions. Ten repeats are reported.
+- **baselines:** Full context, RAG, memory systems including Zep and A-MEM in the paper’s protocol.
+- **metrics:** F1, BLEU, LLM judge, token usage, p50/p95 latency.
+- **main_method:** An extractor uses recent conversation and broader summary context to propose memories. Similar existing records are retrieved; an LLM chooses ADD, UPDATE, DELETE or NOOP. The graph variant extracts entities/relations and handles graph conflicts.
+- **main_contribution:** Extract and manage compact conversational memories
+- **main_results:** Shows an effective practical extraction/update pipeline and reports accuracy/cost advantages within its setup. Graph augmentation has additional overhead; no cross-paper universal ranking is justified.
+- **limitations_stated_by_authors:** Discussion identifies graph overhead and extensions beyond conversational/text settings.
+- **limitations_you_identify:** Nearest-candidate selection can miss a contradictory record. A correct CRUD decision on visible candidates does not imply a globally consistent store. Historical retention is not a safety invariant of destructive updates.
+- **compute_requirement:** API calls per extraction and update plus embeddings; graph adds processing. Reported tokens/latency are protocol-specific.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Extract and manage compact conversational memories
+- **possible_remaining_gap:** Update quality depends on extraction and candidate coverage
+- **evidence_level:** deep primary read
+- **evidence_sections:** S2 algorithms; S3 evaluation; S4 Table 2 latency/cost; S5 discussion.
+- **reviewed_version:** v1 (2025-04-28)
+- **canonical_publication_url:** No verified link
+
+## 2507.03724 — MemOS
+
+- **paper_id:** 2507.03724
+- **title:** MemOS: A Memory OS for AI System
+- **authors:** Li, Zhiyu; Xi, Chenyang; Li, Chunyu; Chen, Ding; Chen, Boyu; Song, Shichao; Niu, Simin; Wang, Hanyu; Yang, Jiawei; Tang, Chen; Yu, Qingchen; Zhao, Jihao; Wang, Yezhaohui; Liu, Peng; Lin, Zehao; Wang, Pengyuan; Huo, Jiahao; Chen, Tianyi; Chen, Kai; Li, Kehang; Tao, Zhen; Lai, Huayi; Wu, Hao; Tang, Bo; Wang, Zhengren; Fan, Zhaoxin; Zhang, Ningyu; Zhang, Linfeng; Yan, Junchi; Yang, Mingchuan; Xu, Tong; Xu, Wei; Chen, Huajun; Wang, Haofen; Yang, Hongkang; Zhang, Wentao; Xu, Zhi-Qin John; Chen, Siheng; Xiong, Feiyu
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-07-04
+- **paper_url:** https://arxiv.org/abs/2507.03724v4
+- **code_url:** No verified link
+- **research_problem:** Unify management of heterogeneous memory forms
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Text, activation and parametric memory
+- **memory_retrieval:** Memory operating-system abstractions
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Memory operating-system abstractions
+- **main_contribution:** Unify management of heterogeneous memory forms
+- **main_results:** Screening conclusion: Unify management of heterogeneous memory forms. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Architectural unification does not itself establish an optimal lifecycle policy
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Unify management of heterogeneous memory forms
+- **possible_remaining_gap:** Architectural unification does not itself establish an optimal lifecycle policy
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v4 (2025-12-03)
+- **canonical_publication_url:** No verified link
+
+## 2507.05257 — MemoryAgentBench
+
+- **paper_id:** 2507.05257
+- **title:** Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions
+- **authors:** Hu, Yuanzhe; Wang, Yu; McAuley, Julian
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-07-07
+- **paper_url:** https://arxiv.org/abs/2507.05257v4
+- **code_url:** https://github.com/HUST-AI-HYZ/MemoryAgentBench
+- **research_problem:** Evaluate incremental memory ingestion and four capabilities
+- **memory_write:** Incremental ingestion
+- **memory_representation:** Chunked interaction streams
+- **memory_retrieval:** Accurate-retrieval tasks
+- **memory_update:** Counterfactual fact replacements
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Selective-forgetting capability
+- **forgetting:** Explicit selective-forgetting evaluation
+- **consolidation:** Long-range integration/learning probes
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemoryAgentBench v4: multiple source datasets; chunk sizes 512 and 4,096 tokens are used under differing method budgets.
+- **baselines:** Long-context models, lexical/dense/graph RAG and commercial or managed memory systems.
+- **metrics:** Task-specific exact/F1/accuracy measures and cost/performance analyses.
+- **main_method:** Feed long source material incrementally in chunks, then test accurate retrieval, test-time learning, long-range understanding and selective forgetting. Fact-consolidation streams introduce replacements and multi-hop relations.
+- **main_contribution:** Evaluate incremental memory ingestion and four capabilities
+- **main_results:** The benchmark already includes dynamic replacement and selective forgetting. Older papers call the relevant split Conflict Resolution; the inspected v4 taxonomy names Selective Forgetting. Preserve version and split names.
+- **limitations_stated_by_authors:** Task conversion and budget choices constrain conclusions about unconstrained real agents.
+- **limitations_you_identify:** Unequal chunk sizes change write-call counts and information granularity. Scores from three selected capability families cannot be reported as full benchmark coverage.
+- **compute_requirement:** Large histories and per-chunk writes can be costly; fix ingestion tokens and calls in comparisons.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Evaluate incremental memory ingestion and four capabilities
+- **possible_remaining_gap:** Chunk sizes and benchmark revisions affect fair comparison
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 capability definitions; S4 comparisons; Appendix B datasets; Appendix I cost-performance, J strict compute-matched experiments and K overwrite-policy ablations.
+- **reviewed_version:** v4 (2026-06-28)
+- **canonical_publication_url:** No verified link
+
+## 2508.19828 — Memory-R1
+
+- **paper_id:** 2508.19828
+- **title:** Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning
+- **authors:** Yan, Sikuan; Yang, Xiufeng; Huang, Zuchao; Nie, Ercong; Ding, Zifeng; Li, Zonggen; Ma, Xiaowen; Bi, Jinhe; Kersting, Kristian; Pan, Jeff Z.; Schütze, Hinrich; Tresp, Volker; Ma, Yunpu
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-08-27
+- **paper_url:** https://arxiv.org/abs/2508.19828v5
+- **code_url:** No verified link
+- **research_problem:** Learn memory management and use from downstream feedback
+- **memory_write:** RL ADD/NOOP
+- **memory_representation:** Managed textual memories
+- **memory_retrieval:** Retrieve candidates, then learned answer-time distillation
+- **memory_update:** RL UPDATE
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** DELETE, without typed validity contract
+- **forgetting:** RL DELETE
+- **consolidation:** Answer-time distillation; persistent generalized consolidation not established
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LoCoMo: 152 training, 81 validation and 1,307 test questions in reported split; zero-shot MSC and LongMemEval.
+- **baselines:** Prompted manager/answerer and memory-system comparisons across 3B/7B/8B/14B configurations.
+- **metrics:** QA exact/F1-style and judged metrics as specified per dataset.
+- **main_method:** Train a memory manager over ADD/UPDATE/DELETE/NOOP and an answer agent that distills candidate memories for answering. PPO/GRPO optimize downstream answer feedback rather than hand-specified importance alone.
+- **main_contribution:** Learn memory management and use from downstream feedback
+- **main_results:** Small downstream training sets can train memory operations and use. This decisively invalidates a broad first-RL-memory-manager claim.
+- **limitations_stated_by_authors:** Separate training and dialogue-centered scope limit broader agentic claims.
+- **limitations_you_identify:** Question-level split sizes do not themselves demonstrate persona/history-disjoint generalization. Candidate retrieval coverage is a separate bottleneck. Reward does not certify contradiction or temporal correctness.
+- **compute_requirement:** Appendix D reports four H100 80GB GPUs; 14B configuration uses eight. API-only replication of behavior is cheaper but is not reproducing training.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Learn memory management and use from downstream feedback
+- **possible_remaining_gap:** Learned CRUD already exists; semantic guarantees remain unestablished
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 training; S4 datasets and S4.4 ablations; Appendix D compute details.
+- **reviewed_version:** v5 (2026-01-14)
+- **canonical_publication_url:** No verified link
+
+## 2509.25911 — Mem-alpha
+
+- **paper_id:** 2509.25911
+- **title:** Mem-{\alpha}: Learning Memory Construction via Reinforcement Learning
+- **authors:** Wang, Yu; Takanobu, Ryuichi; Liang, Zhiqi; Mao, Yuzhen; Hu, Yuanzhe; McAuley, Julian; Wu, Xiaojian
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-09-30
+- **paper_url:** https://arxiv.org/abs/2509.25911v1
+- **code_url:** No verified link
+- **research_problem:** Train a policy to construct compact task-useful memory
+- **memory_write:** Learned insert
+- **memory_representation:** Core, semantic and episodic memory
+- **memory_retrieval:** Fixed retrieval
+- **memory_update:** Learned update
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Deletion possible; no explicit full validity algebra
+- **forgetting:** Learned delete
+- **consolidation:** Compression-oriented memory editing
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Eight sources, 4,139 training instances and reported validation/evaluation sets; MemoryAgentBench evaluation covers three capability families.
+- **baselines:** Prompted memory construction and memory-system baselines using the same study settings.
+- **metrics:** QA score, memory size/compression, format validity and semantic reward.
+- **main_method:** A policy observes incoming information and its current core, semantic and episodic memory, then edits that state. Rewards combine task QA, formatting, compression and an LLM semantic assessment; retrieval is fixed rather than jointly learned.
+- **main_contribution:** Train a policy to construct compact task-useful memory
+- **main_results:** Memory construction itself is trainable, including compression. It is incorrect to describe the reported MemoryAgentBench results as covering every conflict/selective-forgetting task.
+- **limitations_stated_by_authors:** Simulated task settings do not capture full production complexity.
+- **limitations_you_identify:** A 4B policy is not automatically a small-compute project: rollout and optimization dominate. Fixed retrieval isolates one component but does not solve jointly calibrated lifecycle control.
+- **compute_requirement:** Reported training: 32 H100 GPUs for about three days, 205 steps. Too expensive as the initial reproduction target for this project.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Train a policy to construct compact task-useful memory
+- **possible_remaining_gap:** Small model parameter count understates reported training cost
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 memory/rewards; S4 experimental setup; S5 limitations; Appendix C model behavior.
+- **reviewed_version:** v1 (2025-09-30)
+- **canonical_publication_url:** No verified link
+
+## 2509.18868 — Memory Mechanisms Survey
+
+- **paper_id:** 2509.18868
+- **title:** Memory in Large Language Models: Mechanisms, Evaluation and Evolution
+- **authors:** Zhang, Dianxing; Li, Wendong; Song, Kani; Lu, Jiaye; Li, Gang; Yang, Liuchun; Li, Sheng
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-09-23
+- **paper_url:** https://arxiv.org/abs/2509.18868v1
+- **code_url:** No verified link
+- **research_problem:** Map persistent state, evaluation and temporal governance
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Parametric and nonparametric taxonomy
+- **memory_retrieval:** Three information-availability settings
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Three information-availability settings
+- **main_contribution:** Map persistent state, evaluation and temporal governance
+- **main_results:** Screening conclusion: Map persistent state, evaluation and temporal governance. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Secondary framework, not empirical proof that gaps are open
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Map persistent state, evaluation and temporal governance
+- **possible_remaining_gap:** Secondary framework, not empirical proof that gaps are open
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2025-09-23)
+- **canonical_publication_url:** No verified link
+
+## 2510.01353 — MEMTRACK
+
+- **paper_id:** 2510.01353
+- **title:** MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments
+- **authors:** Deshpande, Darshan; Gangal, Varun; Mehta, Hersh; Kannappan, Anand; Qian, Rebecca; Wang, Peng
+- **year:** 2025
+- **venue_or_status:** Author-reported status: Accepted to NeurIPS 2025 SEA Workshop
+- **publication_date:** 2025-10-01
+- **paper_url:** https://arxiv.org/abs/2510.01353v1
+- **code_url:** No verified link
+- **research_problem:** Evaluate dynamic state tracking across platforms
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Multi-platform interaction history
+- **memory_retrieval:** Long-term state-dependent tasks
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MEMTRACK: 47 dynamic multi-platform instances; sequential questions without future-query visibility
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Task answer correctness and agent behavior; numerical horizons not uniformly extracted
+- **main_method:** Long-term state-dependent tasks
+- **main_contribution:** Evaluate dynamic state tracking across platforms
+- **main_results:** Screening conclusion: Evaluate dynamic state tracking across platforms. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Recall benchmarks alone do not cover these tasks
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Evaluate dynamic state tracking across platforms
+- **possible_remaining_gap:** Recall benchmarks alone do not cover these tasks
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3:47 instances, sequential unseen queries and tool-accessed Slack/Linear/Git timelines; grounded issue selection and authored events.
+- **reviewed_version:** v1 (2025-10-01)
+- **canonical_publication_url:** No verified link
+
+## 2510.18866 — LightMem
+
+- **paper_id:** 2510.18866
+- **title:** LightMem: Lightweight and Efficient Memory-Augmented Generation
+- **authors:** Fang, Jizhan; Deng, Xinle; Xu, Haoming; Jiang, Ziyan; Tang, Yuqi; Xu, Ziwen; Deng, Shumin; Yao, Yunzhi; Wang, Mengru; Qiao, Shuofei; Chen, Huajun; Zhang, Ningyu
+- **year:** 2025
+- **venue_or_status:** Author-reported status: ICLR 2026
+- **publication_date:** 2025-10-21
+- **paper_url:** https://arxiv.org/abs/2510.18866v4
+- **code_url:** https://github.com/zjunlp/LightMem
+- **research_problem:** Reduce memory ingestion and retrieval overhead
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Sensory, short-term and long-term tiers
+- **memory_retrieval:** Filtering, grouping and offline consolidation
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Filtering, grouping and offline consolidation
+- **main_contribution:** Reduce memory ingestion and retrieval overhead
+- **main_results:** Screening conclusion: Reduce memory ingestion and retrieval overhead. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Independent reproduction challenges unqualified superiority claims
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Reduce memory ingestion and retrieval overhead
+- **possible_remaining_gap:** Independent reproduction challenges unqualified superiority claims
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v4 (2026-02-28)
+- **canonical_publication_url:** No verified link
+
+## 2511.03506 — HaluMem
+
+- **paper_id:** 2511.03506
+- **title:** HaluMem: Evaluating Hallucinations in Memory Systems of Agents
+- **authors:** Chen, Ding; Niu, Simin; Li, Kehang; Liu, Peng; Zheng, Xiangping; Tang, Bo; Li, Xinchi; Xiong, Feiyu; Li, Zhiyu
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-11-05
+- **paper_url:** https://arxiv.org/abs/2511.03506v3
+- **code_url:** https://github.com/MemTensor/HaluMem
+- **research_problem:** Measure memory hallucination during extraction, update and answering
+- **memory_write:** Extraction integrity/accuracy probes
+- **memory_representation:** Operation-annotated memory histories
+- **memory_retrieval:** Retrieval explicitly outside generative-hallucination attribution scope
+- **memory_update:** Update probes
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Incorrect updates can be observed
+- **forgetting:** Deletion not a complete independent evaluation axis
+- **consolidation:** Implicit through memory extraction/update evaluation
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** HaluMem medium/long conversation-derived settings with annotated memories and QA.
+- **baselines:** Mem0/graph, Memobase, MemOS, Supermemory and Zep under available APIs.
+- **metrics:** Integrity, accuracy, omission, hallucination and QA measures.
+- **main_method:** Annotate memory extraction, update and downstream QA, separating omissions, unsupported additions and corruption. Evaluate operation quality directly rather than attributing every answer error to retrieval.
+- **main_contribution:** Measure memory hallucination during extraction, update and answering
+- **main_results:** Memory quality can fail before answer generation. It already provides direct evidence against the claim that only final recall accuracy is measured.
+- **limitations_stated_by_authors:** API extraction availability and asynchronous update timing constrain fully uniform evaluation.
+- **limitations_you_identify:** Excluding retrieval as a source of generative hallucination is a scope choice, not evidence retrieval never causes wrong answers. Operation labels and judges can themselves err.
+- **compute_requirement:** API-heavy benchmark; top-10 update and top-20 QA retrieval settings appear in implementation details. Measure asynchronous completion rather than fixed sleep assumptions.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Measure memory hallucination during extraction, update and answering
+- **possible_remaining_gap:** Generative error scope deliberately excludes retrieval as a hallucination stage
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 operation definitions; S5 metrics; S6 system protocols; Appendix A dataset construction.
+- **reviewed_version:** v3 (2026-01-05)
+- **canonical_publication_url:** No verified link
+
+## 2511.20857 — Evo-Memory
+
+- **paper_id:** 2511.20857
+- **title:** Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory
+- **authors:** Wei, Tianxin; Sachdeva, Noveen; Coleman, Benjamin; He, Zhankui; Bei, Yuanchen; Ning, Xuying; Ai, Mengting; Li, Yunzhe; He, Jingrui; Chi, Ed H.; Wang, Chi; Chen, Shuo; Pereira, Fernando; Kang, Wang-Cheng; Cheng, Derek Zhiyuan
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-11-25
+- **paper_url:** https://arxiv.org/abs/2511.20857v2
+- **code_url:** No verified link
+- **research_problem:** Evaluate test-time learning with evolving experience
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Sequential task experience
+- **memory_retrieval:** Self-evolving memory baselines
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Evo-Memory: Sequential test-time learning tasks with self-evolving memory
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Task performance and evolution analysis; detailed budgets require matching
+- **main_method:** Self-evolving memory baselines
+- **main_contribution:** Evaluate test-time learning with evolving experience
+- **main_results:** Screening conclusion: Evaluate test-time learning with evolving experience. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Name and general self-evolution concept already occupied
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Evaluate test-time learning with evolving experience
+- **possible_remaining_gap:** Name and general self-evolution concept already occupied
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-05-18)
+- **canonical_publication_url:** No verified link
+
+## 2512.12818 — Hindsight
+
+- **paper_id:** 2512.12818
+- **title:** Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects
+- **authors:** Latimer, Chris; Boschi, Nicoló; Neeser, Andrew; Bartholomew, Chris; Srivastava, Gaurav; Wang, Xuan; Ramakrishnan, Naren
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-12-14
+- **paper_url:** https://arxiv.org/abs/2512.12818v1
+- **code_url:** https://github.com/vectorize-io/hindsight
+- **research_problem:** Combine factual and experiential recall with belief-aware reflection
+- **memory_write:** Retain extracted facts and experiences
+- **memory_representation:** World, experience, opinion and observation networks
+- **memory_retrieval:** TEMPR multi-strategy retrieval
+- **memory_update:** Opinion/observation changes through reflection
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Not a complete logical revocation contract
+- **forgetting:** Selective forgetting is discussed as further work
+- **consolidation:** Reflect across accumulated evidence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** ✅ — see capability matrix definition and cited sections
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LongMemEval and LoCoMo; configurations include GPT-OSS memory models and different answerers.
+- **baselines:** Reported results from other memory systems plus internal configurations; not all are controlled reruns.
+- **metrics:** QA/judge performance and memory retrieval analyses.
+- **main_method:** Separate world facts, experiences, opinions and observations. TEMPR combines semantic, keyword, graph and temporal evidence; CARA uses reflection to update belief-like opinions and produce conditioned responses.
+- **main_contribution:** Combine factual and experiential recall with belief-aware reflection
+- **main_results:** Provides richer memory semantics than undifferentiated stored text. Opinion confidence and evidential reflection already weaken the claim that memory systems treat every item as equally trustworthy.
+- **limitations_stated_by_authors:** Future directions include learned joint control, forgetting/privacy and richer revision.
+- **limitations_you_identify:** Heuristic confidence reinforcement is not calibrated probability. The inspected evaluation contains an unresolved retrieval-budget placeholder and mixed external baseline reports, limiting reproducibility and leaderboard interpretation.
+- **compute_requirement:** Multiple API/local model options; no single verified matched all-system cost total.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Combine factual and experiential recall with belief-aware reflection
+- **possible_remaining_gap:** Confidence updates are not demonstrated calibrated probabilities
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3–S6 architecture; S7 experimental settings; S9 future directions; Appendix A confidence rules.
+- **reviewed_version:** v1 (2025-12-14)
+- **canonical_publication_url:** No verified link
+
+## 2512.13564 — Memory in the Age of AI Agents
+
+- **paper_id:** 2512.13564
+- **title:** Memory in the Age of AI Agents
+- **authors:** Hu, Yuyang; Liu, Shichun; Yue, Yanwei; Zhang, Guibin; Liu, Boyang; Zhu, Fangyi; Lin, Jiahang; Guo, Honglin; Dou, Shihan; Xi, Zhiheng; Jin, Senjie; Tan, Jiejun; Yin, Yanbin; Liu, Jiongnan; Zhang, Zeyu; Sun, Zhongxiang; Zhu, Yutao; Sun, Hao; Peng, Boci; Cheng, Zhenrong; Fan, Xuanbo; Guo, Jiaxin; Yu, Xinlei; Zhou, Zhenhong; Hu, Zewen; Huo, Jiahao; Wang, Junhao; Niu, Yuwei; Wang, Yu; Yin, Zhenfei; Hu, Xiaobin; Liao, Yue; Li, Qiankun; Wang, Kun; Zhou, Wangchunshu; Liu, Yixin; Cheng, Dawei; Zhang, Qi; Gui, Tao; Pan, Shirui; Zhang, Yan; Torr, Philip; Dou, Zhicheng; Wen, Ji-Rong; Huang, Xuanjing; Jiang, Yu-Gang; Yan, Shuicheng
+- **year:** 2025
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2025-12-15
+- **paper_url:** https://arxiv.org/abs/2512.13564v2
+- **code_url:** No verified link
+- **research_problem:** Organize forms, functions and dynamics of agent memory
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Broad survey taxonomy
+- **memory_retrieval:** Primary-paper discovery map
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Primary-paper discovery map
+- **main_contribution:** Organize forms, functions and dynamics of agent memory
+- **main_results:** Screening conclusion: Organize forms, functions and dynamics of agent memory. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Novelty must be checked beyond survey coverage dates
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Organize forms, functions and dynamics of agent memory
+- **possible_remaining_gap:** Novelty must be checked beyond survey coverage dates
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-01-13)
+- **canonical_publication_url:** No verified link
+
+## 2601.01885 — AgeMem
+
+- **paper_id:** 2601.01885
+- **title:** Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents
+- **authors:** Yu, Yi; Yao, Liuyi; Xie, Yuexiang; Tan, Qingquan; Feng, Jiaqi; Li, Yaliang; Wu, Libing
+- **year:** 2026
+- **venue_or_status:** ACL 2026 SAC Highlight; independently indexed
+- **publication_date:** 2026-01-05
+- **paper_url:** https://arxiv.org/abs/2601.01885v3
+- **code_url:** https://github.com/y1y5/AgeMem
+- **research_problem:** Learn unified long-term and short-term memory control
+- **memory_write:** ADD
+- **memory_representation:** Persistent store and active context
+- **memory_retrieval:** RETRIEVE
+- **memory_update:** UPDATE
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** DELETE can remove entries; epistemic semantics not guaranteed
+- **forgetting:** DELETE and FILTER
+- **consolidation:** SUMMARY of active context
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** ALFWorld, ScienceWorld, PDDL, BabyAI and HotpotQA; HotpotQA-based training curriculum.
+- **baselines:** Memory and context-management agents compared under Qwen2.5-7B and Qwen3-4B settings.
+- **metrics:** Task success/accuracy, context and memory rewards, operation behavior.
+- **main_method:** One policy controls persistent memory and active context using ADD, UPDATE, DELETE, RETRIEVE, SUMMARY and FILTER. A three-phase RL curriculum trains long-term construction, short-term management and joint use. Terminal task/context/memory rewards are propagated to decisions.
+- **main_contribution:** Learn unified long-term and short-term memory control
+- **main_results:** Unified learned lifecycle control already exists. Reported mean scores 41.96 and 54.31 exceed strongest compared baselines by 4.82 and 8.57 points in the respective backbone settings.
+- **limitations_stated_by_authors:** Persistent real-user/lifelong deployment remains a future evaluation setting.
+- **limitations_you_identify:** Optimizing terminal task success can reward harmful memory shortcuts not exposed by the task. CRUD plus summarization is not a demonstrated safe supersession/rollback policy.
+- **compute_requirement:** RL fine-tuning of 4B/7B models; exact total GPU-hours not established in this extraction. Treat reproduction as heavier than API baselines.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Learn unified long-term and short-term memory control
+- **possible_remaining_gap:** Evaluation does not establish lifelong production-user reliability
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 state/actions/rewards and curriculum; S4 results/ablations; limitations/discussion. ACL 2026 publication is independently indexed.
+- **reviewed_version:** v3 (2026-07-23)
+- **canonical_publication_url:** https://aclanthology.org/2026.acl-long.981/
+
+## 2602.03224 — TAME
+
+- **paper_id:** 2602.03224
+- **title:** TAME: A Trustworthy Test-Time Evolution of Agent Memory with Systematic Benchmarking
+- **authors:** Cheng, Yu; Hu, Yongkang; Zhou, Jiuan; Zhang, Yushuo; Chen, Yihang; Zhou, Huichi; Chen, Mingang; Zhang, Zhizhong; Shao, Kun; Xie, Yuan; Yin, Zhaoxia
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-02-03
+- **paper_url:** https://arxiv.org/abs/2602.03224v2
+- **code_url:** No verified link
+- **research_problem:** Evaluate trustworthy test-time memory evolution
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Evolving agent memory
+- **memory_retrieval:** Trust-oriented evolution and benchmark
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** TAME: Trustworthy test-time memory evolution benchmark
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Reported trust/task metrics; exact definitions NR here
+- **main_method:** Trust-oriented evolution and benchmark
+- **main_contribution:** Evaluate trustworthy test-time memory evolution
+- **main_results:** Screening conclusion: Evaluate trustworthy test-time memory evolution. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Screened; exact operation-level mechanisms require further inspection
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Evaluate trustworthy test-time memory evolution
+- **possible_remaining_gap:** Screened; exact operation-level mechanisms require further inspection
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-06-06)
+- **canonical_publication_url:** No verified link
+
+## 2602.06025 — BudgetMem
+
+- **paper_id:** 2602.06025
+- **title:** Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory
+- **authors:** Zhang, Haozhen; Yue, Haodong; Feng, Tao; Long, Quanyu; Bao, Jianzhu; Jin, Bowen; Zhang, Weizhi; Li, Xiao; You, Jiaxuan; Qin, Chengwei; Wang, Wenya
+- **year:** 2026
+- **venue_or_status:** Author-reported status: Accepted by ICML 2026. Code is available at this https URL
+- **publication_date:** 2026-02-05
+- **paper_url:** https://arxiv.org/abs/2602.06025v3
+- **code_url:** https://github.com/ViktorAxelsen/BudgetMem
+- **research_problem:** Learn query-aware memory budget routing
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Budget tiers
+- **memory_retrieval:** Learned cost-sensitive routing
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Learned cost-sensitive routing
+- **main_contribution:** Learn query-aware memory budget routing
+- **main_results:** Screening conclusion: Learn query-aware memory budget routing. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Budget selection is not yet proof of validity-aware refresh
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Learn query-aware memory budget routing
+- **possible_remaining_gap:** Budget selection is not yet proof of validity-aware refresh
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2026-05-27)
+- **canonical_publication_url:** No verified link
+
+## 2602.16313 — MemoryArena
+
+- **paper_id:** 2602.16313
+- **title:** MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks
+- **authors:** He, Zexue; Wang, Yu; Zhi, Churan; Hu, Yuanzhe; Chen, Tzu-Ping; Yin, Lang; Chen, Ze; Wu, Tong Arthur; Ouyang, Siru; Wang, Zihan; Pei, Jiaxin; McAuley, Julian; Choi, Yejin; Pentland, Alex
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-02-18
+- **paper_url:** https://arxiv.org/abs/2602.16313v1
+- **code_url:** No verified link
+- **research_problem:** Test memory in interdependent multi-session agent tasks
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Task histories across sessions
+- **memory_retrieval:** Five interactive task domains
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemoryArena: Five domains: shopping, travel, progressive retrieval, mathematics, physics; interdependent multi-session subtasks
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Success, partial/task progress and latency; S3/S4.2/S4.5
+- **main_method:** Five interactive task domains
+- **main_contribution:** Test memory in interdependent multi-session agent tasks
+- **main_results:** Screening conclusion: Test memory in interdependent multi-session agent tasks. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Measures behavior, not only post-hoc recall
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Test memory in interdependent multi-session agent tasks
+- **possible_remaining_gap:** Measures behavior, not only post-hoc recall
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 memory-action-environment loops; S4.2 metrics and S4.5 latency. Interdependent agent tasks, not merely conversation recall.
+- **reviewed_version:** v1 (2026-02-18)
+- **canonical_publication_url:** No verified link
+
+## 2602.17913 — TierMem
+
+- **paper_id:** 2602.17913
+- **title:** From Lossy to Verified: A Provenance-Aware Tiered Memory for Agents
+- **authors:** Zhu, Qiming; Chen, Shunian; Yu, Rui; Wu, Zhehao; Wang, Benyou
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-02-20
+- **paper_url:** https://arxiv.org/abs/2602.17913v1
+- **code_url:** No verified link
+- **research_problem:** Escalate from compact summaries to source-backed evidence
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Summary tiers and immutable raw archive
+- **memory_retrieval:** SFT/GRPO Answer-or-Escalate controller
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** SFT/GRPO Answer-or-Escalate controller
+- **main_contribution:** Escalate from compact summaries to source-backed evidence
+- **main_results:** Screening conclusion: Escalate from compact summaries to source-backed evidence. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Raw archive remains outside the small active context budget
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Escalate from compact summaries to source-backed evidence
+- **possible_remaining_gap:** Raw archive remains outside the small active context budget
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S2 immutable archive and provenance; S4 fixed answerer, online writeback disabled; S5 escalation/quality-cost; replay of same questions is not unseen lifelong learning.
+- **reviewed_version:** v1 (2026-02-20)
+- **canonical_publication_url:** No verified link
+
+## 2603.15658 — Right Pocket
+
+- **paper_id:** 2603.15658
+- **title:** Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents
+- **authors:** Gaikwad, Madhava
+- **year:** 2026
+- **venue_or_status:** Author-reported status: accepted in ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems
+- **publication_date:** 2026-03-08
+- **paper_url:** https://arxiv.org/abs/2603.15658v1
+- **code_url:** No verified link
+- **research_problem:** Study cost-sensitive selection among memory stores
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** STM, summary, long-term and episodic stores
+- **memory_retrieval:** Heuristic policies and oracle routing
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Heuristic policies and oracle routing
+- **main_contribution:** Study cost-sensitive selection among memory stores
+- **main_results:** Screening conclusion: Study cost-sensitive selection among memory stores. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Synthetic store labels and full-store concatenation limit realism
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Study cost-sensitive selection among memory stores
+- **possible_remaining_gap:** Synthetic store labels and full-store concatenation limit realism
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 four-store routing and synthetic labels; S4 policies; S5 150 questions/full-store concatenation; S7 limitations.
+- **reviewed_version:** v1 (2026-03-08)
+- **canonical_publication_url:** No verified link
+
+## 2603.17244 — Kumiho
+
+- **paper_id:** 2603.17244
+- **title:** Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures
+- **authors:** Park, Young Bin
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-03-18
+- **paper_url:** https://arxiv.org/abs/2603.17244v1
+- **code_url:** No verified link
+- **research_problem:** Apply formal belief revision to versioned graph memory
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Versioned graph-native memory
+- **memory_retrieval:** Belief revision semantics
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Belief revision semantics
+- **main_contribution:** Apply formal belief revision to versioned graph memory
+- **main_results:** Screening conclusion: Apply formal belief revision to versioned graph memory. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Formal assumptions must be checked against noisy extracted evidence
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Apply formal belief revision to versioned graph memory
+- **possible_remaining_gap:** Formal assumptions must be checked against noisy extracted evidence
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-03-18)
+- **canonical_publication_url:** No verified link
+
+## 2604.01560 — DeltaMem
+
+- **paper_id:** 2604.01560
+- **title:** DeltaMem: Towards Agentic Memory Management via Reinforcement Learning
+- **authors:** Zhang, Qi; Huang, Shen; Liu, Chu; Yang, Shouqing; Zhao, Junbo; Wang, Haobo; Xie, Pengjun
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-04-02
+- **paper_url:** https://arxiv.org/abs/2604.01560v1
+- **code_url:** No verified link
+- **research_problem:** Train agentic memory management through RL
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Managed memory
+- **memory_retrieval:** Reward-guided memory operations
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Reward-guided memory operations
+- **main_contribution:** Train agentic memory management through RL
+- **main_results:** Screening conclusion: Train agentic memory management through RL. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Screened; no claim here of universal lifecycle coverage
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Train agentic memory management through RL
+- **possible_remaining_gap:** Screened; no claim here of universal lifecycle coverage
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-04-02)
+- **canonical_publication_url:** No verified link
+
+## 2604.16548 — Memory Security Survey
+
+- **paper_id:** 2604.16548
+- **title:** A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle
+- **authors:** Lin, Zehao; Hao, Xixuan; Fu, Renyu; Cui, Shaobo; Chen, Kai; Li, Chunyu; Li, Zhiyu; Xiong, Feiyu
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-04-17
+- **paper_url:** https://arxiv.org/abs/2604.16548v2
+- **code_url:** No verified link
+- **research_problem:** Map attacks, defenses and governance through memory lifecycle
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Lifecycle threat taxonomy
+- **memory_retrieval:** Secondary discovery of primary security work
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Secondary discovery of primary security work
+- **main_contribution:** Map attacks, defenses and governance through memory lifecycle
+- **main_results:** Screening conclusion: Map attacks, defenses and governance through memory lifecycle. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Security framing cannot substitute for measured defense utility
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Map attacks, defenses and governance through memory lifecycle
+- **possible_remaining_gap:** Security framing cannot substitute for measured defense utility
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-06-11)
+- **canonical_publication_url:** No verified link
+
+## 2604.20006 — Memora
+
+- **paper_id:** 2604.20006
+- **title:** From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
+- **authors:** Uddin, Md Nayem; Shubham, Kumar; Blanco, Eduardo; Baral, Chitta; Wang, Gengyu
+- **year:** 2026
+- **venue_or_status:** Author-reported status: Accepted to ACL 2026 Findings
+- **publication_date:** 2026-04-21
+- **paper_url:** https://arxiv.org/abs/2604.20006v1
+- **code_url:** No verified link
+- **research_problem:** Evaluate remembering and forgetting evolving personal information
+- **memory_write:** Evolving persona information
+- **memory_representation:** Multi-session evolving personas
+- **memory_retrieval:** Downstream memory use
+- **memory_update:** Mutations across sessions
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Outdated information must cease influencing answers
+- **forgetting:** FAMA explicitly scores forgetting-aware behavior
+- **consolidation:** Not isolated as a memory operator
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Memora: ten personas and weekly/monthly/quarterly evolution schedules.
+- **baselines:** Personalized memory agents and long-context/retrieval approaches in the paper.
+- **metrics:** FAMA task criteria, with majority decisions from GPT-4.1, Haiku-4.5 and Gemini-2.5 judges.
+- **main_method:** Generate persona histories with facts created, mutated and deleted across sessions. Test remembering, reasoning and recommendation using criteria that score required information and the absence of invalid information.
+- **main_contribution:** Evaluate remembering and forgetting evolving personal information
+- **main_results:** Forgetting correctness is already evaluated separately from storage capacity. Error analysis finds outdated personalization in 16 of 25 sampled recommendation failures; this is not a prevalence estimate over the entire benchmark.
+- **limitations_stated_by_authors:** Simulated personas and restricted user scope; efficiency/runtime not the principal evaluated outcome.
+- **limitations_you_identify:** LLM-judge agreement is not ground truth. Conditional failure samples cannot establish overall stale-memory frequency. Recommendation criteria may admit several valid responses.
+- **compute_requirement:** Multi-session ingestion and three-judge evaluation; moderate API burden even with a small persona count.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Evaluate remembering and forgetting evolving personal information
+- **possible_remaining_gap:** Simulated personalities and LLM judges limit external validity
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 construction/tasks; S4 FAMA; S6 sampled error analysis and limitations.
+- **reviewed_version:** v1 (2026-04-21)
+- **canonical_publication_url:** No verified link
+
+## 2605.05583 — BeliefMem
+
+- **paper_id:** 2605.05583
+- **title:** Belief Memory: Agent Memory Under Partial Observability
+- **authors:** Liao, Junfeng; Wang, Qizhou; Zhu, Jianing; Du, Bo; Yan, Rui; Chen, Xiuying
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-07
+- **paper_url:** https://arxiv.org/abs/2605.05583v2
+- **code_url:** No verified link
+- **research_problem:** Maintain competing beliefs under partial observability
+- **memory_write:** Insert attribute candidates
+- **memory_representation:** Attribute-level candidates and confidence histories
+- **memory_retrieval:** Belief-aware selection, up to four candidates
+- **memory_update:** Merge/revise confidence and alternatives
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Downweight contradicted beliefs
+- **forgetting:** Historical candidates retained rather than unconditional erase
+- **consolidation:** Evidence aggregation
+- **provenance:** ◐ — see capability matrix definition and cited sections
+- **uncertainty:** ✅ — see capability matrix definition and cited sections
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LoCoMo and ALFWorld; ALFWorld reports 140 seen/134 unseen tasks with a 50-step limit.
+- **baselines:** Conventional memory/retrieval policies and belief-retrieval ablations.
+- **metrics:** Task/QA accuracy and belief convergence statistics.
+- **main_method:** Maintain multiple candidates for each attribute. Merge supporting evidence, reduce confidence of contradicted versions and preserve historical alternatives. Retrieval chooses a small set of candidates instead of one supposedly certain fact.
+- **main_contribution:** Maintain competing beliefs under partial observability
+- **main_results:** Explicit uncertainty and competing beliefs already exist. Appendix A explicitly says confidence scores are not calibrated probabilities; initialization and contradiction penalties are heuristic.
+- **limitations_stated_by_authors:** Confidence scores lack probability calibration; partial-observability evaluation has bounded domain scope.
+- **limitations_you_identify:** Noisy-or-style combination risks overcounting dependent evidence. Top-1 convergence is not Brier score or calibration under shift. CAMA/GovMem directly challenge independence assumptions.
+- **compute_requirement:** Reported A800 80GB setup; API-compatible aspects are possible but full reproduction must match models.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Maintain competing beliefs under partial observability
+- **possible_remaining_gap:** Authors explicitly distinguish scores from calibrated probabilities
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 candidate update; S4 tasks/ablations; Appendix A.1 confidence interpretation.
+- **reviewed_version:** v2 (2026-05-08)
+- **canonical_publication_url:** No verified link
+
+## 2605.06527 — STALE / CUPMem
+
+- **paper_id:** 2605.06527
+- **title:** STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?
+- **authors:** Chao, Hanxiang; Bai, Yihan; Sheng, Rui; Li, Tianle; Sun, Yushi
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-07
+- **paper_url:** https://arxiv.org/abs/2605.06527v1
+- **code_url:** No verified link
+- **research_problem:** Measure implicit invalidation and resistance to stale premises
+- **memory_write:** Structured state consolidation
+- **memory_representation:** Dynamic scenarios; structured active/stale/unknown state
+- **memory_retrieval:** Propagation-aware search
+- **memory_update:** Write-time adjudication
+- **temporal_reasoning:** ◐ — see capability matrix definition and cited sections
+- **contradiction_handling:** Active/stale/unknown-current transitions
+- **forgetting:** Semantic suppression of outdated state
+- **consolidation:** Structured consolidation
+- **provenance:** ◐ — see capability matrix definition and cited sections
+- **uncertainty:** ◐ — see capability matrix definition and cited sections
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** ◐ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 400 expert-validated scenarios, 1,200 queries, 50-session histories up to approximately 150K tokens.
+- **baselines:** Long-context models and multiple agent-memory frameworks; CUPMem prototype.
+- **metrics:** State Resolution, Premise Resistance and Implicit Policy Adaptation.
+- **main_method:** Build single-attribute and dependency-mediated conflicts, then probe current-state resolution, resistance to stale premises and implicit policy adaptation. CUPMem represents active, stale and unknown-current state and uses propagation-aware search.
+- **main_contribution:** Measure implicit invalidation and resistance to stale premises
+- **main_results:** Dependency-sensitive revision already has a benchmark and baseline. Best reported evaluated model reaches 55.2%; many tested memory frameworks are below 10%, under the paper’s setup and versions.
+- **limitations_stated_by_authors:** Synthetic scenario construction and one principal conflict pair limit complex repeated revision.
+- **limitations_you_identify:** Attention patterns are diagnostic, not causal proof. Typed schema and explicit benchmark construction can favor the proposed solution. Repeated updates with ambiguous, missing lineage remain a different test.
+- **compute_requirement:** API inference over long histories; start with shorter matched subsets before full 150K histories.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Measure implicit invalidation and resistance to stale premises
+- **possible_remaining_gap:** Single-conflict construction does not settle repeated noisy dependency repair
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 conflict types/probes; S4.4 adoption analysis; S5 CUPMem; Appendix A scope and F design.
+- **reviewed_version:** v1 (2026-05-07)
+- **canonical_publication_url:** No verified link
+
+## 2605.06716 — Storage to Experience Survey
+
+- **paper_id:** 2605.06716
+- **title:** From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms
+- **authors:** Luo, Jinghao; Tian, Yuchen; Cao, Chuxue; Luo, Ziyang; Lin, Hongzhan; Li, Kaixin; Kong, Chuyi; Yang, Ruichao; Ma, Jing
+- **year:** 2026
+- **venue_or_status:** Findings of ACL 2026; independently indexed
+- **publication_date:** 2026-05-07
+- **paper_url:** https://arxiv.org/abs/2605.06716v1
+- **code_url:** No verified link
+- **research_problem:** Review evolution from storage toward experiential memory
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Lifecycle and experience taxonomy
+- **memory_retrieval:** Survey map
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Survey map
+- **main_contribution:** Review evolution from storage toward experiential memory
+- **main_results:** Screening conclusion: Review evolution from storage toward experiential memory. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Use as discovery, not independent evidence of an unsolved gap
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Review evolution from storage toward experiential memory
+- **possible_remaining_gap:** Use as discovery, not independent evidence of an unsolved gap
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-05-07)
+- **canonical_publication_url:** https://aclanthology.org/2026.findings-acl.2069/
+
+## 2605.12493 — LongMemEval-V2
+
+- **paper_id:** 2605.12493
+- **title:** LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues
+- **authors:** Wu, Di; Ji, Zixiang; Kawatkar, Asmi; Kwan, Bryan; Gu, Jia-Chen; Peng, Nanyun; Chang, Kai-Wei
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-12
+- **paper_url:** https://arxiv.org/abs/2605.12493v1
+- **code_url:** No verified link
+- **research_problem:** Evaluate memory for experienced task-performing agents
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Long interaction trajectories
+- **memory_retrieval:** Memory-supported colleague tasks
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LongMemEval-V2: 451 questions; 100/500-trajectory tiers with ~25M/115M tokens
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Answer/context-gathering quality and latency; evidence trajectory labels
+- **main_method:** Memory-supported colleague tasks
+- **main_contribution:** Evaluate memory for experienced task-performing agents
+- **main_results:** Screening conclusion: Evaluate memory for experienced task-performing agents. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Separate benchmark work, not merely an arXiv revision of LongMemEval
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Evaluate memory for experienced task-performing agents
+- **possible_remaining_gap:** Separate benchmark work, not merely an arXiv revision of LongMemEval
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 and Appendix A:451 questions,100/500 trajectories,25M/115M tokens; S5.2 latency tradeoff.
+- **reviewed_version:** v1 (2026-05-12)
+- **canonical_publication_url:** No verified link
+
+## 2605.15338 — Sleeper Memory Poisoning
+
+- **paper_id:** 2605.15338
+- **title:** Hidden in Memory: Sleeper Memory Poisoning in LLM Agents
+- **authors:** Pulipaka, Sidharth; Hlebik, Stanislau; Raghav, Leonidas; Abdelnabi, Sahar; Raina, Vyas; Sheth, Ivaxi; Fritz, Mario
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-14
+- **paper_url:** https://arxiv.org/abs/2605.15338v2
+- **code_url:** No verified link
+- **research_problem:** Study delayed activation of poisoned memory
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Persistent malicious records
+- **memory_retrieval:** Sleeper attack through memory
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Sleeper attack through memory
+- **main_contribution:** Study delayed activation of poisoned memory
+- **main_results:** Screening conclusion: Study delayed activation of poisoned memory. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Defense claims need both attack resistance and benign utility
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Study delayed activation of poisoned memory
+- **possible_remaining_gap:** Defense claims need both attack resistance and benign utility
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-05-18)
+- **canonical_publication_url:** No verified link
+
+## 2605.16045 — RecMem
+
+- **paper_id:** 2605.16045
+- **title:** RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents
+- **authors:** Dai, Zijie; Deng, Shiyuan; Guan, Sheng; Tian, Yizhou; Yao, Xin; Yan, Xiao; Cheng, James
+- **year:** 2026
+- **venue_or_status:** Author-reported status: Accepted to ACL 2026 Findings
+- **publication_date:** 2026-05-15
+- **paper_url:** https://arxiv.org/abs/2605.16045v1
+- **code_url:** No verified link
+- **research_problem:** Consolidate recurring experience efficiently
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Recurrence-based memory
+- **memory_retrieval:** Recurrence-triggered consolidation
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Recurrence-triggered consolidation
+- **main_contribution:** Consolidate recurring experience efficiently
+- **main_results:** Screening conclusion: Consolidate recurring experience efficiently. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Repeated evidence can be correlated; recurrence alone is not truth
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Consolidate recurring experience efficiently
+- **possible_remaining_gap:** Repeated evidence can be correlated; recurrence alone is not truth
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-05-15)
+- **canonical_publication_url:** No verified link
+
+## 2605.18421 — EvoMemBench
+
+- **paper_id:** 2605.18421
+- **title:** EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective
+- **authors:** Wang, Yuyao; Zhang, Zhongjian; Chi, Mo; Yu, Kaichi; Li, Yuhan; Peng, Miao; Tong, Bing; Zhang, Chen; Zhou, Yan; Li, Jia
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-18
+- **paper_url:** https://arxiv.org/abs/2605.18421v2
+- **code_url:** https://github.com/DSAIL-Memory/EvoMemBench
+- **research_problem:** Evaluate agent memory from self-evolution perspective
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Evolving task memories
+- **memory_retrieval:** Benchmarking memory change
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** EvoMemBench: Six suites: within-episode knowledge/execution and cross-episode knowledge/tool/web/embodied; CrossEp-Know 120 contexts/884 samples
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Suite task metrics; method-specific cost comparison needs protocol audit
+- **main_method:** Benchmarking memory change
+- **main_contribution:** Evaluate agent memory from self-evolution perspective
+- **main_results:** Screening conclusion: Evaluate agent memory from self-evolution perspective. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Generic evolving-memory benchmark novelty is invalidated
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Evaluate agent memory from self-evolution perspective
+- **possible_remaining_gap:** Generic evolving-memory benchmark novelty is invalidated
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S4 construction of six within/cross-episode suites; CrossEp-Know120 contexts/884 samples.
+- **reviewed_version:** v2 (2026-06-15)
+- **canonical_publication_url:** No verified link
+
+## 2605.22842 — Misattribution Gap
+
+- **paper_id:** 2605.22842
+- **title:** The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems
+- **authors:** Ahad, Tanzim; Hossain, Ismail; Alam, Md Jahangir; Puppala, Sai; Alam, Syed Bahauddin; Talukder, Sajedul
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-12
+- **paper_url:** https://arxiv.org/abs/2605.22842v1
+- **code_url:** No verified link
+- **research_problem:** Attribute downstream errors to memory composition
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Adversarial memory corpus
+- **memory_retrieval:** Counterfactual composition testing
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** SND / Misattribution Gap: 25 scenarios reported in abstract; persistent compositional poisoning
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Counterfactual Composition Testing attribution; do not treat headline as replicated
+- **main_method:** Counterfactual composition testing
+- **main_contribution:** Attribute downstream errors to memory composition
+- **main_results:** Screening conclusion: Attribute downstream errors to memory composition. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Fault attribution and temporal poisoning already studied
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Attribute downstream errors to memory composition
+- **possible_remaining_gap:** Fault attribution and temporal poisoning already studied
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-05-12)
+- **canonical_publication_url:** No verified link
+
+## 2605.23723 — MemAudit
+
+- **paper_id:** 2605.23723
+- **title:** MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection
+- **authors:** Tan, Zhewen; Yao, Yilun; Jin, Huiyan; Yu, Wenhan; Wang, Guoan; Fan, Mengyuan; lu, liang; Liu, Feng; Zhang, Xiangzheng; Ma, Duohe; Yang, Tong; Sun, Lin
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-22
+- **paper_url:** https://arxiv.org/abs/2605.23723v1
+- **code_url:** No verified link
+- **research_problem:** Identify harmful stored memories after poisoning
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Memory consistency graph
+- **memory_retrieval:** Counterfactual influence and anomaly auditing
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Counterfactual influence and anomaly auditing
+- **main_contribution:** Identify harmful stored memories after poisoning
+- **main_results:** Screening conclusion: Identify harmful stored memories after poisoning. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Detecting causes is distinct from repairing all derived state
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Identify harmful stored memories after poisoning
+- **possible_remaining_gap:** Detecting causes is distinct from repairing all derived state
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-05-22)
+- **canonical_publication_url:** No verified link
+
+## 2605.23986 — MemForest
+
+- **paper_id:** 2605.23986
+- **title:** MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing
+- **authors:** Chen, Han; Zhang, Zining; Pei, Wenqi; He, Bingsheng; Wu, Ming; Zeng, Jason; Heinrich, Michael; Wu, Wei; Zhang, Hongbao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-16
+- **paper_url:** https://arxiv.org/abs/2605.23986v3
+- **code_url:** No verified link
+- **research_problem:** Improve freshness latency through local memory-index maintenance
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Hierarchical temporal trees
+- **memory_retrieval:** Dirty-path refresh
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Dirty-path refresh
+- **main_contribution:** Improve freshness latency through local memory-index maintenance
+- **main_results:** Screening conclusion: Improve freshness latency through local memory-index maintenance. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Index freshness does not guarantee semantic correctness
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Improve freshness latency through local memory-index maintenance
+- **possible_remaining_gap:** Index freshness does not guarantee semantic correctness
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v3 (2026-09-06)
+- **canonical_publication_url:** No verified link
+
+## 2605.25338 — CausalFlow
+
+- **paper_id:** 2605.25338
+- **title:** CausalFlow: Causal Attribution and Counterfactual Repair for LLM Agent Failures
+- **authors:** Bonagiri, Akash; Borkar, Devang; Anderias, Gerard Janno; Rafatirad, Setareh; Homayoun, Houman
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-25
+- **paper_url:** https://arxiv.org/abs/2605.25338v1
+- **code_url:** No verified link
+- **research_problem:** Find failure-inducing agent steps and minimal repairs
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Execution traces
+- **memory_retrieval:** Counterfactual step intervention
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Counterfactual step intervention
+- **main_contribution:** Find failure-inducing agent steps and minimal repairs
+- **main_results:** Screening conclusion: Find failure-inducing agent steps and minimal repairs. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Generic causal agent repair is prior art
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Find failure-inducing agent steps and minimal repairs
+- **possible_remaining_gap:** Generic causal agent repair is prior art
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-05-25)
+- **canonical_publication_url:** No verified link
+
+## 2605.26252 — GEM / MemState
+
+- **paper_id:** 2605.26252
+- **title:** Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory
+- **authors:** Orogat, Abdelghny; Mansour, Essam
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-25
+- **paper_url:** https://arxiv.org/abs/2605.26252v1
+- **code_url:** No verified link
+- **research_problem:** Frame memory as governed database state
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Active state with retained history and dependencies
+- **memory_retrieval:** Database-style memory management
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Database-style memory management
+- **main_contribution:** Frame memory as governed database state
+- **main_results:** Screening conclusion: Frame memory as governed database state. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Active-state bounds must not be mistaken for total storage bounds
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Frame memory as governed database state
+- **possible_remaining_gap:** Active-state bounds must not be mistaken for total storage bounds
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-05-25)
+- **canonical_publication_url:** No verified link
+
+## 2605.26302 — AgingBench
+
+- **paper_id:** 2605.26302
+- **title:** Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems
+- **authors:** Zhu, Jianing; Ro, Yeonju; Robertson, John; Wang, Kevin; Li, Junbo; Vikalo, Haris; Akella, Aditya; Wang, Zhangyang
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-25
+- **paper_url:** https://arxiv.org/abs/2605.26302v1
+- **code_url:** No verified link
+- **research_problem:** Measure degradation and maintenance across agent lifespan
+- **memory_write:** State accumulation
+- **memory_representation:** Temporal version/dependency tasks
+- **memory_retrieval:** Oracle retrieval diagnostics
+- **memory_update:** Versioned revisions
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Dependency/version probes
+- **forgetting:** Forgetting and bystander-preservation probes
+- **consolidation:** Repeated compression
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** AgingBench: seven scenarios, 8–200 sessions, 14 models and over 400 runs in the reported study.
+- **baselines:** Agent memory configurations, typed-state maintenance and threshold controllers.
+- **metrics:** Accuracy over age, half-life/slope/hazard proxies, version/forget/dependency scores and wall time.
+- **main_method:** Model agent lifespan through controlled compression, interference, revision and maintenance. Temporal dependency tasks expose degradation; oracle retrieval and oracle-store interventions diagnose where information was lost.
+- **main_contribution:** Measure degradation and maintenance across agent lifespan
+- **main_results:** Long-horizon dynamic memory and stage interventions are already studied. Typed state reduces accumulator errors in reported settings; maintenance gains depend on trigger and workload.
+- **limitations_stated_by_authors:** Production external validity and controlled scenario assumptions are discussed in Appendix I.
+- **limitations_you_identify:** An ordered oracle ladder can reveal a bottleneck without uniquely assigning causal responsibility when stages interact. Artificial age and session count are not interchangeable with elapsed deployment time.
+- **compute_requirement:** Long repeated-session sweeps are expensive; a smaller factorial pilot is feasible without training.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Measure degradation and maintenance across agent lifespan
+- **possible_remaining_gap:** Oracle ladders diagnose stages but need care about interactions
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 stress dimensions; S4 setup; S5 oracle ladder; Appendices B metrics, D controllers and I limitations.
+- **reviewed_version:** v1 (2026-05-25)
+- **canonical_publication_url:** No verified link
+
+## 2605.26667 — MemFail
+
+- **paper_id:** 2605.26667
+- **title:** MemFail: Stress-Testing Failure Modes of LLM Memory Systems
+- **authors:** Garg, Ishir; Kolhe, Neel; Song, Dawn; Zhao, Xuandong
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-05-26
+- **paper_url:** https://arxiv.org/abs/2605.26667v1
+- **code_url:** https://github.com/ishirgarg/MemFail
+- **research_problem:** Isolate memory-system failure modes
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Adversarial diagnostic datasets
+- **memory_retrieval:** Summarization, storage and retrieval probes
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemFail: Five datasets/four tasks: Conditional-Facts easy/hard, Coexisting-Facts, Persona-Retrieval, Long-Hop; 92 long-hop chains
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Task-specific answer correctness; failure-type comparison; S3–S6
+- **main_method:** Summarization, storage and retrieval probes
+- **main_contribution:** Isolate memory-system failure modes
+- **main_results:** Screening conclusion: Isolate memory-system failure modes. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Operation-level diagnosis is already a benchmark contribution
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Isolate memory-system failure modes
+- **possible_remaining_gap:** Operation-level diagnosis is already a benchmark contribution
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 operation taxonomy; S4 Conditional-Facts, Coexisting-Facts, Persona-Retrieval, Long-Hop; Appendix B construction.
+- **reviewed_version:** v1 (2026-05-26)
+- **canonical_publication_url:** No verified link
+
+## 2606.06240 — TOKI
+
+- **paper_id:** 2606.06240
+- **title:** TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory
+- **authors:** Wang, Ziming
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-06-04
+- **paper_url:** https://arxiv.org/abs/2606.06240v1
+- **code_url:** https://github.com/ZenAlexa/toki-bitemporal-memory
+- **research_problem:** Resolve contradictions using bitemporal operations
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Bitemporal persistent memory
+- **memory_retrieval:** Operator algebra
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Operator algebra
+- **main_contribution:** Resolve contradictions using bitemporal operations
+- **main_results:** Screening conclusion: Resolve contradictions using bitemporal operations. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Temporal semantics already have explicit formal precedents
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked URL returned HTTP 404 on 2026-09-19; accessible implementation not verified
+- **relevance_to_evomem:** Resolve contradictions using bitemporal operations
+- **possible_remaining_gap:** Temporal semantics already have explicit formal precedents
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-06-04)
+- **canonical_publication_url:** No verified link
+
+## 2606.08275 — Causal Agent Replay
+
+- **paper_id:** 2606.08275
+- **title:** Causal Agent Replay: Counterfactual Attribution for LLM-Agent Failures
+- **authors:** Shah, Jaineet
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-06-06
+- **paper_url:** https://arxiv.org/abs/2606.08275v1
+- **code_url:** https://github.com/jaineet17/causal-agent-replay
+- **research_problem:** Attribute agent failures by controlled replay
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Structural causal model of execution
+- **memory_retrieval:** Counterfactual and Shapley attribution
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Counterfactual and Shapley attribution
+- **main_contribution:** Attribute agent failures by controlled replay
+- **main_results:** Screening conclusion: Attribute agent failures by controlled replay. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Interactions and causal replay are not new contributions
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Attribute agent failures by controlled replay
+- **possible_remaining_gap:** Interactions and causal replay are not new contributions
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-06-06)
+- **canonical_publication_url:** No verified link
+
+## 2606.09483 — DCPM
+
+- **paper_id:** 2606.09483
+- **title:** Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents
+- **authors:** Fei, Tianxiang; Song, Mingyang; Zheng, Mao; Yu, Xiang
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-06-08
+- **paper_url:** https://arxiv.org/abs/2606.09483v1
+- **code_url:** No verified link
+- **research_problem:** Combine recall and reflective memory evolution
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Dual-process cognitive memory
+- **memory_retrieval:** Self-evolving memory operations
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Self-evolving memory operations
+- **main_contribution:** Combine recall and reflective memory evolution
+- **main_results:** Screening conclusion: Combine recall and reflective memory evolution. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Screened; broad architecture claims need controlled comparison
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Combine recall and reflective memory evolution
+- **possible_remaining_gap:** Screened; broad architecture claims need controlled comparison
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-06-08)
+- **canonical_publication_url:** No verified link
+
+## 2606.25161 — TRUSTMEM
+
+- **paper_id:** 2606.25161
+- **title:** TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory
+- **authors:** Yang, Tianyu; Paul, Sudipta; Srinivasan, Vijay; Kulkarni, Vivek; Chappidi, Srinivas
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-06-23
+- **paper_url:** https://arxiv.org/abs/2606.25161v1
+- **code_url:** No verified link
+- **research_problem:** Learn trustworthy memory consolidation with transition feedback
+- **memory_write:** Learned construction
+- **memory_representation:** Core, semantic and episodic state
+- **memory_retrieval:** Fixed evaluation retrieval
+- **memory_update:** Learned memory editing
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Implicit through edit actions, not a formal invalidation algebra
+- **forgetting:** Editing/deletion under training reward
+- **consolidation:** Transition-verified consolidation
+- **provenance:** ◐ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 562 selected training instances from the Mem-alpha pool; 463 validation; three MemoryAgentBench capability groups and HaluMem.
+- **baselines:** Mem-alpha and prompted/learned construction systems in matched settings.
+- **metrics:** QA F1, omission, corruption, hallucination and compression.
+- **main_method:** A frozen transition verifier assesses coverage, preservation and faithfulness of memory edits. Transition-ranked GRPO combines this preference signal with QA, compression, format and semantic feedback.
+- **main_contribution:** Learn trustworthy memory consolidation with transition feedback
+- **main_results:** Consolidation fidelity already receives explicit learning signals and evaluation. Reported improvements over Mem-alpha include 12.14 F1 points in the stated aggregate; this does not establish full selective-forgetting coverage.
+- **limitations_stated_by_authors:** Multimodal and broader deployment generalization remain limitations/future work.
+- **limitations_you_identify:** Verifier ranking is relative rather than a calibrated probability of edit correctness. Small hallucination rates judged by another LLM are not proof of zero false generalizations.
+- **compute_requirement:** RL construction training plus frozen-verifier calls. Exact comparable total GPU-hours not established here; heavier than a small classifier.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Learn trustworthy memory consolidation with transition feedback
+- **possible_remaining_gap:** Relative verifier preference is not an absolute risk guarantee
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 verifier/reward; S4 data/results and ablations; limitations/conclusion.
+- **reviewed_version:** v1 (2026-06-23)
+- **canonical_publication_url:** No verified link
+
+## 2606.26511 — MemStrata
+
+- **paper_id:** 2606.26511
+- **title:** Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents over Evolving Knowledge
+- **authors:** Yadav, Neeraj
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-06-25
+- **paper_url:** https://arxiv.org/abs/2606.26511v1
+- **code_url:** No verified link
+- **research_problem:** Prevent reuse of superseded atomic facts
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Bitemporal triple ledger
+- **memory_retrieval:** Deterministic same-slot supersession
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemStrata synthetic suites: Six locally evaluated benchmarks; atomic old/new fact changes
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Accuracy, stale-fact-error rate, retrieval latency
+- **main_method:** Deterministic same-slot supersession
+- **main_contribution:** Prevent reuse of superseded atomic facts
+- **main_results:** Screening conclusion: Prevent reuse of superseded atomic facts. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Atomic single-value assumptions do not cover ambiguous dependencies
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Prevent reuse of superseded atomic facts
+- **possible_remaining_gap:** Atomic single-value assumptions do not cover ambiguous dependencies
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-06-25)
+- **canonical_publication_url:** No verified link
+
+## 2606.27472 — Supersede
+
+- **paper_id:** 2606.27472
+- **title:** Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents
+- **authors:** Patel, Vedant
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-06-25
+- **paper_url:** https://arxiv.org/abs/2606.27472v1
+- **code_url:** https://github.com/Vrin-cloud/supersede
+- **research_problem:** Diagnose and train memory updating
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Memory-update examples
+- **memory_retrieval:** Update-gap training and evaluation
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Update-gap training and evaluation
+- **main_contribution:** Diagnose and train memory updating
+- **main_results:** Screening conclusion: Diagnose and train memory updating. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Updating itself is not an unoccupied research question
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Diagnose and train memory updating
+- **possible_remaining_gap:** Updating itself is not an unoccupied research question
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-06-25)
+- **canonical_publication_url:** No verified link
+
+## 2607.01071 — MemSyco-Bench
+
+- **paper_id:** 2607.01071
+- **title:** MemSyco-Bench: Benchmarking Sycophancy in Agent Memory
+- **authors:** Xiang, Zhishang; Chen, Zerui; Tang, Yunbo; Wei, Zhimin; Ning, Ruqin; Lin, Yujie; Zhang, Qinggang; Su, Jinsong
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-01
+- **paper_url:** https://arxiv.org/abs/2607.01071v2
+- **code_url:** https://github.com/XMUDeepLIT/MemSyco-Bench
+- **research_problem:** Measure sycophancy amplified through memory
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** User-facing agent memories
+- **memory_retrieval:** Sycophancy benchmark
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemSyco-Bench: Memory-mediated sycophancy tasks
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Sycophancy/task outcomes; sizes NR here
+- **main_method:** Sycophancy benchmark
+- **main_contribution:** Measure sycophancy amplified through memory
+- **main_results:** Screening conclusion: Measure sycophancy amplified through memory. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Agreement with a user is not equivalent to source correctness
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Measure sycophancy amplified through memory
+- **possible_remaining_gap:** Agreement with a user is not equivalent to source correctness
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-07-02)
+- **canonical_publication_url:** No verified link
+
+## 2607.01988 — Identity-safe Consolidation
+
+- **paper_id:** 2607.01988
+- **title:** Episodic-to-Semantic Consolidation Without Identity Drift
+- **authors:** Qin, Xue; Luan, Simin; Yang, Cong; Li, Zhijun
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-02
+- **paper_url:** https://arxiv.org/abs/2607.01988v1
+- **code_url:** No verified link
+- **research_problem:** Preserve identity during episodic-to-semantic consolidation
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Episodic and semantic memory
+- **memory_retrieval:** Consolidation under identity constraints
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Consolidation under identity constraints
+- **main_contribution:** Preserve identity during episodic-to-semantic consolidation
+- **main_results:** Screening conclusion: Preserve identity during episodic-to-semantic consolidation. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Consolidation fidelity already receives direct attention
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Preserve identity during episodic-to-semantic consolidation
+- **possible_remaining_gap:** Consolidation fidelity already receives direct attention
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-07-02)
+- **canonical_publication_url:** No verified link
+
+## 2607.02579 — GovMem
+
+- **paper_id:** 2607.02579
+- **title:** When Not to Write Memory: Governing False Promotion from Correlated Agent Traces
+- **authors:** Qi, Yijiashun; Xu, Xiang; Li, Yuxuan
+- **year:** 2026
+- **venue_or_status:** Author-reported status: accepted by mlise 2026
+- **publication_date:** 2026-06-30
+- **paper_url:** https://arxiv.org/abs/2607.02579v1
+- **code_url:** No verified link
+- **research_problem:** Prevent promotion of correlated unreliable traces
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Candidates with provenance and scope
+- **memory_retrieval:** Promote, reject or review with dependency-aware support
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** ✅ — see capability matrix definition and cited sections
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** ◐ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** GovMem-Bench: Synthetic stress cases; internal 120 candidates/79 traces; 35 held out; external selected 133 high-impact human-adjudicated candidates
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** False promotion, precision/recall, review burden, AUPRC; downstream harm experiment not executed
+- **main_method:** Promote, reject or review with dependency-aware support
+- **main_contribution:** Prevent promotion of correlated unreliable traces
+- **main_results:** Screening conclusion: Prevent promotion of correlated unreliable traces. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** External human adjudication sharply limits automatic-promotion claims
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Prevent promotion of correlated unreliable traces
+- **possible_remaining_gap:** External human adjudication sharply limits automatic-promotion claims
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 dependency-aware support and review; S4 controlled data; S5 internal held-out evidence; S6 external human rejection of every proposed automatic promotion in selected stress slice; S7 limitations.
+- **reviewed_version:** v1 (2026-06-30)
+- **canonical_publication_url:** No verified link
+
+## 2607.08032 — Rate-Distortion Compaction
+
+- **paper_id:** 2607.08032
+- **title:** What to Keep, What to Forget: A Rate--Distortion View of Memory Compaction in LLMs and Agents
+- **authors:** Colaco, Ashwin Gerard; Lahjouji, Nada
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-09
+- **paper_url:** https://arxiv.org/abs/2607.08032v1
+- **code_url:** No verified link
+- **research_problem:** Unify memory compaction tradeoffs across layers
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Bounded representations
+- **memory_retrieval:** Rate-distortion analysis and taxonomy
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Rate-distortion analysis and taxonomy
+- **main_contribution:** Unify memory compaction tradeoffs across layers
+- **main_results:** Screening conclusion: Unify memory compaction tradeoffs across layers. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Reversibility via an archive saves context, not necessarily storage
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Unify memory compaction tradeoffs across layers
+- **possible_remaining_gap:** Reversibility via an archive saves context, not necessarily storage
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S2 rate-distortion formulation; S7 semantic memory; S10 relation among cache, context and persistent memory. Taxonomic/theoretical precedent, not a revision-aware storage experiment.
+- **reviewed_version:** v1 (2026-07-09)
+- **canonical_publication_url:** No verified link
+
+## 2607.12893 — MemOps
+
+- **paper_id:** 2607.12893
+- **title:** MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations
+- **authors:** Hao, Xixuan; Zhang, Zeyu; Lin, Zehao; Sun, Yihang; Guo, Ziliang; Zhang, Xichong; Liang, Yuxuan; Xiong, Feiyu; Li, Zhiyu
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-14
+- **paper_url:** https://arxiv.org/abs/2607.12893v1
+- **code_url:** https://github.com/MemTensor/MemOps
+- **research_problem:** Evaluate explicit lifecycle operations and their compositions
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Gold trigger/target/scope/evidence traces
+- **memory_retrieval:** Six operation-level probe categories
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemOps: 100 topics, 403 evidence conversations, 9,672 turns; 2,006 QA pairs evaluated twice =4,012 instances
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Operation/target/evidence/state-order probes; forgetting includes over-removal
+- **main_method:** Six operation-level probe categories
+- **main_contribution:** Evaluate explicit lifecycle operations and their compositions
+- **main_results:** Screening conclusion: Evaluate explicit lifecycle operations and their compositions. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** First lifecycle-operation benchmark is not defensible
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Evaluate explicit lifecycle operations and their compositions
+- **possible_remaining_gap:** First lifecycle-operation benchmark is not defensible
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 lifecycle operations, exact evidence traces and construction; S3.4:403 conversations,2,006 unique QA,4,012 evaluation instances.
+- **reviewed_version:** v1 (2026-07-14)
+- **canonical_publication_url:** No verified link
+
+## 2607.13591 — MemCon
+
+- **paper_id:** 2607.13591
+- **title:** Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents
+- **authors:** Jiang, Eric Hanchen; Zhang, Zhi; Wu, Yuchen; Li, Levina; Liu, Dong; Liang, Xiao; Sun, Rui; Li, Yubei; Sun, Edward; Luo, Haozheng; Kang, Zhaolu; Caliskan, Aylin; Chang, Kai-Wei; Wu, Ying Nian
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-15
+- **paper_url:** https://arxiv.org/abs/2607.13591v1
+- **code_url:** https://github.com/ericjiang18/MemCon/
+- **research_problem:** Learn adaptive memory access and maintenance cheaply
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Backend-agnostic memory wrapper
+- **memory_retrieval:** Tabular contextual bandit/UCB
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Tabular contextual bandit/UCB
+- **main_contribution:** Learn adaptive memory access and maintenance cheaply
+- **main_results:** Screening conclusion: Learn adaptive memory access and maintenance cheaply. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Joint memory control need not require large-scale RL
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Learn adaptive memory access and maintenance cheaply
+- **possible_remaining_gap:** Joint memory control need not require large-scale RL
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 memory-control state/actions; S4 component ablations; Appendix A shared-interface reimplementations and single deployment runs; C discretization; D stationary bandit assumptions.
+- **reviewed_version:** v1 (2026-07-15)
+- **canonical_publication_url:** No verified link
+
+## 2607.17545 — OAS
+
+- **paper_id:** 2607.17545
+- **title:** Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory
+- **authors:** Kang, Qingcan; Liu, Mingyang; Kai, Shixiong; Liang, Kaichao; Tang, Zhentao; Cui, Yuqi; Zhong, Tao; Yuan, Mingxuan
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-20
+- **paper_url:** https://arxiv.org/abs/2607.17545v2
+- **code_url:** No verified link
+- **research_problem:** Choose retention versus consolidation under a budget
+- **memory_write:** Operates on candidate memory
+- **memory_representation:** Raw and transformed memory candidates
+- **memory_retrieval:** Query/evidence-conditioned selection
+- **memory_update:** Replacement by a transformed representation
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Avoid harmful replacement empirically
+- **forgetting:** Budgeted omission, not general semantic deletion
+- **consolidation:** Explicit operator selection
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** LongMemEval: 350/75/75 splits and grouped folds; budgets of 32/64/128/256 tokens; additional full-history non-oracle check.
+- **baselines:** Retain, fixed merge, other fixed operators and learned/risk-aware routers.
+- **metrics:** Answer utility, harmful replacement, token budget and risk/coverage tradeoffs.
+- **main_method:** Score retain, merge, abstract and rewrite operators using pre-generation features and learned utility/risk estimates. Utility separates evidence coverage from replacement harm, and budget determines whether compression is useful.
+- **main_contribution:** Choose retention versus consolidation under a budget
+- **main_results:** Retaining evidence can be best at looser budgets. Main oracle-evidence improvements must not be transferred to non-oracle retrieval: the appendix reports fixed merge 45.7 versus ridge 44.7 and safer router 39.3 in one full-history test.
+- **limitations_stated_by_authors:** Joint persistent retrieval/packing and broader generalization remain further work.
+- **limitations_you_identify:** Calibration is empirical and distribution-dependent, not a population safety certificate. Query-known compression does not test whether discarded evidence would be needed for an unknown later correction.
+- **compute_requirement:** Lightweight ridge heads and frozen LLM transformations; feasible, but offline candidate-label generation has API cost.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Choose retention versus consolidation under a budget
+- **possible_remaining_gap:** Query-conditioned one-shot utility differs from future revision utility
+- **evidence_level:** deep primary read
+- **evidence_sections:** Sx3 formulation; Sx4 grouped experimental design; Appendix B.6 non-oracle results.
+- **reviewed_version:** v2 (2026-07-21)
+- **canonical_publication_url:** No verified link
+
+## 2607.23929 — MemTX
+
+- **paper_id:** 2607.23929
+- **title:** MemTX: Transactional Belief Commit for Stateful Agent Memory
+- **authors:** Li, Xiaoyang; Wang, Yiqi; Lu, Haohui; Chen, Zhi; Li, Mo; Song, Pingan; Zheng, Mingkai; Cai, Taotao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-27
+- **paper_url:** https://arxiv.org/abs/2607.23929v2
+- **code_url:** https://github.com/lxy1134/MEMTX_
+- **research_problem:** Govern memory state changes and downstream actions
+- **memory_write:** Stage proposed writes
+- **memory_representation:** Typed provenance DAG and eight states
+- **memory_retrieval:** Policy-governed reads
+- **memory_update:** Transactional commits and conflict rules
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Typed revocation cascade
+- **forgetting:** Quarantine/revocation; compensating actions where possible
+- **consolidation:** Governed derived memories
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** ✅ — see capability matrix definition and cited sections
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 90 cases (60 traps, 30 controls), plus a 56-case harder extension; many tasks only 1–4 turns and 1–3 agents.
+- **baselines:** Eight memory/governance baselines across five backbones, including Cordon plus revocation.
+- **metrics:** Harm, valid completion, state-policy violations and formal state-space checks.
+- **main_method:** Treat memory updates as transactions over typed provenance, permissions, validity and confidence. Eight states distinguish raw, tentative, validated, committed, action-safe, quarantined, superseded and revoked records. Gates and cascades regulate downstream use.
+- **main_contribution:** Govern memory state changes and downstream actions
+- **main_results:** Explicit lifecycle states and dependency-aware revocation are already central contributions. Approximately 5.5 million checked machine states support the modeled contract, not arbitrary natural-language correctness.
+- **limitations_stated_by_authors:** Static reversibility/compensation and short controlled tasks bound the recovery setting.
+- **limitations_you_identify:** Conflict detection uses structured assumptions; the action-safe existential gate is not action-specific proof. Complete recorded provenance is crucial. MemTX does not lead task success on GPT-5.5 in the main table (0.756 versus 0.778 for Cordon + revocation), so superiority is not uniform.
+- **compute_requirement:** Appendix reports a single 48GB L40 setup; API/backbone choices vary. No large pretraining needed.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Govern memory state changes and downstream actions
+- **possible_remaining_gap:** Guarantees depend on declared provenance and policy assumptions
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 states, gates and cascades; S4 cases; S5 results/formal checks; Appendices B and H implementation/horizon.
+- **reviewed_version:** v2 (2026-07-28)
+- **canonical_publication_url:** No verified link
+
+## 2607.27080 — MemSecBench
+
+- **paper_id:** 2607.27080
+- **title:** MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair
+- **authors:** Chen, Xuanze; Xie, Xukang; Fu, Wentao; Zhou, Jiajun; Yu, Shanqing; Xuan, Qi
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-29
+- **paper_url:** https://arxiv.org/abs/2607.27080v1
+- **code_url:** No verified link
+- **research_problem:** Track poisoning through persistence, use, consequence and repair
+- **memory_write:** Attack reaches write path
+- **memory_representation:** Persistent memory attack/repair tasks
+- **memory_retrieval:** Exposure and adoption checkpoints
+- **memory_update:** Repair branch
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Repair/removal checkpoints
+- **forgetting:** Measure removal and benign preservation separately
+- **consolidation:** Backend-specific transformation included
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 310 cases across 48 contexts; two harnesses, four backends and three models yield 24 configurations.
+- **baselines:** Backend/harness/model compositions and repair strategies.
+- **metrics:** Memory poisoning success, end-to-end success, conditional realization, removal and benign preservation.
+- **main_method:** Track an attack through stored persistence, retrieval exposure, adoption and external consequence. From the same poisoned state, execute a repair/forget branch and measure both removal and preservation of useful memory.
+- **main_contribution:** Track poisoning through persistence, use, consequence and repair
+- **main_results:** Reported macro persistence is 84.2%, end-to-end consequence 50.3%, repair removal 86.3% and benign preservation 62.5%. These distinct denominators must not be merged into one security score.
+- **limitations_stated_by_authors:** Controlled attacks and finite system combinations cannot establish deployment-wide security.
+- **limitations_you_identify:** Benign preservation is already a metric; G1 cannot claim inventing it. A repair that deletes everything can score high removal while failing utility. Conditional success requires its denominator.
+- **compute_requirement:** 24 API/backend compositions can be expensive; reproduce a small fixed composition first.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Track poisoning through persistence, use, consequence and repair
+- **possible_remaining_gap:** Benign preservation during repair is already measured
+- **evidence_level:** deep primary read
+- **evidence_sections:** Sx3 lifecycle checkpoints; Sx4 setup and macro/conditional metrics; repair results and composition analysis.
+- **reviewed_version:** v1 (2026-07-29)
+- **canonical_publication_url:** No verified link
+
+## 2607.27773 — ChronoMem
+
+- **paper_id:** 2607.27773
+- **title:** ChronoMem: Version Control and Semantic Rollback for Large Language Model Agent Memory
+- **authors:** Su, Yongye; Xu, Wujiang; Zuo, Chaoji; Bertino, Elisa
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-30
+- **paper_url:** https://arxiv.org/abs/2607.27773v2
+- **code_url:** No verified link
+- **research_problem:** Restore historical memory states after later exposure
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Whole-memory snapshots and event log
+- **memory_retrieval:** Hybrid semantic version selection and rollback
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** ChronoMem post-exposure protocol: LoCoMo/MAB adapted for historical global rollback after full exposure
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Recall@k, temporal locality, QA F1, ROUGE
+- **main_method:** Hybrid semantic version selection and rollback
+- **main_contribution:** Restore historical memory states after later exposure
+- **main_results:** Screening conclusion: Restore historical memory states after later exposure. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Global restoration does not preserve all independent later work
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Restore historical memory states after later exposure
+- **possible_remaining_gap:** Global restoration does not preserve all independent later work
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 whole-memory snapshots and HEAD restore; S4 post-exposure protocol; S5 semantic version selection and QA; MAB downstream QA restricted to Accurate Retrieval.
+- **reviewed_version:** v2 (2026-08-05)
+- **canonical_publication_url:** No verified link
+
+## 2607.29104 — LightMem Reproduction
+
+- **paper_id:** 2607.29104
+- **title:** Reproducing LightMem: Naive RAG Is Just as Good for Memory Management
+- **authors:** Zhou, Yongjie; Wang, Shuai; Koopman, Bevan; Zuccon, Guido
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-31
+- **paper_url:** https://arxiv.org/abs/2607.29104v1
+- **code_url:** https://github.com/ielab/Reproducing-LightMem
+- **research_problem:** Test whether memory-management gains survive reproduction
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** LightMem versus naive retrieval
+- **memory_retrieval:** Controlled reproduction
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Controlled reproduction
+- **main_contribution:** Test whether memory-management gains survive reproduction
+- **main_results:** Screening conclusion: Test whether memory-management gains survive reproduction. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Headline rankings depend on protocol and implementation
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Test whether memory-management gains survive reproduction
+- **possible_remaining_gap:** Headline rankings depend on protocol and implementation
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-07-31)
+- **canonical_publication_url:** No verified link
+
+## 2607.29167 — Provenance Laundering
+
+- **paper_id:** 2607.29167
+- **title:** Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory
+- **authors:** Xu, Jinghan; Xiao, Yiyong; Shao, Wanru; Liu, Hankai; Li, Xinjin
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-31
+- **paper_url:** https://arxiv.org/abs/2607.29167v1
+- **code_url:** No verified link
+- **research_problem:** Prevent authority amplification across memory transformations
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Provenance-labeled persistent records
+- **memory_retrieval:** Non-amplification firewall
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Non-amplification firewall
+- **main_contribution:** Prevent authority amplification across memory transformations
+- **main_results:** Screening conclusion: Prevent authority amplification across memory transformations. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Abstract screening only; full HTML unavailable in this review
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Prevent authority amplification across memory transformations
+- **possible_remaining_gap:** Abstract screening only; full HTML unavailable in this review
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-07-31)
+- **canonical_publication_url:** No verified link
+
+## 2608.01285 — Router-Mem
+
+- **paper_id:** 2608.01285
+- **title:** Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents
+- **authors:** Lin, Yidan; Wang, Kaixiang; Lou, Jiong; Li, Jie
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-02
+- **paper_url:** https://arxiv.org/abs/2608.01285v1
+- **code_url:** No verified link
+- **research_problem:** Stop execution when memory evidence is sufficient
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Progressive memory evidence
+- **memory_retrieval:** Evidence-conditioned stopping
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Evidence-conditioned stopping
+- **main_contribution:** Stop execution when memory evidence is sufficient
+- **main_results:** Screening conclusion: Stop execution when memory evidence is sufficient. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Retrieval stopping already combines utility and resource concerns
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Stop execution when memory evidence is sufficient
+- **possible_remaining_gap:** Retrieval stopping already combines utility and resource concerns
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-08-02)
+- **canonical_publication_url:** No verified link
+
+## 2608.01619 — StateAuditor
+
+- **paper_id:** 2608.01619
+- **title:** When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses
+- **authors:** Sun, Haofei; He, Lin
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-03
+- **paper_url:** https://arxiv.org/abs/2608.01619v1
+- **code_url:** No verified link
+- **research_problem:** Repair responses that implicitly rely on superseded state
+- **memory_write:** Uses an existing structured store
+- **memory_representation:** State-anchored evidence transitions
+- **memory_retrieval:** State-anchored evidence retrieval
+- **memory_update:** Repair answer behavior after state change
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Invalidate response premises using candidate transitions
+- **forgetting:** No comprehensive physical/store deletion
+- **consolidation:** Not a persistent consolidation policy
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** ◐ — see capability matrix definition and cited sections
+- **learned_policy:** ◐ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** STALE-derived tests, HorizonBench preference evolution and a harder authored lifecycle set; strict independent-query and joint-scenario scopes are distinguished.
+- **baselines:** Draft-only audit, state-aware audit and matched-budget evidence controls.
+- **metrics:** Current-state accuracy, false invalidation, candidate-gate acceptance and human agreement checks.
+- **main_method:** Use state-anchored evidence queries to expose unstated stale premises, audit a draft as valid/stale/unknown, then repair it. An LLM proposes old/new transitions; deterministic checks pin quotations to entries and check chronological order.
+- **main_contribution:** Repair responses that implicitly rely on superseded state
+- **main_results:** Strict setting reports 0.736 versus 0.692 for a matched-budget control. Stronger joint-scenario numbers have extra information. Harder cross-family lifecycle tests show no accuracy gain, bounding the conclusion.
+- **limitations_stated_by_authors:** Small/single-run studies, judge-family dependence and limited external coverage.
+- **limitations_you_identify:** An 80%-token quotation match and newer date verify provenance/order, not semantic supersession. The gate accepts semantically non-superseding transitions in a control, so calibrated semantic repair remains unresolved.
+- **compute_requirement:** 600-example QLoRA of a 4B model on an 8GB GPU is reported; inference variants use API calls.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Repair responses that implicitly rely on superseded state
+- **possible_remaining_gap:** Time verification does not verify semantic supersession
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3–S4 audit/gate; S5 scope controls; S6 external and semantic-gate tests; S7 limitations.
+- **reviewed_version:** v1 (2026-08-03)
+- **canonical_publication_url:** No verified link
+
+## 2608.01679 — AuthMem-Bench
+
+- **paper_id:** 2608.01679
+- **title:** When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary
+- **authors:** Zhan, Qiuyang; Zhang, Rui; Guo, Sheng; Zhao, Lepeng; Liu, Zhuotao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-03
+- **paper_url:** https://arxiv.org/abs/2608.01679v2
+- **code_url:** No verified link
+- **research_problem:** Measure authority lost or upgraded during consolidation
+- **memory_write:** Consolidation/write probes
+- **memory_representation:** Source-authority transitions
+- **memory_retrieval:** Use written memory for actions
+- **memory_update:** Authority transitions
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Authority-preserving restrictions
+- **forgetting:** Not a broad forgetting benchmark
+- **consolidation:** Central evaluated boundary
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 50 base histories, seven transitions each: 350 pairs. Entity-component split uses 30/10/10 base histories for train/validation/test.
+- **baselines:** Seven writer objectives across seven backbones; prompt adaptations, not seven fully native memory backends.
+- **metrics:** Authority upgrades, omissions, prohibited actions and benign task completion.
+- **main_method:** Construct paired source-authority transformations and test consolidation, controlled downstream action and predicted authority labels. Separate user-authorized, assistant-attested and unendorsed tool evidence according to the benchmark policy.
+- **main_contribution:** Measure authority lost or upgraded during consolidation
+- **main_results:** 48 of 49 writer/model configurations upgrade authority in at least some cases; the zero-upgrade exception omits all content. Selected predicted-label intervention reduces prohibited actions without losing the measured benign completions.
+- **limitations_stated_by_authors:** Benchmark-defined authority policy and selected downstream pipeline limit broader deployment claims.
+- **limitations_you_identify:** Authority is not factual truth or statistical confidence. Treat 350 transformations as clustered by 50 histories, not 350 independent histories. Prompt emulations do not establish product behavior.
+- **compute_requirement:** API inference over paired examples; feasible baseline for source-authority preservation.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Measure authority lost or upgraded during consolidation
+- **possible_remaining_gap:** Source authority, truth and confidence are distinct labels
+- **evidence_level:** deep primary read
+- **evidence_sections:** S2 authority definitions; S3 modules/data; S4 results; Appendices A policy and B split.
+- **reviewed_version:** v2 (2026-08-04)
+- **canonical_publication_url:** No verified link
+
+## 2608.03137 — VerMem
+
+- **paper_id:** 2608.03137
+- **title:** Verifiable Memory: Learning Unified Memory Management with Local and Global Verifiers for Large Language Model Agents
+- **authors:** Sun, Xiaolong; Wang, Qichao; Li, Hangyu; Chen, Liang
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-04
+- **paper_url:** https://arxiv.org/abs/2608.03137v1
+- **code_url:** https://github.com/Sun-SYSU-24/VerMem
+- **research_problem:** Train unified control with local/global verification
+- **memory_write:** ADD
+- **memory_representation:** LTM, active context and episode history
+- **memory_retrieval:** RETRIEVE and SelectEpisode
+- **memory_update:** UPDATE with new versions
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Soft-delete/version status
+- **forgetting:** DELETE/FILTER without permanent history erasure
+- **consolidation:** SUMMARY
+- **provenance:** ◐ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** ALFWorld, ScienceWorld, PDDL, BabyAI and HotpotQA; memory resets each evaluation episode.
+- **baselines:** AgeMem and related memory/context methods under two Qwen backbones.
+- **metrics:** Task accuracy/success, average score and verifier/component analyses.
+- **main_method:** One policy manages long-term memory, active context and episodic history. Seven tools cover add/update/soft-delete, retrieve/filter/summarize and selecting episodes. SFT precedes staged RL with local executable-transition and global coherence verifiers.
+- **main_contribution:** Train unified control with local/global verification
+- **main_results:** Reports mean 48.01/59.85 versus AgeMem 41.96/54.31 under its matched settings. Unified learned control, versioned updates and explicit training verifiers are therefore not new project contributions.
+- **limitations_stated_by_authors:** Persistent cross-session, conflicting and adversarial memory robustness are not established by the evaluation.
+- **limitations_you_identify:** Verifiers used in training are removed at inference; reward shaping does not create a runtime semantic safety contract. Episode resets sharply constrain claims about lifelong accumulation.
+- **compute_requirement:** SFT plus multi-stage RL on 4B/7B-class models; total GPU-hours not reliably extracted here.
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Train unified control with local/global verification
+- **possible_remaining_gap:** Episode-reset evaluation does not establish cross-session lifecycle safety
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 tools/verifiers; S4 episode-reset setup/results; S5 scope; Appendix A memory schema.
+- **reviewed_version:** v1 (2026-08-04)
+- **canonical_publication_url:** No verified link
+
+## 2608.05604 — SkillZip-Tan
+
+- **paper_id:** 2608.05604
+- **title:** SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries
+- **authors:** Tan, Xingyu; Wang, Xiaoyang; Liu, Qing; Xu, Xiwei; Yuan, Xin; Zhu, Liming; Zhang, Wenjie
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-06
+- **paper_url:** https://arxiv.org/abs/2608.05604v1
+- **code_url:** No verified link
+- **research_problem:** Compress procedural graphs while preserving contracts
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Section graphs and reversible macros
+- **memory_retrieval:** Contract-preserving abstraction and ReZip
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Contract-preserving abstraction and ReZip
+- **main_contribution:** Compress procedural graphs while preserving contracts
+- **main_results:** Screening conclusion: Compress procedural graphs while preserving contracts. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Procedural dependency preservation is a strong compression precedent
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Compress procedural graphs while preserving contracts
+- **possible_remaining_gap:** Procedural dependency preservation is a strong compression precedent
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** Method section: reversible ported macros, dependency closure and verifier reachability; ReZip updates; procedural rather than evolving factual evidence.
+- **reviewed_version:** v1 (2026-08-06)
+- **canonical_publication_url:** No verified link
+
+## 2608.05906 — MERIT
+
+- **paper_id:** 2608.05906
+- **title:** Causal Episodic Memory for Feedback-Driven Agent Repair
+- **authors:** Vo, Khang Nhat Hoang; Chu, Tam Minh; Dinh, Anh Trac Duc; Bui, Thuyen Vinh Ha; Quan, Tho
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-06
+- **paper_url:** https://arxiv.org/abs/2608.05906v2
+- **code_url:** No verified link
+- **research_problem:** Reuse verified successful and failed repairs
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Dual-polarity episodic repair memory
+- **memory_retrieval:** Failure-conditioned retrieval
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Failure-conditioned retrieval
+- **main_contribution:** Reuse verified successful and failed repairs
+- **main_results:** Screening conclusion: Reuse verified successful and failed repairs. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Oracle feedback and modest cross-task evidence bound conclusions
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Reuse verified successful and failed repairs
+- **possible_remaining_gap:** Oracle feedback and modest cross-task evidence bound conclusions
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-09-10)
+- **canonical_publication_url:** No verified link
+
+## 2608.10502 — Dependency-guided Rollback
+
+- **paper_id:** 2608.10502
+- **title:** From Faulty Memories to Corrected Actions: Dependency-Guided Rollback Repair for Memory-Augmented Agents
+- **authors:** Yu, Caili; Wang, Yiqi; Zhang, Jiaqi; Duan, Yiqun; Zheng, Mingkai; Wu, Zhangkai; Shi, Kaize; Cai, Taotao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-11
+- **paper_url:** https://arxiv.org/abs/2608.10502v1
+- **code_url:** No verified link
+- **research_problem:** Repair memory and actions while retaining unaffected work
+- **memory_write:** Track derived writes and runtime provenance
+- **memory_representation:** Typed runtime dependency graph
+- **memory_retrieval:** Retrieve evidence during replay
+- **memory_update:** Repair affected state
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** Dependency-guided deactivation
+- **forgetting:** Remove unsupported influence while retaining independent support
+- **consolidation:** Derived records can be reconsidered
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 150 selected injected-failure cases across three domains/four fault types; 50 adapted LongMemEval-V2 cases.
+- **baselines:** Six recovery strategies including deletion, reset/full replay and local repair variants.
+- **metrics:** Recovery, benign preservation, recurrence and replay cost.
+- **main_method:** Given diagnosed faulty record IDs, construct a typed memory-to-action graph from runtime provenance. Traverse explicit descendants, retain records with independent trusted support, deactivate unsupported state and replay answer-relevant affected computation.
+- **main_contribution:** Repair memory and actions while retaining unaffected work
+- **main_results:** Reports 85.3% recovery versus 77.3% for the strongest compared alternative, with 100% benign preservation on the selected main set. Recurrence remains 26.6%; the problem is not solved completely.
+- **limitations_stated_by_authors:** Fault diagnosis is supplied; missing dependency edges are outside the recovery guarantee. Irreversible actions need environment reset or compensation.
+- **limitations_you_identify:** Cases are selected where injection causes an error and downstream effects, so rates are conditional. Single temperature-zero runs do not remove stochastic or model-version uncertainty. Strong baseline for G1, not a novelty-free implementation template.
+- **compute_requirement:** GPT-4o main setting and frozen-model replay; API-feasible with a restricted pilot.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Repair memory and actions while retaining unaffected work
+- **possible_remaining_gap:** Diagnosed faulty IDs and recorded dependency edges are assumed
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 assumptions/algorithm; S4 selection; S5 main/adapted results; Appendix F other backbones.
+- **reviewed_version:** v1 (2026-08-11)
+- **canonical_publication_url:** No verified link
+
+## 2608.11079 — SkillZip-Bai
+
+- **paper_id:** 2608.11079
+- **title:** SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure
+- **authors:** Bai, Xiaofan; Lin, Hongqiang; Liu, Chao; Zhang, Yantao; Jin, Xuan; Cao, Xipeng; Li, Yuhong
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-11
+- **paper_url:** https://arxiv.org/abs/2608.11079v2
+- **code_url:** No verified link
+- **research_problem:** Compress reusable skills through typed structural sharing
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Skill contracts and residuals
+- **memory_retrieval:** MDL with coverage constraints; Zip-on-Write
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** MDL with coverage constraints; Zip-on-Write
+- **main_contribution:** Compress reusable skills through typed structural sharing
+- **main_results:** Screening conclusion: Compress reusable skills through typed structural sharing. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Distinct authors/work from other SkillZip; do not merge by name
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Compress reusable skills through typed structural sharing
+- **possible_remaining_gap:** Distinct authors/work from other SkillZip; do not merge by name
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** Method: typed contract/residual compression and hard extracted-unit coverage; continual Zip-on-Write.
+- **reviewed_version:** v2 (2026-08-16)
+- **canonical_publication_url:** No verified link
+
+## 2608.13883 — MemoryLake Matched Study
+
+- **paper_id:** 2608.13883
+- **title:** MemoryLake on MemoryArena: A Matched Study of Agent Memory Backends
+- **authors:** Zhan, Chaoqun; Zhou, Qiang; Li, Guannan; Huang, Zhenqiang; Wang, Qianjin
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-14
+- **paper_url:** https://arxiv.org/abs/2608.13883v1
+- **code_url:** No verified link
+- **research_problem:** Compare memory backends on interdependent agent tasks
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Backend-specific stores
+- **memory_retrieval:** Matched framework/model/task comparison
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Matched framework/model/task comparison
+- **main_contribution:** Compare memory backends on interdependent agent tasks
+- **main_results:** Screening conclusion: Compare memory backends on interdependent agent tasks. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** System-level comparison is not cost-matched or representation-only
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Compare memory backends on interdependent agent tasks
+- **possible_remaining_gap:** System-level comparison is not cost-matched or representation-only
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-08-14)
+- **canonical_publication_url:** No verified link
+
+## 2608.19564 — Memory Commitment Boundary
+
+- **paper_id:** 2608.19564
+- **title:** Remember, Verify, or Ask? Cross-Family Evaluation of Memory Commitment in LLM Agents
+- **authors:** Li, Baichuan; Yao, Junyi; Zheng, Zihao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-20
+- **paper_url:** https://arxiv.org/abs/2608.19564v1
+- **code_url:** No verified link
+- **research_problem:** Choose persist, temporary use, verify or ask
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Interaction-derived candidate facts
+- **memory_retrieval:** Prompted action and tool-call policies
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Memory Commitment Boundary: 140 primary cases:70 dev/70 test; separate70-item contrast set
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Accuracy, macro-F1, over/under-memory, verify/clarify recall and label-tool agreement
+- **main_method:** Prompted action and tool-call policies
+- **main_contribution:** Choose persist, temporary use, verify or ask
+- **main_results:** Screening conclusion: Choose persist, temporary use, verify or ask. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Action-label success does not ensure executed policy compliance
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Choose persist, temporary use, verify or ask
+- **possible_remaining_gap:** Action-label success does not ensure executed policy compliance
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 four commitment actions; S3.3 tool selection only, not actual tool execution; S4 isolated-item calls; S5.4 label/tool disagreement; scope is not longitudinal refresh.
+- **reviewed_version:** v1 (2026-08-20)
+- **canonical_publication_url:** No verified link
+
+## 2608.19652 — StateMem
+
+- **paper_id:** 2608.19652
+- **title:** Can Agent Memory Systems Track Evolving State?
+- **authors:** Fan, Xinyi; Liu, Miri; Yang, Ruozhen; Ouyang, Siru; Han, Jiawei
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-20
+- **paper_url:** https://arxiv.org/abs/2608.19652v1
+- **code_url:** No verified link
+- **research_problem:** Track evolving current state and dependent constraints
+- **memory_write:** Per-turn state extraction
+- **memory_representation:** State units with supersession and dependencies
+- **memory_retrieval:** Retrieve current units plus context
+- **memory_update:** Supersession and constraint updates
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Dependency-driven needs-recheck flags
+- **forgetting:** Suppress superseded units; retain historical state
+- **consolidation:** Structured state maintenance
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** ◐ — see capability matrix definition and cited sections
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** StateMemBench: 234 scenarios and 322 probes; 190 shorter scenarios averaging 165 turns and 44 longer averaging 599 turns. Approximate token lengths are only 3K and 7–15K.
+- **baselines:** RAG, GraphRAG, memory systems and long-context controls under matched context variants.
+- **metrics:** Current-state accuracy, stale-state drift and other error classes.
+- **main_method:** Extract state units with sources, hard/soft constraints and typed derived/coupled dependencies. Superseded units remain inactive; changed prerequisites set dependent units to needs-recheck, with answer-time recomputation.
+- **main_contribution:** Track evolving current state and dependent constraints
+- **main_results:** StateMem improves over RAG for one backbone (0.363 versus 0.205); a different backbone is close to GraphRAG (0.233 versus 0.224). Dynamic-state and dependent-memory management already have direct precedents.
+- **limitations_stated_by_authors:** Synthetic scenarios, explicit dependency statements, limited backbones and single-run design.
+- **limitations_you_identify:** Many turns do not imply a million-token horizon. Full transcript plus retrieved state can be an advantage unless context is matched. Explicit linguistic dependencies simplify the unknown-lineage problem.
+- **compute_requirement:** Approximately 165–600 small-model encoder calls per scenario; no additional answerer call, but ingestion cost is material.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Track evolving current state and dependent constraints
+- **possible_remaining_gap:** Dependency links are explicit; synthetic construction favors typed state
+- **evidence_level:** deep primary read
+- **evidence_sections:** S3 error decomposition; S4 benchmark; S5 state model; S6 results/controls; Appendix H costs.
+- **reviewed_version:** v1 (2026-08-20)
+- **canonical_publication_url:** No verified link
+
+## 2608.19701 — CAMA
+
+- **paper_id:** 2608.19701
+- **title:** Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration
+- **authors:** Lin, Chenchen; Yuan, Wenhao; Wang, Xuehe; Ngai, Edith Cheuk Han
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-20
+- **paper_url:** https://arxiv.org/abs/2608.19701v1
+- **code_url:** No verified link
+- **research_problem:** Avoid correlated memory majorities and recover missing evidence
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Latent evidence groups and provenance priors
+- **memory_retrieval:** Learned Expand/Trace/Stop arbitration
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** ✅ — see capability matrix definition and cited sections
+- **learned_policy:** ✅ — see capability matrix definition and cited sections
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Learned Expand/Trace/Stop arbitration
+- **main_contribution:** Avoid correlated memory majorities and recover missing evidence
+- **main_results:** Screening conclusion: Avoid correlated memory majorities and recover missing evidence. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Inferred evidence dependence already exists; persistent repair remains distinct
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Avoid correlated memory majorities and recover missing evidence
+- **possible_remaining_gap:** Inferred evidence dependence already exists; persistent repair remains distinct
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** Methodology evidence slots, soft dependency inference and Expand/Trace/Stop RL; experiments correlation-augmented MAB/LME/LoCoMo; Appendices A–C complexity and recovery.
+- **reviewed_version:** v1 (2026-08-20)
+- **canonical_publication_url:** No verified link
+
+## 2608.20685 — MemStrata Software Histories
+
+- **paper_id:** 2608.20685
+- **title:** Temporal Validity on Real Software Histories: Eliminating Stale-Fact Errors in Code-Assistant Memory over GitHub Fixes
+- **authors:** Yadav, Neeraj
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-21
+- **paper_url:** https://arxiv.org/abs/2608.20685v1
+- **code_url:** No verified link
+- **research_problem:** Test atomic supersession on real code changes
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Marker-free old/new code facts
+- **memory_retrieval:** Bitemporal supersession
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** MemStrata software histories: 130 clean atomic transitions extracted from707 GitHub issues
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Accuracy, stale-fact-error and latency
+- **main_method:** Bitemporal supersession
+- **main_contribution:** Test atomic supersession on real code changes
+- **main_results:** Screening conclusion: Test atomic supersession on real code changes. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Selected clean atomic transitions limit generalization
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Test atomic supersession on real code changes
+- **possible_remaining_gap:** Selected clean atomic transitions limit generalization
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-08-21)
+- **canonical_publication_url:** No verified link
+
+## 2608.21230 — Utility Under Attack
+
+- **paper_id:** 2608.21230
+- **title:** Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking
+- **authors:** Karunanidhi, Arulnidhi
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-21
+- **paper_url:** https://arxiv.org/abs/2608.21230v1
+- **code_url:** No verified link
+- **research_problem:** Test defenses against ordinary false stored statements
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Poisoned and benign mixed-provenance corpora
+- **memory_retrieval:** Content screening and provenance weighting
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Content screening and provenance weighting
+- **main_contribution:** Test defenses against ordinary false stored statements
+- **main_results:** Screening conclusion: Test defenses against ordinary false stored statements. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Filtering more untrusted data can improve safety by sacrificing utility
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Test defenses against ordinary false stored statements
+- **possible_remaining_gap:** Filtering more untrusted data can improve safety by sacrificing utility
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-08-21)
+- **canonical_publication_url:** No verified link
+
+## 2608.21381 — PersonaMem-v3
+
+- **paper_id:** 2608.21381
+- **title:** PersonaMem-v3: Toward Omni-Platform Personal Intelligence for Holistic User Understanding, Recommendation, and Agentic Tasks
+- **authors:** Jiang, Bowen; Yuan, Yuan; Hao, Zhuoqun; Liu, Yuchen; Shen, Maohao; Chen, Sihao; Wornell, Gregory; Callison-Burch, Chris; Ungar, Lyle; Roth, Dan; Guo, Qi; Fan, Xiangjun; Taylor, Camillo J.; Yu, Hanchao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-07-16
+- **paper_url:** https://arxiv.org/abs/2608.21381v1
+- **code_url:** No verified link
+- **research_problem:** Evaluate cross-platform personal intelligence over time
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Time-indexed digital user worlds
+- **memory_retrieval:** Understanding, recommendations and agentic tasks
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** PersonaMem-v3: 200 resampled users, >1M engagement events;30-day substrate; six digital platforms
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Open-ended universal/task rubrics; context and agent-harness modes
+- **main_method:** Understanding, recommendations and agentic tasks
+- **main_contribution:** Evaluate cross-platform personal intelligence over time
+- **main_results:** Screening conclusion: Evaluate cross-platform personal intelligence over time. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Grounded synthetic worlds are not identical to live deployment
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Evaluate cross-platform personal intelligence over time
+- **possible_remaining_gap:** Grounded synthetic worlds are not identical to live deployment
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S2:200 resampled users,>1M engagement events and30-day substrate; S3 time-masked interactive harness and open-ended criteria.
+- **reviewed_version:** v1 (2026-07-16)
+- **canonical_publication_url:** No verified link
+
+## 2608.22215 — Dual-Layer Memory
+
+- **paper_id:** 2608.22215
+- **title:** Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation
+- **authors:** Li, Wenzhi; Nie, Dong; Lan, Rui; Lyu, Tongtong; Wang, Peiyao; Hong, Lingzi; Pan, Weihang; Lin, Binbin; Pan, Boyuan; Hu, Yao
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-23
+- **paper_url:** https://arxiv.org/abs/2608.22215v2
+- **code_url:** No verified link
+- **research_problem:** Route writes and periodically consolidate into model weights
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** External memory plus parametric consolidation
+- **memory_retrieval:** Small-to-large write router and slow SFT
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Small-to-large write router and slow SFT
+- **main_contribution:** Route writes and periodically consolidate into model weights
+- **main_results:** Screening conclusion: Route writes and periodically consolidate into model weights. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Cross-layer lifecycle routing already studied
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Route writes and periodically consolidate into model weights
+- **possible_remaining_gap:** Cross-layer lifecycle routing already studied
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v2 (2026-08-31)
+- **canonical_publication_url:** No verified link
+
+## 2608.30785 — SkillZip Pro
+
+- **paper_id:** 2608.30785
+- **title:** SkillZip Pro: Execution-Aware Dynamic Compression of Progressively Loaded Skills for Self-Evolving Agents
+- **authors:** Bai, Xiaofan; Liu, Chao; Lin, Hongqiang; Wu, Di; Song, Mingli; Jin, Xuan; Cao, Xipeng; Li, Yuhong
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-08-31
+- **paper_url:** https://arxiv.org/abs/2608.30785v1
+- **code_url:** No verified link
+- **research_problem:** Compress skill bundles while retaining routing and public entry contracts
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Multi-file skill graph and deletion witnesses
+- **memory_retrieval:** Persistent/transient compression and incremental audits
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** ✅ — see capability matrix definition and cited sections
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Persistent/transient compression and incremental audits
+- **main_contribution:** Compress skill bundles while retaining routing and public entry contracts
+- **main_results:** Screening conclusion: Compress skill bundles while retaining routing and public entry contracts. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Total storage accounting and change-aware compression already have procedural precedents
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Compress skill bundles while retaining routing and public entry contracts
+- **possible_remaining_gap:** Total storage accounting and change-aware compression already have procedural precedents
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 persistent versus transient storage accounting; S4.4 deletion witnesses; S4.5 faithfulness assumptions; S4.6 affected closure and repacking.
+- **reviewed_version:** v1 (2026-08-31)
+- **canonical_publication_url:** No verified link
+
+## 2609.01852 — Memory Trust Gap
+
+- **paper_id:** 2609.01852
+- **title:** The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents
+- **authors:** Hu, Jundong; Ramachandran, Shekar
+- **year:** 2026
+- **venue_or_status:** Author-reported status: Preprint. Under review at a NeurIPS 2026 workshop. 14 pages, 7 figures, 11 tables
+- **publication_date:** 2026-09-01
+- **paper_url:** https://arxiv.org/abs/2609.01852v1
+- **code_url:** No verified link
+- **research_problem:** Measure stale-memory over-trust across model sizes
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Stale notes versus authoritative tool evidence
+- **memory_retrieval:** Factorial feature interventions
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Memory Trust Gap: 300 base scenarios; four memory conditions;16-cell cue factorial; Qwen model-size series and external checks
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Stale reliance, paired net harm, scenario-clustered intervals
+- **main_method:** Factorial feature interventions
+- **main_contribution:** Measure stale-memory over-trust across model sizes
+- **main_results:** Screening conclusion: Measure stale-memory over-trust across model sizes. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Short consumption-time tests do not establish longitudinal refresh policy
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Measure stale-memory over-trust across model sizes
+- **possible_remaining_gap:** Short consumption-time tests do not establish longitudinal refresh policy
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 paired baseline meanings; S5 full factorial memory-cue interventions; S6 metadata versus pre-resolved conflict; S8 consumption-time scope.
+- **reviewed_version:** v1 (2026-09-01)
+- **canonical_publication_url:** No verified link
+
+## 2609.03340 — PlanFence
+
+- **paper_id:** 2609.03340
+- **title:** Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory
+- **authors:** Chen, Evan; Wang, Shiqiang; Brinton, Christopher G.
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-09-03
+- **paper_url:** https://arxiv.org/abs/2609.03340v1
+- **code_url:** No verified link
+- **research_problem:** Prevent execution of plans derived from outdated records
+- **memory_write:** Not a general writer
+- **memory_representation:** Exact plan dependencies and version heads
+- **memory_retrieval:** Fetch/validate dependency versions
+- **memory_update:** Replan after relevant revision
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Invalidate stale plan authorization
+- **forgetting:** Outside scope
+- **consolidation:** Outside scope
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 30 controlled live workflows in three domains; replay scales to 32,700 actions with churn and dependency perturbations.
+- **baselines:** Freshness-only execution, centralized lineage, eager synchronization and broad quorum validation.
+- **metrics:** Invalid actions, successful completion, validation checks, coordination stall and replay costs.
+- **main_method:** Plans cite exact public records; the executor checks owner heads for dependencies that can affect an action. On revision or incomplete validation it replans once or blocks. Distributed coordination is scoped to relevant records.
+- **main_contribution:** Prevent execution of plans derived from outdated records
+- **main_results:** All 30 deliberately revised workflows fail freshness-only execution and pass the gate; this is not natural failure prevalence. Low churn favors eager synchronization in coordination cost; high churn favors scoped validation.
+- **limitations_stated_by_authors:** Excludes inferred dependencies, semantic merge, Byzantine participants and atomic check-and-act guarantees.
+- **limitations_you_identify:** The key novelty boundary is incomplete semantic lineage. Checking a perfect declared graph is already solved within this protocol. Extra edges can preserve safety by increasing checks, while missed edges undermine it.
+- **compute_requirement:** Frozen-model/API workflows plus low-cost deterministic replay; feasible baseline.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Prevent execution of plans derived from outdated records
+- **possible_remaining_gap:** Complete dependencies and tool contracts are explicit assumptions
+- **evidence_level:** deep primary read
+- **evidence_sections:** S4 contract; S5 live/replay evaluation; S6 exclusions; Appendix C Figure 6 missing-edge sensitivity.
+- **reviewed_version:** v1 (2026-09-03)
+- **canonical_publication_url:** No verified link
+
+## 2609.04875 — Execution-state Unlearning
+
+- **paper_id:** 2609.04875
+- **title:** Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents
+- **authors:** Yao, Chao; Wei, Yangbo; Huang, Zhen; Qian, Junhong; Chen, Chenle; Lu, Shaoqiang; Wu, Chen; He, Lei
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-09-04
+- **paper_url:** https://arxiv.org/abs/2609.04875v1
+- **code_url:** No verified link
+- **research_problem:** Remove influence from transcript, summaries, plans and cache
+- **memory_write:** Track runtime influence
+- **memory_representation:** Runtime checkpoints and provenance
+- **memory_retrieval:** Reconstruct clean context/cache
+- **memory_update:** Counterfactual runtime repair
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** Invalidate all tainted suffix artifacts
+- **forgetting:** Execution-state unlearning beyond record deletion
+- **consolidation:** Rebuild summaries during replay
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** 100 LongMemEval, 100 ToolSandbox and 80 AgentDojo cases in controlled replayable setups.
+- **baselines:** Nine strategies including plaintext deletion, reset and cached-prefix replay.
+- **metrics:** Leakage probes, counterfactual action distance, utility, recomputed tokens and latency.
+- **main_method:** Model the runtime as a deterministic transition system. Restore the checkpoint before the forgotten item, crop cached state and replay the suffix without it. The earliest injection determines a conservative tainted suffix unless finer attribution is available.
+- **main_contribution:** Remove influence from transcript, summaries, plans and cache
+- **main_results:** Under the formal assumptions, exact unlearning requires at least T−tau+1 recomputed transitions and suffix replay attains it. Reported recompute gains are larger against full replay than against prefix-cached replay.
+- **limitations_stated_by_authors:** No parameter unlearning; no reversal of irreversible real-world actions or alternative human observations. Requires replayable runtime state.
+- **limitations_you_identify:** A non-significant difference from reset is not an equivalence proof. Selective branch repair needs trustworthy attribution; otherwise conservative suffix replay is necessary in the stated model.
+- **compute_requirement:** API/local replay; can be costly for early deletions. Runtime cache access may not be exposed by hosted APIs.
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Remove influence from transcript, summaries, plans and cache
+- **possible_remaining_gap:** Exactness needs deterministic replay and fixed observations
+- **evidence_level:** deep primary read
+- **evidence_sections:** Method theorem and algorithm in Sx3; experiments Sx4; limitations Sx5.
+- **reviewed_version:** v1 (2026-09-04)
+- **canonical_publication_url:** No verified link
+
+## 2609.08258 — Revocation Enforcement
+
+- **paper_id:** 2609.08258
+- **title:** Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems
+- **authors:** Shen, Yi Ting; Toyoda, Kentaroh; Leung, Alex
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-09-08
+- **paper_url:** https://arxiv.org/abs/2609.08258v1
+- **code_url:** https://github.com/VulcanLab/Memory-Rebirth-Attack
+- **research_problem:** Test whether invalidation labels affect retrieval and actions
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Revoked records and replacements
+- **memory_retrieval:** Retrieval guard and action evaluation
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** Revocation enforcement study: Five memory systems, nine policy scenarios, nine models, six defenses
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** Revoked retrieval and unsafe action frequency
+- **main_method:** Retrieval guard and action evaluation
+- **main_contribution:** Test whether invalidation labels affect retrieval and actions
+- **main_results:** Screening conclusion: Test whether invalidation labels affect retrieval and actions. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Metadata presence does not imply enforcement
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** Paper-linked public code/project URL; license and reproducibility not audited
+- **relevance_to_evomem:** Test whether invalidation labels affect retrieval and actions
+- **possible_remaining_gap:** Metadata presence does not imply enforcement
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-09-08)
+- **canonical_publication_url:** No verified link
+
+## 2609.08599 — Graph Personalized Memory Survey
+
+- **paper_id:** 2609.08599
+- **title:** Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation
+- **authors:** Nguyen, Dac Duy Anh; Qiu, Zhangchi; Chen, Shigeng; Liew, Alan Wee-Chung
+- **year:** 2026
+- **venue_or_status:** Author-reported status: Accepted by ICKG 2026
+- **publication_date:** 2026-09-08
+- **paper_url:** https://arxiv.org/abs/2609.08599v1
+- **code_url:** No verified link
+- **research_problem:** Map representation, evolution and retrieval of personal memory
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Lifecycle-oriented graph taxonomy
+- **memory_retrieval:** Survey of graph personalization
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** NR — not established in this review; not evidence of absence
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** NR — not established in this review; not evidence of absence
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** NR — not established in this review; not evidence of absence
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Survey of graph personalization
+- **main_contribution:** Map representation, evolution and retrieval of personal memory
+- **main_results:** Screening conclusion: Map representation, evolution and retrieval of personal memory. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Secondary source; author-reported venue status only
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Map representation, evolution and retrieval of personal memory
+- **possible_remaining_gap:** Secondary source; author-reported venue status only
+- **evidence_level:** bibliographic and abstract screening
+- **evidence_sections:** arXiv bibliographic page and abstract only; do not infer omitted capabilities
+- **reviewed_version:** v1 (2026-09-08)
+- **canonical_publication_url:** No verified link
+
+## 2609.10263 — RD-Forget
+
+- **paper_id:** 2609.10263
+- **title:** What Should an Agent Forget? Separating What Is Stored from What Is Used
+- **authors:** Li, Yuhang; Li, Yuchen
+- **year:** 2026
+- **venue_or_status:** arXiv preprint; no publication venue independently verified
+- **publication_date:** 2026-09-09
+- **paper_url:** https://arxiv.org/abs/2609.10263v1
+- **code_url:** No verified link
+- **research_problem:** Suppress obsolete evidence while retaining historical access
+- **memory_write:** NR — not established in this review; not evidence of absence
+- **memory_representation:** Source archive and query-conditioned memory view
+- **memory_retrieval:** Slot replacement and intent-aware selection
+- **memory_update:** NR — not established in this review; not evidence of absence
+- **temporal_reasoning:** ✅ — see capability matrix definition and cited sections
+- **contradiction_handling:** NR — not established in this review; not evidence of absence
+- **forgetting:** NR — not established in this review; not evidence of absence
+- **consolidation:** NR — not established in this review; not evidence of absence
+- **provenance:** ✅ — see capability matrix definition and cited sections
+- **uncertainty:** NR — not established in this review; not evidence of absence
+- **learned_policy:** ❌ — see capability matrix definition and cited sections
+- **graph_structure:** NR — not established in this review; not evidence of absence
+- **agentic_rag_relation:** Persistent memory/retrieval or its evaluation; distinguish store validity from query relevance
+- **datasets_or_benchmarks:** NR — not established in this review; not evidence of absence
+- **baselines:** NR — not established in this review; not evidence of absence
+- **metrics:** NR — not established in this review; not evidence of absence
+- **main_method:** Slot replacement and intent-aware selection
+- **main_contribution:** Suppress obsolete evidence while retaining historical access
+- **main_results:** Screening conclusion: Suppress obsolete evidence while retaining historical access. Quantitative results not independently extracted.
+- **limitations_stated_by_authors:** NR — not established in this review; not evidence of absence
+- **limitations_you_identify:** Budget applies to answer view; source archive is retained
+- **compute_requirement:** NR — not established in this review; not evidence of absence
+- **open_source:** No own code/project URL verified in this review
+- **relevance_to_evomem:** Suppress obsolete evidence while retaining historical access
+- **possible_remaining_gap:** Budget applies to answer view; source archive is retained
+- **evidence_level:** targeted primary inspection
+- **evidence_sections:** S3 retained source H and query-conditioned budgeted view; S4.1 source-order subsets and same-family judge; S4.2 intent uses task metadata; S5–S6 component and historical-query tests.
+- **reviewed_version:** v1 (2026-09-09)
+- **canonical_publication_url:** No verified link

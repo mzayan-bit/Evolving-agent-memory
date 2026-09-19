@@ -1,60 +1,18 @@
-# Literature Review Workspace
+# Literature review — cutoff 19 September 2026
 
-This directory contains systematic reviews of relevant literature in continual learning, agent memory systems, temporal reasoning, belief revision, and long-horizon evaluation.
+100 retained unique works, 25 deep reads and 22 additional targeted primary inspections. The remaining 53 entries are bibliographic/abstract screens, clearly marked. First-public year counts:2023: 7;2024: 10;2025: 18;2026: 65.
 
-> [!IMPORTANT]
-> **Literature Review Policy**:
-> - Never invent citations, venues, or performance claims.
-> - Every paper entry must be verified against official conference/journal proceedings or arXiv preprints.
-> - Identify concrete limitations, failure modes, and open questions in prior work to isolate genuine research gaps for EvoMem.
+- [Master matrix (CSV)](master_paper_matrix.csv) and [human-readable records](master_paper_matrix.md)
+- [25 deep reads](deep_reads/)
+- [22-dimension capability matrix](capability_matrix.md)
+- [33 benchmark/suite/protocol comparisons](benchmark_matrix.md)
+- [Learned controllers: state, actions, reward, training and compute](learned_memory_policies.md)
+- [Failure taxonomy](failure_taxonomy.md)
+- [Bibliography](references.bib)
+- [Search audit](search_log.md) and [recoverable exact adversarial queries](adversarial_queries.json)
+- [Version/deduplication ledger](version_ledger.md), [source manifest](source_manifest.json) and [review counts](review_stats.json)
+- [URL verification](url_verification.json) and [artifact validation](validation_report.md)
 
----
+Read the [research report](../RESEARCH_GAP_REPORT.md), [candidate directions](../candidate_gaps.md) and [novelty threats](../novelty_threat_matrix.md) for conclusions.
 
-## Paper Review Template
-
-When reviewing a new paper, copy the template below into a new markdown file named `YYYY_<firstauthor>_<short_title>.md` in this directory:
-
-```markdown
-# [Paper Title]
-
-- **Paper**: [Full Title and Link/DOI]
-- **Year**: [e.g., 2024]
-- **Venue**: [e.g., NeurIPS, ICLR, ICML, ACL, EMNLP, arXiv]
-- **Authors**: [Author list]
-
----
-
-### 1. Overview & Problem Formulation
-- **Research problem**: What core problem does this paper address?
-- **Memory type**: (e.g., Episodic, Semantic, Working, Parametric, Non-parametric, Graph-based, Vector-based)
-- **Architecture**: High-level overview of the memory management mechanism and agent framework.
-
----
-
-### 2. Empirical Methodology
-- **Dataset / benchmark**: What benchmarks or environments were evaluated?
-- **Baselines**: What standard and competitive baselines were compared against?
-- **Metrics**: What quantitative metrics were used?
-
----
-
-### 3. Key Findings & Contributions
-- **Main contribution**: Primary theoretical, algorithmic, or empirical insight.
-- **Key results**: Quantitative summary of performance gains over baselines.
-
----
-
-### 4. Critical Analysis & Gaps
-- **Limitations**: In what scenarios does the method fail or degrade?
-- **Open questions**: Unresolved theoretical or practical questions.
-- **Relation to EvoMem**: How does this relate to continual/evolving agent memory?
-- **Potential gap**: Specific unaddressed challenge or opportunity for EvoMem.
-```
-
----
-
-## Literature Tracking Table
-
-| Paper | Year | Venue | Memory Type | Benchmark / Dataset | Key Limitation | Review File |
-|---|---|---|---|---|---|---|
-| *Template Entry* | *—* | *—* | *—* | *—* | *—* | *Pending* |
+NR means not established here, not absent. Author-reported preprint results are not independently reproduced. Public links are not a license or reproducibility audit. Do not infer firstness from an unfilled matrix cell. New entries must distinguish primary reading from abstract screening and retain explicit versions and limitations.

@@ -1,0 +1,101 @@
+{
+  "search_date": "2026-09-19",
+  "scope": "Recoverable exact queries from final adversarial-search pass; not an exhaustive machine log of earlier survey/subarea searches",
+  "queries": [
+    {
+      "query": "LLM memory freshness external verification selective refresh stale knowledge benchmark",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "temporal RAG cache invalidation adaptive refresh agent memory",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"memory\" \"provenance\" \"compression\" \"retraction\"",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"memory\" \"forgetting\" \"historical\" \"budget\" LLM",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"agent memory\" \"reversible\" compression",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"memory\" \"bounded storage\" \"revision\" LLM",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"LLM\" \"memory\" \"silent drift\"",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"agent memory\" \"external\" \"refresh\" policy",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"R3Mem\"",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"ChronoMem\" version control semantic rollback",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"SkillZip\" arxiv",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "LLM memory refresh cost freshness retrieval policy arxiv",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"ChurnBench\"",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "agent memory benchmark causal failure attribution oracle interventions interaction effects",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "LLM memory lifecycle factorial fault injection benchmark diagnosis",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"agent memory\" \"counterfactual\" \"attribution\" benchmark",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "LLM agent memory freshness revalidation learned policy changing external sources",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"memory\" \"refresh\" \"freshness\" site:arxiv.org LLM",
+      "executed": false,
+      "primary_urls": []
+    },
+    {
+      "query": "\"memory\" \"silent\" \"updates\" site:arxiv.org agent",
+      "executed": false,
+      "primary_urls": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "discovered_bibliographic_records": 104,
+  "retained_unique_works": 100,
+  "deep_reads": 25,
+  "targeted_additional": 22,
+  "screened_only": 53,
+  "first_public_year_distribution": {
+    "2023": 7,
+    "2024": 10,
+    "2025": 18,
+    "2026": 65
+  }
+}

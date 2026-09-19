@@ -1,0 +1,676 @@
+{
+  "checked_on": "2026-09-19",
+  "note": "HTTP reachability only; does not certify claims, licenses or reproducibility. Primary unversioned metadata and full text were fetched earlier. Failures are recorded rather than silently called verified.",
+  "results": [
+    {
+      "url": "http://github.com/bowen-upenn/PersonaMem",
+      "status": 200,
+      "final_url": "https://github.com/bowen-upenn/PersonaMem"
+    },
+    {
+      "url": "https://aclanthology.org/2025.findings-acl.235/",
+      "status": 200,
+      "final_url": "https://aclanthology.org/2025.findings-acl.235/"
+    },
+    {
+      "url": "https://aclanthology.org/2026.acl-long.981/",
+      "status": 200,
+      "final_url": "https://aclanthology.org/2026.acl-long.981/"
+    },
+    {
+      "url": "https://aclanthology.org/2026.eacl-long.333/",
+      "status": 200,
+      "final_url": "https://aclanthology.org/2026.eacl-long.333/"
+    },
+    {
+      "url": "https://aclanthology.org/2026.findings-acl.2069/",
+      "status": 200,
+      "final_url": "https://aclanthology.org/2026.findings-acl.2069/"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.11366v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2303.11366v4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.03442v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2304.03442v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.10250v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2305.10250v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.16291v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2305.16291v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.10144v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2308.10144v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.08560v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2310.08560v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.11511v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2310.11511v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.15884v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2401.15884v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.18059v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2401.18059v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.04624v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2402.04624v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.17753v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2402.17753v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.14403v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2403.14403v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.13501v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2404.13501v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.14831v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2405.14831v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.04363v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2407.04363v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.12784v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2407.12784v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.10813v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2410.10813v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.13956v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2501.13956v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.12110v11",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2502.12110v11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.14802v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2502.14802v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.15957v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2502.15957v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.07952v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2504.07952v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.14225v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2504.14225v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19413v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2504.19413v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.03724v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2507.03724v4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.05257v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2507.05257v4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.19828v5",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2508.19828v5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.18868v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2509.18868v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.25911v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2509.25911v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01353v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2510.01353v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.18866v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2510.18866v4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.03506v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2511.03506v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.20857v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2511.20857v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.12818v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2512.12818v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.13564v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2512.13564v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.01885v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2601.01885v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.03224v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2602.03224v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.06025v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2602.06025v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.16313v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2602.16313v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.17913v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2602.17913v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15658v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2603.15658v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17244v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2603.17244v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01560v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2604.01560v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.16548v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2604.16548v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.20006v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2604.20006v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.05583v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.05583v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06527v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.06527v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06716v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.06716v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12493v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.12493v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.15338v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.15338v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.16045v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.16045v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18421v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.18421v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22842v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.22842v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23723v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.23723v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23986v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.23986v3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.25338v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.25338v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26252v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.26252v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26302v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.26302v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26667v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.26667v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06240v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.06240v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.08275v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.08275v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.09483v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.09483v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.25161v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.25161v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26511v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.26511v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27472v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.27472v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01071v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.01071v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01988v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.01988v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02579v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.02579v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08032v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.08032v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12893v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.12893v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.13591v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.13591v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.17545v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.17545v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.23929v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.23929v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27080v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.27080v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27773v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.27773v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.29104v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.29104v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.29167v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.29167v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.01285v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.01285v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.01619v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.01619v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.01679v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.01679v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03137v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.03137v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05604v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.05604v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05906v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.05906v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10502v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.10502v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.11079v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.11079v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.13883v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.13883v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19564v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.19564v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19652v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.19652v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19701v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.19701v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20685v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.20685v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.21230v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.21230v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.21381v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.21381v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.22215v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.22215v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.30785v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.30785v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.01852v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.01852v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03340v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.03340v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.04875v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.04875v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.08258v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.08258v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.08599v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.08599v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10263v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.10263v1"
+    },
+    {
+      "url": "https://doi.org/10.1145/3748302",
+      "status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3748302"
+    },
+    {
+      "url": "https://github.com/AIRI-Institute/AriGraph",
+      "status": 200,
+      "final_url": "https://github.com/AIRI-Institute/AriGraph"
+    },
+    {
+      "url": "https://github.com/DSAIL-Memory/EvoMemBench",
+      "status": 200,
+      "final_url": "https://github.com/DSAIL-Memory/EvoMemBench"
+    },
+    {
+      "url": "https://github.com/HUST-AI-HYZ/MemoryAgentBench",
+      "status": 200,
+      "final_url": "https://github.com/HUST-AI-HYZ/MemoryAgentBench"
+    },
+    {
+      "url": "https://github.com/MemTensor/HaluMem",
+      "status": 200,
+      "final_url": "https://github.com/MemTensor/HaluMem"
+    },
+    {
+      "url": "https://github.com/MemTensor/MemOps",
+      "status": 200,
+      "final_url": "https://github.com/MemTensor/MemOps"
+    },
+    {
+      "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+      "status": 200,
+      "final_url": "https://github.com/OSU-NLP-Group/HippoRAG"
+    },
+    {
+      "url": "https://github.com/Sun-SYSU-24/VerMem",
+      "status": 200,
+      "final_url": "https://github.com/Sun-SYSU-24/VerMem"
+    },
+    {
+      "url": "https://github.com/ViktorAxelsen/BudgetMem",
+      "status": 200,
+      "final_url": "https://github.com/ViktorAxelsen/BudgetMem"
+    },
+    {
+      "url": "https://github.com/Vrin-cloud/supersede",
+      "status": 200,
+      "final_url": "https://github.com/Vrin-cloud/supersede"
+    },
+    {
+      "url": "https://github.com/VulcanLab/Memory-Rebirth-Attack",
+      "status": 200,
+      "final_url": "https://github.com/VulcanLab/Memory-Rebirth-Attack"
+    },
+    {
+      "url": "https://github.com/WujiangXu/A-mem-sys",
+      "status": 200,
+      "final_url": "https://github.com/WujiangXu/A-mem-sys"
+    },
+    {
+      "url": "https://github.com/XMUDeepLIT/MemSyco-Bench",
+      "status": 200,
+      "final_url": "https://github.com/XMUDeepLIT/MemSyco-Bench"
+    },
+    {
+      "url": "https://github.com/ZenAlexa/toki-bitemporal-memory",
+      "status": 404,
+      "final_url": "https://github.com/ZenAlexa/toki-bitemporal-memory"
+    },
+    {
+      "url": "https://github.com/ericjiang18/MemCon/",
+      "status": 200,
+      "final_url": "https://github.com/ericjiang18/MemCon/"
+    },
+    {
+      "url": "https://github.com/getzep/graphiti",
+      "status": 200,
+      "final_url": "https://github.com/getzep/graphiti"
+    },
+    {
+      "url": "https://github.com/ielab/Reproducing-LightMem",
+      "status": 200,
+      "final_url": "https://github.com/ielab/Reproducing-LightMem"
+    },
+    {
+      "url": "https://github.com/ishirgarg/MemFail",
+      "status": 200,
+      "final_url": "https://github.com/ishirgarg/MemFail"
+    },
+    {
+      "url": "https://github.com/jaineet17/causal-agent-replay",
+      "status": 200,
+      "final_url": "https://github.com/jaineet17/causal-agent-replay"
+    },
+    {
+      "url": "https://github.com/lxy1134/MEMTX_",
+      "status": 200,
+      "final_url": "https://github.com/lxy1134/MEMTX_"
+    },
+    {
+      "url": "https://github.com/nuster1128/LLM_Agent_Memory_Survey",
+      "status": 200,
+      "final_url": "https://github.com/nuster1128/LLM_Agent_Memory_Survey"
+    },
+    {
+      "url": "https://github.com/starsuzi/Adaptive-RAG",
+      "status": 200,
+      "final_url": "https://github.com/starsuzi/Adaptive-RAG"
+    },
+    {
+      "url": "https://github.com/suzgunmirac/dynamic-cheatsheet",
+      "status": 200,
+      "final_url": "https://github.com/suzgunmirac/dynamic-cheatsheet"
+    },
+    {
+      "url": "https://github.com/vectorize-io/hindsight",
+      "status": 200,
+      "final_url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "url": "https://github.com/wangyu-ustc/MemoryLLM",
+      "status": 200,
+      "final_url": "https://github.com/wangyu-ustc/MemoryLLM"
+    },
+    {
+      "url": "https://github.com/xiaowu0162/LongMemEval",
+      "status": 200,
+      "final_url": "https://github.com/xiaowu0162/LongMemEval"
+    },
+    {
+      "url": "https://github.com/y1y5/AgeMem",
+      "status": 200,
+      "final_url": "https://github.com/y1y5/AgeMem"
+    },
+    {
+      "url": "https://github.com/zjunlp/LightMem",
+      "status": 200,
+      "final_url": "https://github.com/zjunlp/LightMem"
+    },
+    {
+      "url": "https://snap-research.github.io/locomo/",
+      "status": 200,
+      "final_url": "https://snap-research.github.io/locomo/"
+    }
+  ]
+}
