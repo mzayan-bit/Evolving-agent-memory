@@ -1,0 +1,100 @@
+{
+  "inspection_date": "2026-09-21",
+  "cutoff": "2026-09-20",
+  "sources": [
+    {
+      "arxiv": "2608.10502v1",
+      "url": "https://arxiv.org/src/2608.10502v1",
+      "sha256": "28afe2ebdf97784b94e00d10f499b3f31f416dbd396167d3fbbe718946a34b09",
+      "bytes": 260351
+    },
+    {
+      "arxiv": "2608.01619v1",
+      "url": "https://arxiv.org/src/2608.01619v1",
+      "sha256": "775d8187207a9271ae697b432f942941432f14d00ddea7a71046ef473e6dd7ce",
+      "bytes": 1332151
+    },
+    {
+      "arxiv": "2609.03340v1",
+      "url": "https://arxiv.org/src/2609.03340v1",
+      "sha256": "2419154850937ca91d26ba6e146ff7eb6e5b709e573a39f587751062ae03b8cb",
+      "bytes": 528581
+    },
+    {
+      "arxiv": "2608.19652v1",
+      "url": "https://arxiv.org/src/2608.19652v1",
+      "sha256": "14232915a0e7d29e14dbaf02c64136d6c79a04ce87faa9611aceb6dbd7c4ed26",
+      "bytes": 454693
+    },
+    {
+      "arxiv": "2605.06527v1",
+      "url": "https://arxiv.org/src/2605.06527v1",
+      "sha256": "3e6346eedacd19d911381d492f4e7a556e3d1edf2faaa0da3affbe0ef7f7fc2e",
+      "bytes": 5757366
+    },
+    {
+      "arxiv": "2608.19701v1",
+      "url": "https://arxiv.org/src/2608.19701v1",
+      "sha256": "42afdf73029fdfc857cdca4cfe83e151fde08e8bac426c19d1fe22bb58045a98",
+      "bytes": 230489
+    }
+  ],
+  "supplement": {
+    "url": "https://arxiv.org/src/2608.01619v1/anc/supplementary.pdf",
+    "sha256": "caa70a18f1f608bc871ff2d4674f2ecd1dd1330ff8fdd2758fa8a60c989148e4",
+    "pages": 16
+  },
+  "repositories": [
+    {
+      "repository": "https://github.com/icedreamc/STALE",
+      "commit": "ea7d391103a151927cd29d2f01d87597a782bdcb",
+      "tags": {
+        "http_status": 200,
+        "count_returned": 0
+      },
+      "releases": {
+        "http_status": 200,
+        "count_returned": 0
+      },
+      "issues": {
+        "http_status": 200,
+        "count_returned": 0
+      }
+    },
+    {
+      "repository": "https://github.com/lxy1134/MEMTX_",
+      "commit": "4e1124ccd5fd384857463020e3497aa73ec93be6",
+      "tags": {
+        "http_status": 200,
+        "count_returned": 0
+      },
+      "releases": {
+        "http_status": 200,
+        "count_returned": 0
+      },
+      "issues": {
+        "http_status": 200,
+        "count_returned": 0
+      }
+    }
+  ],
+  "dataset": {
+    "repository": "https://huggingface.co/datasets/STALEproj/STALE",
+    "commit": "617c51dc200b5ab09970834144c7e51c77959af0",
+    "license": "CC-BY-4.0",
+    "selected_uids": [
+      "7c0ae4e7-6b5a-42a2-891b-0ccf553bfe7f",
+      "34566789-711a-4361-856e-2f758a4f685e",
+      "85b27125-1627-4f27-8a84-3bd07be5189c",
+      "b0d43dd4-98e2-4617-a062-24edcc22a0ee",
+      "35385383-7d6b-415d-9d03-4efec88263da",
+      "cafa590e-d787-4df6-9207-eb9c9e2e90c5",
+      "704cac18-885e-4437-b136-a7600650ba01",
+      "feef3933-9375-4fa2-ba80-ae65963e7466",
+      "af880933-e948-4965-b148-bdc6eeb46dee",
+      "a6c5e096-ce2c-459a-8047-bc2a3ae5526a",
+      "21e80966-ebd5-4e68-a606-bfd945b19f84",
+      "50a64d0c-a3a5-45c1-90ab-80a465ff58e9"
+    ]
+  }
+}

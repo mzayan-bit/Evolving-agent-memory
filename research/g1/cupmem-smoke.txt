@@ -1,0 +1,1 @@
+{"status": "passed", "checks": 3, "action": "INDIRECT_INVALIDATE", "meaning": "direct store transition only; no inferred proposal or LLM evaluation"}
