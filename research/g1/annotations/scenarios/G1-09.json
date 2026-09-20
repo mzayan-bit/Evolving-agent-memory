@@ -1,0 +1,447 @@
+{
+  "scenario_id": "G1-09",
+  "title": "Beach exercise and sensor calibration",
+  "domain": "ambiguous travel/scientific equipment",
+  "source_type": "public benchmark adaptation",
+  "adapted_or_original": "adapted",
+  "source_reference": {
+    "dataset": "STALE",
+    "authors": "Hanxiang Chao, Yihan Bai, Rui Sheng, Tianle Li, Yushi Sun",
+    "uid": "af880933-e948-4965-b148-bdc6eeb46dee",
+    "row_index": 202,
+    "version": "617c51dc200b5ab09970834144c7e51c77959af0",
+    "url": "https://huggingface.co/datasets/STALEproj/STALE/tree/617c51dc200b5ab09970834144c7e51c77959af0",
+    "license": "CC-BY-4.0",
+    "original_type": "T2",
+    "changes": "Adapted old/new observations; added work context, derived records, alternative/scoped evidence, repeated revisions and new draft labels. Source explanation is not inherited as gold. No haystack distractors copied."
+  },
+  "initial_memory": [
+    {
+      "id": "A",
+      "kind": "observation",
+      "text": "I’ve had to calibrate the pressure sensors again this morning because living at 3,800 meters always seems to affect the sensitivity of the readings over time.",
+      "origin": "source-A",
+      "scope": "ambiguous travel/scientific equipment",
+      "valid_interval": "t0 onward until actual supersession/correction; ambiguous t1 evidence does not automatically end validity",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "B",
+      "kind": "independent_or_context_evidence",
+      "text": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+      "origin": "source-B (independence only if explicitly stated)",
+      "scope": "ambiguous travel/scientific equipment",
+      "valid_interval": "from t0 until explicitly revised",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "C",
+      "kind": "derived_memory",
+      "text": "The pressure sensor is now at sea level."
+    },
+    {
+      "id": "D",
+      "kind": "derived_memory",
+      "text": "Keep the sensor’s 3,800-meter calibration until its own location is confirmed."
+    },
+    {
+      "id": "U",
+      "kind": "unaffected_bystander",
+      "text": "The sensor model is P-8."
+    }
+  ],
+  "derived_memories": [
+    "C",
+    "D"
+  ],
+  "support_relationships": [
+    {
+      "target": "C",
+      "support_sets": [],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "unknown_or_unsupported"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    }
+  ],
+  "support_type": [
+    "necessary_relative_to_known_supports",
+    "unknown_or_unsupported",
+    "copied_or_correlated_or_independence_test",
+    "temporal",
+    "scope",
+    "association_bystander",
+    "partial_contributing",
+    "unknown_ambiguous"
+  ],
+  "revision_1": {
+    "revision_id": "r1",
+    "at": "t1",
+    "changed_source": "A",
+    "previous_text": "I’ve had to calibrate the pressure sensors again this morning because living at 3,800 meters always seems to affect the sensitivity of the readings over time.",
+    "new_text": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "unknown",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "Beach runs may be travel; instrument altitude is not supplied.",
+      "source_versions_visible": {
+        "A": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+        "B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient."
+      },
+      "current_support_sets": {
+        "C": null,
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t1, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "I’ve had to calibrate the pressure sensors again this morning because living at 3,800 meters always seems to affect the sensitivity of the readings over time.",
+      "source_B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "unknown",
+        "D": "valid",
+        "U": "valid",
+        "status": "AI draft, no human gold"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t1",
+      "B": "B@t0"
+    }
+  },
+  "revision_2": {
+    "revision_id": "r2",
+    "at": "t2",
+    "changed_source": "A",
+    "previous_text": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+    "new_text": "I was vacationing; the sensor stayed at the mountain station.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "invalid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "Keep station calibration; no sensor relocation occurred.",
+      "source_versions_visible": {
+        "A": "I was vacationing; the sensor stayed at the mountain station.",
+        "B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient."
+      },
+      "current_support_sets": {
+        "C": [],
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t2, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+      "source_B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "unknown",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t2",
+      "B": "B@t0"
+    }
+  },
+  "revision_3_if_any": {
+    "revision_id": "r3",
+    "at": "t3",
+    "changed_source": "A",
+    "previous_text": "I was vacationing; the sensor stayed at the mountain station.",
+    "new_text": "The instrument has now been shipped and installed at the coastal lab at sea level.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "valid",
+      "D": "invalid",
+      "U": "valid",
+      "current_answer": "Update calibration for the explicitly relocated instrument, preserving mountain historical readings.",
+      "source_versions_visible": {
+        "A": "The instrument has now been shipped and installed at the coastal lab at sea level.",
+        "B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient."
+      },
+      "current_support_sets": {
+        "C": [
+          [
+            "A@t3"
+          ]
+        ],
+        "D": []
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t3, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "I was vacationing; the sensor stayed at the mountain station.",
+      "source_B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t3",
+      "B": "B@t0"
+    }
+  },
+  "changed_source": [
+    "A",
+    "A",
+    "A"
+  ],
+  "known_fault_identity": {
+    "main_regime": "changed-source cue visible, not gold affected descendants",
+    "unknown_fault_regime": "hide changed-source identifier but keep new observation; diagnostic costs count",
+    "note": "a supersession is not necessarily a fault"
+  },
+  "gold_current_state": {
+    "status": "AI-authored draft, unadjudicated",
+    "per_revision": [
+      {
+        "C": "unknown",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "Beach runs may be travel; instrument altitude is not supplied.",
+        "source_versions_visible": {
+          "A": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+          "B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient."
+        },
+        "current_support_sets": {
+          "C": null,
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "Keep station calibration; no sensor relocation occurred.",
+        "source_versions_visible": {
+          "A": "I was vacationing; the sensor stayed at the mountain station.",
+          "B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient."
+        },
+        "current_support_sets": {
+          "C": [],
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "valid",
+        "D": "invalid",
+        "U": "valid",
+        "current_answer": "Update calibration for the explicitly relocated instrument, preserving mountain historical readings.",
+        "source_versions_visible": {
+          "A": "The instrument has now been shipped and installed at the coastal lab at sea level.",
+          "B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient."
+        },
+        "current_support_sets": {
+          "C": [
+            [
+              "A@t3"
+            ]
+          ],
+          "D": []
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      }
+    ]
+  },
+  "gold_historical_state": {
+    "per_revision": [
+      {
+        "source_A": "I’ve had to calibrate the pressure sensors again this morning because living at 3,800 meters always seems to affect the sensitivity of the readings over time.",
+        "source_B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "unknown",
+          "D": "valid",
+          "U": "valid",
+          "status": "AI draft, no human gold"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+        "source_B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "unknown",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "I was vacationing; the sensor stayed at the mountain station.",
+        "source_B": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "invalid",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      }
+    ],
+    "permission_note": "present permissions constrain disclosure of historically true facts"
+  },
+  "required_support": [
+    {
+      "target": "C",
+      "support_sets": [],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    }
+  ],
+  "alternative_support": {
+    "C": [],
+    "D": [],
+    "note": "New sufficient supports can emerge during revisions; label their new versions, not only initial edges."
+  },
+  "correlated_support": {
+    "description": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+    "unresolved": "Annotate source independence separately from semantic sufficiency.",
+    "origin_groups_draft": {
+      "A": [
+        "source-A"
+      ],
+      "B": [
+        "source-B; independence only when explicitly stipulated"
+      ],
+      "C": "expand its support set recursively",
+      "D": "expand its support set recursively",
+      "note": "Draft origins below describe initial evidence; new tests/assays/corrections may introduce new origins at later revisions. Human review required."
+    }
+  },
+  "unaffected_bystanders": [
+    "U"
+  ],
+  "missing_edge_candidates": [
+    {
+      "support_source": "B",
+      "target": "D",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    }
+  ],
+  "spurious_edge_candidates": [
+    {
+      "source": "A",
+      "target": "U",
+      "reason": "same scenario/topic does not justify bystander content"
+    }
+  ],
+  "repair_required": {
+    "per_revision": [
+      {
+        "C": true,
+        "D": false
+      },
+      {
+        "C": true,
+        "D": false
+      },
+      {
+        "C": false,
+        "D": true
+      }
+    ],
+    "unknown_action": "reverify or quarantine current reliance; do not label proposition false"
+  },
+  "records_that_should_change": [
+    [
+      "C"
+    ],
+    [
+      "C"
+    ],
+    [
+      "D"
+    ]
+  ],
+  "records_that_should_survive": [
+    [
+      "D",
+      "U"
+    ],
+    [
+      "D",
+      "U"
+    ],
+    [
+      "C",
+      "U"
+    ]
+  ],
+  "ambiguity_notes": "Source T2 gold confuses a person’s activity, residence and instrument location. Unknown current location is an admissible label.",
+  "annotation_confidence": "AI draft only; no calibrated probability; ambiguous when any unknown state or interpretive note requires resolution",
+  "adjudication_notes": "PENDING two independent humans; preserve competing interpretations and revise support sets if necessary.",
+  "annotator_A": "",
+  "annotator_B": "",
+  "probe_schedule": {
+    "after_each_revision": [
+      "current-state query about C/D",
+      "as-of query before revision",
+      "new plan relying on C",
+      "summary rewrite followed by delayed reuse"
+    ],
+    "future_information": "Only sources through the probe time are supplied; all gold and later revisions are evaluator-only."
+  },
+  "scenario_rules": [
+    "Use only the explicit rules and scope qualifications in A/B and revision evidence; do not supply external assumptions.",
+    "A/B are evidence records; C/D are stored propositions and may initially be wrong. U remains unrelated and valid.",
+    "Source IDs denote logical sources, not guaranteed independent origins. Version membership is explicit below."
+  ],
+  "initial_draft_state": {
+    "C": "unknown",
+    "D": "valid",
+    "U": "valid",
+    "status": "AI draft, no human gold"
+  },
+  "source_origin_links_draft": []
+}

@@ -1,0 +1,458 @@
+{
+  "scenario_id": "G1-21",
+  "title": "Versioned acceptance criteria",
+  "domain": "project requirements",
+  "source_type": "original fictional naturalistic scenario",
+  "adapted_or_original": "original",
+  "source_reference": {
+    "creator": "AI-assisted original research draft, no human annotation",
+    "url": null,
+    "license": "Project-authored scenario; no third-party text",
+    "changes": "Original fictional scenario; no empirical incident claimed"
+  },
+  "initial_memory": [
+    {
+      "id": "A",
+      "kind": "observation",
+      "text": "Contract v1 accepts output in JSON format.",
+      "origin": "source-A",
+      "scope": "project requirements",
+      "valid_interval": "t0 onward until actual supersession/correction; ambiguous t1 evidence does not automatically end validity",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "B",
+      "kind": "independent_or_context_evidence",
+      "text": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+      "origin": "source-B (independence only if explicitly stated)",
+      "scope": "project requirements",
+      "valid_interval": "from t0 until explicitly revised",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "C",
+      "kind": "derived_memory",
+      "text": "A new JSON-only delivery satisfies the current contract."
+    },
+    {
+      "id": "D",
+      "kind": "derived_memory",
+      "text": "D0 was validly accepted under v1."
+    },
+    {
+      "id": "U",
+      "kind": "unaffected_bystander",
+      "text": "Project code is Redwood."
+    }
+  ],
+  "derived_memories": [
+    "C",
+    "D"
+  ],
+  "support_relationships": [
+    {
+      "target": "C",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    }
+  ],
+  "support_type": [
+    "necessary_relative_to_known_supports",
+    "temporal",
+    "scope",
+    "association_bystander"
+  ],
+  "revision_1": {
+    "revision_id": "r1",
+    "at": "t1",
+    "changed_source": "A",
+    "previous_text": "Contract v1 accepts output in JSON format.",
+    "new_text": "Contract v2 requires JSON plus a signed checksum for new deliveries.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "invalid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "New JSON-only delivery fails v2; historical D0 acceptance stands.",
+      "source_versions_visible": {
+        "A": "Contract v2 requires JSON plus a signed checksum for new deliveries.",
+        "B": "Archived delivery D0 was accepted under contract v1 before any amendment."
+      },
+      "current_support_sets": {
+        "C": [],
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t1, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Contract v1 accepts output in JSON format.",
+      "source_B": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "status": "AI draft, no human gold"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t1",
+      "B": "B@t0"
+    }
+  },
+  "revision_2": {
+    "revision_id": "r2",
+    "at": "t2",
+    "changed_source": "A",
+    "previous_text": "Contract v2 requires JSON plus a signed checksum for new deliveries.",
+    "new_text": "Contract v3 removes the checksum requirement for new deliveries.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "valid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "JSON-only is current again; v2 interval remains distinct.",
+      "source_versions_visible": {
+        "A": "Contract v3 removes the checksum requirement for new deliveries.",
+        "B": "Archived delivery D0 was accepted under contract v1 before any amendment."
+      },
+      "current_support_sets": {
+        "C": [
+          [
+            "A@t2"
+          ]
+        ],
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t2, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Contract v2 requires JSON plus a signed checksum for new deliveries.",
+      "source_B": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t2",
+      "B": "B@t0"
+    }
+  },
+  "revision_3_if_any": {
+    "revision_id": "r3",
+    "at": "t3",
+    "changed_source": "A",
+    "previous_text": "Contract v3 removes the checksum requirement for new deliveries.",
+    "new_text": "Contract v4 requires a binary package for new deliveries.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "invalid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "New JSON-only fails; never rewrite past acceptance as rejected.",
+      "source_versions_visible": {
+        "A": "Contract v4 requires a binary package for new deliveries.",
+        "B": "Archived delivery D0 was accepted under contract v1 before any amendment."
+      },
+      "current_support_sets": {
+        "C": [],
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t3, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Contract v3 removes the checksum requirement for new deliveries.",
+      "source_B": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t3",
+      "B": "B@t0"
+    }
+  },
+  "changed_source": [
+    "A",
+    "A",
+    "A"
+  ],
+  "known_fault_identity": {
+    "main_regime": "changed-source cue visible, not gold affected descendants",
+    "unknown_fault_regime": "hide changed-source identifier but keep new observation; diagnostic costs count",
+    "note": "a supersession is not necessarily a fault"
+  },
+  "gold_current_state": {
+    "status": "AI-authored draft, unadjudicated",
+    "per_revision": [
+      {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "New JSON-only delivery fails v2; historical D0 acceptance stands.",
+        "source_versions_visible": {
+          "A": "Contract v2 requires JSON plus a signed checksum for new deliveries.",
+          "B": "Archived delivery D0 was accepted under contract v1 before any amendment."
+        },
+        "current_support_sets": {
+          "C": [],
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "JSON-only is current again; v2 interval remains distinct.",
+        "source_versions_visible": {
+          "A": "Contract v3 removes the checksum requirement for new deliveries.",
+          "B": "Archived delivery D0 was accepted under contract v1 before any amendment."
+        },
+        "current_support_sets": {
+          "C": [
+            [
+              "A@t2"
+            ]
+          ],
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "New JSON-only fails; never rewrite past acceptance as rejected.",
+        "source_versions_visible": {
+          "A": "Contract v4 requires a binary package for new deliveries.",
+          "B": "Archived delivery D0 was accepted under contract v1 before any amendment."
+        },
+        "current_support_sets": {
+          "C": [],
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      }
+    ]
+  },
+  "gold_historical_state": {
+    "per_revision": [
+      {
+        "source_A": "Contract v1 accepts output in JSON format.",
+        "source_B": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "valid",
+          "D": "valid",
+          "U": "valid",
+          "status": "AI draft, no human gold"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "Contract v2 requires JSON plus a signed checksum for new deliveries.",
+        "source_B": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "invalid",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "Contract v3 removes the checksum requirement for new deliveries.",
+        "source_B": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "valid",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      }
+    ],
+    "permission_note": "present permissions constrain disclosure of historically true facts"
+  },
+  "required_support": [
+    {
+      "target": "C",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    }
+  ],
+  "alternative_support": {
+    "C": [],
+    "D": [],
+    "note": "New sufficient supports can emerge during revisions; label their new versions, not only initial edges."
+  },
+  "correlated_support": {
+    "description": "No shared origin stipulated beyond explicit text; do not assume independence from distinct IDs.",
+    "unresolved": "Annotate source independence separately from semantic sufficiency.",
+    "origin_groups_draft": {
+      "A": [
+        "source-A"
+      ],
+      "B": [
+        "source-B; independence only when explicitly stipulated"
+      ],
+      "C": "expand its support set recursively",
+      "D": "expand its support set recursively",
+      "note": "Draft origins below describe initial evidence; new tests/assays/corrections may introduce new origins at later revisions. Human review required."
+    }
+  },
+  "unaffected_bystanders": [
+    "U"
+  ],
+  "missing_edge_candidates": [
+    {
+      "support_source": "A",
+      "target": "C",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    },
+    {
+      "support_source": "B",
+      "target": "D",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    }
+  ],
+  "spurious_edge_candidates": [
+    {
+      "source": "A",
+      "target": "U",
+      "reason": "same scenario/topic does not justify bystander content"
+    }
+  ],
+  "repair_required": {
+    "per_revision": [
+      {
+        "C": true,
+        "D": false
+      },
+      {
+        "C": false,
+        "D": false
+      },
+      {
+        "C": true,
+        "D": false
+      }
+    ],
+    "unknown_action": "reverify or quarantine current reliance; do not label proposition false"
+  },
+  "records_that_should_change": [
+    [
+      "C"
+    ],
+    [],
+    [
+      "C"
+    ]
+  ],
+  "records_that_should_survive": [
+    [
+      "D",
+      "U"
+    ],
+    [
+      "C",
+      "D",
+      "U"
+    ],
+    [
+      "D",
+      "U"
+    ]
+  ],
+  "ambiguity_notes": "Revisions are prospective; signed amendments explicitly do not retroactively revoke accepted deliveries.",
+  "annotation_confidence": "AI draft only; no calibrated probability; ambiguous when any unknown state or interpretive note requires resolution",
+  "adjudication_notes": "PENDING two independent humans; preserve competing interpretations and revise support sets if necessary.",
+  "annotator_A": "",
+  "annotator_B": "",
+  "probe_schedule": {
+    "after_each_revision": [
+      "current-state query about C/D",
+      "as-of query before revision",
+      "new plan relying on C",
+      "summary rewrite followed by delayed reuse"
+    ],
+    "future_information": "Only sources through the probe time are supplied; all gold and later revisions are evaluator-only."
+  },
+  "scenario_rules": [
+    "Use only the explicit rules and scope qualifications in A/B and revision evidence; do not supply external assumptions.",
+    "A/B are evidence records; C/D are stored propositions and may initially be wrong. U remains unrelated and valid.",
+    "Source IDs denote logical sources, not guaranteed independent origins. Version membership is explicit below."
+  ],
+  "initial_draft_state": {
+    "C": "valid",
+    "D": "valid",
+    "U": "valid",
+    "status": "AI draft, no human gold"
+  },
+  "source_origin_links_draft": []
+}

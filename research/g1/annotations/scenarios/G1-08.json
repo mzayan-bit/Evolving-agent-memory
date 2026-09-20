@@ -1,0 +1,454 @@
+{
+  "scenario_id": "G1-08",
+  "title": "Desert garden versus household climate",
+  "domain": "ambiguous ecosystem",
+  "source_type": "public benchmark adaptation",
+  "adapted_or_original": "adapted",
+  "source_reference": {
+    "dataset": "STALE",
+    "authors": "Hanxiang Chao, Yihan Bai, Rui Sheng, Tianle Li, Yushi Sun",
+    "uid": "feef3933-9375-4fa2-ba80-ae65963e7466",
+    "row_index": 201,
+    "version": "617c51dc200b5ab09970834144c7e51c77959af0",
+    "url": "https://huggingface.co/datasets/STALEproj/STALE/tree/617c51dc200b5ab09970834144c7e51c77959af0",
+    "license": "CC-BY-4.0",
+    "original_type": "T2",
+    "changes": "Adapted old/new observations; added work context, derived records, alternative/scoped evidence, repeated revisions and new draft labels. Source explanation is not inherited as gold. No haystack distractors copied."
+  },
+  "initial_memory": [
+    {
+      "id": "A",
+      "kind": "observation",
+      "text": "I really need to finish insulating the window seals this weekend because the coastal dampness settles into this room as soon as the late October frost hits.",
+      "origin": "source-A",
+      "scope": "ambiguous ecosystem",
+      "valid_interval": "t0 onward until actual supersession/correction; ambiguous t1 evidence does not automatically end validity",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "B",
+      "kind": "independent_or_context_evidence",
+      "text": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+      "origin": "source-B (independence only if explicitly stated)",
+      "scope": "ambiguous ecosystem",
+      "valid_interval": "from t0 until explicitly revised",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "C",
+      "kind": "derived_memory",
+      "text": "The resident’s current room no longer has the previously reported coastal dampness problem."
+    },
+    {
+      "id": "D",
+      "kind": "derived_memory",
+      "text": "Facilities humidity logs remain a valid evidence source."
+    },
+    {
+      "id": "U",
+      "kind": "unaffected_bystander",
+      "text": "The window frame ID is W-6."
+    }
+  ],
+  "derived_memories": [
+    "C",
+    "D"
+  ],
+  "support_relationships": [
+    {
+      "target": "C",
+      "support_sets": [],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "unknown_or_unsupported"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    }
+  ],
+  "support_type": [
+    "necessary_relative_to_known_supports",
+    "unknown_or_unsupported",
+    "copied_or_correlated_or_independence_test",
+    "temporal",
+    "scope",
+    "association_bystander",
+    "partial_contributing",
+    "unknown_ambiguous"
+  ],
+  "revision_1": {
+    "revision_id": "r1",
+    "at": "t1",
+    "changed_source": "A",
+    "previous_text": "I really need to finish insulating the window seals this weekend because the coastal dampness settles into this room as soon as the late October frost hits.",
+    "new_text": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "unknown",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "Gardening details alone do not establish that the coastal room or its humidity changed.",
+      "source_versions_visible": {
+        "A": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+        "B": "Facilities log independently records this room’s humidity; it is not a copied user report."
+      },
+      "current_support_sets": {
+        "C": null,
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t1, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "I really need to finish insulating the window seals this weekend because the coastal dampness settles into this room as soon as the late October frost hits.",
+      "source_B": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "unknown",
+        "D": "valid",
+        "U": "valid",
+        "status": "AI draft, no human gold"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t1",
+      "B": "B@t0"
+    }
+  },
+  "revision_2": {
+    "revision_id": "r2",
+    "at": "t2",
+    "changed_source": "A",
+    "previous_text": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+    "new_text": "The agave garden was at a relative’s inland house; my coastal room is still damp.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "invalid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "Do not withdraw room-maintenance work from the garden anecdote.",
+      "source_versions_visible": {
+        "A": "The agave garden was at a relative’s inland house; my coastal room is still damp.",
+        "B": "Facilities log independently records this room’s humidity; it is not a copied user report."
+      },
+      "current_support_sets": {
+        "C": [],
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t2, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+      "source_B": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "unknown",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t2",
+      "B": "B@t0"
+    }
+  },
+  "revision_3_if_any": {
+    "revision_id": "r3",
+    "at": "t3",
+    "changed_source": "A",
+    "previous_text": "The agave garden was at a relative’s inland house; my coastal room is still damp.",
+    "new_text": "I have moved to the inland house and no longer occupy the coastal room; a room inspection confirms the new room has no dampness problem.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "valid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "The claim is valid only interpreted as this resident’s current room; retain past damp-room history.",
+      "source_versions_visible": {
+        "A": "I have moved to the inland house and no longer occupy the coastal room; a room inspection confirms the new room has no dampness problem.",
+        "B": "Facilities log independently records this room’s humidity; it is not a copied user report."
+      },
+      "current_support_sets": {
+        "C": [
+          [
+            "A@t3"
+          ]
+        ],
+        "D": [
+          [
+            "B@t0"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t3, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "The agave garden was at a relative’s inland house; my coastal room is still damp.",
+      "source_B": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t3",
+      "B": "B@t0"
+    }
+  },
+  "changed_source": [
+    "A",
+    "A",
+    "A"
+  ],
+  "known_fault_identity": {
+    "main_regime": "changed-source cue visible, not gold affected descendants",
+    "unknown_fault_regime": "hide changed-source identifier but keep new observation; diagnostic costs count",
+    "note": "a supersession is not necessarily a fault"
+  },
+  "gold_current_state": {
+    "status": "AI-authored draft, unadjudicated",
+    "per_revision": [
+      {
+        "C": "unknown",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "Gardening details alone do not establish that the coastal room or its humidity changed.",
+        "source_versions_visible": {
+          "A": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+          "B": "Facilities log independently records this room’s humidity; it is not a copied user report."
+        },
+        "current_support_sets": {
+          "C": null,
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "invalid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "Do not withdraw room-maintenance work from the garden anecdote.",
+        "source_versions_visible": {
+          "A": "The agave garden was at a relative’s inland house; my coastal room is still damp.",
+          "B": "Facilities log independently records this room’s humidity; it is not a copied user report."
+        },
+        "current_support_sets": {
+          "C": [],
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "The claim is valid only interpreted as this resident’s current room; retain past damp-room history.",
+        "source_versions_visible": {
+          "A": "I have moved to the inland house and no longer occupy the coastal room; a room inspection confirms the new room has no dampness problem.",
+          "B": "Facilities log independently records this room’s humidity; it is not a copied user report."
+        },
+        "current_support_sets": {
+          "C": [
+            [
+              "A@t3"
+            ]
+          ],
+          "D": [
+            [
+              "B@t0"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      }
+    ]
+  },
+  "gold_historical_state": {
+    "per_revision": [
+      {
+        "source_A": "I really need to finish insulating the window seals this weekend because the coastal dampness settles into this room as soon as the late October frost hits.",
+        "source_B": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "unknown",
+          "D": "valid",
+          "U": "valid",
+          "status": "AI draft, no human gold"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+        "source_B": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "unknown",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "The agave garden was at a relative’s inland house; my coastal room is still damp.",
+        "source_B": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "invalid",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      }
+    ],
+    "permission_note": "present permissions constrain disclosure of historically true facts"
+  },
+  "required_support": [
+    {
+      "target": "C",
+      "support_sets": [],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    }
+  ],
+  "alternative_support": {
+    "C": [],
+    "D": [],
+    "note": "New sufficient supports can emerge during revisions; label their new versions, not only initial edges."
+  },
+  "correlated_support": {
+    "description": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+    "unresolved": "Annotate source independence separately from semantic sufficiency.",
+    "origin_groups_draft": {
+      "A": [
+        "source-A"
+      ],
+      "B": [
+        "source-B; independence only when explicitly stipulated"
+      ],
+      "C": "expand its support set recursively",
+      "D": "expand its support set recursively",
+      "note": "Draft origins below describe initial evidence; new tests/assays/corrections may introduce new origins at later revisions. Human review required."
+    }
+  },
+  "unaffected_bystanders": [
+    "U"
+  ],
+  "missing_edge_candidates": [
+    {
+      "support_source": "B",
+      "target": "D",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    }
+  ],
+  "spurious_edge_candidates": [
+    {
+      "source": "A",
+      "target": "U",
+      "reason": "same scenario/topic does not justify bystander content"
+    }
+  ],
+  "repair_required": {
+    "per_revision": [
+      {
+        "C": true,
+        "D": false
+      },
+      {
+        "C": true,
+        "D": false
+      },
+      {
+        "C": false,
+        "D": false
+      }
+    ],
+    "unknown_action": "reverify or quarantine current reliance; do not label proposition false"
+  },
+  "records_that_should_change": [
+    [
+      "C"
+    ],
+    [
+      "C"
+    ],
+    []
+  ],
+  "records_that_should_survive": [
+    [
+      "D",
+      "U"
+    ],
+    [
+      "D",
+      "U"
+    ],
+    [
+      "C",
+      "D",
+      "U"
+    ]
+  ],
+  "ambiguity_notes": "C conflates room identity and climate. Human adjudication must decide whether to split C into occupancy and humidity; cannot infer measured humidity from plants.",
+  "annotation_confidence": "AI draft only; no calibrated probability; ambiguous when any unknown state or interpretive note requires resolution",
+  "adjudication_notes": "PENDING two independent humans; preserve competing interpretations and revise support sets if necessary.",
+  "annotator_A": "",
+  "annotator_B": "",
+  "probe_schedule": {
+    "after_each_revision": [
+      "current-state query about C/D",
+      "as-of query before revision",
+      "new plan relying on C",
+      "summary rewrite followed by delayed reuse"
+    ],
+    "future_information": "Only sources through the probe time are supplied; all gold and later revisions are evaluator-only."
+  },
+  "scenario_rules": [
+    "Use only the explicit rules and scope qualifications in A/B and revision evidence; do not supply external assumptions.",
+    "A/B are evidence records; C/D are stored propositions and may initially be wrong. U remains unrelated and valid.",
+    "Source IDs denote logical sources, not guaranteed independent origins. Version membership is explicit below."
+  ],
+  "initial_draft_state": {
+    "C": "unknown",
+    "D": "valid",
+    "U": "valid",
+    "status": "AI draft, no human gold"
+  },
+  "source_origin_links_draft": []
+}

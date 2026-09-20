@@ -1,0 +1,452 @@
+{
+  "scenario_id": "G1-26",
+  "title": "Threshold and independent exception",
+  "domain": "organizational policy",
+  "source_type": "original fictional naturalistic scenario",
+  "adapted_or_original": "original",
+  "source_reference": {
+    "creator": "AI-assisted original research draft, no human annotation",
+    "url": null,
+    "license": "Project-authored scenario; no third-party text",
+    "changes": "Original fictional scenario; no empirical incident claimed"
+  },
+  "initial_memory": [
+    {
+      "id": "A",
+      "kind": "observation",
+      "text": "Internal fictional policy permits automated purchases up to 100 units.",
+      "origin": "source-A",
+      "scope": "organizational policy",
+      "valid_interval": "t0 onward until actual supersession/correction; ambiguous t1 evidence does not automatically end validity",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "B",
+      "kind": "independent_or_context_evidence",
+      "text": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+      "origin": "source-B (independence only if explicitly stated)",
+      "scope": "organizational policy",
+      "valid_interval": "from t0 until explicitly revised",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "C",
+      "kind": "derived_memory",
+      "text": "Request Q for 150 units is authorized."
+    },
+    {
+      "id": "D",
+      "kind": "derived_memory",
+      "text": "An unrelated routine request for 80 units is authorized."
+    },
+    {
+      "id": "U",
+      "kind": "unaffected_bystander",
+      "text": "The accounting period label is P3."
+    }
+  ],
+  "derived_memories": [
+    "C",
+    "D"
+  ],
+  "support_relationships": [
+    {
+      "target": "C",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    }
+  ],
+  "support_type": [
+    "necessary_relative_to_known_supports",
+    "copied_or_correlated_or_independence_test",
+    "temporal",
+    "scope",
+    "association_bystander",
+    "policy_authorization"
+  ],
+  "revision_1": {
+    "revision_id": "r1",
+    "at": "t1",
+    "changed_source": "A",
+    "previous_text": "Internal fictional policy permits automated purchases up to 100 units.",
+    "new_text": "Routine automated limit drops to 50 units; exception Q remains in force.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "valid",
+      "D": "invalid",
+      "U": "valid",
+      "current_answer": "Keep Q authorization; block routine 80-unit request.",
+      "source_versions_visible": {
+        "A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+        "B": "A separately signed exception permits request Q for 150 units regardless of the routine limit."
+      },
+      "current_support_sets": {
+        "C": [
+          [
+            "B@t0"
+          ]
+        ],
+        "D": []
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t1, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Internal fictional policy permits automated purchases up to 100 units.",
+      "source_B": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "status": "AI draft, no human gold"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t1",
+      "B": "B@t0"
+    }
+  },
+  "revision_2": {
+    "revision_id": "r2",
+    "at": "t2",
+    "changed_source": "B",
+    "previous_text": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+    "new_text": "Exception Q is revoked.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "invalid",
+      "D": "invalid",
+      "U": "valid",
+      "current_answer": "Neither request is now authorized.",
+      "source_versions_visible": {
+        "A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+        "B": "Exception Q is revoked."
+      },
+      "current_support_sets": {
+        "C": [],
+        "D": []
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t2, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+      "source_B": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "valid",
+        "D": "invalid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t1",
+      "B": "B@t2"
+    }
+  },
+  "revision_3_if_any": {
+    "revision_id": "r3",
+    "at": "t3",
+    "changed_source": "A",
+    "previous_text": "Routine automated limit drops to 50 units; exception Q remains in force.",
+    "new_text": "Routine limit rises to 200 units.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "valid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "Both requests now qualify under the new routine rule; update Q provenance away from revoked exception.",
+      "source_versions_visible": {
+        "A": "Routine limit rises to 200 units.",
+        "B": "Exception Q is revoked."
+      },
+      "current_support_sets": {
+        "C": [
+          [
+            "A@t3"
+          ]
+        ],
+        "D": [
+          [
+            "A@t3"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t3, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+      "source_B": "Exception Q is revoked.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "invalid",
+        "D": "invalid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t3",
+      "B": "B@t2"
+    }
+  },
+  "changed_source": [
+    "A",
+    "B",
+    "A"
+  ],
+  "known_fault_identity": {
+    "main_regime": "changed-source cue visible, not gold affected descendants",
+    "unknown_fault_regime": "hide changed-source identifier but keep new observation; diagnostic costs count",
+    "note": "a supersession is not necessarily a fault"
+  },
+  "gold_current_state": {
+    "status": "AI-authored draft, unadjudicated",
+    "per_revision": [
+      {
+        "C": "valid",
+        "D": "invalid",
+        "U": "valid",
+        "current_answer": "Keep Q authorization; block routine 80-unit request.",
+        "source_versions_visible": {
+          "A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+          "B": "A separately signed exception permits request Q for 150 units regardless of the routine limit."
+        },
+        "current_support_sets": {
+          "C": [
+            [
+              "B@t0"
+            ]
+          ],
+          "D": []
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "invalid",
+        "D": "invalid",
+        "U": "valid",
+        "current_answer": "Neither request is now authorized.",
+        "source_versions_visible": {
+          "A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+          "B": "Exception Q is revoked."
+        },
+        "current_support_sets": {
+          "C": [],
+          "D": []
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "Both requests now qualify under the new routine rule; update Q provenance away from revoked exception.",
+        "source_versions_visible": {
+          "A": "Routine limit rises to 200 units.",
+          "B": "Exception Q is revoked."
+        },
+        "current_support_sets": {
+          "C": [
+            [
+              "A@t3"
+            ]
+          ],
+          "D": [
+            [
+              "A@t3"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      }
+    ]
+  },
+  "gold_historical_state": {
+    "per_revision": [
+      {
+        "source_A": "Internal fictional policy permits automated purchases up to 100 units.",
+        "source_B": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "valid",
+          "D": "valid",
+          "U": "valid",
+          "status": "AI draft, no human gold"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+        "source_B": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "valid",
+          "D": "invalid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "Routine automated limit drops to 50 units; exception Q remains in force.",
+        "source_B": "Exception Q is revoked.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "invalid",
+          "D": "invalid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      }
+    ],
+    "permission_note": "present permissions constrain disclosure of historically true facts"
+  },
+  "required_support": [
+    {
+      "target": "C",
+      "support_sets": [
+        [
+          "B"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    }
+  ],
+  "alternative_support": {
+    "C": [],
+    "D": [],
+    "note": "New sufficient supports can emerge during revisions; label their new versions, not only initial edges."
+  },
+  "correlated_support": {
+    "description": "No shared origin stipulated beyond explicit text; do not assume independence from distinct IDs.",
+    "unresolved": "Annotate source independence separately from semantic sufficiency.",
+    "origin_groups_draft": {
+      "A": [
+        "source-A"
+      ],
+      "B": [
+        "source-B; independence only when explicitly stipulated"
+      ],
+      "C": "expand its support set recursively",
+      "D": "expand its support set recursively",
+      "note": "Draft origins below describe initial evidence; new tests/assays/corrections may introduce new origins at later revisions. Human review required."
+    }
+  },
+  "unaffected_bystanders": [
+    "U"
+  ],
+  "missing_edge_candidates": [
+    {
+      "support_source": "B",
+      "target": "C",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    },
+    {
+      "support_source": "A",
+      "target": "D",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    }
+  ],
+  "spurious_edge_candidates": [
+    {
+      "source": "A",
+      "target": "U",
+      "reason": "same scenario/topic does not justify bystander content"
+    }
+  ],
+  "repair_required": {
+    "per_revision": [
+      {
+        "C": false,
+        "D": true
+      },
+      {
+        "C": true,
+        "D": true
+      },
+      {
+        "C": false,
+        "D": false
+      }
+    ],
+    "unknown_action": "reverify or quarantine current reliance; do not label proposition false"
+  },
+  "records_that_should_change": [
+    [
+      "D"
+    ],
+    [
+      "C",
+      "D"
+    ],
+    []
+  ],
+  "records_that_should_survive": [
+    [
+      "C",
+      "U"
+    ],
+    [
+      "U"
+    ],
+    [
+      "C",
+      "D",
+      "U"
+    ]
+  ],
+  "ambiguity_notes": "C gains a new sufficient justification at revision 3; support structure itself evolves. This is not real financial advice.",
+  "annotation_confidence": "AI draft only; no calibrated probability; ambiguous when any unknown state or interpretive note requires resolution",
+  "adjudication_notes": "PENDING two independent humans; preserve competing interpretations and revise support sets if necessary.",
+  "annotator_A": "",
+  "annotator_B": "",
+  "probe_schedule": {
+    "after_each_revision": [
+      "current-state query about C/D",
+      "as-of query before revision",
+      "new plan relying on C",
+      "summary rewrite followed by delayed reuse"
+    ],
+    "future_information": "Only sources through the probe time are supplied; all gold and later revisions are evaluator-only."
+  },
+  "scenario_rules": [
+    "Use only the explicit rules and scope qualifications in A/B and revision evidence; do not supply external assumptions.",
+    "A/B are evidence records; C/D are stored propositions and may initially be wrong. U remains unrelated and valid.",
+    "Source IDs denote logical sources, not guaranteed independent origins. Version membership is explicit below."
+  ],
+  "initial_draft_state": {
+    "C": "valid",
+    "D": "valid",
+    "U": "valid",
+    "status": "AI draft, no human gold"
+  },
+  "source_origin_links_draft": []
+}
