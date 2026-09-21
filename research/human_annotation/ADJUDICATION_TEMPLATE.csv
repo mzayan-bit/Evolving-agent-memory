@@ -1,0 +1,1 @@
+case_id,checkpoint,unit_type,unit_id,annotator_A_raw,annotator_B_raw,disagreement_category,adjudicated_label,adjudication_rationale,adjudicator_id,adjudicated_at,protocol_version,source_A_sha256,source_B_sha256,resolution_status

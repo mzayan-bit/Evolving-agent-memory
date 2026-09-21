@@ -1,0 +1,1653 @@
+[
+  {
+    "source_case": "G1-29",
+    "case_id": "HF7A0C8D7",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A review article copies the report; raw data are not independently reproduced.",
+        "proposed": "The review article reproduces the study’s result and reports no additional assay of the raw material.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-09",
+    "case_id": "H9F63D390",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Instrument manual says altitude calibration must change only after the instrument itself relocates; user travel is insufficient.",
+        "proposed": "Instrument manual: altitude calibration changes require confirmation that the instrument has relocated.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-17",
+    "case_id": "H2687742B",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A signed delegation independently authorizes Nora to approve routine releases through all initial dates.",
+        "proposed": "A signed delegation names Nora as an approver for routine releases.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-22",
+    "case_id": "HB1A90BC2",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Staging API contract independently still permits unpaginated export.",
+        "proposed": "The staging API contract permits an unpaginated export.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-18",
+    "case_id": "H1C6F4DEE",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.A",
+        "original": "Dataset record correctly gives the machine temperature as 20 degrees at t0.",
+        "proposed": "The dataset record gives the machine temperature as 20 degrees at t0.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "initial_memory.B",
+        "original": "Consent permits using this record in external reports.",
+        "proposed": "The consent record permits use of the temperature record in external reports.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-24",
+    "case_id": "H675A3BB7",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Supplier B independently meets S for the same interchangeable component class; policy permits either supplier.",
+        "proposed": "Supplier B has a certificate meeting S for the interchangeable component class. The procurement policy permits purchases from either supplier.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-14",
+    "case_id": "H5BD271CC",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.A",
+        "original": "Lab A independently certifies service throughput above 500 requests/s on hardware H.",
+        "proposed": "Lab A reports throughput above 500 requests/s on hardware H.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "initial_memory.B",
+        "original": "Lab B independently certifies the same threshold on H using separate load generation and measurement.",
+        "proposed": "Lab B reports throughput above 500 requests/s on H. Lab B used its own load generator and measurement equipment.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "revision_3",
+        "original": "Lab A publishes a corrected independent run exceeding 500 on H.",
+        "proposed": "Lab A publishes a corrected run exceeding 500 requests/s on H.",
+        "reason": "Remove explanatory labels/advice while retaining observed update."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-01",
+    "case_id": "H3E67E402",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Employer logistics separately authorizes the Seattle lab to receive this employee’s equipment regardless of home address.",
+        "proposed": "Employer logistics record: the Seattle lab is an authorized destination for this employee’s equipment, including when the employee lives elsewhere.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "scenario_rules",
+        "original": "By this fictional logistics policy, the current home city is an authorized equipment destination; an explicit employer destination authorization is an independent alternative.",
+        "proposed": "Logistics policy: equipment may be delivered to the employee’s home city or a destination authorized by employer logistics.",
+        "reason": "Keep operative policy/context, remove intended relationship and repair instruction."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-04",
+    "case_id": "H78482A9E",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+        "proposed": "Employer record: primary base Seattle; temporary work abroad is permitted.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "scenario_rules",
+        "original": "An explicit current primary base determines the default proposed meeting city; ambiguous travel evidence requires clarification.",
+        "proposed": "Scheduling policy: the recorded primary base is used as the default city for proposing a local meeting.",
+        "reason": "Keep operative policy/context, remove intended relationship and repair instruction."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-10",
+    "case_id": "HCAE50175",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Procurement policy gives contractor portal access only while the contractor agreement is active; payroll enrollment is not itself a cancellation notice.",
+        "proposed": "Procurement policy: contractor-portal access lasts while the contractor agreement is active.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-20",
+    "case_id": "H2BC73BDA",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": true,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "CONTENT BLOCK: no initial passing measurement values supplied. Production acceptance cannot be established merely from calibration; preserve this omission.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Two labs’ measurements both depend on K; production acceptance requires valid K and a passing measurement.",
+        "proposed": "The two laboratories applied calibration certificate K to their measurements. The acceptance procedure requires a valid calibration certificate and a passing measurement.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-25",
+    "case_id": "H5F724AF8",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Display-zone versus event-instant distinction no longer supplied as an explanatory conclusion; annotator may state interpretation."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "User display preference is UTC; display-zone preference does not alter the meeting instant.",
+        "proposed": "The user’s display-zone preference is UTC.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-16",
+    "case_id": "H09D1A458",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Production configuration independently enables CSV export.",
+        "proposed": "The production configuration has CSV export enabled.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-05",
+    "case_id": "H42284EF3",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "The user says a live conversation is acceptable only when stationary AND explicitly available; a fixed scheduled job can run regardless.",
+        "proposed": "User instructions: arrange live calls when I am stationary and have said I am available. The scheduled background export may run while I am travelling.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-15",
+    "case_id": "H68D20F9C",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Two dashboards D1 and D2 copied the canonical report; neither ran a test.",
+        "proposed": "Dashboards D1 and D2 reproduce the canonical test report. Their publishers report no additional test runs.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "revision_3",
+        "original": "A real independent test now certifies the release.",
+        "proposed": "A new test report certifies the release.",
+        "reason": "Remove explanatory labels/advice while retaining observed update."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-21",
+    "case_id": "H59BA169F",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Archived delivery D0 was accepted under contract v1 before any amendment.",
+        "proposed": "The archive records delivery D0 as accepted under contract v1 before the amendments.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-26",
+    "case_id": "HA19C502F",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A separately signed exception permits request Q for 150 units regardless of the routine limit.",
+        "proposed": "A signed exception authorizes request Q for 150 units regardless of the routine purchase limit.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-19",
+    "case_id": "H6E0366AF",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A second article cites the same experiment without collecting data.",
+        "proposed": "A second article cites the exploratory experiment. Its methods section reports no new data collection.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-11",
+    "case_id": "HAC76D0FA",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "The person previously consented to receive choir scheduling messages and has not revoked that consent.",
+        "proposed": "The person opted in to choir scheduling messages. The communication record contains no subsequent cancellation at this time.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "revision_2",
+        "original": "I still want choir messages; do not infer my membership preferences from the app.",
+        "proposed": "I still want to receive the choir scheduling messages.",
+        "reason": "Remove explanatory labels/advice while retaining observed update."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-27",
+    "case_id": "H414B9F98",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A cached summary copied A and still says 4; it has no independent authority.",
+        "proposed": "The cached summary reports worker count 4 and identifies the canonical configuration as its source.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "revision_2",
+        "original": "A new summary of the stale cache repeats worker count 4.",
+        "proposed": "A new summary cites the existing cache and reports worker count 4.",
+        "reason": "Remove explanatory labels/advice while retaining observed update."
+      },
+      {
+        "path": "revision_3",
+        "original": "Canonical configuration intentionally returns worker count to 4.",
+        "proposed": "The canonical configuration now sets worker count to 4.",
+        "reason": "Remove explanatory labels/advice while retaining observed update."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-12",
+    "case_id": "H7239E486",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A standing Sunday daytime lunch with friends remains scheduled; evening availability is a separate constraint.",
+        "proposed": "A Sunday daytime lunch with friends is scheduled each week.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-13",
+    "case_id": "HE5E84842",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": true,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "CONTENT BLOCK: initial evidence does not state that compatibility and security are jointly required for deployment. Do not invent this policy; action/support may remain unknown."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Security approval for SDK 2 is active.",
+        "proposed": "The SDK 2 security approval record is active.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "revision_2",
+        "original": "A new independent compatibility run certifies the patched SDK 2 on R1.",
+        "proposed": "A new compatibility run certifies the patched SDK 2 on R1.",
+        "reason": "Remove explanatory labels/advice while retaining observed update."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-06",
+    "case_id": "H18D5C97F",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Removed living-above-office reference from t0: that event is disclosed only at t1."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A monthly client visit still requires the regional shuttle; living above the office changes only the office commute.",
+        "proposed": "The monthly client-visit booking includes a regional-shuttle journey.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "scenario_rules",
+        "original": "The hub in the initial observation is the daily office destination. The monthly client journey has a separate booking.",
+        "proposed": "In the initial message, “the hub” refers to the daily office destination.",
+        "reason": "Keep operative policy/context, remove intended relationship and repair instruction."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-23",
+    "case_id": "H47153EFF",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "S has the report-download grant for resource R.",
+        "proposed": "The permissions record grants service account S report-download access to R.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-30",
+    "case_id": "HE93F0825",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "An undated informal note says 60 seats; it has no authority to override the register.",
+        "proposed": "An undated informal note gives 60 seats. The building policy designates the signed capacity register as the authority for occupancy limits.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-03",
+    "case_id": "HAABBE4F0",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "The project kickoff booking explicitly fixes Chicago as its venue even if the organizer moves.",
+        "proposed": "The signed project kickoff booking names Chicago as the venue.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "scenario_rules",
+        "original": "Default home-location records follow explicit permanent-residence statements; booked event location follows the signed venue contract.",
+        "proposed": "Administrative policy: home-location records use permanent residence; event bookings use the signed venue contract.",
+        "reason": "Keep operative policy/context, remove intended relationship and repair instruction."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-07",
+    "case_id": "HC1C8B968",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "A verified mailing certificate lists Portland; it is valid until explicitly changed.",
+        "proposed": "The current mailing certificate specifies Portland for the monthly parcel.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-02",
+    "case_id": "HD6B6C259",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Removed “through all three revisions”: explicit future leakage."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Membership office confirms the Seattle access pass works nationally and remains active through all three revisions.",
+        "proposed": "Membership record: the employee holds an active national access pass, including access to the Seattle gym.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      },
+      {
+        "path": "scenario_rules",
+        "original": "For this case the default home branch is the current permanent home city; national access is independent.",
+        "proposed": "Membership policy: the default home branch is assigned using the current permanent home city.",
+        "reason": "Keep operative policy/context, remove intended relationship and repair instruction."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-08",
+    "case_id": "H74C05F68",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth.",
+      "Source acquisition/copy facts remain visible because they are substantive evidence. Independence labels removed where possible; full source-relationship blindness would destroy the task."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Facilities log independently records this room’s humidity; it is not a copied user report.",
+        "proposed": "Facilities log: humidity observations for this room were collected by facilities staff rather than transcribed from the resident’s account.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  },
+  {
+    "source_case": "G1-28",
+    "case_id": "H7127E8DD",
+    "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+    "content_block": false,
+    "risks": [
+      "Original narrative contains source-sufficiency/independence or scope cues; replacements are proposals, not validated paraphrases.",
+      "Candidate claims remain verbatim, including any strong wording: they are objects to judge, not answers.",
+      "The designated bystander lacks a separate evidential record; its unchanged presence cannot establish factual truth."
+    ],
+    "changes": [
+      {
+        "path": "initial_memory.B",
+        "original": "Release policy requires an actual passing nested-array test before promising support.",
+        "proposed": "Release policy: an external nested-array support promise requires a passing test on the release build.",
+        "reason": "Replace author interpretation/priming with observable record wording; preserve substantive scope, rule and provenance where supplied."
+      }
+    ],
+    "removed_fields": [
+      "scenario_id",
+      "title",
+      "domain",
+      "source_type",
+      "adapted_or_original",
+      "source_reference",
+      "derived_memories",
+      "support_relationships",
+      "support_type",
+      "changed_source",
+      "known_fault_identity",
+      "gold_current_state",
+      "gold_historical_state",
+      "required_support",
+      "alternative_support",
+      "correlated_support",
+      "unaffected_bystanders",
+      "missing_edge_candidates",
+      "spurious_edge_candidates",
+      "repair_required",
+      "records_that_should_change",
+      "records_that_should_survive",
+      "ambiguity_notes",
+      "annotation_confidence",
+      "adjudication_notes",
+      "annotator_A",
+      "annotator_B",
+      "probe_schedule",
+      "scenario_rules",
+      "initial_draft_state",
+      "source_origin_links_draft"
+    ]
+  }
+]

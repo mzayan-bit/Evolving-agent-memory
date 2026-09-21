@@ -1,0 +1,456 @@
+{
+  "seed": 20260921,
+  "ordering": "Python Random.shuffle; frozen mapping is authoritative",
+  "mapping": [
+    {
+      "case_id": "HF7A0C8D7",
+      "source_case": "G1-29",
+      "order": 1,
+      "source_sha256": "cfd9b5efacbf69cb578ae5ca5002c1f406ec2223025cbf8b820a9757dc2dc35d",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H9F63D390",
+      "source_case": "G1-09",
+      "order": 2,
+      "source_sha256": "ff2ad3d5679c53397e7ca99b5b310b96326045b93f80095a93bbd2f4ac7a9cc7",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "C": "B2",
+        "U": "B3"
+      }
+    },
+    {
+      "case_id": "H2687742B",
+      "source_case": "G1-17",
+      "order": 3,
+      "source_sha256": "fad84eef0185e95e6e643d10d9ef61a5daf07a2ca8743cdc561517b13d0a63ac",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "C": "B1",
+        "U": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "HB1A90BC2",
+      "source_case": "G1-22",
+      "order": 4,
+      "source_sha256": "f45e57cd783ce68934550500ff99b208a80c0f6508577187cbe49645c55b26c4",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "H1C6F4DEE",
+      "source_case": "G1-18",
+      "order": 5,
+      "source_sha256": "7542b790be56274b2552ab198afcb88f863894058252ec5d3b952035566dae8a",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H675A3BB7",
+      "source_case": "G1-24",
+      "order": 6,
+      "source_sha256": "6f90561cec1bac2dcb8abef36e76a444ce714ecfac7581077cfdaecc4796870e",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H5BD271CC",
+      "source_case": "G1-14",
+      "order": 7,
+      "source_sha256": "458dbc0309b503ed09484df371fc57f2dd14fd092608a5695aaff5afa4fbd390",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "C": "B2",
+        "U": "B3"
+      }
+    },
+    {
+      "case_id": "H3E67E402",
+      "source_case": "G1-01",
+      "order": 8,
+      "source_sha256": "bd4a3f1d56de9d64c59618e92ab3ef8c48787ec1bc3aa18d0c2ce594aca0adb0",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "C": "B2",
+        "U": "B3"
+      }
+    },
+    {
+      "case_id": "H78482A9E",
+      "source_case": "G1-04",
+      "order": 9,
+      "source_sha256": "6b7ebe87a561b66003bfb2e0bbb25c0fed973b5568d293f19ffc16de08b5dd39",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "HCAE50175",
+      "source_case": "G1-10",
+      "order": 10,
+      "source_sha256": "7302e6fbe1b5cd0bca0914ba6c76c92819ac9cf4edcd88052069bbd848d165a7",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "C": "B1",
+        "U": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H2BC73BDA",
+      "source_case": "G1-20",
+      "order": 11,
+      "source_sha256": "b5ca096c741c8e460f358b382bb3640b9632517f18a7873706737a6377d9e70d",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "D": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "H5F724AF8",
+      "source_case": "G1-25",
+      "order": 12,
+      "source_sha256": "c17e527c4315acd33541271508ad696a350232ae43b11547b5731fd3ef0cd978",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "C": "B1",
+        "U": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H09D1A458",
+      "source_case": "G1-16",
+      "order": 13,
+      "source_sha256": "cbf5afe33864883378a7657e09192bef0722b15bf03321dbf5bc535765be4556",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "C": "B2",
+        "U": "B3"
+      }
+    },
+    {
+      "case_id": "H42284EF3",
+      "source_case": "G1-05",
+      "order": 14,
+      "source_sha256": "4026fecf306ec78b2d20a590b8faf46e6c329212b5b99dab19e8436ff0b839d9",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "H68D20F9C",
+      "source_case": "G1-15",
+      "order": 15,
+      "source_sha256": "e38477d72d7cc1a5007c923750d39e0344613dfdb33583dcd0a09eeba678096c",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "H59BA169F",
+      "source_case": "G1-21",
+      "order": 16,
+      "source_sha256": "153c69f3a0417c4a7415cd68f554561503f6b3bd96e60620c7780a16df2c4e6e",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "D": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "HA19C502F",
+      "source_case": "G1-26",
+      "order": 17,
+      "source_sha256": "8ad482d8d8ba02ee3e9c0dfa3d07bd92cec859badfe70bd4f1d34b72016c3a05",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H6E0366AF",
+      "source_case": "G1-19",
+      "order": 18,
+      "source_sha256": "100709c4174efd61580b91ad9d4c7b43c3c175220c21dcf40814bcf59e54df4b",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "D": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "HAC76D0FA",
+      "source_case": "G1-11",
+      "order": 19,
+      "source_sha256": "b1e58d8b110fe4a4b356aad603ac1a1d55fb90f8114e9d2f2cc5b95d27c49764",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H414B9F98",
+      "source_case": "G1-27",
+      "order": 20,
+      "source_sha256": "6385a053f27cb5d5b4a55adbadede2e1397d8e3d9bd0f831b74922ffb6556188",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "C": "B1",
+        "D": "B2",
+        "U": "B3"
+      }
+    },
+    {
+      "case_id": "H7239E486",
+      "source_case": "G1-12",
+      "order": 21,
+      "source_sha256": "4f77733f9c95a134e4550553473a56e801562556ae87d60ac387f70c25913437",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "HE5E84842",
+      "source_case": "G1-13",
+      "order": 22,
+      "source_sha256": "d158e993f6a997ecd0575a996f3baf5932e88970d3e2628490dbf0d8470ad118",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H18D5C97F",
+      "source_case": "G1-06",
+      "order": 23,
+      "source_sha256": "6091749f3dbd02ccbd2dd00bb552e6511779f7184b4403cf5d9cb3978a672553",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "C": "B1",
+        "D": "B2",
+        "U": "B3"
+      }
+    },
+    {
+      "case_id": "H47153EFF",
+      "source_case": "G1-23",
+      "order": 24,
+      "source_sha256": "e061315cf9c6836c26d719c9a0c16c670e4765fb826d1f0ea0e3e33042b6db2d",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "HE93F0825",
+      "source_case": "G1-30",
+      "order": 25,
+      "source_sha256": "598afda79eb4758201ad3b55a129d89509e8f543758a192309adbae2b2e94fd7",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "HAABBE4F0",
+      "source_case": "G1-03",
+      "order": 26,
+      "source_sha256": "476452f47a6c9f0b5c9d08b1e5108a5eaaa1430168408355074367550040dc7e",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "D": "B1",
+        "U": "B2",
+        "C": "B3"
+      }
+    },
+    {
+      "case_id": "HC1C8B968",
+      "source_case": "G1-07",
+      "order": 27,
+      "source_sha256": "9599a948e4430b4116bd1f7ac7229fbf23a398ffde0962dc42e57ef7d0872f7f",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "HD6B6C259",
+      "source_case": "G1-02",
+      "order": 28,
+      "source_sha256": "b28ca5bae7613f916c09f38042c4f12c4eb396435cc3a3a914b915f092a9d9ce",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H74C05F68",
+      "source_case": "G1-08",
+      "order": 29,
+      "source_sha256": "168d0087b0c0db7599ad32ac4ef9319b772ed47c24bf7fa7fc2b0932742bfb3e",
+      "source_id_map": {
+        "B": "S1",
+        "A": "S2"
+      },
+      "claim_id_map": {
+        "U": "B1",
+        "C": "B2",
+        "D": "B3"
+      }
+    },
+    {
+      "case_id": "H7127E8DD",
+      "source_case": "G1-28",
+      "order": 30,
+      "source_sha256": "f078f7473f3ebe3cbfbaf5e0ca75eee8730042455e8e2c1da53ad33be56bdc3c",
+      "source_id_map": {
+        "A": "S1",
+        "B": "S2"
+      },
+      "claim_id_map": {
+        "C": "B1",
+        "D": "B2",
+        "U": "B3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "scenario_id": "G1-04",
+  "title": "Transit clue is not a residential certificate",
+  "domain": "ambiguous relocation",
+  "source_type": "public benchmark adaptation",
+  "adapted_or_original": "adapted",
+  "source_reference": {
+    "dataset": "STALE",
+    "authors": "Hanxiang Chao, Yihan Bai, Rui Sheng, Tianle Li, Yushi Sun",
+    "uid": "b0d43dd4-98e2-4617-a062-24edcc22a0ee",
+    "row_index": 3,
+    "version": "617c51dc200b5ab09970834144c7e51c77959af0",
+    "url": "https://huggingface.co/datasets/STALEproj/STALE/tree/617c51dc200b5ab09970834144c7e51c77959af0",
+    "license": "CC-BY-4.0",
+    "original_type": "T1",
+    "changes": "Adapted old/new observations; added work context, derived records, alternative/scoped evidence, repeated revisions and new draft labels. Source explanation is not inherited as gold. No haystack distractors copied."
+  },
+  "initial_memory": [
+    {
+      "id": "A",
+      "kind": "observation",
+      "text": "Since I’m currently based in Seattle, I’m happy to meet at a cafe in Capitol Hill or anywhere central to keep the commute reasonable for both of us.",
+      "origin": "source-A",
+      "scope": "ambiguous relocation",
+      "valid_interval": "t0 onward until actual supersession/correction; ambiguous t1 evidence does not automatically end validity",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "B",
+      "kind": "independent_or_context_evidence",
+      "text": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+      "origin": "source-B (independence only if explicitly stated)",
+      "scope": "ambiguous relocation",
+      "valid_interval": "from t0 until explicitly revised",
+      "recorded_at": "t0"
+    },
+    {
+      "id": "C",
+      "kind": "derived_memory",
+      "text": "Seattle is definitely the employee’s sole present home base."
+    },
+    {
+      "id": "D",
+      "kind": "derived_memory",
+      "text": "Seattle is the current default city for proposing a local meeting."
+    },
+    {
+      "id": "U",
+      "kind": "unaffected_bystander",
+      "text": "The project repository remains Atlas."
+    }
+  ],
+  "derived_memories": [
+    "C",
+    "D"
+  ],
+  "support_relationships": [
+    {
+      "target": "C",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom",
+      "draft_relation_class": "single_known_sufficient_justification"
+    }
+  ],
+  "support_type": [
+    "necessary_relative_to_known_supports",
+    "temporal",
+    "scope",
+    "association_bystander",
+    "partial_contributing",
+    "unknown_ambiguous"
+  ],
+  "revision_1": {
+    "revision_id": "r1",
+    "at": "t1",
+    "changed_source": "A",
+    "previous_text": "Since I’m currently based in Seattle, I’m happy to meet at a cafe in Capitol Hill or anywhere central to keep the commute reasonable for both of us.",
+    "new_text": "I just renewed the lease on my flat for another year, even though the constant delays on the Tube's Northern Line make getting to the office every morning a complete headache.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "unknown",
+      "D": "unknown",
+      "U": "valid",
+      "current_answer": "London-like commute evidence conflicts with sole Seattle residence; ask location/availability rather than infer a permanent move.",
+      "source_versions_visible": {
+        "A": "I just renewed the lease on my flat for another year, even though the constant delays on the Tube's Northern Line make getting to the office every morning a complete headache.",
+        "B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily."
+      },
+      "current_support_sets": {
+        "C": null,
+        "D": null
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t1, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "Since I’m currently based in Seattle, I’m happy to meet at a cafe in Capitol Hill or anywhere central to keep the commute reasonable for both of us.",
+      "source_B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "status": "AI draft, no human gold"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t1",
+      "B": "B@t0"
+    }
+  },
+  "revision_2": {
+    "revision_id": "r2",
+    "at": "t2",
+    "changed_source": "A",
+    "previous_text": "I just renewed the lease on my flat for another year, even though the constant delays on the Tube's Northern Line make getting to the office every morning a complete headache.",
+    "new_text": "The Northern Line routine was a month-long assignment; my permanent home is still Seattle, and I am back now.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "valid",
+      "D": "valid",
+      "U": "valid",
+      "current_answer": "Seattle base is explicitly reaffirmed and current presence is confirmed.",
+      "source_versions_visible": {
+        "A": "The Northern Line routine was a month-long assignment; my permanent home is still Seattle, and I am back now.",
+        "B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily."
+      },
+      "current_support_sets": {
+        "C": [
+          [
+            "A@t2"
+          ]
+        ],
+        "D": [
+          [
+            "A@t2"
+          ]
+        ]
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t2, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "I just renewed the lease on my flat for another year, even though the constant delays on the Tube's Northern Line make getting to the office every morning a complete headache.",
+      "source_B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "unknown",
+        "D": "unknown",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t2",
+      "B": "B@t0"
+    }
+  },
+  "revision_3_if_any": {
+    "revision_id": "r3",
+    "at": "t3",
+    "changed_source": "A",
+    "previous_text": "The Northern Line routine was a month-long assignment; my permanent home is still Seattle, and I am back now.",
+    "new_text": "I have now permanently relocated to London and am there this week.",
+    "rule": "later explicit same-scope changes supersede prospectively unless text states correction; ambiguous clues do not force supersession",
+    "draft_gold": {
+      "C": "invalid",
+      "D": "invalid",
+      "U": "valid",
+      "current_answer": "Seattle sole-home and unchecked local meeting assumptions are obsolete.",
+      "source_versions_visible": {
+        "A": "I have now permanently relocated to London and am there this week.",
+        "B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily."
+      },
+      "current_support_sets": {
+        "C": [],
+        "D": []
+      },
+      "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+    },
+    "historical_query": "What did the visible evidence establish immediately before t3, and what was merely believed?",
+    "historical_answer": {
+      "source_A": "The Northern Line routine was a month-long assignment; my permanent home is still Seattle, and I am back now.",
+      "source_B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+      "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+      "derived_status_at_prior_prefix": {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid"
+      },
+      "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+    },
+    "source_version_ids": {
+      "A": "A@t3",
+      "B": "B@t0"
+    }
+  },
+  "changed_source": [
+    "A",
+    "A",
+    "A"
+  ],
+  "known_fault_identity": {
+    "main_regime": "changed-source cue visible, not gold affected descendants",
+    "unknown_fault_regime": "hide changed-source identifier but keep new observation; diagnostic costs count",
+    "note": "a supersession is not necessarily a fault"
+  },
+  "gold_current_state": {
+    "status": "AI-authored draft, unadjudicated",
+    "per_revision": [
+      {
+        "C": "unknown",
+        "D": "unknown",
+        "U": "valid",
+        "current_answer": "London-like commute evidence conflicts with sole Seattle residence; ask location/availability rather than infer a permanent move.",
+        "source_versions_visible": {
+          "A": "I just renewed the lease on my flat for another year, even though the constant delays on the Tube's Northern Line make getting to the office every morning a complete headache.",
+          "B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily."
+        },
+        "current_support_sets": {
+          "C": null,
+          "D": null
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "valid",
+        "D": "valid",
+        "U": "valid",
+        "current_answer": "Seattle base is explicitly reaffirmed and current presence is confirmed.",
+        "source_versions_visible": {
+          "A": "The Northern Line routine was a month-long assignment; my permanent home is still Seattle, and I am back now.",
+          "B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily."
+        },
+        "current_support_sets": {
+          "C": [
+            [
+              "A@t2"
+            ]
+          ],
+          "D": [
+            [
+              "A@t2"
+            ]
+          ]
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      },
+      {
+        "C": "invalid",
+        "D": "invalid",
+        "U": "valid",
+        "current_answer": "Seattle sole-home and unchecked local meeting assumptions are obsolete.",
+        "source_versions_visible": {
+          "A": "I have now permanently relocated to London and am there this week.",
+          "B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily."
+        },
+        "current_support_sets": {
+          "C": [],
+          "D": []
+        },
+        "support_set_note": "Sets refer to versioned evidence plus stated rules; human adjudication must validate semantic sufficiency. null means unresolved, [] means no current sufficient justification."
+      }
+    ]
+  },
+  "gold_historical_state": {
+    "per_revision": [
+      {
+        "source_A": "Since I’m currently based in Seattle, I’m happy to meet at a cafe in Capitol Hill or anywhere central to keep the commute reasonable for both of us.",
+        "source_B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "valid",
+          "D": "valid",
+          "U": "valid",
+          "status": "AI draft, no human gold"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "I just renewed the lease on my flat for another year, even though the constant delays on the Tube's Northern Line make getting to the office every morning a complete headache.",
+        "source_B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "unknown",
+          "D": "unknown",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      },
+      {
+        "source_A": "The Northern Line routine was a month-long assignment; my permanent home is still Seattle, and I am back now.",
+        "source_B": "The employer still lists Seattle as the primary base but says the employee can work abroad temporarily.",
+        "interpretation": "Preserve this as an earlier record; retroactive corrections change truth assessment, not the fact that the record existed.",
+        "derived_status_at_prior_prefix": {
+          "C": "valid",
+          "D": "valid",
+          "U": "valid"
+        },
+        "truth_vs_belief": "These are prior justified-use labels, not proof of past truth. Later retroactive retraction must be disclosed when answering historical truth queries."
+      }
+    ],
+    "permission_note": "present permissions constrain disclosure of historically true facts"
+  },
+  "required_support": [
+    {
+      "target": "C",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    },
+    {
+      "target": "D",
+      "support_sets": [
+        [
+          "A"
+        ]
+      ],
+      "interpretation": "OR across sets, AND within a set; [] is unsupported/unknown, not an axiom"
+    }
+  ],
+  "alternative_support": {
+    "C": [],
+    "D": [],
+    "note": "New sufficient supports can emerge during revisions; label their new versions, not only initial edges."
+  },
+  "correlated_support": {
+    "description": "No shared origin stipulated beyond explicit text; do not assume independence from distinct IDs.",
+    "unresolved": "Annotate source independence separately from semantic sufficiency.",
+    "origin_groups_draft": {
+      "A": [
+        "source-A"
+      ],
+      "B": [
+        "source-B; independence only when explicitly stipulated"
+      ],
+      "C": "expand its support set recursively",
+      "D": "expand its support set recursively",
+      "note": "Draft origins below describe initial evidence; new tests/assays/corrections may introduce new origins at later revisions. Human review required."
+    }
+  },
+  "unaffected_bystanders": [
+    "U"
+  ],
+  "missing_edge_candidates": [
+    {
+      "support_source": "A",
+      "target": "C",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    },
+    {
+      "support_source": "A",
+      "target": "D",
+      "intervention": "omit this member/reference from visible lineage; keep source text unchanged"
+    }
+  ],
+  "spurious_edge_candidates": [
+    {
+      "source": "A",
+      "target": "U",
+      "reason": "same scenario/topic does not justify bystander content"
+    }
+  ],
+  "repair_required": {
+    "per_revision": [
+      {
+        "C": true,
+        "D": true
+      },
+      {
+        "C": false,
+        "D": false
+      },
+      {
+        "C": true,
+        "D": true
+      }
+    ],
+    "unknown_action": "reverify or quarantine current reliance; do not label proposition false"
+  },
+  "records_that_should_change": [
+    [
+      "C",
+      "D"
+    ],
+    [],
+    [
+      "C",
+      "D"
+    ]
+  ],
+  "records_that_should_survive": [
+    [
+      "U"
+    ],
+    [
+      "C",
+      "D",
+      "U"
+    ],
+    [
+      "U"
+    ]
+  ],
+  "ambiguity_notes": "Original benchmark explanation treats Tube/flat as conclusive London residence. Travel, multiple residences and assignment duration are plausible; do not inherit that certainty.",
+  "annotation_confidence": "AI draft only; no calibrated probability; ambiguous when any unknown state or interpretive note requires resolution",
+  "adjudication_notes": "PENDING two independent humans; preserve competing interpretations and revise support sets if necessary.",
+  "annotator_A": "",
+  "annotator_B": "",
+  "probe_schedule": {
+    "after_each_revision": [
+      "current-state query about C/D",
+      "as-of query before revision",
+      "new plan relying on C",
+      "summary rewrite followed by delayed reuse"
+    ],
+    "future_information": "Only sources through the probe time are supplied; all gold and later revisions are evaluator-only."
+  },
+  "scenario_rules": [
+    "An explicit current primary base determines the default proposed meeting city; ambiguous travel evidence requires clarification.",
+    "A/B are evidence records; C/D are stored propositions and may initially be wrong. U remains unrelated and valid.",
+    "Source IDs denote logical sources, not guaranteed independent origins. Version membership is explicit below."
+  ],
+  "initial_draft_state": {
+    "C": "valid",
+    "D": "valid",
+    "U": "valid",
+    "status": "AI draft, no human gold"
+  },
+  "source_origin_links_draft": []
+}
