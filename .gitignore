@@ -69,3 +69,6 @@ results/runs/*
 !results/runs/.gitkeep
 experiments/runs/*
 !experiments/runs/.gitkeep
+
+# Harness artifacts; configurations and tiny fixture definitions are tracked.
+results/*/
