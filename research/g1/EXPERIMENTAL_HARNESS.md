@@ -79,3 +79,11 @@ Each `results/<id>/` contains `manifest.json`, `per_scenario.jsonl`, `aggregate.
 Scientific tests cover all seven fixtures: necessary, independent alternatives, conjunction, semantic bystander, repeated 4→8→4, copied support and retrospective correction. Tests cover all eight policies' immutable history; AND/OR/copies; omission/oracle separation; false edges; corruption determinism; unsupported cycles; atomic replay exhaustion; retained unchecked records; exact multi-call synthetic ledger and retries; fixed denominators; recurrence versus reinstatement; cluster aggregation; importer validation; artifact writing and pilot gate.
 
 This phase is ready for deterministic engineering integration. **It is not ready to execute the real pilot.** Still required: independent human annotations, agreement and qualitative review, adjudicated/versioned evidence and gold, reviewed executable/evidence adapters, held-out scenarios, frozen protocol and budgets/model snapshots, and pilot approval. No human annotation files were filled and no API credits were spent.
+
+## Fidelity phase additions — 2026-09-25
+
+`replay.py` adds optional B8 cached finite-rule recomputation; the existing default policy list remains B0–B7 for historical configuration stability. Explicitly select B8 in a config to compare it with B2. Cache hits, source/rule/interval changes and atomic exhaustion have regression coverage. This is output memoization with ancestry scanning, not a reproduction of DRed or an asymptotically optimal incremental algorithm.
+
+`CostEvent` now records provider, model version, request ID, reasoning tokens and their relation to total output, versioned price-table ID, estimated cost/currency and cache hits. Reasoning-token subsets are not added twice; additional tokens must first be normalized into total output. Unknown provider usage/prices remain unknown. Per-scenario diagnostics emit observed E10 for cap exhaustion; other causal taxonomy assignments remain evaluator work requiring evidence. No provider adapter or billing call was added.
+
+See the candidate/fidelity documents for the stricter **R0 real-study assessment**. Passing deterministic engineering checks does not establish model-backed baseline fidelity. Human adjudication alone will not remove the missing-adapter and real-resource-enforcement gates.

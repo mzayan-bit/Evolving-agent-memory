@@ -30,3 +30,25 @@ Deep paper/source audit, CUPMem store mechanics, 22 MemTX unit tests, primary cl
 ## Decision logic
 
 B for the question; no method implementation yet. If ontology survives but simple baselines solve the problem, choose C only if the failure-boundary analysis itself teaches something general and reproducible. Choose D if reliable annotation or practical signal fails. Do not rescue a dead method by adding complexity or renaming standard metrics.
+
+## Round 2 — implemented harness audit, 2026-09-25
+
+**R0 for the proposed model-backed study.** Deterministic tests passing is narrower than scientifically adequate baselines. Human labels alone cannot make this executable study ready.
+
+| Attack | Audit finding and disposition |
+|---|---|
+| Is B7 too weak? | It is positive single-context least-fixed-point support maintenance, not full ATMS. It covers current fixture consequence semantics; nogoods/minimal environments are absent. Require explicit closed-world annotations and a common semantic verifier. Add environment reasoning only if the adjudicated task requires it; do not claim a new TMS. |
+| Is full replay artificially expensive? | A replay step is currently an output refresh, not a physical LLM call. Full graph computation is repeated. Added B8 ancestor-slice memoization, cold-cache charging and hit logging; actual model/CPU measurements still required. |
+| Is semantic closure unrealistic? | Yes: B4 is lexical cosine, not a strong semantic baseline. Preserve its control label; require a development-tuned frozen embedding/model-neighbor comparator before a method claim. |
+| Are baselines faithful enough? | No published-method reproduction exists in B0–B7. CUPMem component checks are real but do not validate pipeline fidelity. Rollback support rescue and query-only audit remain required threats. |
+| Can oracle information leak? | Frozen views omit gold masks, but explicit fixture rules make semantics easy. O1 currently identifies a changed source, not independently adjudicated fault. O2/O3 share a bundle flag and need stricter projection before general adapters. Trusted in-process adapters are not adversarially sandboxed. |
+| Are budgets comparable? | Only deterministic counters are enforced. Shared evidence access is not matched realized context/compute. Provider reservation/reconciliation, released credits, real inference/verifier costs and cache parity remain gates. |
+| Could stronger models remove the problem? | Yes. Require within-family effects on the current API candidate plus open model, and stronger-model sensitivity before generalization. Weak-backbone-only effects cannot support a general controller claim. |
+| Is dependency uncertainty ordinary classification uncertainty? | Often yes. Freeze inference and compare thresholded B5/B7 to any future decision rule; gains that disappear with identical proposals are inference gains, not a new repair policy. |
+| Are support sets artificial? | Fixtures are explicit finite rules and planted alternatives. Independent human annotation and new naturalistic families must establish usable semantics; random corruption cannot estimate natural prevalence. |
+| Is G1 a TMS with noisy edges? | On the formal slice, yes. Scientific value would be a measured language-derived support failure boundary under persistence and resources, or residual policy advantage after classical threats. Neither exists yet. |
+| Why specifically modern LLM agents? | Potentially implicit language entailment, stochastic inference/replay, lossy summaries and long-lived reuse. These properties must be demonstrated in observed workloads; renaming deterministic records as agents proves nothing. |
+| Are history semantics sound? | Audit found target validity intervals ignored by grounding and current permissions omitted from historical-then disclosure. Both fixed with tests; existing fixture expectations unchanged. Broader retroactive semantic changes still need adjudicated evidence adapters. |
+| Was the protocol tuned after outcomes? | Only engineering fixtures have run. Candidate splits now keep all new pilot families out of tuning; thresholds and budgets must be chosen on development before a signed freeze. |
+
+See [fidelity audit](BASELINE_FIDELITY_AUDIT.md), [missing threats](MISSING_BASELINE_AUDIT.md), [reproduction evidence](COMPETITOR_REPRODUCTION.md) and [candidate protocol](PILOT_PROTOCOL_CANDIDATE.md). No positive method result is currently supportable. Do not implement the proposed uncertainty policy before adjudication and strong-baseline evaluation.

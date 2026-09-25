@@ -60,6 +60,29 @@
     "model_api": null,
     "seed": "not applicable; deterministic",
     "dataset": "synthetic store operations",
-    "scope": "component mechanics, not benchmark reproduction"
+    "scope": "component mechanics, not benchmark reproduction",
+    "failure_notes": "Launcher resolved the venv Python symlink to base Python, losing installed openai. Environment setup failure, not competitor behavior.",
+    "environment": "base Python; dependency freeze does not apply to this failed attempt"
+  },
+  {
+    "name": "cupmem_portable_driver_retry",
+    "repository": "https://github.com/icedreamc/STALE.git",
+    "commit": "ea7d391103a151927cd29d2f01d87597a782bdcb",
+    "command": [
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory/../research-env/bin/python",
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory/scripts/smoke_cupmem_store.py",
+      "--checkout",
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory/../g1/upstream/STALE"
+    ],
+    "cwd": "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory",
+    "exit_code": 0,
+    "runtime_seconds": 0.38517712499015033,
+    "python": "Python 3.14.4",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O arm64",
+    "model_api": null,
+    "seed": "not applicable; deterministic",
+    "dataset": "synthetic store operations",
+    "scope": "component mechanics, not benchmark reproduction",
+    "failure_notes": null
   }
 ]

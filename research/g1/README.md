@@ -28,3 +28,7 @@ Q4: Abandon a new method if a simple support-set/replay/reverify baseline covers
 Q5: No proposed-method implementation now. Human annotation and a cost-capped baseline-only pilot are the next gates. Planned initial pilot is 384 trajectories; none ran in this phase.
 
 [Validation record and complete file inventory](VALIDATION.md) documents checks and remaining limitations.
+
+## Baseline fidelity phase (2026-09-25)
+
+Start with [baseline fidelity audit](BASELINE_FIDELITY_AUDIT.md), [missing-baseline decisions](MISSING_BASELINE_AUDIT.md), and [official artifact/component reproduction ledger](COMPETITOR_REPRODUCTION.md). The [candidate protocol](PILOT_PROTOCOL_CANDIDATE.md) is **not frozen**. It links the oracle, noise, model, hyperparameter and sample-size plans. [Planned outputs](PLANNED_TABLES_AND_FIGURES.md), [negative-result commitments](NEGATIVE_RESULT_PLAN.md), [error decomposition](ERROR_DECOMPOSITION.md) and [release checklist](REPRODUCIBILITY_CHECKLIST.md) precede any pilot outcomes. Round 2 of HOSTILE_REVIEW records remaining R0 model-backed study gates.

@@ -1,0 +1,8 @@
+{
+  "experiment_id": "g1-fidelity-v2",
+  "mode": "ENGINEERING_ONLY",
+  "seed": 42,
+  "policies": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8"],
+  "budget": {"max_verification_calls": 20, "max_replay_steps": 20, "max_model_calls": 0, "max_tokens": 0, "max_retrieval_calls": 0},
+  "information_access": {"gold_dependencies": false, "gold_fault_identity": false}
+}
