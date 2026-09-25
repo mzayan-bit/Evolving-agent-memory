@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory/scripts/smoke_cupmem_store.py", line 58, in <module>
+    main()
+    ~~~~^^
+  File "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory/scripts/smoke_cupmem_store.py", line 15, in main
+    store_module = importlib.import_module("cup_mem.store_layer")
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/g1/upstream/STALE/cup_mem/__init__.py", line 1, in <module>
+    from .llm_layer.client import LLMClient
+  File "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/g1/upstream/STALE/cup_mem/llm_layer/__init__.py", line 3, in <module>
+    from .client import LLMClient
+  File "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/g1/upstream/STALE/cup_mem/llm_layer/client.py", line 12, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "memtx",
+    "repository": "https://github.com/lxy1134/MEMTX_.git",
+    "commit": "4e1124ccd5fd384857463020e3497aa73ec93be6",
+    "command": [
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/research-env/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_dependency_graph.py",
+      "tests/test_typed_rollback.py",
+      "tests/test_validity_interval.py"
+    ],
+    "cwd": "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/g1/upstream/MEMTX",
+    "exit_code": 0,
+    "runtime_seconds": 0.28287862497381866,
+    "python": "Python 3.14.4",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O arm64",
+    "model_api": null,
+    "seed": "not applicable; deterministic",
+    "dataset": "three official unit-test files",
+    "scope": "component mechanics, not benchmark reproduction"
+  },
+  {
+    "name": "cupmem",
+    "repository": "https://github.com/icedreamc/STALE.git",
+    "commit": "ea7d391103a151927cd29d2f01d87597a782bdcb",
+    "command": [
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/research-env/bin/python",
+      "work/g1/smoke_cupmem.py"
+    ],
+    "cwd": "/Users/zayan/Documents/Codex/2026-09-19/new-chat",
+    "exit_code": 0,
+    "runtime_seconds": 0.423319665947929,
+    "python": "Python 3.14.4",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O arm64",
+    "model_api": null,
+    "seed": "not applicable; deterministic",
+    "dataset": "synthetic store operations",
+    "scope": "component mechanics, not benchmark reproduction"
+  },
+  {
+    "name": "cupmem_portable_driver",
+    "repository": "https://github.com/icedreamc/STALE.git",
+    "commit": "ea7d391103a151927cd29d2f01d87597a782bdcb",
+    "command": [
+      "/opt/homebrew/Cellar/python@3.14/3.14.4_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory/scripts/smoke_cupmem_store.py",
+      "--checkout",
+      "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/g1/upstream/STALE"
+    ],
+    "cwd": "/Users/zayan/Documents/Codex/2026-09-19/new-chat/work/Evolving-agent-memory",
+    "exit_code": 1,
+    "runtime_seconds": 0.04653320898069069,
+    "python": "Python 3.14.4",
+    "hardware": "macOS-26.6.2-arm64-arm-64bit-Mach-O arm64",
+    "model_api": null,
+    "seed": "not applicable; deterministic",
+    "dataset": "synthetic store operations",
+    "scope": "component mechanics, not benchmark reproduction"
+  }
+]

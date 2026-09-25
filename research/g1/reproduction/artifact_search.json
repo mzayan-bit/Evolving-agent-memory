@@ -1,0 +1,146 @@
+{
+  "inspection_date": "2026-09-25",
+  "papers": [
+    {
+      "paper": "2608.10502",
+      "url": "https://arxiv.org/abs/2608.10502",
+      "versions": [
+        "1"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "github_links": []
+    },
+    {
+      "paper": "2608.01619",
+      "url": "https://arxiv.org/abs/2608.01619",
+      "versions": [
+        "1"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "github_links": []
+    },
+    {
+      "paper": "2608.19652",
+      "url": "https://arxiv.org/abs/2608.19652",
+      "versions": [
+        "1"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "github_links": []
+    },
+    {
+      "paper": "2605.06527",
+      "url": "https://arxiv.org/abs/2605.06527",
+      "versions": [
+        "1"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "github_links": []
+    },
+    {
+      "paper": "2609.03340",
+      "url": "https://arxiv.org/abs/2609.03340",
+      "versions": [
+        "1"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "github_links": []
+    },
+    {
+      "paper": "2608.19701",
+      "url": "https://arxiv.org/abs/2608.19701",
+      "versions": [
+        "1"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "github_links": []
+    }
+  ],
+  "repository_searches": {
+    "cama_search": {
+      "total_count": 0,
+      "returned_repositories": [],
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    "planfence_search": {
+      "total_count": 1,
+      "returned_repositories": [
+        "Signaturi4/knowledge_graph_rag"
+      ],
+      "sha256": "f0bf3991f7a3df80ff27839d3fd3bf08ac5329f0ce2ca206a2441eb446938878"
+    },
+    "rollback_search": {
+      "total_count": 1,
+      "returned_repositories": [
+        "ithlambelle/recall"
+      ],
+      "sha256": "9bab96b82c04a045474d5d1bd347206c24cf5f5a50bb8c2ff7a6858aacbd2e5d"
+    },
+    "stateauditor_search": {
+      "total_count": 0,
+      "returned_repositories": [],
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    "statemem_search": {
+      "total_count": 107,
+      "returned_repositories": [
+        "jlwpony/statemem",
+        "kanchanamoorti-dotcom/Control-statememt",
+        "kimjindol2025/freelang-statemem",
+        "deshmukhashwini88/Print_Statememts",
+        "JoharPiaic/CASE-STATEMEMT",
+        "alexdr9/if_statemements",
+        "yakummi/StateMemoryAiogram",
+        "Harsh-cal/EulersStatemement-",
+        "Pavithra59/BankTransactionStatememt",
+        "Huzaifa-Soomar/Conditional-statememt-in-cpp",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-rachaelhychan",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-nikokouk",
+        "megha0812/Week2_ProblemStatememt3-4",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-Yousufhs",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-zelynfungg",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-hollyweihi",
+        "STAUCHS/processing-task-3---creating-variables-and-if-statemements-natethemasterman",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-mrfabroa",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-keithtjin",
+        "lakshmimandava7/CONDITIONAL-STATEMEMNTS--IF-ELSE-ELSIF-NESTED-ELSE-WHILE-FOR-",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-Ethan2108",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-BraydenFungg",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-bradyso",
+        "STAUCHS/processing-task-3---creating-variables-and-if-statemements-liut0mmy",
+        "STAUCHS/processing-task-3---creating-variables-and-if-statemements-airforcey",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-eattai",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-Nachosbrown-bit",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-Jxz-Jw",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-JasonMachs",
+        "SACHSTech/processing-task-3---creating-variables-and-if-statemements-RamiQuebec"
+      ],
+      "sha256": "63829a5bbfb6273f0cbd9cd8af990595f08c4292a285e29a0ee422c9eb0dcde9"
+    }
+  },
+  "repositories": {
+    "stale": {
+      "url": "https://github.com/icedreamc/STALE",
+      "branch": "main",
+      "head": "ea7d391103a151927cd29d2f01d87597a782bdcb",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    "memtx": {
+      "url": "https://github.com/lxy1134/MEMTX_",
+      "branch": "main",
+      "head": "4e1124ccd5fd384857463020e3497aa73ec93be6",
+      "license": null
+    }
+  },
+  "local_source_hashes": {
+    "atms.txt": "3d3c624dbfa849e5ef1d1af2a2a03f443144ae7b50fc95f233aaa41dd2c829a0",
+    "acar.txt": "2eb53e524926e9ec7f05190c50c2f7b90d35f2ca63dad34b730785ada4924c73",
+    "build.txt": "c0f2cdb22f4c0dfa25c090d80240bcb0c6af5c265458f8fad81bf7bc7a0d463b"
+  }
+}
