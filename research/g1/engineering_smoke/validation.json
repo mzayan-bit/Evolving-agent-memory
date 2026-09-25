@@ -1,0 +1,45 @@
+{
+  "label": "ENGINEERING ONLY \u2014 NOT RESEARCH EVIDENCE",
+  "code_commit": "e733273931d2f52eabccf602437af8b37223c1dc",
+  "documentation_dirty": true,
+  "offline_tests": {
+    "passed": 110,
+    "new_model_tests": 46
+  },
+  "ruff": "PASS",
+  "mypy": "PASS: 25 source files",
+  "deterministic_regression": {
+    "runs": 70,
+    "policies": 10,
+    "fixtures": 7,
+    "all_completed": true,
+    "config": "experiments/configs/model-engineering-fixtures.json",
+    "manifest_sha256": "9dbdbf3958829e851ca65e16bd15d09c130db39b38b0393d542c57a002dd76b7"
+  },
+  "live_model_calls": 0,
+  "live_input_tokens": 0,
+  "live_output_tokens": 0,
+  "embedding_live": "SKIPPED: sentence-transformers unavailable; no installation/download",
+  "source_hashes": {
+    "src/evomem/__init__.py": "231f4a6d052c574563b36caf77903ab304a40ca1c07fa86ff5e225fbb6595c72",
+    "src/evomem/comparators.py": "8054aa62a65c216e2041ca6f454e92ce5d6e6077cd871332ca6d343ad810234b",
+    "src/evomem/config.py": "f77da9376d00a7592c8d228c701b92bd0a698a4ad1dfa47c4cb46b3234cb0ff5",
+    "src/evomem/cost.py": "1c524f7a3f16cd48ea2edd36fa19feab1adae85fc4875cb74b0530de90eabad0",
+    "src/evomem/data.py": "4169caf788f24feb57a3bacf4a23d8c01e8011d4bffffe8a2e7b6d268b5ab2f8",
+    "src/evomem/evaluation.py": "7afa33de5a0b42233ae9d239db680b4a64075f1439dce3217b9c959dbd50fc60",
+    "src/evomem/experiment/__init__.py": "2b2c90cf03b97141b7d5bedb2a423dfeffa57a5b1ce23a08ea861a6e0d3bc1c8",
+    "src/evomem/experiment/model_smoke.py": "10f93e4c44528bd032007286fbf562fe0733ef31541ac76cd73f3bc664d02be5",
+    "src/evomem/experiment/run.py": "986fe7d6747006eec06a196b61357558ff09eeb7757847585d5586f5d21abcf2",
+    "src/evomem/fixtures.py": "985a6eefe2f94e89f667443138773cac68d08138370258c67045b6d81beabd32",
+    "src/evomem/model.py": "8f43b8856665552a179aa75f5c12f3ace8653d456d4c9ccebdb1e15c51862d1c",
+    "src/evomem/models/__init__.py": "b2b5c1d272485d615a54cca5be6d47cbbff3f965ea74a9a02a5f22a060b7062a",
+    "src/evomem/models/client.py": "2a2cae2ee1349188423e9ecc2162ed8fa28b5539968e52ef0bb42da9409114dd",
+    "src/evomem/models/embeddings.py": "b4c272a3df4376836e0e5158e5b02e47d4fd725f3192f8c495ef48706679477e",
+    "src/evomem/models/execution.py": "027c421fa5156a8adef3b75479943982250248d856a97a35952bdd28a77574b4",
+    "src/evomem/models/inference.py": "e4a66038aa3888c87eea656914a59c73aa31367c845c3762ecaf72e19a937254",
+    "src/evomem/models/pricing.py": "2fbc1352e4371147133f069704aa61716b88e54e2611850dc3b4c69dbfd107b2",
+    "src/evomem/policies.py": "bf0cae8079170a3cc30da624201f96ff45e992f6d14014e34b6652393952970b",
+    "src/evomem/replay.py": "f36c5ab90c18d2216822d126863c0c45645faee1d1c5a341849fdc49850a6335",
+    "src/evomem/simulation.py": "33942e43c5e339cccc7bf0317055f1ffc819cd432a8d05ffe1a59a37a3419586"
+  }
+}

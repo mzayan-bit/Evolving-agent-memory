@@ -18,3 +18,7 @@ As of 2026-09-25. Sources: [Rollback](https://arxiv.org/abs/2608.10502v1), [Stat
 | MemTX typed cascade | Transactional rollback handles lifecycle/scoped effects | B3 only covers graph slice | Official local component tests inexpensive | REDUNDANT for fixed claims; DEFER broader transactional effects |
 
 Controls: B0/B1/B3/B4 and full recompute reference. Strong task baselines: B2/B6/B7/B8 plus justified native/adapted persistent recovery. Adjacent: query-only StateAuditor, PlanFence, CAMA arbitration. B2 is both a control algorithm and a serious task threat. Class labels do not imply weak performance.
+
+## 2026-09-26 disposition
+
+B4b embedding closure, B5a/B5b point inference, B9 support-aware rollback and B10 current query audit now have executable interfaces and offline tests. Their missing status is narrowed to live competence/resource validation and final study integration, not erased. B7 is honestly labeled positive support closure; B8 counts graph inspection and preserves incremental reuse. Model-backed regeneration, historical query auditing, final matched-budget driver/cache parity and development freeze remain unresolved. See [matrix](FAIR_COMPARATOR_MATRIX.md) and [R1 gate assessment](R1_READINESS_CRITERIA.md). No method novelty follows from implementing these threats.

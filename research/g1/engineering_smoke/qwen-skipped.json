@@ -1,0 +1,44 @@
+{
+  "label": "ENGINEERING SMOKE TEST \u2014 NOT RESEARCH EVIDENCE",
+  "timestamp": "2026-09-25T22:35:48.342671+00:00",
+  "provider": "vllm",
+  "git": "e733273931d2f52eabccf602437af8b37223c1dc",
+  "dirty": true,
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "budget": {
+    "max_verification_calls": 5,
+    "max_replay_steps": 5,
+    "max_model_calls": 5,
+    "max_tokens": null,
+    "max_input_tokens": 40960,
+    "max_output_tokens": 5120,
+    "max_total_tokens": 46080,
+    "max_retrieval_calls": null
+  },
+  "fixtures": [
+    "necessary",
+    "alternative",
+    "conjunction",
+    "semantic_bystander",
+    "copies"
+  ],
+  "target_assessments": 7,
+  "hypothesis_statistics": false,
+  "status": "SKIPPED",
+  "reason": "Qwen endpoint/deployment manifest unavailable; hardware not assessed",
+  "cost": {
+    "dependency_checks": 0,
+    "cache_hits": 0,
+    "model_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "retrieval_calls": 0,
+    "embedding_calls": 0,
+    "verification_calls": 0,
+    "replay_steps": 0,
+    "tool_calls": 0,
+    "wall_latency_ms": 0
+  }
+}

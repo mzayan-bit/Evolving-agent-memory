@@ -20,3 +20,7 @@ Every method receives the same accessible source text, provenance and authority 
 ## Dominance and practical value
 
 Publish quality at each realized cost and feasible operating point. A method dominates only if it is no worse on stale reuse, false invalidation and task completion at no greater resources, with uncertainty stated. Do not claim advantage from a stronger model, larger context or uncharged write pipeline. StateAuditor already has matched controls; CAMA’s accuracy-per-token table is useful but does not replace a matched experiment. [Competitor costs](CLOSEST_WORK_AUDIT.md).
+
+## Implementation delta — 2026-09-26
+
+See [REAL_RESOURCE_ENFORCEMENT.md](REAL_RESOURCE_ENFORCEMENT.md) for implemented cumulative input/output/total/call/verifier/replay reservations, actual usage reconciliation, unknown/overshoot stopping, retry charging and cache fairness. Versioned post-hoc prices are separate from policy logic. This replaces the prior “counters only” implementation limitation for model execution **offline**; live validation remains absent. The candidate revision-credit release schedule remains unimplemented and cannot be inferred from cumulative caps. B8 now reports dependency-check counts even on cache hits. Use trajectory wall latency once; phase latency is nested, not additive elapsed time.

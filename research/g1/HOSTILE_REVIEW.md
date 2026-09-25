@@ -52,3 +52,24 @@ B for the question; no method implementation yet. If ontology survives but simpl
 | Was the protocol tuned after outcomes? | Only engineering fixtures have run. Candidate splits now keep all new pilot families out of tuning; thresholds and budgets must be chosen on development before a signed freeze. |
 
 See [fidelity audit](BASELINE_FIDELITY_AUDIT.md), [missing threats](MISSING_BASELINE_AUDIT.md), [reproduction evidence](COMPETITOR_REPRODUCTION.md) and [candidate protocol](PILOT_PROTOCOL_CANDIDATE.md). No positive method result is currently supportable. Do not implement the proposed uncertainty policy before adjudication and strong-baseline evaluation.
+
+## Round 3 — model interfaces and stronger comparator engineering, 2026-09-26
+
+**R0 retained.** Offline execution contracts now exist, but no live provider, local Qwen or embedding competence run has passed. More code does not establish research headroom.
+
+| Attack | Evidence and current disposition |
+|---|---|
+| Can Sonnet/Qwen infer almost all dependencies correctly? | Unknown. Adapters and strict output validation exist; live smoke is SKIPPED. No inferred accuracy from canned fixtures. Strong models may erase the problem. |
+| Does point support-set inference eliminate the gap? | B5b now composes a fixed model proposal with classical AND/OR maintenance, using the same proposals as B5a. It is the most dangerous structural comparator. Need adjudicated held-out outcomes, not authored alternatives. |
+| Does query-only audit dominate persistent repair? | B10 corrects/withholds answers without state writes and pays on repeated queries. Need time-horizon costs, future unaudited reuse and historical scope before claiming persistence value. Current-time plumbing is not dominance evidence. |
+| Does incremental replay dominate selective repair? | B8 preserves unchanged derivations and now reports dependency inspections even on hits. It still evaluates explicit rules, not model/tool regeneration. Do not turn symbolic steps into a cost victory. |
+| Does ATMS already supply the logic once inference is good? | Positive support closure already supplies AND/OR propagation here. No new logic contribution is shown. Full minimal-environment/nogood machinery is absent and presently unnecessary for the fixtures. |
+| Is novelty just confidence instead of threshold? | No uncertainty controller was implemented. Such novelty would be weak without independently established residual decision-relevant uncertainty after B5b/B8/B10. Current method decision remains NO. |
+| Are independence and copies handled honestly? | B9 requires known source origins disjoint from the changed origin and currently grounded support. Unknown or shared origins cannot be called independent rescue; still-grounded but unverified independence is quarantined under a fixed rule. Incorrect inferred provenance remains a failure mode. |
+| Are prices driving scientific decisions? | No. Raw resource caps are separate from a dated post-hoc price snapshot. Local model dollar cost remains unknown. |
+| Are budgets actually safe? | Offline preflight, reconciliation and overrun tests pass. Estimated input reservations can overshoot once; failed calls may have unknown billing. Single executor only. Live accounting/stopping and final release schedule remain gates. |
+| Is the prompt leaking formal fixture answers? | Explicit allowlist excludes rules/lineage/gold/future/labels and metadata; provenance is permitted visible evidence. Content or IDs can still contain label-like information if a future data adapter is careless, so independent construction review remains necessary. |
+| Is the embedding comparator competent? | A pinned real backend exists but was not installed/run. Tests use synthetic vectors to verify mechanics only. Sequence truncation and the untuned threshold need development inspection. |
+| Are adaptations being sold as reproductions? | No. CUPMem stays an external unmodified-store check; B9/B10 are internal analogues. Neither official Rollback nor StateAuditor performance is reproduced. |
+
+Human gold and residual baseline headroom still do not exist in this execution context. Do not implement the proposed method or infer a paper result from the passing engineering tests.

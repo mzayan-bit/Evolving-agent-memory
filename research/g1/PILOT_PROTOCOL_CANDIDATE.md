@@ -41,3 +41,19 @@ Stop on leakage, incoherent gold, unsafe budget enforcement, excessive infrastru
 ## Freeze checklist and readiness
 
 Required signatures: annotation coordinator, experiment owner, independent audit reviewer. Freeze dataset/split/mask hashes, adapters with fidelity classifications, prompts, models, cost schema/pricing snapshot, settings, outcome/table specs, statistical script and stop rules. Missing model-backed competitors, query-only adapter, credit scheduler/reservation and natural-language evidence semantics mean **R0 for the proposed real study**, despite tested deterministic engineering. Human adjudication is necessary but not the only remaining gate.
+
+## Engineering advancement gate — 2026-09-26, still NOT FROZEN
+
+The new candidate comparator set and [R1 criteria](R1_READINESS_CRITERIA.md) supersede any interpretation that deterministic harness tests alone establish readiness. Final readiness remains R0. No human annotation status is inferred or changed by this phase.
+
+| Freeze gate | Required evidence |
+|---|---|
+| Human | Independent A/B complete; agreement computed; disagreements adjudicated; ambiguity retained/removed under the predeclared rubric; final cases reviewed |
+| Baseline | Final set agreed; live model-backed semantic B4/B5 competence inspected; B7 representation adequate; B8 recomputation costs credible; query-only threat covered including declared time views; CUPMem/rollback inclusion decisions signed |
+| Resource | Live usage and stopping validated; input/output/total/call/verifier/replay caps and overshoot policy approved; exact provider/model/runtime metadata archived; cache parity and construction charging implemented in the final run driver |
+| Prompt | Development-only prompt/threshold selection complete; exact system/user/schema/config hashes frozen; no final evaluation tuning |
+| Statistical | Primary outcomes and source-family unit fixed; practical margins approved; expansion/kill/multiplicity rules signed; query/revision horizons fixed |
+
+See [fair matrix](FAIR_COMPARATOR_MATRIX.md), [prompt protocol](MODEL_PROMPT_PROTOCOL.md), [resource semantics](REAL_RESOURCE_ENFORCEMENT.md), [integration decision](CUPMEM_INTEGRATION_DECISION.md) and [residual headroom gate](RESIDUAL_HEADROOM_PROTOCOL.md). Existing candidate run counts are not execution authorization and must be recalculated after final comparator selection. The new smoke uses only canonical engineering fixtures, never human A/B material.
+
+Cumulative resource caps are implemented. The earlier two-released-credits-per-revision schedule is **not** implemented by those caps; choose and freeze a schedule, then validate it. B2/B6/B8 remain fixed-proposition executable-rule controls rather than LLM regeneration implementations. B10 current-time auditing does not automatically supply historical outcomes. These limitations must be resolved or explicitly excluded with a scientifically defensible scope before pilot freeze.

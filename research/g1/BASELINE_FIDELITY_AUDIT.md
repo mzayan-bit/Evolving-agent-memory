@@ -319,3 +319,11 @@ For complete finite positive rules, yes: Boolean support maintenance already sol
 ## Concrete audit fixes
 
 Grounded inference previously ignored the target memory's own validity interval. That is fixed and regression-tested. Historical-as-known-then disclosure previously ignored present permission revocations; it now preserves the audit snapshot while withholding prohibited output. Existing fixture expectations did not change. The fixes do not add probabilistic decisions.
+
+## 2026-09-26 engineering delta
+
+The [fair comparator matrix](FAIR_COMPARATOR_MATRIX.md) is the current cross-arm inventory. Legacy B4 is now explicitly called B4a lexical closure; the old ID still works for regression reproducibility. B4b uses a pinned MiniLM embedding backend and immutable text/config cache, without treating similarity as support. B5a/B5b use strict model-inferred point groups, fixed thresholding and conventional downstream closure. B5a projects groups to arcs rather than independently eliciting pairs. B7 is renamed **simplified positive support maintenance** in the protocol; no ATMS reproduction is claimed. B9 performs affected closure plus known-independent-root rescue. B10 audits current queries without changing storage. All are internal implementations/adaptations.
+
+B8 adds dependency inspection counts on both cache hits and misses. B2/B6/B8 still use executable rules and fixed proposition status; they do not regenerate text or replay original tool traces. ModelExecutor supplies separately tested model-response caching and replay-purpose accounting, but it does not make symbolic B8 into a live model replay implementation. Complete/gold lineage remains a separate oracle access condition, not a fair ordinary method arm.
+
+Live semantic competence and model-cost fidelity are unvalidated. CUPMem/native comparison is excluded from direct ranking for the reasons in [the integration decision](CUPMEM_INTEGRATION_DECISION.md). Missing native fidelity is not fixed by renaming a method.

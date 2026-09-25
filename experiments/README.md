@@ -43,3 +43,22 @@ experiments/
 | ID | Name | Hypothesis | Status | Date | Primary Metric Result |
 |---|---|---|---|---|---|
 | *EXP-000* | *Phase 0 Environment & Smoke Test* | *Setup* | *Completed* | *2026-09-12* | *All smoke tests passing* |
+
+## Model engineering phase (2026-09-26)
+
+`configs/model-engineering-fixtures.json` runs the deterministic B0–B9 inventory
+(legacy B5 uses recorded fixture inference; live B5 is a separate smoke). From a
+clean committed checkout:
+
+```sh
+uv run python -m evomem.experiment.run --config experiments/configs/model-engineering-fixtures.json
+```
+
+Opt-in live plumbing checks are documented in
+[the model prompt protocol](../research/g1/MODEL_PROMPT_PROTOCOL.md). They use at
+most five model dispatches, seven target assessments from five canonical fixture
+prefixes, and no human annotations. Missing credentials/server yields SKIPPED.
+Outputs are create-only; select a new output directory for each attempt. Default
+pytest uses offline doubles and never requires secrets. Pinned embedding weights
+and Qwen are not downloaded automatically. Current readiness remains R0; see
+[the engineering report](../research/g1/ENGINEERING_PHASE_REPORT.md).
