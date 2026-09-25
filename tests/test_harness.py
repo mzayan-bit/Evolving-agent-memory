@@ -460,3 +460,117 @@ def test_inference_provider_can_be_crossed_with_graph_and_support_policy() -> No
     )
     assert graph.answer("b1", 1) is not None
     assert sets.snapshots[1].items[2].status == Status.QUARANTINED
+
+
+def test_cached_replay_equivalent_and_saves_unchanged_outputs() -> None:
+    from evomem.replay import CachedReplay
+
+    for name in FIXTURES:
+        scenario, _ = fixture(name)
+        ledger = Ledger(Budget())
+        cached = run(scenario, CachedReplay(), InformationAccess(), ledger)
+        full, _, full_ledger = trajectory(name)
+        assert cached.snapshots == full.snapshots
+        cached_steps = ledger.totals()["replay_steps"]
+        full_steps = full_ledger.totals()["replay_steps"]
+        assert cached_steps is not None and full_steps is not None
+        assert cached_steps <= full_steps
+        if name == "repeated":
+            assert ledger.totals()["cache_hits"] == 1
+            assert ledger.totals()["replay_steps"] == 5
+
+
+def test_cached_replay_atomic_and_cache_not_committed_on_exhaustion() -> None:
+    from evomem.replay import CachedReplay
+
+    scenario, _ = fixture("necessary")
+    policy = CachedReplay()
+    trace = run(
+        scenario, policy, InformationAccess(), Ledger(Budget(max_replay_steps=1))
+    )
+    assert trace.decisions[0].completion == "budget_exhausted"
+    assert policy.cache == {}
+    assert trace.answer("b1", 1) is not None
+
+
+def test_cost_provider_metadata_and_reasoning_not_double_counted() -> None:
+    event = CostEvent(
+        "api",
+        "verify",
+        1,
+        model_calls=1,
+        input_tokens=10,
+        output_tokens=20,
+        reasoning_tokens=15,
+        reasoning_token_semantics="subset_of_output",
+        usage_source="synthetic",
+        provider="mock",
+        model_id="mock-v1",
+        model_version="1",
+        request_id="r",
+        price_table_version="test-only",
+        estimated_cost=0.01,
+        currency="USD",
+    )
+    ledger = Ledger(Budget(max_tokens=30))
+    ledger.charge(event)
+    assert ledger.totals()["output_tokens"] == 20
+    assert asdict(ledger.events[0])["reasoning_tokens"] == 15
+    with pytest.raises(ValueError, match="versioned prices"):
+        Ledger(Budget()).charge(replace(event, price_table_version=None))
+    with pytest.raises(ValueError, match="Normalize"):
+        Ledger(Budget()).charge(replace(event, reasoning_token_semantics="additional"))
+
+
+def test_derived_validity_interval_is_not_overridden_by_support() -> None:
+    items = (
+        Memory("s", "source", "demo", kind="source"),
+        Memory("d", "derived", "demo", valid_until=1),
+    )
+    support = (Support("j", "d", ("s",)),)
+    assert "d" in grounded(items, support, 0)
+    assert "d" not in grounded(items, support, 1)
+
+
+def test_present_permission_blocks_historical_disclosure() -> None:
+    scenario, _ = fixture("correction")
+    scenario = replace(
+        scenario, revisions=(replace(scenario.revisions[0], kind="permission"),)
+    )
+    trace = run(
+        scenario,
+        Baseline("B2", RecordedInference()),
+        InformationAccess(),
+        Ledger(Budget()),
+    )
+    assert trace.answer("b1", 1, "historical_then", 0) is None
+    assert trace.snapshots[0].items[2].status == Status.ACTIVE
+
+
+def test_cached_replay_refreshes_expired_rules_and_target_intervals() -> None:
+    from evomem.replay import CachedReplay
+
+    scenario, _ = fixture("repeated")
+    for expire_rule in (True, False):
+        changed = replace(
+            scenario,
+            rules=tuple(
+                replace(s, valid_until=2) if s.target == "b2" and expire_rule else s
+                for s in scenario.rules
+            ),
+            initial=tuple(
+                replace(m, valid_until=2)
+                if m.memory_id == "b2" and not expire_rule
+                else m
+                for m in scenario.initial
+            ),
+        )
+        cached = run(changed, CachedReplay(), InformationAccess(), Ledger(Budget()))
+        full = run(
+            changed,
+            Baseline("B2", RecordedInference()),
+            InformationAccess(),
+            Ledger(Budget()),
+        )
+        assert cached.snapshots == full.snapshots
+        assert cached.answer("b2", 2) is None

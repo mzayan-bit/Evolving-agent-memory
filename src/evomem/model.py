@@ -153,6 +153,8 @@ def grounded(
             if s.sufficient
             and s.target in lookup
             and s.scope == lookup[s.target].scope
+            and lookup[s.target].valid_from <= checkpoint
+            and ((end := lookup[s.target].valid_until) is None or checkpoint < end)
             and s.valid_from <= checkpoint
             and (s.valid_until is None or checkpoint < s.valid_until)
             and set(s.members) <= active

@@ -18,6 +18,7 @@ from evomem.evaluation import aggregate, score
 from evomem.fixtures import FIXTURES, fixture
 from evomem.model import InformationAccess
 from evomem.policies import BASELINES, Baseline, RecordedInference
+from evomem.replay import CachedReplay
 from evomem.simulation import Corruption, corrupt, run
 
 
@@ -55,7 +56,7 @@ def execute(config: dict[str, Any]) -> Path:
             ledger = Ledger(budget)
             trace = run(
                 scenario,
-                Baseline(name, RecordedInference()),
+                CachedReplay() if name == "B8" else Baseline(name, RecordedInference()),
                 access,
                 ledger,
                 corruption,
@@ -100,6 +101,16 @@ def execute(config: dict[str, Any]) -> Path:
                 "metrics": {k: v.json() for k, v in metrics.items()},
                 "cost": ledger.totals(),
                 "completion": [d.completion for d in trace.decisions],
+                "diagnostics": [
+                    {
+                        "code": "E10",
+                        "checkpoint": index,
+                        "certainty": "observed",
+                        "stage": "maintenance",
+                    }
+                    for index, d in enumerate(trace.decisions, 1)
+                    if d.completion == "budget_exhausted"
+                ],
             }
             rows.append(row)
             (output / "logs" / f"{name}-{fixture_name}.json").write_text(

@@ -142,11 +142,16 @@ class Trace:
             raise ValueError("Invalid historical time")
         snap = next(s for s in self.snapshots if s.checkpoint == when)
         item = next(m for m in snap.items if m.memory_id == item_id)
-        if view == "historical_now":
+        if view != "current":
             revoked = {
                 r.before
                 for r in self.revisions
-                if r.checkpoint <= checkpoint and r.kind in {"correction", "permission"}
+                if r.checkpoint <= checkpoint
+                and (
+                    r.kind == "permission"
+                    or view == "historical_now"
+                    and r.kind == "correction"
+                )
             }
             if revoked:
                 revised = tuple(
