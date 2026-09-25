@@ -72,3 +72,7 @@ experiments/runs/*
 
 # Harness artifacts; configurations and tiny fixture definitions are tracked.
 results/*/
+!.env.example
+# Content-addressed model/embedding outputs may contain private input text.
+.model-cache/
+.embedding-cache/

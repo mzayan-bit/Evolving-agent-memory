@@ -32,7 +32,9 @@ class CachedReplay:
             if item.kind == "source":
                 continue
             ancestors = {item.memory_id}
+            checks = 0
             while True:
+                checks += len(rules)
                 added = {m for s in rules if s.target in ancestors for m in s.members}
                 if added <= ancestors:
                     break
@@ -78,9 +80,10 @@ class CachedReplay:
             try:
                 ledger.charge(
                     CostEvent(
-                        f"{view.checkpoint}:B8:{item.memory_id}",
+                        f"{view.checkpoint}:B8:{item.memory_id}:{len(ledger.events)}",
                         "cached-replay",
                         view.checkpoint,
+                        dependency_checks=checks,
                         replay_steps=int(not hit),
                         cache_hits=int(hit),
                     )

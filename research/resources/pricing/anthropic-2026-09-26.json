@@ -1,0 +1,18 @@
+{
+  "version": "anthropic-sonnet5-2026-09-26-standard-usd",
+  "provider": "anthropic",
+  "model": "claude-sonnet-5",
+  "effective_date": "2026-09-26",
+  "effective_date_note": "Observed schedule on retrieval date; not claimed launch date",
+  "retrieved_at": "2026-09-26",
+  "currency": "USD",
+  "per_tokens": 1000000,
+  "input_rate": 2.0,
+  "cached_input_rate": 0.20,
+  "cache_write_5m_rate": 2.50,
+  "cache_write_1h_rate": 4.0,
+  "output_rate": 10.0,
+  "reasoning_treatment": "Included in output usage; no separate inferred count",
+  "scope": "Standard synchronous text token rates; excludes tools, batches, tax, negotiated rates",
+  "source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview"
+}

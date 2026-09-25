@@ -13,6 +13,9 @@ class Budget:
     max_replay_steps: int | None = None
     max_model_calls: int | None = None
     max_tokens: int | None = None
+    max_input_tokens: int | None = None
+    max_output_tokens: int | None = None
+    max_total_tokens: int | None = None
     max_retrieval_calls: int | None = None
 
     def __post_init__(self) -> None:
@@ -36,6 +39,7 @@ class CostEvent:
     embedding_calls: int = 0
     verification_calls: int = 0
     replay_steps: int = 0
+    dependency_checks: int = 0
     tool_calls: int = 0
     wall_latency_ms: float = 0.0
     usage_source: str = "deterministic_no_model"
@@ -60,6 +64,7 @@ class Ledger:
 
     def totals(self) -> dict[str, int | float | None]:
         names = (
+            "dependency_checks",
             "cache_hits",
             "model_calls",
             "input_tokens",
@@ -127,7 +132,20 @@ class Ledger:
             cap = getattr(self.budget, "max_" + resource)
             if cap is not None and totals[resource] + getattr(event, resource) > cap:
                 raise BudgetExceededError(resource)
-        if self.budget.max_tokens is not None:
+        for resource in ("input_tokens", "output_tokens"):
+            cap = getattr(self.budget, "max_" + resource)
+            value = getattr(event, resource)
+            previous = totals[resource]
+            if cap is not None and (
+                value is None or previous is None or previous + value > cap
+            ):
+                raise BudgetExceededError(resource)
+        caps = [
+            v
+            for v in (self.budget.max_tokens, self.budget.max_total_tokens)
+            if v is not None
+        ]
+        if caps:
             tokens = [
                 totals["input_tokens"],
                 totals["output_tokens"],
@@ -136,13 +154,14 @@ class Ledger:
             ]
             if any(v is None for v in tokens):
                 raise BudgetExceededError("Unknown usage cannot certify a token cap")
-            if sum(v for v in tokens if v is not None) > self.budget.max_tokens:
+            if sum(v for v in tokens if v is not None) > min(caps):
                 raise BudgetExceededError("tokens")
         self.events.append(event)
 
     @staticmethod
     def _values(event: CostEvent) -> tuple[int | float | None, ...]:
         return (
+            event.dependency_checks,
             event.cache_hits,
             event.model_calls,
             event.input_tokens,
