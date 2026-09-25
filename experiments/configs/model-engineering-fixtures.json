@@ -1,0 +1,28 @@
+{
+  "experiment_id": "model-engineering-fixtures-v1",
+  "mode": "ENGINEERING_ONLY",
+  "policies": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4a",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9"
+  ],
+  "fixtures": [
+    "necessary",
+    "alternative",
+    "conjunction",
+    "semantic_bystander",
+    "repeated",
+    "copies",
+    "correction"
+  ],
+  "budget": {},
+  "seed": 0,
+  "information_access": {}
+}

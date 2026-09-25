@@ -2,7 +2,7 @@
 
 import hashlib
 import json
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, replace
 from pathlib import Path
 from threading import RLock
 from time import perf_counter
@@ -165,7 +165,22 @@ class ModelExecutor:
             self.attempts.append(audit)
             try:
                 self.ledger.charge(event)
-            except (BudgetExceededError, ValueError):
+            except ValueError:
+                self.ledger.events.append(
+                    replace(
+                        event,
+                        input_tokens=None,
+                        output_tokens=None,
+                        cached_input_tokens=None,
+                        reasoning_tokens=None,
+                        status="invalid_usage",
+                        usage_source="unknown",
+                    )
+                )
+                audit["invalid_usage"] = True
+                self.halted = True
+                raise ModelCallError("invalid_usage_metadata_recorded") from None
+            except BudgetExceededError:
                 self.ledger.events.append(event)
                 audit["overrun"] = True
                 self.halted = True

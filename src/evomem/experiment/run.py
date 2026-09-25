@@ -12,6 +12,7 @@ from pathlib import Path
 from time import perf_counter
 from typing import Any
 
+from evomem.comparators import SupportAwareRollback
 from evomem.cost import Budget, CostEvent, Ledger
 from evomem.data import validate
 from evomem.evaluation import aggregate, score
@@ -56,7 +57,11 @@ def execute(config: dict[str, Any]) -> Path:
             ledger = Ledger(budget)
             trace = run(
                 scenario,
-                CachedReplay() if name == "B8" else Baseline(name, RecordedInference()),
+                CachedReplay()
+                if name == "B8"
+                else SupportAwareRollback()
+                if name == "B9"
+                else Baseline("B4" if name == "B4a" else name, RecordedInference()),
                 access,
                 ledger,
                 corruption,
