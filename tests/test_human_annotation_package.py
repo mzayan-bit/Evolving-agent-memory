@@ -19,12 +19,12 @@ LABELS = [
 ]
 
 
-def rows(path):
+def rows(path: Path) -> list[dict[str, str]]:
     with path.open(newline="") as stream:
         return list(csv.DictReader(stream))
 
 
-def test_blank_forms_identical_except_identifier():
+def test_blank_forms_identical_except_identifier() -> None:
     a = rows(PACKAGE / "annotator_A.csv")
     b = rows(PACKAGE / "annotator_B.csv")
     assert len(a) == len(b) == 120
@@ -36,7 +36,7 @@ def test_blank_forms_identical_except_identifier():
         assert all(x[field] == "" for field in LABELS)
 
 
-def test_release_packets_are_prefix_only():
+def test_release_packets_are_prefix_only() -> None:
     for who in ["A", "B"]:
         masters = rows(PACKAGE / f"annotator_{who}.csv")
         order = None
@@ -62,7 +62,7 @@ def test_release_packets_are_prefix_only():
                 assert "STALE" not in row["evidence_json"]
 
 
-def test_authored_originals_unchanged_and_mapping_bijective():
+def test_authored_originals_unchanged_and_mapping_bijective() -> None:
     manifest = json.loads((PACKAGE / "coordinator_only/case_mapping.json").read_text())
     assert len(manifest["mapping"]) == 30
     assert len({m["case_id"] for m in manifest["mapping"]}) == 30
