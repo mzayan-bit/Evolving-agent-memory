@@ -230,7 +230,7 @@ class QwenVLLMClient:
     def preflight(self, request: ModelRequest) -> None:
         json.loads(request.schema_json)
 
-    def generate(self, request: ModelRequest) -> ModelResponse:
+    def request_body(self, request: ModelRequest) -> dict[str, Any]:
         body: dict[str, Any] = {
             "model": self.identity.model,
             "messages": [
@@ -245,8 +245,12 @@ class QwenVLLMClient:
         }
         if request.seed is not None:
             body["seed"] = request.seed
+        return body
+
+    def generate(self, request: ModelRequest) -> ModelResponse:
+        body = self.request_body(request)
         headers = {"content-type": "application/json"}
-        if os.environ.get("VLLM_API_KEY"):
+        if self.identity.provider == "vllm" and os.environ.get("VLLM_API_KEY"):
             headers["authorization"] = "Bearer " + os.environ["VLLM_API_KEY"]
         start = perf_counter()
         raw = self.transport.post(

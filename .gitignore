@@ -58,6 +58,7 @@ secrets/
 *.pth
 *.bin
 *.safetensors
+*.gguf
 *.onnx
 *.pkl
 *.h5

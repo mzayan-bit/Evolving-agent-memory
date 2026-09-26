@@ -36,6 +36,10 @@ NAMES = ("necessary", "alternative", "conjunction", "semantic_bystander", "copie
 
 
 def configured_client(provider: str) -> tuple[ModelClient | None, str | None]:
+    if provider == "llama.cpp":
+        from evomem.experiment.qwen_local import configured_local_client
+
+        return configured_local_client(), None
     if provider == "anthropic":
         if not os.environ.get("ANTHROPIC_API_KEY"):
             return None, "ANTHROPIC_API_KEY unavailable"
@@ -190,7 +194,9 @@ def execute(provider: str, output: Path) -> dict[str, Any]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--provider", choices=["anthropic", "vllm"], required=True)
+    parser.add_argument(
+        "--provider", choices=["anthropic", "vllm", "llama.cpp"], required=True
+    )
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     result = execute(args.provider, args.output)

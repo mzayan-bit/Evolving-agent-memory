@@ -1,0 +1,23 @@
+{
+  "label": "ENGINEERING VALIDATION \u2014 NOT SCIENTIFIC EVIDENCE",
+  "source_repo": "Qwen/Qwen3.5-9B",
+  "pinned_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "initial_weight_revision": "21eca8a083a2121a92fba681f4a7c72cf20ff1a7",
+  "source_head_at_inspection": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "all_weight_hashes_identical_between_revisions": true,
+  "weight_lfs_sha256": [
+    "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+    "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+    "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+    "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6"
+  ],
+  "conversion_attests_exact_source_commit": false,
+  "independent_full_weight_reconstruction": false,
+  "template_exact_match": true,
+  "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "sources": [
+    "https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/21eca8a083a2121a92fba681f4a7c72cf20ff1a7",
+    "https://huggingface.co/bartowski/Qwen_Qwen3.5-9B-GGUF/blob/182be2fd6c7bc44887d88a91cb03ff009cc9f549/README.md"
+  ]
+}
