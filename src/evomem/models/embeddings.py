@@ -64,6 +64,15 @@ class MiniLM:
         )
         return tuple(float(x) for x in values)
 
+    def encode_batch(self, texts: tuple[str, ...]) -> tuple[tuple[float, ...], ...]:
+        values = self.model.encode(
+            list(texts),
+            batch_size=8,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
+        return tuple(tuple(float(x) for x in row) for row in values)
+
 
 def checked_vector(values: object) -> tuple[float, ...]:
     if not isinstance(values, (list, tuple)) or not values:
@@ -94,6 +103,14 @@ class EmbeddingCache:
                 raise ValueError("Embedding cache mismatch")
             result = checked_vector(raw["vector"])
         else:
+            Ledger(ledger.budget, list(ledger.events)).charge(
+                CostEvent(
+                    f"embedding:{len(ledger.events)}",
+                    "embedding",
+                    checkpoint,
+                    embedding_calls=1,
+                )
+            )
             try:
                 result = checked_vector(self.backend.encode(text))
             except Exception:
@@ -103,6 +120,7 @@ class EmbeddingCache:
                         "embedding",
                         checkpoint,
                         embedding_calls=1,
+                        usage_source="measured_local_embedding",
                         status="failed",
                         model_id=self.backend.identity,
                         wall_latency_ms=(perf_counter() - start) * 1000,
@@ -120,6 +138,7 @@ class EmbeddingCache:
                 "embedding",
                 checkpoint,
                 embedding_calls=int(not hit),
+                usage_source="measured_local_embedding",
                 cache_hits=int(hit),
                 model_id=self.backend.identity,
                 wall_latency_ms=(perf_counter() - start) * 1000,

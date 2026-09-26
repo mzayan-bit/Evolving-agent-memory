@@ -94,7 +94,19 @@ class ModelExecutor:
                 usage_source="reservation",
             )
             # Probe a copied ledger: no physical event is charged before dispatch.
-            Ledger(self.ledger.budget, list(self.ledger.events)).charge(reserve)
+            try:
+                Ledger(self.ledger.budget, list(self.ledger.events)).charge(reserve)
+            except BudgetExceededError:
+                self.attempts.append(
+                    {
+                        "operation_id": op,
+                        "cache_key": key,
+                        "blocked_before_dispatch": True,
+                        "reservation": asdict(reserve),
+                        "totals_before": self.ledger.totals(),
+                    }
+                )
+                raise
             self.client.preflight(request)
             start = perf_counter()
             try:

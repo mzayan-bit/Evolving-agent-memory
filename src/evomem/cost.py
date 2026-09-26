@@ -17,6 +17,7 @@ class Budget:
     max_output_tokens: int | None = None
     max_total_tokens: int | None = None
     max_retrieval_calls: int | None = None
+    max_embedding_calls: int | None = None
 
     def __post_init__(self) -> None:
         if any(
@@ -128,6 +129,7 @@ class Ledger:
             "replay_steps",
             "model_calls",
             "retrieval_calls",
+            "embedding_calls",
         ):
             cap = getattr(self.budget, "max_" + resource)
             if cap is not None and totals[resource] + getattr(event, resource) > cap:

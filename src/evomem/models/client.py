@@ -72,6 +72,11 @@ class HTTPTransport:
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 value = json.load(response)
+                request_id = response.headers.get("request-id") or response.headers.get(
+                    "x-request-id"
+                )
+                if isinstance(value, dict) and request_id:
+                    value["_transport_request_id"] = request_id
             if not isinstance(value, dict):
                 raise ModelCallError("malformed_provider_envelope")
             return value
@@ -145,7 +150,7 @@ def _parse_response(
     return ModelResponse(
         text,
         identity,
-        raw.get("id"),
+        raw.get("_transport_request_id") or raw.get("id"),
         total,
         read,
         output,
