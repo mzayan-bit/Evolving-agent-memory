@@ -1,0 +1,117 @@
+{
+  "label": "ENGINEERING SMOKE TEST ONLY",
+  "status": "PASS",
+  "git_commit": "f50aa2828dc3c26adcb7d246027dcd1feb4d3331",
+  "dirty": true,
+  "timestamp": "2026-09-26T08:23:41.380733+00:00",
+  "environment": {
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "hardware": {
+      "machine": "arm64",
+      "machine_model": "Mac16,12",
+      "chip_type": "Apple M4",
+      "number_processors": "proc 10:4:6:0",
+      "physical_memory": "16 GB"
+    },
+    "disk_free_bytes": 316990361600,
+    "credentials": {
+      "ANTHROPIC_API_KEY": "missing",
+      "HF_TOKEN": "missing",
+      "VLLM_BASE_URL": "missing",
+      "QWEN_DEPLOYMENT_MANIFEST": "missing"
+    }
+  },
+  "provider": "local-tokenizer",
+  "model": "Qwen/Qwen3.5-9B",
+  "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "runtime": "tokenizer-only",
+  "prompt_hashes": [],
+  "generation_config": [],
+  "budget": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "usage": {
+    "dependency_checks": 0,
+    "cache_hits": 0,
+    "model_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "retrieval_calls": 0,
+    "embedding_calls": 0,
+    "verification_calls": 0,
+    "replay_steps": 0,
+    "tool_calls": 0,
+    "wall_latency_ms": 1814.9287499836646
+  },
+  "remaining": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "cache_stats": {
+    "hits": 0,
+    "physical_model_misses": 0,
+    "physical_embedding_encodes": 0
+  },
+  "latency_ms": 1814.9287499836646,
+  "latency_semantics": "Runtime event or physical phase sum. usage.wall_latency_ms includes nested events and is not end-to-end time.",
+  "attempts": [],
+  "events": [
+    {
+      "operation_id": "elapsed",
+      "phase": "runtime",
+      "checkpoint": 0,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 1814.9287499836646,
+      "usage_source": "deterministic_no_model",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": null,
+      "provider": null,
+      "model_version": null,
+      "request_id": null,
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "unknown",
+      "cache_hits": 0
+    }
+  ],
+  "details": {
+    "token_count": 22,
+    "token_ids_hash": "4f7817da6eb5e5a396ab26b7da8bcf28b88ba7e693f3cdf96cfd33dd2d91a879",
+    "template_hash": "12de9034d5269e8b1fe6012b3538374fcb3941bf93c95fc81b0cf5acf3f08ce4",
+    "messages_hash": "e3e2b1d2346a17c48861705df53550b48e0f1fc6502f35a5bbb28cd94362c04b",
+    "enable_thinking": false,
+    "add_generation_prompt": true,
+    "usage_source": "exact_pinned_tokenizer_not_generation_usage",
+    "transformers": "5.17.0",
+    "model_weights_loaded": false
+  }
+}

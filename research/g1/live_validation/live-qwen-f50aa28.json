@@ -1,0 +1,79 @@
+{
+  "label": "ENGINEERING SMOKE TEST ONLY",
+  "status": "SKIPPED",
+  "git_commit": "f50aa2828dc3c26adcb7d246027dcd1feb4d3331",
+  "dirty": true,
+  "timestamp": "2026-09-26T08:23:42.108561+00:00",
+  "environment": {
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "hardware": {
+      "machine": "arm64",
+      "machine_model": "Mac16,12",
+      "chip_type": "Apple M4",
+      "number_processors": "proc 10:4:6:0",
+      "physical_memory": "16 GB"
+    },
+    "disk_free_bytes": 316990332928,
+    "credentials": {
+      "ANTHROPIC_API_KEY": "missing",
+      "HF_TOKEN": "missing",
+      "VLLM_BASE_URL": "missing",
+      "QWEN_DEPLOYMENT_MANIFEST": "missing"
+    }
+  },
+  "provider": "vllm",
+  "model": "Qwen/Qwen3.5-9B",
+  "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "runtime": "unavailable",
+  "prompt_hashes": [],
+  "generation_config": [],
+  "budget": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "usage": {
+    "dependency_checks": 0,
+    "cache_hits": 0,
+    "model_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "retrieval_calls": 0,
+    "embedding_calls": 0,
+    "verification_calls": 0,
+    "replay_steps": 0,
+    "tool_calls": 0,
+    "wall_latency_ms": 0
+  },
+  "remaining": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "cache_stats": {
+    "hits": 0,
+    "physical_model_misses": 0,
+    "physical_embedding_encodes": 0
+  },
+  "latency_ms": 0,
+  "latency_semantics": "Runtime event or physical phase sum. usage.wall_latency_ms includes nested events and is not end-to-end time.",
+  "attempts": [],
+  "events": [],
+  "details": {
+    "reason": "Qwen endpoint/deployment manifest unavailable; hardware not assessed"
+  }
+}

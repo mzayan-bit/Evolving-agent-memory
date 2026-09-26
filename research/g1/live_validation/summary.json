@@ -1,0 +1,192 @@
+{
+  "label": "ENGINEERING SMOKE TEST ONLY",
+  "paid_requests": 0,
+  "provider_input_tokens": 0,
+  "provider_cached_tokens": 0,
+  "provider_output_tokens": 0,
+  "provider_reasoning_tokens": null,
+  "provider_failed_calls": 0,
+  "paid_retries": 0,
+  "provider_latency_ms": 0,
+  "derived_provider_usd": 0,
+  "price_table_version": "anthropic-sonnet5-2026-09-26-standard-usd",
+  "local_hardware_usd": null,
+  "actual_embedding_calls": 14,
+  "actual_embedding_items": 20,
+  "embedding_elapsed_ms": 53488.00829099491,
+  "runs": [
+    {
+      "run": "live-embedding-v1",
+      "status": "PASS",
+      "model_calls": 0,
+      "embedding_calls": 4,
+      "elapsed_ms": 48256.3360829954,
+      "details": {
+        "load_latency_ms": 48152.045666996855,
+        "dimension": 384,
+        "normalized": true,
+        "repeat_exact": true,
+        "batch_size": 3,
+        "batch_matches_single": true,
+        "threshold": 0.7,
+        "threshold_provenance": "Existing untuned engineering default; unchanged",
+        "embedding_items": 6,
+        "vector_hash": "b39f5de7a161757f413c405d3dc168d1ed86b52ed5fec2c453f3d10c620137f0"
+      }
+    },
+    {
+      "run": "live-embedding-v2",
+      "status": "PASS",
+      "model_calls": 0,
+      "embedding_calls": 5,
+      "elapsed_ms": 2025.0582920270972,
+      "details": {
+        "load_latency_ms": 1928.802291979082,
+        "dimension": 384,
+        "normalized": true,
+        "repeat_exact": true,
+        "batch_size": 3,
+        "batch_matches_single": true,
+        "threshold": 0.7,
+        "threshold_provenance": "Existing untuned engineering default; unchanged",
+        "embedding_items": 7,
+        "vector_hash": "b39f5de7a161757f413c405d3dc168d1ed86b52ed5fec2c453f3d10c620137f0",
+        "embedding_budget_stop": {
+          "cap": 1,
+          "actual_encodes": 1,
+          "second_encode_blocked": true
+        }
+      }
+    },
+    {
+      "run": "live-embedding-f50aa28",
+      "status": "PASS",
+      "model_calls": 0,
+      "embedding_calls": 5,
+      "elapsed_ms": 3206.6139159724116,
+      "details": {
+        "load_latency_ms": 3084.4051250023767,
+        "dimension": 384,
+        "normalized": true,
+        "repeat_exact": true,
+        "batch_size": 3,
+        "batch_matches_single": true,
+        "threshold": 0.7,
+        "threshold_provenance": "Existing untuned engineering default; unchanged",
+        "embedding_items": 7,
+        "vector_hash": "b39f5de7a161757f413c405d3dc168d1ed86b52ed5fec2c453f3d10c620137f0",
+        "embedding_budget_stop": {
+          "cap": 1,
+          "actual_encodes": 1,
+          "second_encode_blocked": true
+        }
+      }
+    },
+    {
+      "run": "live-tokenizer-v1",
+      "status": "FAIL",
+      "model_calls": 0,
+      "embedding_calls": 0,
+      "elapsed_ms": 2753.687707998324,
+      "details": {
+        "error_type": "OSError",
+        "error": "We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.\nCheck your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'."
+      }
+    },
+    {
+      "run": "live-tokenizer-v2",
+      "status": "FAIL",
+      "model_calls": 0,
+      "embedding_calls": 0,
+      "elapsed_ms": 2875.061165948864,
+      "details": {
+        "error_type": "AssertionError",
+        "error": ""
+      }
+    },
+    {
+      "run": "live-tokenizer-v3",
+      "status": "PASS",
+      "model_calls": 0,
+      "embedding_calls": 0,
+      "elapsed_ms": 2758.841749979183,
+      "details": {
+        "token_count": 22,
+        "token_ids_hash": "4f7817da6eb5e5a396ab26b7da8bcf28b88ba7e693f3cdf96cfd33dd2d91a879",
+        "template_hash": "12de9034d5269e8b1fe6012b3538374fcb3941bf93c95fc81b0cf5acf3f08ce4",
+        "messages_hash": "e3e2b1d2346a17c48861705df53550b48e0f1fc6502f35a5bbb28cd94362c04b",
+        "enable_thinking": false,
+        "add_generation_prompt": true,
+        "usage_source": "exact_pinned_tokenizer_not_generation_usage",
+        "transformers": "5.17.0",
+        "model_weights_loaded": false
+      }
+    },
+    {
+      "run": "live-tokenizer-f50aa28",
+      "status": "PASS",
+      "model_calls": 0,
+      "embedding_calls": 0,
+      "elapsed_ms": 1814.9287499836646,
+      "details": {
+        "token_count": 22,
+        "token_ids_hash": "4f7817da6eb5e5a396ab26b7da8bcf28b88ba7e693f3cdf96cfd33dd2d91a879",
+        "template_hash": "12de9034d5269e8b1fe6012b3538374fcb3941bf93c95fc81b0cf5acf3f08ce4",
+        "messages_hash": "e3e2b1d2346a17c48861705df53550b48e0f1fc6502f35a5bbb28cd94362c04b",
+        "enable_thinking": false,
+        "add_generation_prompt": true,
+        "usage_source": "exact_pinned_tokenizer_not_generation_usage",
+        "transformers": "5.17.0",
+        "model_weights_loaded": false
+      }
+    },
+    {
+      "run": "live-claude-f50aa28",
+      "status": "SKIPPED",
+      "model_calls": 0,
+      "embedding_calls": 0,
+      "elapsed_ms": 0,
+      "details": {
+        "reason": "ANTHROPIC_API_KEY unavailable"
+      }
+    },
+    {
+      "run": "live-qwen-f50aa28",
+      "status": "SKIPPED",
+      "model_calls": 0,
+      "embedding_calls": 0,
+      "elapsed_ms": 0,
+      "details": {
+        "reason": "Qwen endpoint/deployment manifest unavailable; hardware not assessed"
+      }
+    }
+  ],
+  "source_hashes": {
+    "src/evomem/__init__.py": "231f4a6d052c574563b36caf77903ab304a40ca1c07fa86ff5e225fbb6595c72",
+    "src/evomem/comparators.py": "8054aa62a65c216e2041ca6f454e92ce5d6e6077cd871332ca6d343ad810234b",
+    "src/evomem/config.py": "f77da9376d00a7592c8d228c701b92bd0a698a4ad1dfa47c4cb46b3234cb0ff5",
+    "src/evomem/cost.py": "32c9769313c629de3611755d0ece186a82fce1748887389bcffd6042826a7bc7",
+    "src/evomem/data.py": "4169caf788f24feb57a3bacf4a23d8c01e8011d4bffffe8a2e7b6d268b5ab2f8",
+    "src/evomem/evaluation.py": "7afa33de5a0b42233ae9d239db680b4a64075f1439dce3217b9c959dbd50fc60",
+    "src/evomem/experiment/__init__.py": "2b2c90cf03b97141b7d5bedb2a423dfeffa57a5b1ce23a08ea861a6e0d3bc1c8",
+    "src/evomem/experiment/live_support.py": "97af6358a285baa3b7c1f2a8df8d3519f66886da2874da178391656d9cad0dba",
+    "src/evomem/experiment/live_validation.py": "37215eb66fb7cf30abd0137a0071f1f2e117095350d24f06be05b571f5430f14",
+    "src/evomem/experiment/model_smoke.py": "10f93e4c44528bd032007286fbf562fe0733ef31541ac76cd73f3bc664d02be5",
+    "src/evomem/experiment/observable_fixtures.py": "6007de260475362e3eeb233e1ed490bb020000963b664103fcfcfc0fa7765ba9",
+    "src/evomem/experiment/run.py": "986fe7d6747006eec06a196b61357558ff09eeb7757847585d5586f5d21abcf2",
+    "src/evomem/fixtures.py": "985a6eefe2f94e89f667443138773cac68d08138370258c67045b6d81beabd32",
+    "src/evomem/model.py": "8f43b8856665552a179aa75f5c12f3ace8653d456d4c9ccebdb1e15c51862d1c",
+    "src/evomem/model_replay.py": "f58e2ff4d94668af0804ef20bf3f3286ebd8f08756bd3dc818a464d83b956828",
+    "src/evomem/models/__init__.py": "b2b5c1d272485d615a54cca5be6d47cbbff3f965ea74a9a02a5f22a060b7062a",
+    "src/evomem/models/client.py": "372cf2a63f89750e98f6b19b7351034829ab303ee1ad8b9efca3a14ce0640dca",
+    "src/evomem/models/embeddings.py": "e4d56fd19239b3fb197e86f084ceb122daca995a4848770ba94bf5902078a047",
+    "src/evomem/models/execution.py": "c114fb29cd325c74288b07a124af4879dc2fda7c02b20fdd81ee29756320685e",
+    "src/evomem/models/inference.py": "e4a66038aa3888c87eea656914a59c73aa31367c845c3762ecaf72e19a937254",
+    "src/evomem/models/pricing.py": "2fbc1352e4371147133f069704aa61716b88e54e2611850dc3b4c69dbfd107b2",
+    "src/evomem/models/tokenization.py": "1c1c6ac4a9abf25fa166559682e99cff53d3a59c81c148213943977e9d77b7fb",
+    "src/evomem/policies.py": "bf0cae8079170a3cc30da624201f96ff45e992f6d14014e34b6652393952970b",
+    "src/evomem/readout.py": "5209987ac73836176b9dca00fe4cd2fe31a854a172e5f8af0432920318beb75c",
+    "src/evomem/replay.py": "f36c5ab90c18d2216822d126863c0c45645faee1d1c5a341849fdc49850a6335",
+    "src/evomem/simulation.py": "33942e43c5e339cccc7bf0317055f1ffc819cd432a8d05ffe1a59a37a3419586"
+  }
+}

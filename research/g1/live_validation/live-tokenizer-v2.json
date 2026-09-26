@@ -1,0 +1,108 @@
+{
+  "label": "ENGINEERING SMOKE TEST ONLY",
+  "status": "FAIL",
+  "git_commit": "101483a8ac56d45643a7322bbae46e33a213237e",
+  "dirty": true,
+  "timestamp": "2026-09-26T08:14:41.019098+00:00",
+  "environment": {
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "hardware": {
+      "machine": "arm64",
+      "machine_model": "Mac16,12",
+      "chip_type": "Apple M4",
+      "number_processors": "proc 10:4:6:0",
+      "physical_memory": "16 GB"
+    },
+    "disk_free_bytes": 316987301888,
+    "credentials": {
+      "ANTHROPIC_API_KEY": "missing",
+      "HF_TOKEN": "missing",
+      "VLLM_BASE_URL": "missing",
+      "QWEN_DEPLOYMENT_MANIFEST": "missing"
+    }
+  },
+  "provider": "local-tokenizer",
+  "model": "Qwen/Qwen3.5-9B",
+  "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "runtime": "tokenizer-only",
+  "prompt_hashes": [],
+  "generation_config": [],
+  "budget": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "usage": {
+    "dependency_checks": 0,
+    "cache_hits": 0,
+    "model_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "retrieval_calls": 0,
+    "embedding_calls": 0,
+    "verification_calls": 0,
+    "replay_steps": 0,
+    "tool_calls": 0,
+    "wall_latency_ms": 2875.061165948864
+  },
+  "remaining": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "cache_stats": {
+    "hits": 0
+  },
+  "latency_ms": 2875.061165948864,
+  "latency_semantics": "Runtime event when present; otherwise physical phase sum. usage.wall_latency_ms includes nested events and is not end-to-end time.",
+  "attempts": [],
+  "events": [
+    {
+      "operation_id": "elapsed",
+      "phase": "runtime",
+      "checkpoint": 0,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 2875.061165948864,
+      "usage_source": "deterministic_no_model",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": null,
+      "provider": null,
+      "model_version": null,
+      "request_id": null,
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "unknown",
+      "cache_hits": 0
+    }
+  ],
+  "details": {
+    "error_type": "AssertionError",
+    "error": ""
+  }
+}
