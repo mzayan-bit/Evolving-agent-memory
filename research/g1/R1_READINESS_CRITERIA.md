@@ -31,3 +31,19 @@ Any missing G1/G2/G3/G8 live evidence keeps overall readiness R0 even if offline
 | G9 | PASS — no proposed method, human annotations unchanged, no real pilot or hypothesis statistics |
 
 **Overall R0.** To reach R1: inspect a tiny competent real model/embedding trace; validate real returned usage and a no-dispatch exhausted-budget check; validate the intended Qwen deployment or explicitly narrow the supported engineering scope; resolve final resource-release/cache parity integration; make replay/readout scope scientifically adequate (model regeneration and historical audit where claimed); review and freeze development prompts/thresholds. Human adjudication is a separate R2 gate, not a reason to call the current engineering R1. Details and validation evidence are in [ENGINEERING_PHASE_REPORT.md](ENGINEERING_PHASE_REPORT.md).
+
+## Live validation phase review — 2026-09-26 (supersedes prior final assessment)
+
+| Gate | Status | Evidence / exact remaining work |
+|---|---|---|
+| G1 | PARTIAL | Pinned B4b actually loads/encodes; five observable support cases and cross-backend parser tested offline. Claude/Qwen support generation remains blocked. |
+| G2 | BLOCKED | Provider parsing, exact pinned tokenizer and raw category preservation implemented/tested. No real language-provider usage record exists. Local embedding execution is not provider token evidence. |
+| G3 | PARTIAL | Actual embedding cap prevented a second encode; all language token/call/overrun/retry boundaries tested offline. Live provider first-call/second-stop unavailable. |
+| G4 | PARTIAL | ModelCachedReplay regenerates text through ModelExecutor, tracks hits/misses/regenerated nodes, hashes dependency/model/prompt/config/scope/clock versions, commits atomically; live generation cost still skipped. |
+| G5 | PASS | Internal B8/B9/B10 fidelity distinctions and CUPMem external-only decision retained. No paper reproduction or superiority claim added. |
+| G6 | PARTIAL | Shared point-inference policy path plus concrete DAG regeneration and common Reader interface. Structured reader covers historical views; model reader/B10 are current-only and live execution remains unavailable. |
+| G7 | PASS | Offline allowlist tests remain passing; readout never receives expected answers; fictional counterfactuals and future-target checks added. This is the tested information boundary, not proof against arbitrary malicious adapters. |
+| G8 | PARTIAL | Real local embedding/tokenizer manifests, exact runtime snapshot, safe opt-in suite and provider manifests exist; provider runs explicitly SKIPPED. |
+| G9 | PASS | No pilot, proposed controller, fabricated annotations, human-label model evaluation or research claim. |
+
+**R0 remains required.** Primary operational blockers are missing Claude credential and suitable configured pinned Qwen deployment. These prevent real support inference, provider reconciliation/stopping and B8/B10/readout smoke. Additional freeze work: independent development labels for numeric thresholds, declared readout/replay scope, verified server settings and final arm-level construction/cache/resource-release integration. Embeddings are no longer a blocker. The tokenizer-only result must not be called Qwen generation. See LIVE_RESOURCE_VALIDATION.md and DEVELOPMENT_FREEZE_CANDIDATE.md.

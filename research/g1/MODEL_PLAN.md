@@ -28,3 +28,14 @@ Native Messages adapter now targets the officially documented `claude-sonnet-5`;
 Qwen/Qwen3.5-9B is pinned to c202236235762e1c871ad0ccb60c8ee5ba337b9a with the same tokenizer revision. One backend only: vLLM 0.30.0 development candidate, verified as a public package release on this date; not installed here. [Official model card](https://huggingface.co/Qwen/Qwen3.5-9B). No configured server/manifest or downloaded weights were established, so smoke SKIPPED; hardware capability itself was not assessed. A server manifest must record dtype, quantization, hardware and launch/runtime details; never substitute an unrecorded quantized model.
 
 The pinned embedding candidate is sentence-transformers/all-MiniLM-L6-v2 at 1110a243fdf4706b3f48f1d95db1a4f5529b4d41, sentence-transformers 6.1.0. CPU float32/normalization/truncation settings enter its cache identity. No package/weights were installed or semantic quality claimed. Exact prompt/decoding/runtime requirements are in [MODEL_PROMPT_PROTOCOL.md](MODEL_PROMPT_PROTOCOL.md). Future freeze must validate these candidates on development data; package pins alone do not prove compatibility or competence.
+
+## Live validation follow-up — 2026-09-26
+
+Official sources were rechecked again; intended model identifiers are unchanged.
+The actual MiniLM runtime and pinned Qwen tokenizer/template now execute locally.
+Qwen's pinned weight index reports 19,306,216,416 bytes before runtime/KV overhead;
+the measured host has 16 GB unified memory. No model-weight load or quantized
+substitution was attempted. vLLM-Metal exists, so blanket Mac incompatibility is
+not asserted; adopting its MLX/quantized deployment would require a separately
+pinned, validated protocol configuration. Claude credentials and a Qwen server
+remain absent. See LIVE_ENVIRONMENT.md and the sanitized live manifests.

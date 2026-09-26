@@ -53,3 +53,7 @@ Native JSON schema was checked against current provider documentation; unsupport
 **Q6 — Exactly what prevents R1?** Missing real provider/embedding competence trace (G1), real usage record (G2), live exhausted-budget stop (G3), credible model-backed replay/cost and arm-level cache accounting (G4), complete declared readout scope and runtime integration (G6/G8), and development prompt/threshold/deployment freeze. The Qwen endpoint/manifest and embedding runtime are unavailable. Human adjudication separately blocks R2; it is not the sole remaining obstacle.
 
 **Q7 — Implement the proposed method now?** **NO.** Independently adjudicated gold and demonstrated residual baseline headroom are absent. Stop after this engineering phase.
+
+## Subsequent live validation phase
+
+The following report supersedes this phase's “embeddings unavailable” finding while preserving its historical record: [LIVE_RESOURCE_VALIDATION.md](LIVE_RESOURCE_VALIDATION.md). Pinned embeddings and Qwen tokenizer execution now pass. Model-backed readout/replay paths and 29 additional offline tests exist. Language generation is still unavailable and overall readiness remains R0. No human annotation status or research conclusion changed.

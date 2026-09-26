@@ -40,3 +40,13 @@ For policy isolation, generate a shared frozen proposal bundle once, attach its 
 ## Post-hoc money
 
 `research/resources/pricing/anthropic-2026-09-26.json` is a dated standard-text USD snapshot from the official Sonnet 5 page. `models/pricing.py` reprices raw usage outside policy code. Cache-write TTL must be known when writes occur; otherwise cost is unknown. No batch, tool, tax or negotiated discounts are assumed. Local Qwen/embedding hardware costs are unknown, not free. Raw counts remain primary. The two live smoke manifests currently report SKIPPED and zero calls/tokens.
+
+## Live validation phase additions — 2026-09-26
+
+Added max_embedding_calls and pre-encode reservation. A real MiniLM check allowed one encode and rejected a distinct second input without entering the backend. Embedding cache hits consume zero additional encodes. Batch encode is one physical call with separately reported item count. Local encoding events now identify measured_local_embedding provenance. They do not imply language generation tokens or zero local hardware cost.
+
+Provider reservation rejections now create explicit blocked_before_dispatch attempt records without physical ledger charges. A counting HTTP transport validates no-dispatch assertions in the opt-in suite. The suite has two separately enforced budgets (one basic call, then seven further calls), both preserved in the manifest; its uncapped reporting aggregate is never used to authorize operations. Schema retries are within those phase caps. Provider transport request-id is preserved when returned; JSON message ID is a fallback when unavailable.
+
+The manifest reports runtime latency from a runtime event if present, otherwise summed physical phase latency. The legacy usage.wall_latency_ms aggregation can contain nested events and is explicitly not end-to-end elapsed time. Raw events are retained. Overruns retain the response/actual usage and halt; controlled offline tests cover them without intentionally wasting a paid call. Actual provider costs remain unvalidated because credentials/deployment are missing.
+
+ModelCachedReplay uses actual model calls on cache misses rather than symbolic replay-step prices. Each regeneration increments model calls and replay steps and bills provider-returned tokens through the same executor. Failed sweeps do not commit generated state or pending derivation-cache entries, but previously paid calls remain charged. No claim of real replay latency/cost can be made until that path runs on a real language model.

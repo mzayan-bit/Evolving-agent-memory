@@ -73,3 +73,15 @@ See [fidelity audit](BASELINE_FIDELITY_AUDIT.md), [missing threats](MISSING_BASE
 | Are adaptations being sold as reproductions? | No. CUPMem stays an external unmodified-store check; B9/B10 are internal analogues. Neither official Rollback nor StateAuditor performance is reproduced. |
 
 Human gold and residual baseline headroom still do not exist in this execution context. Do not implement the proposed method or infer a paper result from the passing engineering tests.
+
+## Round 4 — local live evidence and remaining language-model gap
+
+Real MiniLM vectors and a pinned Qwen tokenizer now execute; neither proves competent support inference. The tokenizer initially failed because required config metadata was absent, then because current Transformers returned BatchEncoding instead of the assumed flat list. Both failures are preserved; the corrected exact-ID normalization passes. This is a useful engineering finding, not a model-quality result.
+
+Could the current Reader mask memory failure? It can produce a correct answer from corrected evidence while stale storage survives, so evaluator fields remain separate and tests explicitly preserve that counterexample. Nonce/counterfactual prompts reduce easy pretraining shortcuts but do not guarantee grounding. Citation membership is a schema/evidence-availability check, not an entailment proof.
+
+Could B8's previous weak cost model manufacture headroom? The new generated-content DAG path uses actual model-call accounting and invalidates keys for model/prompt/config/dependency/scope/clock changes, but only mocks have generated text here. Therefore its real cost remains unknown; do not compare symbolic or mock costs against a future proposed method. Unknown dependency structure and unsupported cyclic generative tasks remain limitations.
+
+Could confidence leak the proposed contribution into B5? Tests show selected proposals with .71 and .99 yield identical decisions and no verifier/replay operations at the fixed .7 cutoff. Below-threshold omission changes the point structure only; no adaptive uncertainty controller exists.
+
+Can R1 be awarded from one real embedding budget stop? No. It is evidence of local B4 execution and preflight enforcement only. Missing API credentials and a suitable pinned Qwen deployment still prevent real support, usage, language-budget stop, replay and query-audit validation. R0 retained. The research question and no-method decision remain unchanged.

@@ -57,3 +57,9 @@ The new candidate comparator set and [R1 criteria](R1_READINESS_CRITERIA.md) sup
 See [fair matrix](FAIR_COMPARATOR_MATRIX.md), [prompt protocol](MODEL_PROMPT_PROTOCOL.md), [resource semantics](REAL_RESOURCE_ENFORCEMENT.md), [integration decision](CUPMEM_INTEGRATION_DECISION.md) and [residual headroom gate](RESIDUAL_HEADROOM_PROTOCOL.md). Existing candidate run counts are not execution authorization and must be recalculated after final comparator selection. The new smoke uses only canonical engineering fixtures, never human A/B material.
 
 Cumulative resource caps are implemented. The earlier two-released-credits-per-revision schedule is **not** implemented by those caps; choose and freeze a schedule, then validate it. B2/B6/B8 remain fixed-proposition executable-rule controls rather than LLM regeneration implementations. B10 current-time auditing does not automatically supply historical outcomes. These limitations must be resolved or explicitly excluded with a scientifically defensible scope before pilot freeze.
+
+## Live validation phase — still NOT FROZEN
+
+Local B4b and pinned Qwen tokenizer checks now pass. Claude and Qwen generation, language-provider accounting/stopping, B8 live regeneration and B10 live audit remain SKIPPED. Readout/state decomposition and generative incremental replay have offline-tested paths; model historical readout and cyclic/tool-trace replay are not claimed.
+
+Use DEVELOPMENT_FREEZE_CANDIDATE.md for per-component READY TO FREEZE / NEEDS HUMAN DATA / NEEDS MORE ENGINEERING status. Freeze threshold-selection procedures before collecting development outcomes; retain .7 only as the existing engineering default, never as a selected value. Human A/B and adjudication requirements are unchanged. The cumulative ledger does not implement staged credit release, and two smoke-test phase budgets are not that release schedule. No non-human pilot freeze is signed by this update.

@@ -1,0 +1,15 @@
+# Semantic baseline development procedure — 2026-09-26
+
+B4b uses sentence-transformers/all-MiniLM-L6-v2 at revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41. The actual local runtime is archived in `research/resources/runtime/embedding-macos-arm64-python311.txt`: Python 3.11.15, sentence-transformers 6.1.0, torch 2.14.0, transformers 5.17.0. CPU float32, normalized 384-dimensional vectors, maximum sequence length 256, one thread, deterministic algorithms requested. Backend and hardware settings enter the immutable cache key alongside exact input text. The same model was loaded and executed; this is no longer an interface-only check.
+
+The live smoke checks load, revision, vector dimension, unit norm, repeat equality, batch versus single consistency to 1e-5, cosine self-similarity, cache hit/miss, B4b execution and pre-dispatch embedding budget stopping. One encode call can be a batch; report both physical calls and item count. It does not estimate relation quality or select a threshold. Similarity is not entailment.
+
+## Threshold provenance
+
+The pre-existing .7 value remains an **untuned engineering default**, never a selected or evaluation-frozen value. Tests assert it does not change after fixture execution. No threshold search was performed. The selection procedure is ready for review; the selected value needs independently labeled development material.
+
+Before looking at pilot outcomes: declare a development-only set of source/claim pairs, disjoint by source family, entity and template from future evaluation. Include direct support, paraphrases, scope/time mismatches, association-only bystanders, copied evidence and conjunctions/alternatives. Two different tasks must not be conflated: neighborhood inclusion is a binary development target, while logical support remains a separate annotation. Decide the neighborhood rubric before labels are collected. No existing coordinator answers or prospective evaluation packets may be repurposed.
+
+Predeclare a finite cosine grid from 0 to 1 in .01 increments. Select the threshold maximizing development neighborhood F1 with ties resolved toward the larger threshold; publish precision/recall and uncertainty as development diagnostics. Confirm the resulting invalidation policy's false invalidation/nonavailability tradeoff on a separate development validation partition. If the rubric or validation fails, revise on new development material and keep a versioned history. No test-family search or post-pilot adjustment. Lock model, preprocessing, truncation/chunking, selection code, rubric, development IDs and chosen value before evaluation.
+
+The grid and tie-break are a prospective procedure, not evidence that F1 is the optimal scientific objective. Reviewers must approve this objective alongside preservation guardrails before selection. No labels means no selected threshold. If long records require chunking, change the preprocessing version and invalidate caches before development selection; do not silently reuse truncated-vector thresholds.

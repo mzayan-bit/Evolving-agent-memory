@@ -62,3 +62,10 @@ Outputs are create-only; select a new output directory for each attempt. Default
 pytest uses offline doubles and never requires secrets. Pinned embedding weights
 and Qwen are not downloaded automatically. Current readiness remains R0; see
 [the engineering report](../research/g1/ENGINEERING_PHASE_REPORT.md).
+
+The subsequent local live-validation phase adds a separately gated suite under
+[tests_live](../tests_live/README.md), current-model readout, generated-content DAG
+replay and exact tokenizer checks. See
+[LIVE_RESOURCE_VALIDATION.md](../research/g1/LIVE_RESOURCE_VALIDATION.md) for actual
+local results and explicit provider skips. The generated-content path returns
+ReplayResult; it must not be passed to the older status-only simulation API.
