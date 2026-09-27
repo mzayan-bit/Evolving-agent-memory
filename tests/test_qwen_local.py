@@ -55,8 +55,11 @@ def test_local_schema_accounting_and_predispatch_stop(
     body = endpoint.bodies[0]
     assert body["response_format"] == {
         "type": "json_schema",
-        "schema": {"type": "object"},
+        "json_schema": {"name": "evomem", "strict": True, "schema": {"type": "object"}},
     }
+    assert body["messages"][0]["content"] == (
+        'system\n\nRequired output JSON Schema:\n{"type": "object"}'
+    )
     assert "structured_outputs" not in body
     assert body["chat_template_kwargs"] == {"enable_thinking": False}
     assert body["temperature"] == 0 and body["seed"] == 0

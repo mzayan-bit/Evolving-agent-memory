@@ -19,5 +19,14 @@
     "https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
     "https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/21eca8a083a2121a92fba681f4a7c72cf20ff1a7",
     "https://huggingface.co/bartowski/Qwen_Qwen3.5-9B-GGUF/blob/182be2fd6c7bc44887d88a91cb03ff009cc9f549/README.md"
-  ]
+  ],
+  "tokenizer_comparison": {
+    "official_tokenizer_file_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "official_vocab_entries_checked": 248070,
+    "gguf_vocab_size": 248320,
+    "vocabulary_exact_match_for_all_official_entries": true,
+    "merge_count": 247587,
+    "merges_exact_match": true,
+    "gguf_padding_entries": 250
+  }
 }

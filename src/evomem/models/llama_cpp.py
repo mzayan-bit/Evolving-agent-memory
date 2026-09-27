@@ -3,6 +3,7 @@
 Weights and server remain external. No runtime dependency or implicit downloads.
 """
 
+import json
 from dataclasses import dataclass
 from typing import Any
 from urllib.parse import urlsplit
@@ -37,8 +38,16 @@ class QwenLlamaCppClient(QwenVLLMClient):
     def request_body(self, request: ModelRequest) -> dict[str, Any]:
         body = super().request_body(request)
         schema = body.pop("structured_outputs")["json"]
+        # llama.cpp constrains decoding but does not expose the schema to the LLM.
+        # Serialize the existing contract, without inventing fixture-specific hints.
+        body["messages"][0]["content"] += (
+            "\n\nRequired output JSON Schema:\n" + json.dumps(schema, sort_keys=True)
+        )
         body.update(
-            response_format={"type": "json_schema", "schema": schema},
+            response_format={
+                "type": "json_schema",
+                "json_schema": {"name": "evomem", "strict": True, "schema": schema},
+            },
             chat_template_kwargs={"enable_thinking": False},
             cache_prompt=False,
             seed=request.seed if request.seed is not None else 0,

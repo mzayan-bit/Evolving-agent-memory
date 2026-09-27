@@ -9,7 +9,7 @@
   "gguf_bytes": 6169341984,
   "quantization": "Q4_K_M (mixed K-quants; imatrix calibrated)",
   "backend": "llama.cpp",
-  "backend_revision": "9a532ae4b",
+  "backend_revision": "9a532ae4bab1b164052ce60a738f78538b421c66",
   "backend_release": "b9222",
   "runtime_archive_sha256": "36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b",
   "hardware": "MacBook Air M4, 16 GB unified memory",
@@ -55,7 +55,10 @@
     "{\"enable_thinking\":false}",
     "--metrics",
     "--log-verbosity",
-    "10"
+    "10",
+    "--device",
+    "none"
   ],
-  "conversion_provenance": "Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence."
+  "conversion_provenance": "Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.",
+  "adapter_schema_protocol": "llama.cpp-json_schema-wrapper-and-visible-contract-v2"
 }
