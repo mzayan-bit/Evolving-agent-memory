@@ -6,6 +6,7 @@ returned in new immutable records, never silently discarded by that simulator.
 
 import json
 from dataclasses import asdict, dataclass, field, replace
+from time import perf_counter
 
 from evomem.cost import BudgetExceededError, CostEvent
 from evomem.model import Memory, PolicyView, Status
@@ -99,6 +100,7 @@ class ModelCachedReplay:
     def update(
         self, view: PolicyView, specs: tuple[Derivation, ...], reuse: bool = True
     ) -> ReplayResult:
+        check_start = perf_counter()
         lookup = {m.memory_id: m for m in view.items}
         targets = {s.target_id for s in specs}
         if len(targets) != len(specs) or any(
@@ -135,6 +137,7 @@ class ModelCachedReplay:
                 "dependency-check",
                 view.checkpoint,
                 dependency_checks=sum(len(s.dependencies) for s in specs),
+                wall_latency_ms=(perf_counter() - check_start) * 1000,
             )
         )
         pending = dict(self.cache)
@@ -142,6 +145,7 @@ class ModelCachedReplay:
         hits = misses = 0
         try:
             for spec in ordered:
+                prepare_start = perf_counter()
                 # Include invalid evidence identity in the key, but do not supply
                 # invalid text to generation. Validity changes must invalidate reuse.
                 deps = tuple(lookup[i] for i in spec.dependencies)
@@ -170,6 +174,14 @@ class ModelCachedReplay:
                     ),
                 )
                 key = cache_key(self.deriver.executor.client, versioned)
+                ledger.charge(
+                    CostEvent(
+                        f"replay-prepare:{len(ledger.events)}",
+                        "dependency-check",
+                        view.checkpoint,
+                        wall_latency_ms=(perf_counter() - prepare_start) * 1000,
+                    )
+                )
                 if reuse and key in self.cache:
                     content = self.cache[key]
                     hits += 1

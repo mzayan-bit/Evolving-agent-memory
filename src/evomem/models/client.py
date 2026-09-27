@@ -92,8 +92,15 @@ class HTTPTransport:
                 503: "server_error",
             }
             raise ModelCallError(categories.get(error.code, "http_error")) from None
-        except (urllib.error.URLError, TimeoutError):
-            raise ModelCallError("transport_or_timeout") from None
+        except TimeoutError:
+            raise ModelCallError("model_timeout") from None
+        except urllib.error.URLError as error:
+            category = (
+                "model_timeout"
+                if isinstance(error.reason, TimeoutError)
+                else "transport_or_timeout"
+            )
+            raise ModelCallError(category) from None
         except (ValueError, TypeError):
             raise ModelCallError("malformed_provider_envelope") from None
 
