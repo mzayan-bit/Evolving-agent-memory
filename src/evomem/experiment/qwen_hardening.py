@@ -158,6 +158,14 @@ def audit_checks(ex: ModelExecutor) -> dict[str, Any]:
     }
 
 
+def usage_sum(executors: list[ModelExecutor], resource: str) -> int | float | None:
+    """An unreported physical cost makes the aggregate unknown, never zero."""
+    values = [ex.ledger.totals()[resource] for ex in executors]
+    if any(value is None for value in values):
+        return None
+    return sum(value for value in values if value is not None)
+
+
 def run(output: Path, client: QwenLlamaCppClient) -> dict[str, Any]:
     output.mkdir(parents=True, exist_ok=False)
     started = perf_counter()
@@ -242,16 +250,14 @@ def run(output: Path, client: QwenLlamaCppClient) -> dict[str, Any]:
         "model_calls": sum(
             int(ex.ledger.totals()["model_calls"] or 0) for ex in all_ex
         ),
-        "input_tokens": sum(
-            int(ex.ledger.totals()["input_tokens"] or 0) for ex in all_ex
-        ),
-        "output_tokens": sum(
-            int(ex.ledger.totals()["output_tokens"] or 0) for ex in all_ex
-        ),
+        "input_tokens": usage_sum(all_ex, "input_tokens"),
+        "output_tokens": usage_sum(all_ex, "output_tokens"),
         "model_latency_ms": sum(
             float(ex.ledger.totals()["wall_latency_ms"] or 0) for ex in all_ex
         ),
         "wall_elapsed_ms": (perf_counter() - started) * 1000,
+        "latency_semantics": "model_latency_ms includes charged local replay "
+        "preparation; wall_elapsed_ms is the distinct suite elapsed time",
         "token_audits": audits,
         "energy_joules": None,
         "estimated_usd": None,

@@ -6,9 +6,10 @@ from dataclasses import replace
 import pytest
 from test_models import FakeClient, response
 
-from evomem.cost import Budget, BudgetExceededError, Ledger
+from evomem.cost import Budget, BudgetExceededError, CostEvent, Ledger
 from evomem.experiment.inference_audit import compare
 from evomem.experiment.observable_fixtures import nonce_view
+from evomem.experiment.qwen_hardening import usage_sum
 from evomem.model import Relation, Support
 from evomem.models.client import ModelCallError, ModelResponse
 from evomem.models.execution import ModelExecutor
@@ -40,6 +41,22 @@ def valid() -> dict[str, object]:
             for i, s in [("t", "s"), ("v", "u")]
         ]
     }
+
+
+@pytest.mark.parametrize("resource", ["input_tokens", "output_tokens"])
+def test_engineering_summary_preserves_unknown_physical_usage(resource: str) -> None:
+    known = ModelExecutor(FakeClient([]), Ledger(Budget()))
+    unknown = ModelExecutor(FakeClient([]), Ledger(Budget()))
+    known.ledger.events.append(
+        CostEvent("known", "support-inference", 0, input_tokens=7, output_tokens=3)
+    )
+    unknown.ledger.events.append(
+        CostEvent(
+            "failed", "support-inference", 0, input_tokens=None, output_tokens=None
+        )
+    )
+    assert usage_sum([known], resource) == (7 if resource == "input_tokens" else 3)
+    assert usage_sum([known, unknown], resource) is None
 
 
 @pytest.mark.parametrize(
