@@ -1,5 +1,14 @@
 # Live resource validation — 2026-09-26
 
+> 2026-09-27 local Qwen follow-up: the tokenizer-only / missing-deployment blocker
+> is now cleared by actual quantized Qwen3.5-9B generation through llama.cpp on
+> this M4. Tiny B5b/B8/B10 and accounting/budget checks execute. The legacy copies
+> fixture still fails strict output validation, and support-quality limitations
+> remain. This is ENGINEERING VALIDATION only; see
+> [QWEN_LOCAL_DEPLOYMENT.md](QWEN_LOCAL_DEPLOYMENT.md). The report below remains
+> the historical result of its original validation phase.
+
+
 **Readiness remains R0.** Real local embeddings and tokenizer checks passed. No live language-model generation was possible. This is engineering evidence only: no pilot, superiority claim, inferred G1 headroom or new repair controller.
 
 ## Outcomes

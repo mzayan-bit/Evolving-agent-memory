@@ -1,0 +1,958 @@
+{
+  "label": "ENGINEERING VALIDATION \u2014 NOT SCIENTIFIC EVIDENCE",
+  "status": "PASS",
+  "git_commit": "c98442e5b25a2849f911cd49db38b501bfe0ed88",
+  "dirty": true,
+  "timestamp": "2026-09-27T08:48:16.462918+00:00",
+  "environment": {
+    "os": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "hardware": {
+      "machine": "arm64",
+      "machine_model": "Mac16,12",
+      "chip_type": "Apple M4",
+      "number_processors": "proc 10:4:6:0",
+      "physical_memory": "16 GB"
+    },
+    "disk_free_bytes": 306512080896,
+    "credentials": {
+      "ANTHROPIC_API_KEY": "missing",
+      "HF_TOKEN": "missing",
+      "VLLM_BASE_URL": "missing",
+      "QWEN_DEPLOYMENT_MANIFEST": "configured"
+    }
+  },
+  "provider": "llama.cpp",
+  "model": "Qwen/Qwen3.5-9B",
+  "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "runtime": "{\"adapter_schema_protocol\": \"llama.cpp-json_schema-wrapper-and-visible-contract-v2\", \"backend\": \"llama.cpp\", \"backend_release\": \"b9222\", \"backend_revision\": \"9a532ae4bab1b164052ce60a738f78538b421c66\", \"batch_size\": 256, \"context_length\": 4096, \"conversion_provenance\": \"Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.\", \"conversion_repo\": \"bartowski/Qwen_Qwen3.5-9B-GGUF\", \"conversion_revision\": \"182be2fd6c7bc44887d88a91cb03ff009cc9f549\", \"enable_thinking\": false, \"execution_device\": \"CPU + Accelerate; Metal unavailable in this execution session\", \"gguf_bytes\": 6169341984, \"gguf_file\": \"Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"gguf_sha256\": \"d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43\", \"hardware\": \"MacBook Air M4, 16 GB unified memory\", \"kv_cache_type\": \"f16\", \"label\": \"ENGINEERING VALIDATION \\u2014 NOT SCIENTIFIC EVIDENCE\", \"model\": \"Qwen/Qwen3.5-9B\", \"parallel_slots\": 1, \"quantization\": \"Q4_K_M (mixed K-quants; imatrix calibrated)\", \"runtime_archive_sha256\": \"36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b\", \"seed\": 0, \"server_command\": [\"../g1-llama-b9222/llama-b9222/llama-server\", \"--model\", \"../g1-qwen-gguf/Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"--alias\", \"Qwen/Qwen3.5-9B\", \"--host\", \"127.0.0.1\", \"--port\", \"8087\", \"--ctx-size\", \"4096\", \"--parallel\", \"1\", \"--threads\", \"4\", \"--threads-batch\", \"4\", \"--batch-size\", \"256\", \"--ubatch-size\", \"128\", \"--n-gpu-layers\", \"0\", \"--no-context-shift\", \"--jinja\", \"--chat-template-kwargs\", \"{\\\"enable_thinking\\\":false}\", \"--metrics\", \"--log-verbosity\", \"10\", \"--device\", \"none\"], \"source_revision\": \"c202236235762e1c871ad0ccb60c8ee5ba337b9a\", \"speculative_decoding\": false, \"temperature\": 0.0, \"threads\": 4, \"ubatch_size\": 128, \"vision_projector_loaded\": false}",
+  "prompt_hashes": [
+    "28346ab2e01628abf1564e34a4192c0a9a33ff6c3031b4bdfac62e1bdb605281",
+    "7516c0fb2ed9d90f097086eb0d3a0515e14a3624a9765ba0e301d1e6e06fdf17",
+    "205ce122484114e693758c8b3293709afa5ed1328dd3c265e0fc7eecdcba5e00",
+    "7084cf5ccc32e532a6a2e934fe28d3ab3b2ad47803da02e8101959fe75b371aa",
+    "cbdc28aa9d64467c537e3385ad2725c1107c41d4ce21645bd572160039202568"
+  ],
+  "generation_config": [
+    {
+      "seed": null,
+      "temperature": null,
+      "max_output_tokens": 256,
+      "schema_version": "basic-v1"
+    },
+    {
+      "seed": null,
+      "temperature": null,
+      "max_output_tokens": 1024,
+      "schema_version": "point-support-development-v1"
+    },
+    {
+      "seed": null,
+      "temperature": null,
+      "max_output_tokens": 256,
+      "schema_version": "derivation-development-v1"
+    },
+    {
+      "seed": null,
+      "temperature": null,
+      "max_output_tokens": 256,
+      "schema_version": "derivation-development-v1"
+    },
+    {
+      "seed": null,
+      "temperature": null,
+      "max_output_tokens": 1024,
+      "schema_version": "query-audit-development-v1"
+    }
+  ],
+  "budget": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "usage": {
+    "dependency_checks": 3,
+    "cache_hits": 1,
+    "model_calls": 5,
+    "input_tokens": 2453,
+    "output_tokens": 542,
+    "cached_input_tokens": 0,
+    "retrieval_calls": 0,
+    "embedding_calls": 0,
+    "verification_calls": 1,
+    "replay_steps": 2,
+    "tool_calls": 0,
+    "wall_latency_ms": 112437.45850009145
+  },
+  "remaining": {
+    "max_verification_calls": null,
+    "max_replay_steps": null,
+    "max_model_calls": null,
+    "max_tokens": null,
+    "max_input_tokens": null,
+    "max_output_tokens": null,
+    "max_total_tokens": null,
+    "max_retrieval_calls": null,
+    "max_embedding_calls": null
+  },
+  "cache_stats": {
+    "hits": 1,
+    "physical_model_misses": 5,
+    "physical_embedding_encodes": 0
+  },
+  "latency_ms": 112437.45850009145,
+  "latency_semantics": "Runtime event or physical phase sum. usage.wall_latency_ms includes nested events and is not end-to-end time.",
+  "attempts": [
+    {
+      "identity": {
+        "provider": "llama.cpp",
+        "model": "Qwen/Qwen3.5-9B",
+        "version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "deployment": "{\"adapter_schema_protocol\": \"llama.cpp-json_schema-wrapper-and-visible-contract-v2\", \"backend\": \"llama.cpp\", \"backend_release\": \"b9222\", \"backend_revision\": \"9a532ae4bab1b164052ce60a738f78538b421c66\", \"batch_size\": 256, \"context_length\": 4096, \"conversion_provenance\": \"Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.\", \"conversion_repo\": \"bartowski/Qwen_Qwen3.5-9B-GGUF\", \"conversion_revision\": \"182be2fd6c7bc44887d88a91cb03ff009cc9f549\", \"enable_thinking\": false, \"execution_device\": \"CPU + Accelerate; Metal unavailable in this execution session\", \"gguf_bytes\": 6169341984, \"gguf_file\": \"Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"gguf_sha256\": \"d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43\", \"hardware\": \"MacBook Air M4, 16 GB unified memory\", \"kv_cache_type\": \"f16\", \"label\": \"ENGINEERING VALIDATION \\u2014 NOT SCIENTIFIC EVIDENCE\", \"model\": \"Qwen/Qwen3.5-9B\", \"parallel_slots\": 1, \"quantization\": \"Q4_K_M (mixed K-quants; imatrix calibrated)\", \"runtime_archive_sha256\": \"36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b\", \"seed\": 0, \"server_command\": [\"../g1-llama-b9222/llama-b9222/llama-server\", \"--model\", \"../g1-qwen-gguf/Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"--alias\", \"Qwen/Qwen3.5-9B\", \"--host\", \"127.0.0.1\", \"--port\", \"8087\", \"--ctx-size\", \"4096\", \"--parallel\", \"1\", \"--threads\", \"4\", \"--threads-batch\", \"4\", \"--batch-size\", \"256\", \"--ubatch-size\", \"128\", \"--n-gpu-layers\", \"0\", \"--no-context-shift\", \"--jinja\", \"--chat-template-kwargs\", \"{\\\"enable_thinking\\\":false}\", \"--metrics\", \"--log-verbosity\", \"10\", \"--device\", \"none\"], \"source_revision\": \"c202236235762e1c871ad0ccb60c8ee5ba337b9a\", \"speculative_decoding\": false, \"temperature\": 0.0, \"threads\": 4, \"ubatch_size\": 128, \"vision_projector_loaded\": false}"
+      },
+      "request_id": "chatcmpl-gEP4SBla51lBD7f6xXfh66ujnRVMjMVb",
+      "input_tokens": 65,
+      "cached_input_tokens": 0,
+      "output_tokens": 6,
+      "reasoning_tokens": null,
+      "latency_ms": 6219.94929201901,
+      "finish_reason": "stop",
+      "raw_usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 65,
+        "total_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_hash": "f7e9f5c49a67bf84aea3d30ea8410477be57be76ebd735f4daaed06fb337b842",
+      "cache_hit": false,
+      "reserved_input": 8192,
+      "reserved_output": 256
+    },
+    {
+      "operation_id": "model:1",
+      "cache_hit": null,
+      "error": null,
+      "blocked_before_dispatch": true
+    },
+    {
+      "identity": {
+        "provider": "llama.cpp",
+        "model": "Qwen/Qwen3.5-9B",
+        "version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "deployment": "{\"adapter_schema_protocol\": \"llama.cpp-json_schema-wrapper-and-visible-contract-v2\", \"backend\": \"llama.cpp\", \"backend_release\": \"b9222\", \"backend_revision\": \"9a532ae4bab1b164052ce60a738f78538b421c66\", \"batch_size\": 256, \"context_length\": 4096, \"conversion_provenance\": \"Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.\", \"conversion_repo\": \"bartowski/Qwen_Qwen3.5-9B-GGUF\", \"conversion_revision\": \"182be2fd6c7bc44887d88a91cb03ff009cc9f549\", \"enable_thinking\": false, \"execution_device\": \"CPU + Accelerate; Metal unavailable in this execution session\", \"gguf_bytes\": 6169341984, \"gguf_file\": \"Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"gguf_sha256\": \"d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43\", \"hardware\": \"MacBook Air M4, 16 GB unified memory\", \"kv_cache_type\": \"f16\", \"label\": \"ENGINEERING VALIDATION \\u2014 NOT SCIENTIFIC EVIDENCE\", \"model\": \"Qwen/Qwen3.5-9B\", \"parallel_slots\": 1, \"quantization\": \"Q4_K_M (mixed K-quants; imatrix calibrated)\", \"runtime_archive_sha256\": \"36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b\", \"seed\": 0, \"server_command\": [\"../g1-llama-b9222/llama-b9222/llama-server\", \"--model\", \"../g1-qwen-gguf/Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"--alias\", \"Qwen/Qwen3.5-9B\", \"--host\", \"127.0.0.1\", \"--port\", \"8087\", \"--ctx-size\", \"4096\", \"--parallel\", \"1\", \"--threads\", \"4\", \"--threads-batch\", \"4\", \"--batch-size\", \"256\", \"--ubatch-size\", \"128\", \"--n-gpu-layers\", \"0\", \"--no-context-shift\", \"--jinja\", \"--chat-template-kwargs\", \"{\\\"enable_thinking\\\":false}\", \"--metrics\", \"--log-verbosity\", \"10\", \"--device\", \"none\"], \"source_revision\": \"c202236235762e1c871ad0ccb60c8ee5ba337b9a\", \"speculative_decoding\": false, \"temperature\": 0.0, \"threads\": 4, \"ubatch_size\": 128, \"vision_projector_loaded\": false}"
+      },
+      "request_id": "chatcmpl-xRetitGWhBbZ8YlRFXZUCxHCgvtRrQNY",
+      "input_tokens": 1301,
+      "cached_input_tokens": 0,
+      "output_tokens": 418,
+      "reasoning_tokens": null,
+      "latency_ms": 67595.84470902337,
+      "finish_reason": "stop",
+      "raw_usage": {
+        "completion_tokens": 418,
+        "prompt_tokens": 1301,
+        "total_tokens": 1719,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_hash": "5fd9db131c863d5d1ebc6f4a59eb6874415eed553cca686f146e7fbc1cfabcff",
+      "cache_hit": false,
+      "reserved_input": 8192,
+      "reserved_output": 1024
+    },
+    {
+      "identity": {
+        "provider": "llama.cpp",
+        "model": "Qwen/Qwen3.5-9B",
+        "version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "deployment": "{\"adapter_schema_protocol\": \"llama.cpp-json_schema-wrapper-and-visible-contract-v2\", \"backend\": \"llama.cpp\", \"backend_release\": \"b9222\", \"backend_revision\": \"9a532ae4bab1b164052ce60a738f78538b421c66\", \"batch_size\": 256, \"context_length\": 4096, \"conversion_provenance\": \"Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.\", \"conversion_repo\": \"bartowski/Qwen_Qwen3.5-9B-GGUF\", \"conversion_revision\": \"182be2fd6c7bc44887d88a91cb03ff009cc9f549\", \"enable_thinking\": false, \"execution_device\": \"CPU + Accelerate; Metal unavailable in this execution session\", \"gguf_bytes\": 6169341984, \"gguf_file\": \"Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"gguf_sha256\": \"d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43\", \"hardware\": \"MacBook Air M4, 16 GB unified memory\", \"kv_cache_type\": \"f16\", \"label\": \"ENGINEERING VALIDATION \\u2014 NOT SCIENTIFIC EVIDENCE\", \"model\": \"Qwen/Qwen3.5-9B\", \"parallel_slots\": 1, \"quantization\": \"Q4_K_M (mixed K-quants; imatrix calibrated)\", \"runtime_archive_sha256\": \"36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b\", \"seed\": 0, \"server_command\": [\"../g1-llama-b9222/llama-b9222/llama-server\", \"--model\", \"../g1-qwen-gguf/Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"--alias\", \"Qwen/Qwen3.5-9B\", \"--host\", \"127.0.0.1\", \"--port\", \"8087\", \"--ctx-size\", \"4096\", \"--parallel\", \"1\", \"--threads\", \"4\", \"--threads-batch\", \"4\", \"--batch-size\", \"256\", \"--ubatch-size\", \"128\", \"--n-gpu-layers\", \"0\", \"--no-context-shift\", \"--jinja\", \"--chat-template-kwargs\", \"{\\\"enable_thinking\\\":false}\", \"--metrics\", \"--log-verbosity\", \"10\", \"--device\", \"none\"], \"source_revision\": \"c202236235762e1c871ad0ccb60c8ee5ba337b9a\", \"speculative_decoding\": false, \"temperature\": 0.0, \"threads\": 4, \"ubatch_size\": 128, \"vision_projector_loaded\": false}"
+      },
+      "request_id": "chatcmpl-SfcTQ03UTFrcHeMFbrQEldb6Z8uU6IP6",
+      "input_tokens": 301,
+      "cached_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_tokens": null,
+      "latency_ms": 10307.286708033644,
+      "finish_reason": "stop",
+      "raw_usage": {
+        "completion_tokens": 36,
+        "prompt_tokens": 301,
+        "total_tokens": 337,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_hash": "53322518f7ef37e126621bbcbd1ecaf2ef9bc3669dc8edb319f19f3ff868675e",
+      "cache_hit": false,
+      "reserved_input": 8192,
+      "reserved_output": 256
+    },
+    {
+      "identity": {
+        "provider": "llama.cpp",
+        "model": "Qwen/Qwen3.5-9B",
+        "version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "deployment": "{\"adapter_schema_protocol\": \"llama.cpp-json_schema-wrapper-and-visible-contract-v2\", \"backend\": \"llama.cpp\", \"backend_release\": \"b9222\", \"backend_revision\": \"9a532ae4bab1b164052ce60a738f78538b421c66\", \"batch_size\": 256, \"context_length\": 4096, \"conversion_provenance\": \"Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.\", \"conversion_repo\": \"bartowski/Qwen_Qwen3.5-9B-GGUF\", \"conversion_revision\": \"182be2fd6c7bc44887d88a91cb03ff009cc9f549\", \"enable_thinking\": false, \"execution_device\": \"CPU + Accelerate; Metal unavailable in this execution session\", \"gguf_bytes\": 6169341984, \"gguf_file\": \"Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"gguf_sha256\": \"d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43\", \"hardware\": \"MacBook Air M4, 16 GB unified memory\", \"kv_cache_type\": \"f16\", \"label\": \"ENGINEERING VALIDATION \\u2014 NOT SCIENTIFIC EVIDENCE\", \"model\": \"Qwen/Qwen3.5-9B\", \"parallel_slots\": 1, \"quantization\": \"Q4_K_M (mixed K-quants; imatrix calibrated)\", \"runtime_archive_sha256\": \"36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b\", \"seed\": 0, \"server_command\": [\"../g1-llama-b9222/llama-b9222/llama-server\", \"--model\", \"../g1-qwen-gguf/Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"--alias\", \"Qwen/Qwen3.5-9B\", \"--host\", \"127.0.0.1\", \"--port\", \"8087\", \"--ctx-size\", \"4096\", \"--parallel\", \"1\", \"--threads\", \"4\", \"--threads-batch\", \"4\", \"--batch-size\", \"256\", \"--ubatch-size\", \"128\", \"--n-gpu-layers\", \"0\", \"--no-context-shift\", \"--jinja\", \"--chat-template-kwargs\", \"{\\\"enable_thinking\\\":false}\", \"--metrics\", \"--log-verbosity\", \"10\", \"--device\", \"none\"], \"source_revision\": \"c202236235762e1c871ad0ccb60c8ee5ba337b9a\", \"speculative_decoding\": false, \"temperature\": 0.0, \"threads\": 4, \"ubatch_size\": 128, \"vision_projector_loaded\": false}"
+      },
+      "request_id": "chatcmpl-rmbI9KIkjKHI5K66TYUPbQpPWHSKDXpo",
+      "input_tokens": 301,
+      "cached_input_tokens": 0,
+      "output_tokens": 36,
+      "reasoning_tokens": null,
+      "latency_ms": 10966.407125000842,
+      "finish_reason": "stop",
+      "raw_usage": {
+        "completion_tokens": 36,
+        "prompt_tokens": 301,
+        "total_tokens": 337,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_hash": "e30ffe76c26dc614ff0c331e9636b98ab074f159ec5480a238ff1fedca67bd92",
+      "cache_hit": false,
+      "reserved_input": 8192,
+      "reserved_output": 256
+    },
+    {
+      "identity": {
+        "provider": "llama.cpp",
+        "model": "Qwen/Qwen3.5-9B",
+        "version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "deployment": "{\"adapter_schema_protocol\": \"llama.cpp-json_schema-wrapper-and-visible-contract-v2\", \"backend\": \"llama.cpp\", \"backend_release\": \"b9222\", \"backend_revision\": \"9a532ae4bab1b164052ce60a738f78538b421c66\", \"batch_size\": 256, \"context_length\": 4096, \"conversion_provenance\": \"Converter model card names Qwen/Qwen3.5-9B and llama.cpp b9222 with imatrix calibration. It does not attest an exact source commit. Official source HEAD still equals the pinned revision; do not claim independent full-weight equivalence.\", \"conversion_repo\": \"bartowski/Qwen_Qwen3.5-9B-GGUF\", \"conversion_revision\": \"182be2fd6c7bc44887d88a91cb03ff009cc9f549\", \"enable_thinking\": false, \"execution_device\": \"CPU + Accelerate; Metal unavailable in this execution session\", \"gguf_bytes\": 6169341984, \"gguf_file\": \"Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"gguf_sha256\": \"d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43\", \"hardware\": \"MacBook Air M4, 16 GB unified memory\", \"kv_cache_type\": \"f16\", \"label\": \"ENGINEERING VALIDATION \\u2014 NOT SCIENTIFIC EVIDENCE\", \"model\": \"Qwen/Qwen3.5-9B\", \"parallel_slots\": 1, \"quantization\": \"Q4_K_M (mixed K-quants; imatrix calibrated)\", \"runtime_archive_sha256\": \"36862cb5ad4cd817df10e0b88d6d1512e126f6bf3a2c2de65bef641f99eb485b\", \"seed\": 0, \"server_command\": [\"../g1-llama-b9222/llama-b9222/llama-server\", \"--model\", \"../g1-qwen-gguf/Qwen_Qwen3.5-9B-Q4_K_M.gguf\", \"--alias\", \"Qwen/Qwen3.5-9B\", \"--host\", \"127.0.0.1\", \"--port\", \"8087\", \"--ctx-size\", \"4096\", \"--parallel\", \"1\", \"--threads\", \"4\", \"--threads-batch\", \"4\", \"--batch-size\", \"256\", \"--ubatch-size\", \"128\", \"--n-gpu-layers\", \"0\", \"--no-context-shift\", \"--jinja\", \"--chat-template-kwargs\", \"{\\\"enable_thinking\\\":false}\", \"--metrics\", \"--log-verbosity\", \"10\", \"--device\", \"none\"], \"source_revision\": \"c202236235762e1c871ad0ccb60c8ee5ba337b9a\", \"speculative_decoding\": false, \"temperature\": 0.0, \"threads\": 4, \"ubatch_size\": 128, \"vision_projector_loaded\": false}"
+      },
+      "request_id": "chatcmpl-c6RPGDxym5y4IDB82PTfwOns87Fcni7n",
+      "input_tokens": 485,
+      "cached_input_tokens": 0,
+      "output_tokens": 46,
+      "reasoning_tokens": null,
+      "latency_ms": 17347.97066601459,
+      "finish_reason": "stop",
+      "raw_usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 485,
+        "total_tokens": 531,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_hash": "0fdec83dd55325e391297a3edaea8557de7cbdf45c0a26371a2ce84e97699c56",
+      "cache_hit": false,
+      "reserved_input": 8192,
+      "reserved_output": 1024
+    }
+  ],
+  "events": [
+    {
+      "operation_id": "0:model:0",
+      "phase": "trivial",
+      "checkpoint": 0,
+      "model_calls": 1,
+      "input_tokens": 65,
+      "output_tokens": 6,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 6219.94929201901,
+      "usage_source": "provider_reported",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": "Qwen/Qwen3.5-9B",
+      "provider": "llama.cpp",
+      "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "request_id": "chatcmpl-gEP4SBla51lBD7f6xXfh66ujnRVMjMVb",
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "subset_of_output",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "1:model:0",
+      "phase": "support-inference",
+      "checkpoint": 1,
+      "model_calls": 1,
+      "input_tokens": 1301,
+      "output_tokens": 418,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 67595.84470902337,
+      "usage_source": "provider_reported",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": "Qwen/Qwen3.5-9B",
+      "provider": "llama.cpp",
+      "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "request_id": "chatcmpl-xRetitGWhBbZ8YlRFXZUCxHCgvtRrQNY",
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "subset_of_output",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "2:replay-check:0",
+      "phase": "dependency-check",
+      "checkpoint": 1,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 1,
+      "tool_calls": 0,
+      "wall_latency_ms": 0.0,
+      "usage_source": "deterministic_no_model",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": null,
+      "provider": null,
+      "model_version": null,
+      "request_id": null,
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "unknown",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "2:model:1",
+      "phase": "model-replay",
+      "checkpoint": 1,
+      "model_calls": 1,
+      "input_tokens": 301,
+      "output_tokens": 36,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 1,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 10307.286708033644,
+      "usage_source": "provider_reported",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": "Qwen/Qwen3.5-9B",
+      "provider": "llama.cpp",
+      "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "request_id": "chatcmpl-SfcTQ03UTFrcHeMFbrQEldb6Z8uU6IP6",
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "subset_of_output",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "2:replay-check:2",
+      "phase": "dependency-check",
+      "checkpoint": 1,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 1,
+      "tool_calls": 0,
+      "wall_latency_ms": 0.0,
+      "usage_source": "deterministic_no_model",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": null,
+      "provider": null,
+      "model_version": null,
+      "request_id": null,
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "unknown",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "2:replay-hit:3",
+      "phase": "model-replay",
+      "checkpoint": 1,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 0.0,
+      "usage_source": "deterministic_no_model",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": null,
+      "provider": null,
+      "model_version": null,
+      "request_id": null,
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "unknown",
+      "cache_hits": 1
+    },
+    {
+      "operation_id": "2:replay-check:4",
+      "phase": "dependency-check",
+      "checkpoint": 1,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 0,
+      "dependency_checks": 1,
+      "tool_calls": 0,
+      "wall_latency_ms": 0.0,
+      "usage_source": "deterministic_no_model",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": null,
+      "provider": null,
+      "model_version": null,
+      "request_id": null,
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "unknown",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "2:model:5",
+      "phase": "model-replay",
+      "checkpoint": 1,
+      "model_calls": 1,
+      "input_tokens": 301,
+      "output_tokens": 36,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 1,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 10966.407125000842,
+      "usage_source": "provider_reported",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": "Qwen/Qwen3.5-9B",
+      "provider": "llama.cpp",
+      "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "request_id": "chatcmpl-rmbI9KIkjKHI5K66TYUPbQpPWHSKDXpo",
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "subset_of_output",
+      "cache_hits": 0
+    },
+    {
+      "operation_id": "3:model:0",
+      "phase": "query-audit",
+      "checkpoint": 1,
+      "model_calls": 1,
+      "input_tokens": 485,
+      "output_tokens": 46,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 1,
+      "replay_steps": 0,
+      "dependency_checks": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 17347.97066601459,
+      "usage_source": "provider_reported",
+      "status": "ok",
+      "parent_operation_id": null,
+      "model_id": "Qwen/Qwen3.5-9B",
+      "provider": "llama.cpp",
+      "model_version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "request_id": "chatcmpl-c6RPGDxym5y4IDB82PTfwOns87Fcni7n",
+      "reasoning_tokens": null,
+      "price_table_version": null,
+      "estimated_cost": null,
+      "currency": null,
+      "reasoning_token_semantics": "subset_of_output",
+      "cache_hits": 0
+    }
+  ],
+  "details": {
+    "components": {
+      "trivial_generation": "PASS",
+      "budget_stop": "PASS",
+      "B5b": "PASS",
+      "B8": "PASS",
+      "B10": "PASS",
+      "token_accounting": "PASS"
+    },
+    "hypothesis_statistics": false,
+    "budget_stop": {
+      "cap": 1,
+      "actual_generations": 1,
+      "after_second_request": 1,
+      "blocked_before_dispatch": true
+    },
+    "support": {
+      "proposals": [
+        [
+          {
+            "justification_id": "point:n:1",
+            "target": "n",
+            "members": [
+              "a2"
+            ],
+            "relation": "contradiction",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": false
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:n:2",
+            "target": "n",
+            "members": [
+              "b"
+            ],
+            "relation": "necessary",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:alt:1",
+            "target": "alt",
+            "members": [
+              "b"
+            ],
+            "relation": "necessary",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:conj:1",
+            "target": "conj",
+            "members": [
+              "c",
+              "d"
+            ],
+            "relation": "conjunctive",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:assoc:1",
+            "target": "assoc",
+            "members": [
+              "e"
+            ],
+            "relation": "necessary",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:copy:1",
+            "target": "copy",
+            "members": [
+              "a"
+            ],
+            "relation": "copied",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": false
+          },
+          0.9
+        ]
+      ],
+      "decision": {
+        "items": [
+          {
+            "memory_id": "a",
+            "content": "Only the Zorvia registry certifies permit K17. It certified K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "a2",
+            "content": "The Zorvia registry withdrew permit K17 and certifies K29 now.",
+            "scope": "lab",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "n",
+            "content": "Zorvia holds permit K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b",
+            "content": "Independent Tovren lab directly certifies permit K17 for Zorvia.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "lab"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "alt",
+            "content": "Zorvia has at least one certification of K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "c",
+            "content": "Velkin gate opens exactly when both blue and round. It is blue.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "d",
+            "content": "Velkin gate is round.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "conj",
+            "content": "Velkin gate opens.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "e",
+            "content": "Zorvia paints its office violet.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "assoc",
+            "content": "Zorvia is authorized to use protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "copy",
+            "content": "A copied bulletin repeats only registry a: Zorvia holds K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "quarantined",
+            "source_ids": [
+              "a"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "alt",
+            "retain"
+          ],
+          [
+            "assoc",
+            "retain"
+          ],
+          [
+            "conj",
+            "retain"
+          ],
+          [
+            "copy",
+            "quarantine"
+          ],
+          [
+            "n",
+            "retain"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "scope": "Existing five-relation observable smoke batch; no accuracy score"
+    },
+    "replay": {
+      "cold": "Project Zorvia uses protocol K17.",
+      "changed": "Project Zorvia uses protocol K29.",
+      "warm_cache_hits": 1,
+      "changed_regenerated_nodes": [
+        "t"
+      ]
+    },
+    "query_audit": {
+      "target_id": "t",
+      "verdict": "contradicted",
+      "answer": "Project Zorvia uses protocol K29, not K17.",
+      "evidence_ids": [
+        "s"
+      ],
+      "completion": "done"
+    },
+    "token_accounting": [
+      {
+        "request_id": "chatcmpl-gEP4SBla51lBD7f6xXfh66ujnRVMjMVb",
+        "input_ids_count": 65,
+        "input_ids_hash": "0c0dfa7ecde9c033bee6fbe9f60e85949028416440d7e1bcba94f5525b91b4fb",
+        "reported_input": 65,
+        "generated_ids_count": 6,
+        "generated_ids_hash": "65a83118ee33a7cd742648adbba3714cb9149f51788d5e4129b215d709886ea8",
+        "reported_output": 6,
+        "native_stop_type": "eos",
+        "native_tokens_evaluated": 65,
+        "native_tokens_predicted": 6,
+        "decoded_output_hash": "750523332eb0d49029cb36932dcb063410049d88c7441fc92825884f1fe25ce0",
+        "input_match": true,
+        "output_match": true
+      },
+      {
+        "request_id": "chatcmpl-xRetitGWhBbZ8YlRFXZUCxHCgvtRrQNY",
+        "input_ids_count": 1301,
+        "input_ids_hash": "5a193976bd74ac2293e3e1fb07382df82ee989725892254f4d70a93c947d53e2",
+        "reported_input": 1301,
+        "generated_ids_count": 418,
+        "generated_ids_hash": "161a1849425c412fc81a865a0b5aee89223ad64d7e647e2605cb86bd82538178",
+        "reported_output": 418,
+        "native_stop_type": "eos",
+        "native_tokens_evaluated": 1301,
+        "native_tokens_predicted": 418,
+        "decoded_output_hash": "f39d3c94a90a037291c2c855527a99b320f6bc14e33709c19ef9a379213719c5",
+        "input_match": true,
+        "output_match": true
+      },
+      {
+        "request_id": "chatcmpl-SfcTQ03UTFrcHeMFbrQEldb6Z8uU6IP6",
+        "input_ids_count": 301,
+        "input_ids_hash": "c87633c630813670b508dbf56e354ed7eb60d0058a5d14e17256c80e2059c4c9",
+        "reported_input": 301,
+        "generated_ids_count": 36,
+        "generated_ids_hash": "40ee59381dd9fc2c73434abbb285a6b232d439aeacee5e1d31db6c7c64ed352c",
+        "reported_output": 36,
+        "native_stop_type": "eos",
+        "native_tokens_evaluated": 301,
+        "native_tokens_predicted": 36,
+        "decoded_output_hash": "baf35d73162abdef7ea52407788b61b92d6a69f28a7699758a73d11defe2e626",
+        "input_match": true,
+        "output_match": true
+      },
+      {
+        "request_id": "chatcmpl-rmbI9KIkjKHI5K66TYUPbQpPWHSKDXpo",
+        "input_ids_count": 301,
+        "input_ids_hash": "df4e8f3dc81cb09630a1e4ca4e741a3796b9d54210a0a63c3f93cdda43a05187",
+        "reported_input": 301,
+        "generated_ids_count": 36,
+        "generated_ids_hash": "d5bd2030e9ffa04a816fd7e18fb02a97351aae6d1dd7bb7367bd81336750c0ea",
+        "reported_output": 36,
+        "native_stop_type": "eos",
+        "native_tokens_evaluated": 301,
+        "native_tokens_predicted": 36,
+        "decoded_output_hash": "d72aeb6ddebd0eab72e2a030bedd723feb2967b07be97397d3d98855352f5de8",
+        "input_match": true,
+        "output_match": true
+      },
+      {
+        "request_id": "chatcmpl-c6RPGDxym5y4IDB82PTfwOns87Fcni7n",
+        "input_ids_count": 485,
+        "input_ids_hash": "17d1944cfdd01fbd343738c84cb9f5bd33f51ede3c68ccf51d116e5a2b085938",
+        "reported_input": 485,
+        "generated_ids_count": 46,
+        "generated_ids_hash": "9128e2eea6dfd32584490a330b7fb2f42627ea8fc80144d5cf9926cd51e2df5f",
+        "reported_output": 46,
+        "native_stop_type": "eos",
+        "native_tokens_evaluated": 485,
+        "native_tokens_predicted": 46,
+        "decoded_output_hash": "b7d0f28f7de7ba6827087b2a9fd0e694a12ccd71e9ca5ecf0835c99a27adcdb0",
+        "input_match": true,
+        "output_match": true
+      }
+    ],
+    "generation_dispatches": 5,
+    "phase_budgets": [
+      {
+        "max_verification_calls": null,
+        "max_replay_steps": null,
+        "max_model_calls": 1,
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 256,
+        "max_total_tokens": 8448,
+        "max_retrieval_calls": null,
+        "max_embedding_calls": null
+      },
+      {
+        "max_verification_calls": null,
+        "max_replay_steps": null,
+        "max_model_calls": 2,
+        "max_tokens": null,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 2048,
+        "max_total_tokens": 18432,
+        "max_retrieval_calls": null,
+        "max_embedding_calls": null
+      },
+      {
+        "max_verification_calls": null,
+        "max_replay_steps": null,
+        "max_model_calls": 2,
+        "max_tokens": null,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 2048,
+        "max_total_tokens": 18432,
+        "max_retrieval_calls": null,
+        "max_embedding_calls": null
+      },
+      {
+        "max_verification_calls": null,
+        "max_replay_steps": null,
+        "max_model_calls": 1,
+        "max_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 1024,
+        "max_total_tokens": 9216,
+        "max_retrieval_calls": null,
+        "max_embedding_calls": null
+      }
+    ]
+  }
+}

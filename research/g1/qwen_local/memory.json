@@ -1,0 +1,7 @@
+{
+  "label": "ENGINEERING VALIDATION \u2014 NOT SCIENTIFIC EVIDENCE",
+  "measurement": "Darwin getrusage(RUSAGE_CHILDREN) maximum resident set, bytes",
+  "peak_rss_bytes": 8133689344,
+  "process_elapsed_seconds": 5129.457972624979,
+  "exit_code": 0
+}

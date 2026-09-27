@@ -1,0 +1,12 @@
+{
+  "label": "ENGINEERING VALIDATION \u2014 NOT SCIENTIFIC EVIDENCE",
+  "implementation_commit": "c98442e",
+  "source_sha256": {
+    "src/evomem/models/client.py": "3e9bb8abf730a4554e3c00f92ee5c8e3ee2421e3ea8a632322def6041ccaac7d",
+    "src/evomem/models/llama_cpp.py": "787ff56e6c8e2d74db41cec1b2b6f226c8c9019c5a380135529e9cc1613077de",
+    "src/evomem/experiment/qwen_local.py": "a7b4d93ac957dc05760e8a98e20df745916ac05451b67380a88aa04127f2372c",
+    "src/evomem/experiment/model_smoke.py": "b6a0347036382bbf3b4d265ce1fe7ca68d5ddb045a0e88c7f9da9592de20fdbf",
+    "scripts/start_qwen_local.py": "6f03c33ac6017145ab4742d735d1c67d7e40e7ae7fc56560ee220e6f35b25f69"
+  },
+  "copies_followup_script_sha256": "04aa02e127b1d0e7d386f9df195ae6896d35c2ed335b1052e244c71b0663927b"
+}
