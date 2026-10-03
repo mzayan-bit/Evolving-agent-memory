@@ -1,0 +1,22 @@
+{
+  "label": "ENGINEERING FIXTURES \u2014 NOT RESEARCH EVALUATION",
+  "implementation_commit": "b1d38c7",
+  "generation_code_unchanged_during_run": true,
+  "dirty_manifests_reason": "Documentation updated during live generation; executable protocol and runner remained at b1d38c7",
+  "r1_criteria_unchanged_from": "84ab65c",
+  "r1_criteria_sha256": "6499b4da9500aee980e7dab4e8d948286d333daf6cc3f1c76173f302ccd7dfa6",
+  "trace_extraction": "Full request, generated text, raw OpenAI-format response/usage retained; redundant native verbose prompt/grammar removed, native token IDs retained. Full original local attempts remain in results/qwen-hardening-v1; original response hashes are in manifests.",
+  "artifacts": {
+    "cache-readback.json": "4c37c273f258c4f6988b255315b305ca2926c7f19e227716a9b91ec3789e52e2",
+    "independent-tokenizer-audit.json": "0f135e74e961ea78b7665a443c5b65ae2a404ef9c301dd6dd6bc4dca946b8134",
+    "inventory.json": "2eb761f44f030641aac8d71fd0fc846f9e0f0e6dbdceb799c18d90cacba4302d",
+    "manifests.json": "c30c0f26714125b9d6c064709ef381ee2af235aa13e5862f1f7fc35708f44161",
+    "memory.json": "6877fe92f8680d44a09d4ad91da3773c0e5de1a78852b88d4a752ab12c34bf4e",
+    "metrics.json": "bcadf210ebea4be8e75b56fd50f1ab13945327f74c88f1d789ad1f3fef9ced4f",
+    "summary.json": "8f28cdacdf7855569ae98f43bee11a1bd44187cd65d41e36bfcb49effd576521",
+    "tests.json": "33297ecb291334f6d6c94eb5476096dddc33b331e59b35f4cb3ba57a686612c6",
+    "traces.json": "81cf5105bb01c737f1ef1ab88002a20108c5055f5684417d29f7418e3d3a89cf"
+  },
+  "post_run_summary_fix_commit": "5358ca5",
+  "post_run_fix_effect": "Unknown token aggregates propagate None; latency semantics clarified. Actual run had all-known usage; no prompt, schema, model request or recorded token total changed."
+}

@@ -1,0 +1,4453 @@
+{
+  "label": "ENGINEERING FIXTURES \u2014 NOT RESEARCH EVALUATION",
+  "support_rows": [
+    {
+      "fixture": "necessary@1",
+      "variant": "B5a",
+      "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-GWzAokeY4LLPptPvm9hJi5gQhq2P9dGF",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 28863.46920800861,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1"
+      ]
+    },
+    {
+      "fixture": "necessary@1",
+      "variant": "B5b",
+      "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-N1gItmjRFRpZ3IkckFj27FyPpOdI7ZaH",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 46917.70412499318,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1"
+      ]
+    },
+    {
+      "fixture": "alternative@1",
+      "variant": "B5a",
+      "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-2HpK7wuQOg7ywKvPfXhySXkLwNiInLo5",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 36917.41391696269,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1"
+      ]
+    },
+    {
+      "fixture": "alternative@1",
+      "variant": "B5b",
+      "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-Prac3aVUUR13BndVfjJBgXqhfnhDPAPi",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 35656.39929100871,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1"
+      ]
+    },
+    {
+      "fixture": "conjunction@1",
+      "variant": "B5a",
+      "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-9fXz1SNNgG6EYLSAQzh9qnyzwnZozfic",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 44715.20604100078,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1"
+      ]
+    },
+    {
+      "fixture": "conjunction@1",
+      "variant": "B5b",
+      "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-IhK5CbwwLcMhQ8LgZYCdEtNxF87NmUYQ",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 33974.585541000124,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1",
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1"
+      ]
+    },
+    {
+      "fixture": "semantic_bystander@1",
+      "variant": "B5a",
+      "evidence_hash": "57437db5fabef3bd5eaad04e41f3f927b807f6fb7ba470ca9df4228f16625966",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-fpJemz8eMwLN2Kzq3UHZnwOA9ktOUmva",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 48124.23162499908,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "fixture": "semantic_bystander@1",
+      "variant": "B5b",
+      "evidence_hash": "57437db5fabef3bd5eaad04e41f3f927b807f6fb7ba470ca9df4228f16625966",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-i65W7XKtkPhrDmaqHWoBXGawaRydwi5d",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ],
+          [
+            "b2",
+            "retain"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 55267.58641703054,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "fixture": "repeated@1",
+      "variant": "B5a",
+      "evidence_hash": "3a3258d5d8863ab7bd0899f4a7034814e4ef279ab7ff64186086d06325a2e4f2",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-2CfojqyKJ1yU4j85dhmRasqXFxyYjuNp",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b3:1",
+            "target": "b3",
+            "members": [
+              "s3"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 68604.67712499667,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "fixture": "repeated@1",
+      "variant": "B5b",
+      "evidence_hash": "3a3258d5d8863ab7bd0899f4a7034814e4ef279ab7ff64186086d06325a2e4f2",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-pnnPXdS7djqqtGYSG9MZ3NRCvEOhHwug",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ],
+          [
+            "b2",
+            "retain"
+          ],
+          [
+            "b3",
+            "retain"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b3:1",
+            "target": "b3",
+            "members": [
+              "s3"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 75408.92858302686,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "fixture": "repeated@2",
+      "variant": "B5a",
+      "evidence_hash": "0a5a49dc8579e9486b2321950b07e7bec59b6a121f5307c9d24dec842794004b",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-sNmSRLhzRCGR0N1XTqJH13JDk8ElJ8Am",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": 2,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s4",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 2,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 2,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b3",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b3:1",
+            "target": "b3",
+            "members": [
+              "s3"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 67599.0147080156,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s4"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "fixture": "repeated@2",
+      "variant": "B5b",
+      "evidence_hash": "0a5a49dc8579e9486b2321950b07e7bec59b6a121f5307c9d24dec842794004b",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-eqALxdobt8rMAczNvB7xKNztR2ayhjMj",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "quarantined",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "quarantined",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "quarantined",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": 2,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s4",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 2,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 2,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "quarantine"
+          ],
+          [
+            "b2",
+            "quarantine"
+          ],
+          [
+            "b3",
+            "quarantine"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": false
+          },
+          0.5
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": false
+          },
+          0.5
+        ],
+        [
+          {
+            "justification_id": "point:b3:1",
+            "target": "b3",
+            "members": [
+              "s3"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": false
+          },
+          0.5
+        ]
+      ],
+      "component_elapsed_ms": 69813.99879197124,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s4"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "b3",
+          [
+            "s3"
+          ]
+        ]
+      ],
+      "model_structure": [],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "fixture": "copies@1",
+      "variant": "B5a",
+      "evidence_hash": "32ab626ec9ac8b1ac37d58516e58824484b47a13571109e774e2c1961b4ac315",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-bmb2ORye27pkcsBxh8Cz1lAgLYOryTl1",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ],
+          [
+            "s2",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:s2:1",
+            "target": "s2",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 53418.91566599952,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "s2",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "s2",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "s2"
+      ]
+    },
+    {
+      "fixture": "copies@1",
+      "variant": "B5b",
+      "evidence_hash": "32ab626ec9ac8b1ac37d58516e58824484b47a13571109e774e2c1961b4ac315",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-jW48fn41D0XLK5oqbmxEp1H3K5xTDb9Y",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ],
+          [
+            "s2",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:s2:1",
+            "target": "s2",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 53943.83691699477,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b1",
+          [
+            "s2"
+          ]
+        ],
+        [
+          "s2",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "s2",
+          [
+            "s1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "s2"
+      ]
+    },
+    {
+      "fixture": "correction@1",
+      "variant": "B5a",
+      "evidence_hash": "57437db5fabef3bd5eaad04e41f3f927b807f6fb7ba470ca9df4228f16625966",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-RojaROWCO8eCYF3hh9ezm5nXYt18DUeH",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 54811.69120804407,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "fixture": "correction@1",
+      "variant": "B5b",
+      "evidence_hash": "57437db5fabef3bd5eaad04e41f3f927b807f6fb7ba470ca9df4228f16625966",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-8vGlVRFnlmDr5HLFMD0xPosndPdD7s68",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "s1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "s2",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o2"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "b1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "s1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b2",
+            "content": "production capacity four",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "s2"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "s3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "b1",
+            "invalidate"
+          ],
+          [
+            "b2",
+            "retain"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:b1:1",
+            "target": "b1",
+            "members": [
+              "s1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:b2:1",
+            "target": "b2",
+            "members": [
+              "s2"
+            ],
+            "relation": "copied",
+            "scope": "other",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 58288.01849996671,
+      "fixture_limit": "Authored structural gold; some legacy text does not identify AND/OR distinctions.",
+      "gold_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "b1",
+          [
+            "s1"
+          ]
+        ],
+        [
+          "b2",
+          [
+            "s2"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "b1",
+        "b2"
+      ]
+    },
+    {
+      "fixture": "observable-bystander",
+      "variant": "B5a",
+      "evidence_hash": "e05d4c3fc6739fa98ea3c348fd21d5f77528389df9ed59dbc1a32d1e7b2da53a",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": true,
+      "category": "VALID_CORRECT_FORMAT",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-HLSW1efVeGToVmVUwgHVpY51UHGyvh6D",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "a",
+            "content": "Only the Zorvia registry certifies permit K17. It certified K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "a2",
+            "content": "The Zorvia registry withdrew permit K17 and certifies K29 now.",
+            "scope": "lab",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "n",
+            "content": "Zorvia holds permit K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b",
+            "content": "Independent Tovren lab directly certifies permit K17 for Zorvia.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "lab"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "alt",
+            "content": "Zorvia has at least one certification of K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "c",
+            "content": "Velkin gate opens exactly when both blue and round. It is blue.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "d",
+            "content": "Velkin gate is round.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "conj",
+            "content": "Velkin gate opens.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "e",
+            "content": "Zorvia paints its office violet.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "assoc",
+            "content": "Zorvia is authorized to use protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "copy",
+            "content": "A copied bulletin repeats only registry a: Zorvia holds K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "a"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "alt",
+            "invalidate"
+          ],
+          [
+            "copy",
+            "invalidate"
+          ],
+          [
+            "n",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:n:1",
+            "target": "n",
+            "members": [
+              "a"
+            ],
+            "relation": "temporal",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:n:2",
+            "target": "n",
+            "members": [
+              "b"
+            ],
+            "relation": "conjunctive",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:n:3",
+            "target": "n",
+            "members": [
+              "copy"
+            ],
+            "relation": "copied",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:alt:1",
+            "target": "alt",
+            "members": [
+              "a"
+            ],
+            "relation": "temporal",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:alt:2",
+            "target": "alt",
+            "members": [
+              "b"
+            ],
+            "relation": "conjunctive",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:alt:3",
+            "target": "alt",
+            "members": [
+              "copy"
+            ],
+            "relation": "copied",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:conj:1",
+            "target": "conj",
+            "members": [
+              "c"
+            ],
+            "relation": "conjunctive",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:conj:2",
+            "target": "conj",
+            "members": [
+              "d"
+            ],
+            "relation": "conjunctive",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:copy:1",
+            "target": "copy",
+            "members": [
+              "a"
+            ],
+            "relation": "copied",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 118523.36287498474,
+      "fixture_limit": "Partial semantic audit only: office paint does not justify protocol authorization. Other targets are not scored.",
+      "gold_structure": [],
+      "model_structure": [],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "assoc"
+      ]
+    },
+    {
+      "fixture": "observable-bystander",
+      "variant": "B5b",
+      "evidence_hash": "e05d4c3fc6739fa98ea3c348fd21d5f77528389df9ed59dbc1a32d1e7b2da53a",
+      "infrastructure_success": true,
+      "schema_success": false,
+      "semantic_correct": null,
+      "category": "CONTRADICTORY_STRUCTURE",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-FNot7K2doggnPU7gkEiuo8hJ8s6tdXkr",
+          "operation_id": "model:0",
+          "category": "CONTRADICTORY_STRUCTURE",
+          "message": "Invalid member structure"
+        },
+        {
+          "attempt_index": 1,
+          "parent_request_id": "chatcmpl-FNot7K2doggnPU7gkEiuo8hJ8s6tdXkr",
+          "request_id": "chatcmpl-oz8NKO4GIxvRQ9GkarIaZjmeR6Amb5YC",
+          "operation_id": "model:1",
+          "category": "CONTRADICTORY_STRUCTURE",
+          "message": "Invalid member structure"
+        }
+      ],
+      "retry_count": 1,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "a",
+            "content": "Only the Zorvia registry certifies permit K17. It certified K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "a2",
+            "content": "The Zorvia registry withdrew permit K17 and certifies K29 now.",
+            "scope": "lab",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "n",
+            "content": "Zorvia holds permit K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "b",
+            "content": "Independent Tovren lab directly certifies permit K17 for Zorvia.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "lab"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "alt",
+            "content": "Zorvia has at least one certification of K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "c",
+            "content": "Velkin gate opens exactly when both blue and round. It is blue.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "d",
+            "content": "Velkin gate is round.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "conj",
+            "content": "Velkin gate opens.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "e",
+            "content": "Zorvia paints its office violet.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "assoc",
+            "content": "Zorvia is authorized to use protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "copy",
+            "content": "A copied bulletin repeats only registry a: Zorvia holds K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "a"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "registry"
+            ],
+            "authority": null
+          }
+        ],
+        "actions": [],
+        "completion": "model_failed",
+        "checked": []
+      },
+      "model_proposals": null,
+      "component_elapsed_ms": 205518.7352920184,
+      "fixture_limit": "Partial semantic audit only: office paint does not justify protocol authorization. Other targets are not scored.",
+      "gold_structure": []
+    },
+    {
+      "fixture": "short-ids",
+      "variant": "B5a",
+      "evidence_hash": "87300546fb974baa4630e581d163e1161e1016ac3259d0af81819a7af07c22dd",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-jaDui7BZRij5q6lXTLby43jA3EnMm0PJ",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "0",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "1",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "0"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "2",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [
+              "0"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:1:1",
+            "target": "1",
+            "members": [
+              "2"
+            ],
+            "relation": "necessary",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:2:1",
+            "target": "2",
+            "members": [
+              "3"
+            ],
+            "relation": "contradiction",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": false
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 71173.68258401984,
+      "fixture_limit": "ID-only relabeling of existing copies evidence and evaluator gold.",
+      "gold_structure": [
+        [
+          "1",
+          [
+            "0"
+          ]
+        ],
+        [
+          "2",
+          [
+            "0"
+          ]
+        ],
+        [
+          "2",
+          [
+            "1"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "1",
+          [
+            "2"
+          ]
+        ],
+        [
+          "2",
+          [
+            "3"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "fixture": "short-ids",
+      "variant": "B5b",
+      "evidence_hash": "87300546fb974baa4630e581d163e1161e1016ac3259d0af81819a7af07c22dd",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-6B1RfgNYqjKxOnWBFV29W5AomsXX8P6n",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "0",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "1",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "0"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "2",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "0"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "3",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "1",
+            "invalidate"
+          ],
+          [
+            "2",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:1:1",
+            "target": "1",
+            "members": [
+              "0"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:2:1",
+            "target": "2",
+            "members": [
+              "0"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 93523.4824999934,
+      "fixture_limit": "ID-only relabeling of existing copies evidence and evaluator gold.",
+      "gold_structure": [
+        [
+          "1",
+          [
+            "0"
+          ]
+        ],
+        [
+          "2",
+          [
+            "0"
+          ]
+        ],
+        [
+          "2",
+          [
+            "1"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "1",
+          [
+            "0"
+          ]
+        ],
+        [
+          "2",
+          [
+            "0"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "fixture": "similar-ids",
+      "variant": "B5a",
+      "evidence_hash": "156f8b8baf13090e0d9eab069bd2020e92d136daa7785fc8b311f56d64996b8c",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-3oDdPSZSjxj1QQsqWFWtVX4fy1bH4WIx",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "m1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "m10",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "m1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "m100",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "m1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "m01",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "m10",
+            "invalidate"
+          ],
+          [
+            "m100",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:m10:1",
+            "target": "m10",
+            "members": [
+              "m1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:m100:1",
+            "target": "m100",
+            "members": [
+              "m1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 58324.11695900373,
+      "fixture_limit": "ID-only relabeling of existing copies evidence and evaluator gold.",
+      "gold_structure": [
+        [
+          "m10",
+          [
+            "m1"
+          ]
+        ],
+        [
+          "m100",
+          [
+            "m1"
+          ]
+        ],
+        [
+          "m100",
+          [
+            "m10"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "m10",
+          [
+            "m1"
+          ]
+        ],
+        [
+          "m100",
+          [
+            "m1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "m10",
+        "m100"
+      ]
+    },
+    {
+      "fixture": "similar-ids",
+      "variant": "B5b",
+      "evidence_hash": "156f8b8baf13090e0d9eab069bd2020e92d136daa7785fc8b311f56d64996b8c",
+      "infrastructure_success": true,
+      "schema_success": true,
+      "semantic_correct": false,
+      "category": "VALID_WRONG_SEMANTICS",
+      "diagnostics": [
+        {
+          "attempt_index": 0,
+          "parent_request_id": null,
+          "request_id": "chatcmpl-CgFTGKAHndAHShdl8wAz7G4SCtLg9Z2z",
+          "operation_id": "model:0",
+          "category": "VALID_CORRECT_FORMAT"
+        }
+      ],
+      "retry_count": 0,
+      "threshold": 0.7,
+      "decision": {
+        "items": [
+          {
+            "memory_id": "m1",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": 1,
+            "status": "superseded",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "m10",
+            "content": "independent test four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "m1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [
+              "o1"
+            ],
+            "authority": null
+          },
+          {
+            "memory_id": "m100",
+            "content": "production capacity four",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "inactive",
+            "source_ids": [
+              "m1"
+            ],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "m01",
+            "content": "production capacity eight",
+            "scope": "demo",
+            "valid_from": 1,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 1,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "actions": [
+          [
+            "m10",
+            "invalidate"
+          ],
+          [
+            "m100",
+            "invalidate"
+          ]
+        ],
+        "completion": "done",
+        "checked": []
+      },
+      "model_proposals": [
+        [
+          {
+            "justification_id": "point:m10:1",
+            "target": "m10",
+            "members": [
+              "m1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ],
+        [
+          {
+            "justification_id": "point:m100:1",
+            "target": "m100",
+            "members": [
+              "m1"
+            ],
+            "relation": "copied",
+            "scope": "demo",
+            "valid_from": 0,
+            "valid_until": null,
+            "origin_ids": [],
+            "sufficient": true
+          },
+          0.9
+        ]
+      ],
+      "component_elapsed_ms": 57012.38662499236,
+      "fixture_limit": "ID-only relabeling of existing copies evidence and evaluator gold.",
+      "gold_structure": [
+        [
+          "m10",
+          [
+            "m1"
+          ]
+        ],
+        [
+          "m100",
+          [
+            "m1"
+          ]
+        ],
+        [
+          "m100",
+          [
+            "m10"
+          ]
+        ]
+      ],
+      "model_structure": [
+        [
+          "m10",
+          [
+            "m1"
+          ]
+        ],
+        [
+          "m100",
+          [
+            "m1"
+          ]
+        ]
+      ],
+      "semantic_scope": "Exact committed structure on declared engineering targets",
+      "audited_targets": [
+        "m10",
+        "m100"
+      ]
+    }
+  ],
+  "components": {
+    "necessary@1": "RECORDED",
+    "alternative@1": "RECORDED",
+    "conjunction@1": "RECORDED",
+    "semantic_bystander@1": "RECORDED",
+    "repeated@1": "RECORDED",
+    "repeated@2": "RECORDED",
+    "copies@1": "RECORDED",
+    "correction@1": "RECORDED",
+    "observable-bystander": "RECORDED",
+    "short-ids": "RECORDED",
+    "similar-ids": "RECORDED",
+    "22": "PASS",
+    "23": "PASS"
+  },
+  "model_calls": 31,
+  "input_tokens": 28266,
+  "output_tokens": 4646,
+  "model_latency_ms": 1572167.046038725,
+  "wall_elapsed_ms": 1576305.8859159937,
+  "token_audits": [
+    {
+      "request_id": "chatcmpl-GWzAokeY4LLPptPvm9hJi5gQhq2P9dGF",
+      "input_ids_count": 996,
+      "input_ids_hash": "207e8491152787e0e766d9b0605efd77e380c722ef153f6b74b7fb7b1854883c",
+      "reported_input": 996,
+      "generated_ids_count": 95,
+      "generated_ids_hash": "382967fe73e3b64dd95a9ae4cbe42de492938829f88f5ed4fb715f9336401d52",
+      "reported_output": 95,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 996,
+      "native_tokens_predicted": 95,
+      "decoded_output_hash": "f18d3b8f26cbf873a3c161eaeb5ada19996f5ff30c2290dce7c590f3a67689aa",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-N1gItmjRFRpZ3IkckFj27FyPpOdI7ZaH",
+      "input_ids_count": 938,
+      "input_ids_hash": "d9a2bbc6de5a0976a82bf0a87932bf9781886077a6c230184066c1f7fcb3fd43",
+      "reported_input": 938,
+      "generated_ids_count": 89,
+      "generated_ids_hash": "ee561931976a28128fb80e5de4da8e9bc1157395a4dca5360bf934775888f656",
+      "reported_output": 89,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 938,
+      "native_tokens_predicted": 89,
+      "decoded_output_hash": "48b0422721af6c33a27188baa36494b781a1570f827c45273cd47fe668ef523f",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-2HpK7wuQOg7ywKvPfXhySXkLwNiInLo5",
+      "input_ids_count": 996,
+      "input_ids_hash": "207e8491152787e0e766d9b0605efd77e380c722ef153f6b74b7fb7b1854883c",
+      "reported_input": 996,
+      "generated_ids_count": 95,
+      "generated_ids_hash": "382967fe73e3b64dd95a9ae4cbe42de492938829f88f5ed4fb715f9336401d52",
+      "reported_output": 95,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 996,
+      "native_tokens_predicted": 95,
+      "decoded_output_hash": "f18d3b8f26cbf873a3c161eaeb5ada19996f5ff30c2290dce7c590f3a67689aa",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-Prac3aVUUR13BndVfjJBgXqhfnhDPAPi",
+      "input_ids_count": 938,
+      "input_ids_hash": "d9a2bbc6de5a0976a82bf0a87932bf9781886077a6c230184066c1f7fcb3fd43",
+      "reported_input": 938,
+      "generated_ids_count": 89,
+      "generated_ids_hash": "ee561931976a28128fb80e5de4da8e9bc1157395a4dca5360bf934775888f656",
+      "reported_output": 89,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 938,
+      "native_tokens_predicted": 89,
+      "decoded_output_hash": "48b0422721af6c33a27188baa36494b781a1570f827c45273cd47fe668ef523f",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-9fXz1SNNgG6EYLSAQzh9qnyzwnZozfic",
+      "input_ids_count": 996,
+      "input_ids_hash": "207e8491152787e0e766d9b0605efd77e380c722ef153f6b74b7fb7b1854883c",
+      "reported_input": 996,
+      "generated_ids_count": 95,
+      "generated_ids_hash": "382967fe73e3b64dd95a9ae4cbe42de492938829f88f5ed4fb715f9336401d52",
+      "reported_output": 95,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 996,
+      "native_tokens_predicted": 95,
+      "decoded_output_hash": "f18d3b8f26cbf873a3c161eaeb5ada19996f5ff30c2290dce7c590f3a67689aa",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-IhK5CbwwLcMhQ8LgZYCdEtNxF87NmUYQ",
+      "input_ids_count": 938,
+      "input_ids_hash": "d9a2bbc6de5a0976a82bf0a87932bf9781886077a6c230184066c1f7fcb3fd43",
+      "reported_input": 938,
+      "generated_ids_count": 89,
+      "generated_ids_hash": "ee561931976a28128fb80e5de4da8e9bc1157395a4dca5360bf934775888f656",
+      "reported_output": 89,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 938,
+      "native_tokens_predicted": 89,
+      "decoded_output_hash": "48b0422721af6c33a27188baa36494b781a1570f827c45273cd47fe668ef523f",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-fpJemz8eMwLN2Kzq3UHZnwOA9ktOUmva",
+      "input_ids_count": 1076,
+      "input_ids_hash": "80d3814b438e960cc720459e4247e18560061906918e7d276440b57cb294fccb",
+      "reported_input": 1076,
+      "generated_ids_count": 163,
+      "generated_ids_hash": "a0d1f0b3909db0f625a0639550450a17ab96819195750cade88f52c0a7d978fb",
+      "reported_output": 163,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1076,
+      "native_tokens_predicted": 163,
+      "decoded_output_hash": "b2c4cddab32906654d805e19e8cd79cab4fe5a9d1950d6adb6ca6665ce0f79bc",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-i65W7XKtkPhrDmaqHWoBXGawaRydwi5d",
+      "input_ids_count": 1018,
+      "input_ids_hash": "c791475fb056ec7ea7cda2830711c6f3cdc6752ad3d034d13754d6db9d6a998d",
+      "reported_input": 1018,
+      "generated_ids_count": 163,
+      "generated_ids_hash": "a0d1f0b3909db0f625a0639550450a17ab96819195750cade88f52c0a7d978fb",
+      "reported_output": 163,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1018,
+      "native_tokens_predicted": 163,
+      "decoded_output_hash": "b2c4cddab32906654d805e19e8cd79cab4fe5a9d1950d6adb6ca6665ce0f79bc",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-2CfojqyKJ1yU4j85dhmRasqXFxyYjuNp",
+      "input_ids_count": 1153,
+      "input_ids_hash": "8f77f6c6f3c4a066c5e8af3af6a0d708cf6bf98b1feb08dd5d48701e5d8c3e56",
+      "reported_input": 1153,
+      "generated_ids_count": 237,
+      "generated_ids_hash": "626ba32572716ad8fb2f5e5b5df2f37c364e147883961e0c5b80ff4ffed565dd",
+      "reported_output": 237,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1153,
+      "native_tokens_predicted": 237,
+      "decoded_output_hash": "7c358ebc424bfecdf5f15af23a640cca3c4a605062789a174cc8d78456435b12",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-pnnPXdS7djqqtGYSG9MZ3NRCvEOhHwug",
+      "input_ids_count": 1095,
+      "input_ids_hash": "58497623c4f4693b036a8f987e92415553945ec54705fdf02ade69e68fc3d1d4",
+      "reported_input": 1095,
+      "generated_ids_count": 237,
+      "generated_ids_hash": "626ba32572716ad8fb2f5e5b5df2f37c364e147883961e0c5b80ff4ffed565dd",
+      "reported_output": 237,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1095,
+      "native_tokens_predicted": 237,
+      "decoded_output_hash": "7c358ebc424bfecdf5f15af23a640cca3c4a605062789a174cc8d78456435b12",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-sNmSRLhzRCGR0N1XTqJH13JDk8ElJ8Am",
+      "input_ids_count": 1225,
+      "input_ids_hash": "db1f2aa65f12c8faa089dee5b4a4378f39e664313d98f8bb445693716930a52c",
+      "reported_input": 1225,
+      "generated_ids_count": 237,
+      "generated_ids_hash": "626ba32572716ad8fb2f5e5b5df2f37c364e147883961e0c5b80ff4ffed565dd",
+      "reported_output": 237,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1225,
+      "native_tokens_predicted": 237,
+      "decoded_output_hash": "7c358ebc424bfecdf5f15af23a640cca3c4a605062789a174cc8d78456435b12",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-eqALxdobt8rMAczNvB7xKNztR2ayhjMj",
+      "input_ids_count": 1167,
+      "input_ids_hash": "1b2e3bd7d7733813e1048c547dcaa883f5d43153a276b0505f8e7dbf32bf6fdc",
+      "reported_input": 1167,
+      "generated_ids_count": 237,
+      "generated_ids_hash": "effbe1fed25c95a78f8031386c5601683f5f1709aba5b21709bd9d97e65a01e9",
+      "reported_output": 237,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1167,
+      "native_tokens_predicted": 237,
+      "decoded_output_hash": "a99508725fd4ab6be83d80b9c42a9f4bc694e5209652a10768ffe3301622892d",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-bmb2ORye27pkcsBxh8Cz1lAgLYOryTl1",
+      "input_ids_count": 1007,
+      "input_ids_hash": "e3045c4c3d43b9f771ce7d1ffc9293bbd63839a5076e5c2fc1de7071e395e23d",
+      "reported_input": 1007,
+      "generated_ids_count": 163,
+      "generated_ids_hash": "2323c0eb2493f9f87eed234a3617be71eb8a16d78ad9e7fa118106865a0ecd0a",
+      "reported_output": 163,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1007,
+      "native_tokens_predicted": 163,
+      "decoded_output_hash": "982f21db4e7fc41ca32b82fe574a1ce3d2317a48206c01a5c1922422279e07ae",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-jW48fn41D0XLK5oqbmxEp1H3K5xTDb9Y",
+      "input_ids_count": 949,
+      "input_ids_hash": "2bb2fd73ab5b3d7bebb06e514d729f419491c4ab396ca9013d7e5ab1a006045d",
+      "reported_input": 949,
+      "generated_ids_count": 163,
+      "generated_ids_hash": "2323c0eb2493f9f87eed234a3617be71eb8a16d78ad9e7fa118106865a0ecd0a",
+      "reported_output": 163,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 949,
+      "native_tokens_predicted": 163,
+      "decoded_output_hash": "982f21db4e7fc41ca32b82fe574a1ce3d2317a48206c01a5c1922422279e07ae",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-RojaROWCO8eCYF3hh9ezm5nXYt18DUeH",
+      "input_ids_count": 1076,
+      "input_ids_hash": "80d3814b438e960cc720459e4247e18560061906918e7d276440b57cb294fccb",
+      "reported_input": 1076,
+      "generated_ids_count": 163,
+      "generated_ids_hash": "a0d1f0b3909db0f625a0639550450a17ab96819195750cade88f52c0a7d978fb",
+      "reported_output": 163,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1076,
+      "native_tokens_predicted": 163,
+      "decoded_output_hash": "b2c4cddab32906654d805e19e8cd79cab4fe5a9d1950d6adb6ca6665ce0f79bc",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-8vGlVRFnlmDr5HLFMD0xPosndPdD7s68",
+      "input_ids_count": 1018,
+      "input_ids_hash": "c791475fb056ec7ea7cda2830711c6f3cdc6752ad3d034d13754d6db9d6a998d",
+      "reported_input": 1018,
+      "generated_ids_count": 163,
+      "generated_ids_hash": "a0d1f0b3909db0f625a0639550450a17ab96819195750cade88f52c0a7d978fb",
+      "reported_output": 163,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1018,
+      "native_tokens_predicted": 163,
+      "decoded_output_hash": "b2c4cddab32906654d805e19e8cd79cab4fe5a9d1950d6adb6ca6665ce0f79bc",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-HLSW1efVeGToVmVUwgHVpY51UHGyvh6D",
+      "input_ids_count": 1564,
+      "input_ids_hash": "a028cf4abf6998e04218a57c281c5963290bae8b8ce3f1902ed3f5676658455a",
+      "reported_input": 1564,
+      "generated_ids_count": 536,
+      "generated_ids_hash": "5eccf8a07f10a064b2948d2cd9c2387abbafbe3d33766d41a8784083ddc11805",
+      "reported_output": 536,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1564,
+      "native_tokens_predicted": 536,
+      "decoded_output_hash": "3dbc75744a3fa8d3c0941223e6e2df1eb8ffd89d40613a102202cb3677d741f5",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-FNot7K2doggnPU7gkEiuo8hJ8s6tdXkr",
+      "input_ids_count": 1506,
+      "input_ids_hash": "416fff3fe57ac715a9b5b4d49dad874bdde7d0f984bf3c9e6bab452266515c62",
+      "reported_input": 1506,
+      "generated_ids_count": 342,
+      "generated_ids_hash": "368c5c2b7645bfa1c190cbb92692cfcad807c892636a8099dbd2762b4ca1bf08",
+      "reported_output": 342,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1506,
+      "native_tokens_predicted": 342,
+      "decoded_output_hash": "dc5ca7f71768a06170bcf158044a871f936f75ba2b154e05cd26df27ad1b7813",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-oz8NKO4GIxvRQ9GkarIaZjmeR6Amb5YC",
+      "input_ids_count": 1926,
+      "input_ids_hash": "4a5a0e95813e263b9fd92ad0fbd46351d7ad8c229ab4243ae97001c0cc91e2ac",
+      "reported_input": 1926,
+      "generated_ids_count": 334,
+      "generated_ids_hash": "828036e713c4912ae4b48d3968c43f63c170a53dead86bef52bcf2d4238cdf23",
+      "reported_output": 334,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1926,
+      "native_tokens_predicted": 334,
+      "decoded_output_hash": "a01dbdc19ca680e6b4d93f041c1d3dd73fb010b114e6b846b6114a28216c6904",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-jaDui7BZRij5q6lXTLby43jA3EnMm0PJ",
+      "input_ids_count": 989,
+      "input_ids_hash": "a2a026721cba9b784b36274d5e10736f05b0ea78ccfa6c84280a455dff2f2920",
+      "reported_input": 989,
+      "generated_ids_count": 159,
+      "generated_ids_hash": "d982b49805ed262f0fc338e0221e94db8e8b4a745faa3f616fc8722b440aecee",
+      "reported_output": 159,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 989,
+      "native_tokens_predicted": 159,
+      "decoded_output_hash": "509d1d1f25cd71575f63ca3f21b583a2decf78ab72c0e68d8a78b191de88e37a",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-6B1RfgNYqjKxOnWBFV29W5AomsXX8P6n",
+      "input_ids_count": 931,
+      "input_ids_hash": "8a2a0ee09de192a0d55bf7244ac19390e801ca7ed5e98d1a54bea3a7d3f3d450",
+      "reported_input": 931,
+      "generated_ids_count": 159,
+      "generated_ids_hash": "640cc4d4cb199e434558e2ada33eb8940eccbed847b5cc5fd28761e596c4c1f4",
+      "reported_output": 159,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 931,
+      "native_tokens_predicted": 159,
+      "decoded_output_hash": "1ba0b4edc26edfbd47aa39253a085cff820014c4dd9e8fcaf5bc0f970e3ab274",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-3oDdPSZSjxj1QQsqWFWtVX4fy1bH4WIx",
+      "input_ids_count": 1025,
+      "input_ids_hash": "45930a744486888198878c612a7615bda7f02f25bea8754d0213c6d2e1954698",
+      "reported_input": 1025,
+      "generated_ids_count": 166,
+      "generated_ids_hash": "d7fd77f7a00c9c6ae2ed83ea58a961ab3b670b914f1f5149cb1326a9a629e25c",
+      "reported_output": 166,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 1025,
+      "native_tokens_predicted": 166,
+      "decoded_output_hash": "7a069c210bb8663f7e818783995b61189c91e35ff9b5d2d4064ffb50ac843701",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-CgFTGKAHndAHShdl8wAz7G4SCtLg9Z2z",
+      "input_ids_count": 967,
+      "input_ids_hash": "2b62aef4846ecb6a723440f4b935b01ebdb551ac06aacb47384dfcdf32345471",
+      "reported_input": 967,
+      "generated_ids_count": 166,
+      "generated_ids_hash": "d7fd77f7a00c9c6ae2ed83ea58a961ab3b670b914f1f5149cb1326a9a629e25c",
+      "reported_output": 166,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 967,
+      "native_tokens_predicted": 166,
+      "decoded_output_hash": "7a069c210bb8663f7e818783995b61189c91e35ff9b5d2d4064ffb50ac843701",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-mnaPNJ9yVgUZFpe1rEPD1sYLTNhBTBI8",
+      "input_ids_count": 301,
+      "input_ids_hash": "c87633c630813670b508dbf56e354ed7eb60d0058a5d14e17256c80e2059c4c9",
+      "reported_input": 301,
+      "generated_ids_count": 36,
+      "generated_ids_hash": "40ee59381dd9fc2c73434abbb285a6b232d439aeacee5e1d31db6c7c64ed352c",
+      "reported_output": 36,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 301,
+      "native_tokens_predicted": 36,
+      "decoded_output_hash": "baf35d73162abdef7ea52407788b61b92d6a69f28a7699758a73d11defe2e626",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-jF82dEtvpv4B1xkDzZEx5aNtYTjKzYky",
+      "input_ids_count": 299,
+      "input_ids_hash": "587e8d4d7eff608a1f2bd6cc27104b216a43262fc4f2a37e08e7376e40675261",
+      "reported_input": 299,
+      "generated_ids_count": 35,
+      "generated_ids_hash": "bb4c654ef1f2d24fb2d354ff71493a71c3333c278351a5f7f8f0bd6dd0e1a48a",
+      "reported_output": 35,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 299,
+      "native_tokens_predicted": 35,
+      "decoded_output_hash": "d1ee2a0602539a8a2158626eb0a835c5d1f936aaa02abcba0829fefc53ca1448",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-c9dx7AkM1oAVukpLFvG1FvMg4owKd8ZC",
+      "input_ids_count": 301,
+      "input_ids_hash": "df4e8f3dc81cb09630a1e4ca4e741a3796b9d54210a0a63c3f93cdda43a05187",
+      "reported_input": 301,
+      "generated_ids_count": 36,
+      "generated_ids_hash": "d5bd2030e9ffa04a816fd7e18fb02a97351aae6d1dd7bb7367bd81336750c0ea",
+      "reported_output": 36,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 301,
+      "native_tokens_predicted": 36,
+      "decoded_output_hash": "d72aeb6ddebd0eab72e2a030bedd723feb2967b07be97397d3d98855352f5de8",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-DFsXXfGUfYErbkw5EJhKM7WLEP5YTYxP",
+      "input_ids_count": 301,
+      "input_ids_hash": "df4e8f3dc81cb09630a1e4ca4e741a3796b9d54210a0a63c3f93cdda43a05187",
+      "reported_input": 301,
+      "generated_ids_count": 36,
+      "generated_ids_hash": "d5bd2030e9ffa04a816fd7e18fb02a97351aae6d1dd7bb7367bd81336750c0ea",
+      "reported_output": 36,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 301,
+      "native_tokens_predicted": 36,
+      "decoded_output_hash": "d72aeb6ddebd0eab72e2a030bedd723feb2967b07be97397d3d98855352f5de8",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-bcHS3YBb3is76eaGQEo8NBrjz0nAvivW",
+      "input_ids_count": 299,
+      "input_ids_hash": "587e8d4d7eff608a1f2bd6cc27104b216a43262fc4f2a37e08e7376e40675261",
+      "reported_input": 299,
+      "generated_ids_count": 35,
+      "generated_ids_hash": "bb4c654ef1f2d24fb2d354ff71493a71c3333c278351a5f7f8f0bd6dd0e1a48a",
+      "reported_output": 35,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 299,
+      "native_tokens_predicted": 35,
+      "decoded_output_hash": "d1ee2a0602539a8a2158626eb0a835c5d1f936aaa02abcba0829fefc53ca1448",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-flJ6Klq3fO1F9PNBhrCBLx1NUSCSXelw",
+      "input_ids_count": 301,
+      "input_ids_hash": "df4e8f3dc81cb09630a1e4ca4e741a3796b9d54210a0a63c3f93cdda43a05187",
+      "reported_input": 301,
+      "generated_ids_count": 36,
+      "generated_ids_hash": "d5bd2030e9ffa04a816fd7e18fb02a97351aae6d1dd7bb7367bd81336750c0ea",
+      "reported_output": 36,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 301,
+      "native_tokens_predicted": 36,
+      "decoded_output_hash": "d72aeb6ddebd0eab72e2a030bedd723feb2967b07be97397d3d98855352f5de8",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-kCg8rqDWloYchRYR6Vi8zqksNpnqRKNq",
+      "input_ids_count": 485,
+      "input_ids_hash": "17d1944cfdd01fbd343738c84cb9f5bd33f51ede3c68ccf51d116e5a2b085938",
+      "reported_input": 485,
+      "generated_ids_count": 46,
+      "generated_ids_hash": "9128e2eea6dfd32584490a330b7fb2f42627ea8fc80144d5cf9926cd51e2df5f",
+      "reported_output": 46,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 485,
+      "native_tokens_predicted": 46,
+      "decoded_output_hash": "b7d0f28f7de7ba6827087b2a9fd0e694a12ccd71e9ca5ecf0835c99a27adcdb0",
+      "input_match": true,
+      "output_match": true
+    },
+    {
+      "request_id": "chatcmpl-BhdPmWpSr133fGe9ruLFLACkQxX96143",
+      "input_ids_count": 485,
+      "input_ids_hash": "17d1944cfdd01fbd343738c84cb9f5bd33f51ede3c68ccf51d116e5a2b085938",
+      "reported_input": 485,
+      "generated_ids_count": 46,
+      "generated_ids_hash": "9128e2eea6dfd32584490a330b7fb2f42627ea8fc80144d5cf9926cd51e2df5f",
+      "reported_output": 46,
+      "native_stop_type": "eos",
+      "native_tokens_evaluated": 485,
+      "native_tokens_predicted": 46,
+      "decoded_output_hash": "b7d0f28f7de7ba6827087b2a9fd0e694a12ccd71e9ca5ecf0835c99a27adcdb0",
+      "input_match": true,
+      "output_match": true
+    }
+  ],
+  "energy_joules": null,
+  "estimated_usd": null
+}

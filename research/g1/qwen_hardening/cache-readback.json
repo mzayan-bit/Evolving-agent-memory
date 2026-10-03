@@ -1,0 +1,38 @@
+{
+  "label": "ENGINEERING FIXTURES \u2014 NOT RESEARCH EVALUATION",
+  "fixture": "necessary@1 B5b response reuse",
+  "physical_generations": 0,
+  "usage": {
+    "dependency_checks": 0,
+    "cache_hits": 1,
+    "model_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "retrieval_calls": 0,
+    "embedding_calls": 0,
+    "verification_calls": 0,
+    "replay_steps": 0,
+    "tool_calls": 0,
+    "wall_latency_ms": 0.0
+  },
+  "cache_unchanged": true,
+  "cache_file_sha256": {
+    "ef390faac8adec5381dc8a60b3931607ee7ddca9a9751a4a37650b7881364ac2.json": "78dccbd7db79fc1feea11baeb5b347e238201f2dd3e2e572405b29ea25f9bc55"
+  },
+  "attempts": [
+    {
+      "operation_id": "model:0",
+      "cache_key": "ef390faac8adec5381dc8a60b3931607ee7ddca9a9751a4a37650b7881364ac2",
+      "cache_hit": true,
+      "original_usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 938,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1027
+      }
+    }
+  ]
+}

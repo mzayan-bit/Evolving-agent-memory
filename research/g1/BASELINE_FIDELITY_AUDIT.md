@@ -327,3 +327,8 @@ The [fair comparator matrix](FAIR_COMPARATOR_MATRIX.md) is the current cross-arm
 B8 adds dependency inspection counts on both cache hits and misses. B2/B6/B8 still use executable rules and fixed proposition status; they do not regenerate text or replay original tool traces. ModelExecutor supplies separately tested model-response caching and replay-purpose accounting, but it does not make symbolic B8 into a live model replay implementation. Complete/gold lineage remains a separate oracle access condition, not a fair ordinary method arm.
 
 Live semantic competence and model-cost fidelity are unvalidated. CUPMem/native comparison is excluded from direct ranking for the reasons in [the integration decision](CUPMEM_INTEGRATION_DECISION.md). Missing native fidelity is not fixed by renaming a method.
+
+
+## Local Qwen protocol v2 correction — 2026-09-27
+
+The descriptions above record the earlier shared-group implementation. Current real-model PointEstimatePolicy B5a separately elicits singleton pairwise links; B5b separately elicits AND/OR groups, from the same visible evidence. The FrozenInference route still supports the earlier shared-proposal projection for explicit policy-isolation checks. This is a named internal adaptation, not a reproduction claim or an uncertainty-aware method. Both routes use a fixed point threshold; no downstream confidence adaptation exists. The engineering regression records construction costs separately. Cache/resource parity in the eventual multi-arm study runner remains unvalidated. Current-time B8 regeneration and B10 query auditing do not establish historical natural-language readout coverage. See QWEN_ENGINEERING_ERROR_AUDIT.md.

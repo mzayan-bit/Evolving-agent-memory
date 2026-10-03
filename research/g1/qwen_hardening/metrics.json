@@ -1,0 +1,409 @@
+{
+  "label": "ENGINEERING FIXTURES \u2014 NOT RESEARCH EVALUATION",
+  "physical_generations": 31,
+  "support_rows": 22,
+  "schema_valid_rows": 21,
+  "infrastructure_success_rows": 22,
+  "protocol_invalid_attempts": 2,
+  "valid_semantic_disagreement_rows": 12,
+  "physical_request_latency_ms": 1572164.6219588001,
+  "ledger_wall_latency_ms": 1572167.046038725,
+  "suite_elapsed_ms": 1576305.8859159937,
+  "input_tokens": 28266,
+  "output_tokens": 4646,
+  "tokens_all_known": true,
+  "energy_joules": null,
+  "estimated_usd": null,
+  "per_variant": {
+    "B5a": {
+      "rows": 11,
+      "schema_valid": 11,
+      "structural_agreement": 5,
+      "structural_disagreement": 6,
+      "calls": 11
+    },
+    "B5b": {
+      "rows": 11,
+      "schema_valid": 10,
+      "structural_agreement": 4,
+      "structural_disagreement": 6,
+      "calls": 12
+    }
+  },
+  "B8": {
+    "status": "PASS",
+    "usage": {
+      "dependency_checks": 10,
+      "cache_hits": 3,
+      "model_calls": 6,
+      "input_tokens": 1802,
+      "output_tokens": 214,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 0,
+      "replay_steps": 6,
+      "tool_calls": 0,
+      "wall_latency_ms": 91633.84387292899
+    },
+    "details": {
+      "initial": {
+        "items": [
+          {
+            "memory_id": "s",
+            "content": "Project Zorvia uses protocol K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "t",
+            "content": "Project Zorvia uses protocol K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "u",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "v",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "regenerated_nodes": [
+          "t",
+          "v"
+        ],
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "completion": "done"
+      },
+      "warm": {
+        "items": [
+          {
+            "memory_id": "s",
+            "content": "Project Zorvia uses protocol K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "t",
+            "content": "Project Zorvia uses protocol K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "u",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "v",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "regenerated_nodes": [],
+        "cache_hits": 2,
+        "cache_misses": 0,
+        "completion": "done"
+      },
+      "incremental": {
+        "items": [
+          {
+            "memory_id": "s",
+            "content": "Project Zorvia uses protocol K29.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "t",
+            "content": "Project Zorvia uses protocol K29.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "u",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "v",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "regenerated_nodes": [
+          "t"
+        ],
+        "cache_hits": 1,
+        "cache_misses": 1,
+        "completion": "done"
+      },
+      "full": {
+        "items": [
+          {
+            "memory_id": "s",
+            "content": "Project Zorvia uses protocol K29.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "t",
+            "content": "Project Zorvia uses protocol K29.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "u",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "v",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "regenerated_nodes": [
+          "t",
+          "v"
+        ],
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "completion": "done"
+      },
+      "atomic_budget_failure": {
+        "items": [
+          {
+            "memory_id": "s",
+            "content": "Project Zorvia uses protocol K29.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "t",
+            "content": "Project Zorvia uses protocol K17.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "u",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "source",
+            "origin_ids": [],
+            "authority": null
+          },
+          {
+            "memory_id": "v",
+            "content": "Project Tovren uses protocol M83.",
+            "scope": "lab",
+            "valid_from": 0,
+            "valid_until": null,
+            "status": "active",
+            "source_ids": [],
+            "created_at_checkpoint": 0,
+            "kind": "belief",
+            "origin_ids": [],
+            "authority": null
+          }
+        ],
+        "regenerated_nodes": [
+          "t"
+        ],
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "completion": "budget_exhausted"
+      },
+      "full_equals_incremental": true,
+      "state_commit_atomic": true
+    }
+  },
+  "B10": {
+    "status": "PASS",
+    "usage": {
+      "dependency_checks": 0,
+      "cache_hits": 0,
+      "model_calls": 2,
+      "input_tokens": 970,
+      "output_tokens": 92,
+      "cached_input_tokens": 0,
+      "retrieval_calls": 0,
+      "embedding_calls": 0,
+      "verification_calls": 2,
+      "replay_steps": 0,
+      "tool_calls": 0,
+      "wall_latency_ms": 44274.897416937165
+    },
+    "details": {
+      "queries": [
+        {
+          "target_id": "t",
+          "verdict": "contradicted",
+          "answer": "Project Zorvia uses protocol K29, not K17.",
+          "evidence_ids": [
+            "s"
+          ],
+          "completion": "done"
+        },
+        {
+          "target_id": "t",
+          "verdict": "contradicted",
+          "answer": "Project Zorvia uses protocol K29, not K17.",
+          "evidence_ids": [
+            "s"
+          ],
+          "completion": "done"
+        }
+      ],
+      "persistent_state_unchanged": true,
+      "state_still_contains_stale_claim": true,
+      "answers_corrected": true,
+      "recurrent_audits": 2,
+      "cache_policy": "disabled; every query charged"
+    }
+  },
+  "same_evidence_across_variants": true
+}

@@ -263,3 +263,11 @@ are omitted. The model response strings below are otherwise unchanged.
 Exact constants and schema version: `models/inference.py` development-v2.
 New live results and exact per-attempt categories are in the companion engineering
 error audit; this historical failure record is not overwritten by later success.
+
+## New v2 regression failure — retained, not repaired
+
+The `observable-bystander / B5b` batch (five observable targets, including the copied bulletin) produced two syntactically valid JSON responses with illegal self-support. First: target `copy`, members `["a", "copy"]`; retry: target `copy`, members `["copy"]`. Both violated the existing no-self-membership constraint and were classified **CONTRADICTORY_STRUCTURE** (`Invalid member structure`). IDs themselves were valid visible IDs. Dynamic enum grammar does not enforce this cross-field relationship; the strict parser rejected it.
+
+Both full requests and raw responses are preserved in `qwen_hardening/traces.json`, with original response hashes and diagnostic/parent-request records in `qwen_hardening/manifests.json`. The single fixed protocol retry was exhausted: **2 physical calls, 3,432 input tokens, 676 output tokens, 205.504 seconds physical request latency**. No further retry or prompt adjustment followed. The policy returned `model_failed` with the original state. Semantic scoring for the whole batch is unset, not counted as either correct or a schema-valid semantic error. Although other sub-assessments were readable, they were not salvaged into a repaired inference.
+
+This differs from both the old claim-text-as-ID failure and the old legal-but-wrong `assoc <- e` sufficient support. All three remain separately inspectable. The v2 copies/short-ID/similar-ID runs produced valid literal IDs in both B5 variants, but this does not imply all structures were correct or future protocol failures are impossible.

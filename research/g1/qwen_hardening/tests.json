@@ -1,0 +1,23 @@
+{
+  "label": "ENGINEERING VALIDATION \u2014 NOT SCIENTIFIC EVIDENCE",
+  "implementation_commit": "5358ca5",
+  "commands": [
+    {
+      "command": "uv run pytest",
+      "exit_code": 0,
+      "result": "165 passed in 1.30s"
+    },
+    {
+      "command": "uv run ruff check .",
+      "exit_code": 0,
+      "result": "All checks passed"
+    },
+    {
+      "command": "uv run mypy src tests",
+      "exit_code": 0,
+      "result": "Success: no issues found in 40 source files"
+    }
+  ],
+  "environment_override": "UV_CACHE_DIR=/private/tmp/evomem-uv-cache",
+  "timing_note": "Initial 163-test checks ran during serial inference; final 165-test checks ran after generation and the unknown-usage summary fix. Observed inference latencies include ordinary host activity, not a throughput benchmark."
+}

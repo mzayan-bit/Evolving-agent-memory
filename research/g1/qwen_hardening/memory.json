@@ -1,0 +1,11 @@
+{
+  "label": "ENGINEERING FIXTURES \u2014 NOT RESEARCH EVALUATION",
+  "method": "Darwin getrusage(RUSAGE_CHILDREN), maximum resident set in bytes",
+  "peak_rss_bytes": 7612186624,
+  "user_cpu_seconds": 5295.837988,
+  "system_cpu_seconds": 640.345025,
+  "elapsed_seconds": 1806.7011094579939,
+  "exit_code": 0,
+  "energy_joules": null,
+  "estimated_usd": null
+}

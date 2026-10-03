@@ -1,0 +1,46 @@
+[
+  {
+    "fixture": "necessary@1",
+    "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3"
+  },
+  {
+    "fixture": "alternative@1",
+    "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3"
+  },
+  {
+    "fixture": "conjunction@1",
+    "evidence_hash": "199049ed1f17b640137bd6bc962fe940c726de999e7aa3434d106fa6130957c3"
+  },
+  {
+    "fixture": "semantic_bystander@1",
+    "evidence_hash": "57437db5fabef3bd5eaad04e41f3f927b807f6fb7ba470ca9df4228f16625966"
+  },
+  {
+    "fixture": "repeated@1",
+    "evidence_hash": "3a3258d5d8863ab7bd0899f4a7034814e4ef279ab7ff64186086d06325a2e4f2"
+  },
+  {
+    "fixture": "repeated@2",
+    "evidence_hash": "0a5a49dc8579e9486b2321950b07e7bec59b6a121f5307c9d24dec842794004b"
+  },
+  {
+    "fixture": "copies@1",
+    "evidence_hash": "32ab626ec9ac8b1ac37d58516e58824484b47a13571109e774e2c1961b4ac315"
+  },
+  {
+    "fixture": "correction@1",
+    "evidence_hash": "57437db5fabef3bd5eaad04e41f3f927b807f6fb7ba470ca9df4228f16625966"
+  },
+  {
+    "fixture": "observable-bystander",
+    "evidence_hash": "e05d4c3fc6739fa98ea3c348fd21d5f77528389df9ed59dbc1a32d1e7b2da53a"
+  },
+  {
+    "fixture": "short-ids",
+    "evidence_hash": "87300546fb974baa4630e581d163e1161e1016ac3259d0af81819a7af07c22dd"
+  },
+  {
+    "fixture": "similar-ids",
+    "evidence_hash": "156f8b8baf13090e0d9eab069bd2020e92d136daa7785fc8b311f56d64996b8c"
+  }
+]
