@@ -95,7 +95,7 @@ class ModelExecutor:
             )
             # Probe a copied ledger: no physical event is charged before dispatch.
             try:
-                Ledger(self.ledger.budget, list(self.ledger.events)).charge(reserve)
+                self.ledger.check(reserve)
             except BudgetExceededError:
                 self.attempts.append(
                     {

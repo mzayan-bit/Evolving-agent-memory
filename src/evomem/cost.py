@@ -1,6 +1,6 @@
 """Per-operation accounting, checked before deterministic operations execute."""
 
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, replace
 
 
 class BudgetExceededError(RuntimeError):
@@ -62,6 +62,34 @@ class CostEvent:
 class Ledger:
     budget: Budget
     events: list[CostEvent] = field(default_factory=list)
+    credit_schedule: tuple[tuple[int, int], ...] = ()
+    released_through: int = -1
+
+    def __post_init__(self) -> None:
+        checkpoints = [c for c, _ in self.credit_schedule]
+        if checkpoints != sorted(set(checkpoints)) or any(
+            type(c) is not int or type(n) is not int or c < 0 or n < 0
+            for c, n in self.credit_schedule
+        ):
+            raise ValueError("Invalid revision credit schedule")
+
+    def release(self, checkpoint: int) -> None:
+        """Advance revision clock; unused credits carry, costs never reset."""
+        if checkpoint < self.released_through:
+            raise ValueError("Cannot reverse credit release")
+        self.released_through = checkpoint
+
+    @property
+    def released_calls(self) -> int | None:
+        return (
+            sum(n for c, n in self.credit_schedule if c <= self.released_through)
+            if self.credit_schedule
+            else None
+        )
+
+    def check(self, event: CostEvent) -> None:
+        """Probe without spending; preserve schedule as well as cumulative caps."""
+        replace(self, events=list(self.events)).charge(event)
 
     def totals(self) -> dict[str, int | float | None]:
         names = (
@@ -124,6 +152,12 @@ class Ledger:
                 "Normalize additional reasoning into output before charging"
             )
         totals = self.totals()
+        if (
+            self.released_calls is not None
+            and int(totals["model_calls"] or 0) + event.model_calls
+            > self.released_calls
+        ):
+            raise BudgetExceededError("unreleased_model_calls")
         for resource in (
             "verification_calls",
             "replay_steps",

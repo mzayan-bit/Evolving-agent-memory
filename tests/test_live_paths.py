@@ -330,7 +330,10 @@ def test_point_confidence_is_discarded_after_fixed_selection() -> None:
                 FrozenInference(((proposal, confidence),)), "B5b", 0.7
             ).repair(v, ledger)
         )
-        assert not ledger.events
+        assert all(e.phase == "dependency-check" for e in ledger.events)
+        assert ledger.totals()["model_calls"] == 0
+        assert ledger.totals()["verification_calls"] == 0
+        assert ledger.totals()["replay_steps"] == 0
     assert decisions[0] == decisions[1]
 
 

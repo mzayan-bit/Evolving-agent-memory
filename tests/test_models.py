@@ -333,7 +333,10 @@ def test_same_point_proposals_pairwise_vs_support_sets() -> None:
     # Confidence only determines fixed selection, never schedules another operation.
     ledger = Ledger(Budget(max_model_calls=0, max_verification_calls=0))
     PointEstimatePolicy(frozen, "B5b", threshold=0.95).repair(v, ledger)
-    assert not ledger.events
+    assert all(e.phase == "dependency-check" for e in ledger.events)
+    assert ledger.totals()["model_calls"] == 0
+    assert ledger.totals()["verification_calls"] == 0
+    assert ledger.totals()["replay_steps"] == 0
 
 
 def test_model_policy_uses_common_scenario_interface() -> None:

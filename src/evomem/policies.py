@@ -55,6 +55,22 @@ class Baseline:
             (m for m in view.items if m.kind != "source"), key=lambda m: m.memory_id
         )
         targets: set[str] = set()
+        checks = 0
+
+        def inspected(count: int) -> None:
+            nonlocal checks
+            checks += count
+
+        def record_checks() -> None:
+            ledger.events.append(
+                CostEvent(
+                    f"support-check:{len(ledger.events)}",
+                    "dependency-check",
+                    view.checkpoint,
+                    dependency_checks=checks,
+                )
+            )
+
         supports = view.lineage
         if self.name in {"B5", "B7"}:
             supports = tuple(
@@ -63,6 +79,7 @@ class Baseline:
         if self.name in {"B3", "B5"}:
             reached = {view.revision.fault_cue} if view.revision.fault_cue else set()
             while True:
+                inspected(len(supports))
                 added = {s.target for s in supports if reached.intersection(s.members)}
                 if added <= reached:
                     break
@@ -76,6 +93,7 @@ class Baseline:
                 if similarity(old.content, m.content) >= self.threshold
             }
         if self.name in {"B3", "B4", "B5"}:
+            record_checks()
             return Decision(
                 tuple(
                     replace(m, status=Status.INACTIVE) if m.memory_id in targets else m
@@ -84,8 +102,12 @@ class Baseline:
                 tuple((i, Action.INVALIDATE) for i in sorted(targets)),
             )
         valid = grounded(
-            view.items, supports if self.name == "B7" else view.rules, view.checkpoint
+            view.items,
+            supports if self.name == "B7" else view.rules,
+            view.checkpoint,
+            inspected=inspected,
         )
+        record_checks()
         known = {
             s.target
             for s in (supports if self.name == "B7" else view.rules)

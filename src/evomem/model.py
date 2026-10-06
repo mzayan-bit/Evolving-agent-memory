@@ -1,5 +1,6 @@
 """Immutable runtime records. Gold is deliberately defined in evaluation.py."""
 
+from collections.abc import Callable
 from dataclasses import dataclass
 from enum import StrEnum
 
@@ -134,7 +135,11 @@ class Scenario:
 
 
 def grounded(
-    items: tuple[Memory, ...], supports: tuple[Support, ...], checkpoint: int
+    items: tuple[Memory, ...],
+    supports: tuple[Support, ...],
+    checkpoint: int,
+    *,
+    inspected: Callable[[int], None] | None = None,
 ) -> frozenset[str]:
     """Least fixed point: ungrounded cycles cannot self-justify. AND/OR semantics."""
     lookup = {m.memory_id: m for m in items}
@@ -147,6 +152,8 @@ def grounded(
         and (m.valid_until is None or checkpoint < m.valid_until)
     }
     while True:
+        if inspected is not None:
+            inspected(len(supports))
         added = {
             s.target
             for s in supports

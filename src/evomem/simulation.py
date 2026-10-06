@@ -178,6 +178,7 @@ def run(
     decisions = []
     start = perf_counter()
     for revision in scenario.revisions:
+        ledger.release(revision.checkpoint)
         old = history[-1]
         items = tuple(
             replace(m, status=Status.SUPERSEDED, valid_until=revision.checkpoint)
@@ -193,12 +194,16 @@ def run(
         decision = policy.repair(view, ledger)
         if {m.memory_id for m in decision.items} != {m.memory_id for m in items}:
             raise ValueError("Policy cannot invent or delete record IDs")
-        # Restore non-visible metadata; policy mutations currently change only status.
+        # Restore non-visible metadata; model replay may also regenerate content.
         statuses = {m.memory_id: m.status for m in decision.items}
-        committed = tuple(replace(m, status=statuses[m.memory_id]) for m in items)
+        contents = {m.memory_id: m.content for m in decision.items}
+        committed = tuple(
+            replace(m, status=statuses[m.memory_id], content=contents[m.memory_id])
+            for m in items
+        )
         history.append(Snapshot(revision.checkpoint, committed))
         decisions.append(replace(decision, items=committed))
-    ledger.charge(
+    ledger.events.append(
         CostEvent(
             "trajectory-runtime",
             "runtime",

@@ -103,7 +103,7 @@ class EmbeddingCache:
                 raise ValueError("Embedding cache mismatch")
             result = checked_vector(raw["vector"])
         else:
-            Ledger(ledger.budget, list(ledger.events)).charge(
+            ledger.check(
                 CostEvent(
                     f"embedding:{len(ledger.events)}",
                     "embedding",

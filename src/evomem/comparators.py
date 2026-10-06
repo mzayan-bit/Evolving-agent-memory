@@ -1,18 +1,25 @@
 """Internal comparator adaptations, not reproductions of named papers."""
 
 import json
+from collections.abc import Callable
 from dataclasses import dataclass, replace
 
-from evomem.cost import BudgetExceededError, Ledger
+from evomem.cost import BudgetExceededError, CostEvent, Ledger
 from evomem.model import Action, Decision, PolicyView, Status, Support, grounded
 from evomem.models.client import ModelCallError, ModelRequest
 from evomem.models.execution import ModelExecutor
 from evomem.models.inference import exact, obj, visible_payload
 
 
-def descendants(supports: tuple[Support, ...], root: str | None) -> set[str]:
+def descendants(
+    supports: tuple[Support, ...],
+    root: str | None,
+    inspected: Callable[[int], None] | None = None,
+) -> set[str]:
     reached = {root} if root else set()
     while True:
+        if inspected is not None:
+            inspected(len(supports))
         added = {s.target for s in supports if reached.intersection(s.members)}
         if added <= reached:
             return reached
@@ -30,7 +37,13 @@ class SupportAwareRollback:
 
     def repair(self, view: PolicyView, ledger: Ledger) -> Decision:
         supports = view.lineage
-        affected = descendants(supports, view.revision.fault_cue)
+        checks = 0
+
+        def inspected(count: int) -> None:
+            nonlocal checks
+            checks += count
+
+        affected = descendants(supports, view.revision.fault_cue, inspected)
         root = next(
             (m for m in view.items if m.memory_id == view.revision.fault_cue), None
         )
@@ -46,8 +59,16 @@ class SupportAwareRollback:
             else m
             for m in view.items
         )
-        rescue = grounded(rescue_items, supports, view.checkpoint)
-        valid = grounded(view.items, supports, view.checkpoint)
+        rescue = grounded(rescue_items, supports, view.checkpoint, inspected=inspected)
+        valid = grounded(view.items, supports, view.checkpoint, inspected=inspected)
+        ledger.events.append(
+            CostEvent(
+                f"rollback-check:{len(ledger.events)}",
+                "dependency-check",
+                view.checkpoint,
+                dependency_checks=checks,
+            )
+        )
         changes = {}
         actions = []
         for m in view.items:
@@ -111,7 +132,13 @@ class QueryAudit:
 
     executor: ModelExecutor
 
-    def query(self, view: PolicyView, target_id: str) -> QueryResult:
+    def query(
+        self,
+        view: PolicyView,
+        target_id: str,
+        *,
+        dispatch_checkpoint: int | None = None,
+    ) -> QueryResult:
         payload = visible_payload(view)
         ids = {r["id"] for r in payload["records"]}
         if target_id not in ids:
@@ -134,7 +161,7 @@ class QueryAudit:
         try:
             response = self.executor.generate(
                 request,
-                view.checkpoint,
+                view.checkpoint if dispatch_checkpoint is None else dispatch_checkpoint,
                 "query-audit",
                 verification=True,
                 use_cache=False,
