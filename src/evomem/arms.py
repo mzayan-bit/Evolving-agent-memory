@@ -6,6 +6,7 @@ Callers supply visible evidence and explicit derivations, never evaluator gold.
 
 import hashlib
 import json
+import math
 from dataclasses import asdict, dataclass, field, replace
 from pathlib import Path
 from time import perf_counter
@@ -17,6 +18,7 @@ from evomem.model import (
     Decision,
     InformationAccess,
     PolicyView,
+    Revision,
     Scenario,
     Snapshot,
     Support,
@@ -32,7 +34,7 @@ from evomem.models.inference import (
     visible_payload,
 )
 from evomem.policies import Baseline
-from evomem.readout import TemporalModelReadout
+from evomem.readout import ReadoutProbe, TemporalModelReadout
 from evomem.simulation import Corruption, Trace, project, run
 
 ARMS = ("B4b", "B5a", "B5b", "B7", "B8", "B9", "B10")
@@ -93,6 +95,9 @@ class ArmSession:
     allocated: set[str] = field(default_factory=set)
     replay_events: list[dict[str, Any]] = field(default_factory=list)
     source_versions: dict[str, str] = field(default_factory=dict)
+    probes: tuple[ReadoutProbe, ...] = ()
+    revisions: tuple[Revision, ...] = ()
+    query_results: list[dict[str, Any]] = field(default_factory=list)
 
     def __post_init__(self) -> None:
         self.replay = ModelCachedReplay(ModelDeriver(self.executor))
@@ -219,6 +224,15 @@ class ArmSession:
             )
         )
         self.frames.append(replace(view, items=decision.items))
+        reader = TemporalModelReadout(
+            self.executor, tuple(self.frames), self.revisions, self.name == "B10"
+        )
+        for probe in self.probes:
+            if probe.checkpoint == view.checkpoint:
+                query_result = reader.answer(probe)
+                self.query_results.append(
+                    {"probe": asdict(probe), "result": asdict(query_result)}
+                )
         return decision
 
 
@@ -252,6 +266,7 @@ class ArmRun:
         )
         return {
             "arm": self.session.name,
+            "threshold": self.session.threshold,
             "mode": "policy_isolation"
             if self.session.shared is not None
             else "end_to_end",
@@ -277,6 +292,7 @@ class ArmRun:
             },
             "common_input": "same immutable input bundle; no model construction",
             "replay_events": self.session.replay_events,
+            "query_results": self.session.query_results,
             "arm_specific_preprocessing": "own embeddings/support inference; ledgered",
             "credit_schedule": ex.ledger.credit_schedule,
             "released_model_calls": ex.ledger.released_calls,
@@ -298,9 +314,15 @@ def run_arms(
     derivations: tuple[Derivation, ...] = (),
     shared: dict[int, SharedSupports] | None = None,
     access: InformationAccess | None = None,
+    probes: tuple[ReadoutProbe, ...] = (),
+    thresholds: dict[str, float] | None = None,
 ) -> dict[str, ArmRun]:
     """Create cold arm-local caches and dispatch existing policies serially."""
     access = access or InformationAccess()
+    if any(
+        p.checkpoint not in {r.checkpoint for r in scenario.revisions} for p in probes
+    ):
+        raise ValueError("Query schedule must use declared revision checkpoints")
     if not names or len(set(names)) != len(names) or not set(names) <= set(ARMS):
         raise ValueError("Invalid arm inventory")
     if (
@@ -309,7 +331,14 @@ def run_arms(
         or access.external_evidence
     ):
         raise ValueError("Ordinary arms require non-oracle local evidence")
+    thresholds = thresholds or {}
+    if not set(thresholds) <= SUPPORT_ARMS | {"B4b"} or any(
+        not math.isfinite(value) or not 0 <= value <= 1 for value in thresholds.values()
+    ):
+        raise ValueError("Invalid development threshold configuration")
     recipients = frozenset(names) & SUPPORT_ARMS
+    if shared is not None and len({thresholds.get(n, 0.7) for n in recipients}) > 1:
+        raise ValueError("Shared point construction needs one common threshold")
     if shared is not None and (
         set(shared) != {r.checkpoint for r in scenario.revisions}
         or any(b.recipients != recipients for b in shared.values())
@@ -332,6 +361,9 @@ def run_arms(
             else None,
             derivations,
             shared if name in SUPPORT_ARMS else None,
+            threshold=thresholds.get(name, 0.7),
+            probes=probes,
+            revisions=scenario.revisions,
         )
         if scenario.revisions:
             initial = project(

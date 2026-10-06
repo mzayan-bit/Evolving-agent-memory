@@ -227,6 +227,11 @@ class TemporalModelReadout:
     def _answer(
         self, probe: ReadoutProbe, inspected: Callable[[int], None]
     ) -> ReadoutResult:
+        if (
+            self.executor.ledger.released_through >= 0
+            and self.executor.ledger.released_through != probe.checkpoint
+        ):
+            return ReadoutResult(None, (), (), "protocol_violation", "model")
         try:
             view = temporal_view(self.frames, self.revisions, probe, inspected)
         except TemporalLeakError:

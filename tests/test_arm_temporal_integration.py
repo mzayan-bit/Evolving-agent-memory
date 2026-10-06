@@ -197,6 +197,16 @@ def test_shared_construction_is_allocated_to_every_recipient_and_capped(
         )
     with pytest.raises(ValueError, match="construction costs"):
         replace(shared[1], costs=())
+    with pytest.raises(ValueError, match="common threshold"):
+        run_arms(
+            scenario,
+            tuple(sorted(recipients)),
+            VisibleClient(),
+            tmp_path / "different-thresholds",
+            Budget(),
+            shared=shared,
+            thresholds={"B5a": 0.8},
+        )
     wrong = dict(shared)
     wrong[1] = replace(shared[1], prefix="different")
     with pytest.raises(ValueError, match="mismatch"):
@@ -357,3 +367,33 @@ def test_b8_cannot_receive_an_uncharged_privileged_dependency(tmp_path: Path) ->
             derivations=(replace(SPECS[0], dependencies=("u",)),),
         )
     assert not client.requests
+
+
+def test_common_query_schedule_cannot_borrow_future_revision_credits(
+    tmp_path: Path,
+) -> None:
+    probes = (ReadoutProbe("t", 1), ReadoutProbe("t", 1), ReadoutProbe("t", 2))
+    runs = run_arms(
+        nonce_scenario(),
+        ("B5b", "B10"),
+        VisibleClient(),
+        tmp_path / "scheduled",
+        Budget(max_model_calls=2),
+        credit_schedule=((1, 1), (2, 1)),
+        probes=probes,
+    )
+    for result in runs.values():
+        assert len(result.session.query_results) == 3
+        assert result.report()["charged_usage"]["model_calls"] == 2
+    assert runs["B10"].session.query_results[0]["result"]["completion"] == "done"
+    assert (
+        runs["B10"].session.query_results[1]["result"]["completion"]
+        == "budget_exhausted"
+    )
+    assert runs["B10"].session.query_results[2]["result"]["completion"] == "done"
+    assert all(
+        r["result"]["completion"] == "budget_exhausted"
+        for r in runs["B5b"].session.query_results
+    )
+    late = runs["B10"].reader().answer(ReadoutProbe("t", 1))
+    assert late.completion == "protocol_violation"
