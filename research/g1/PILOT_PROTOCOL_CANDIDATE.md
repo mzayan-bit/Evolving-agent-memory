@@ -1,5 +1,7 @@
 # Pilot protocol candidate v0.2 — NOT FROZEN, NOT EXECUTABLE
 
+> Current integration status: see the final update below and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md). Earlier dated limitations are retained as history.
+
 Prepared 2026-09-25. This candidate revises, but does not silently overwrite, the v0.1 preregistration. Human signatures, actual adapters and cost fields are missing. No real pilot is authorized. Existing 30 cases remain development only.
 
 ## Objective, questions and hypotheses
@@ -63,3 +65,8 @@ Cumulative resource caps are implemented. The earlier two-released-credits-per-r
 Local B4b and pinned Qwen tokenizer checks now pass. Claude and Qwen generation, language-provider accounting/stopping, B8 live regeneration and B10 live audit remain SKIPPED. Readout/state decomposition and generative incremental replay have offline-tested paths; model historical readout and cyclic/tool-trace replay are not claimed.
 
 Use DEVELOPMENT_FREEZE_CANDIDATE.md for per-component READY TO FREEZE / NEEDS HUMAN DATA / NEEDS MORE ENGINEERING status. Freeze threshold-selection procedures before collecting development outcomes; retain .7 only as the existing engineering default, never as a selected value. Human A/B and adjudication requirements are unchanged. The cumulative ledger does not implement staged credit release, and two smoke-test phase budgets are not that release schedule. No non-human pilot freeze is signed by this update.
+## Final non-human integration update
+
+The remaining arm-resource/cache/release and historical-readout infrastructure gaps are resolved for the declared positive-support and acyclic explicit-provenance scope. This does not select thresholds, resource caps, query horizons, stress strengths or practical margins. No pilot is authorized or run. Independent human annotation, agreement/adjudication, development-only selection and study-owner approval remain next.
+
+See [ARM_RESOURCE_INTEGRATION.md](ARM_RESOURCE_INTEGRATION.md), [SHARED_COMPUTE_POLICY.md](SHARED_COMPUTE_POLICY.md) and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md) for the contract, evidence and unchanged-criteria readiness assessment. **ENGINEERING VALIDATION ONLY.**

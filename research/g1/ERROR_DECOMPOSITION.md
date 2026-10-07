@@ -1,5 +1,7 @@
 # Error decomposition and attribution contract
 
+> Current integration status: see the final update below and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md). Earlier dated limitations are retained as history.
+
 Use multi-label diagnostic events with `stage`, `checkpoint`, `item/probe`, `evidence_refs`, `candidate_codes`, `certainty` (observed/mechanistically_verified/ambiguous), and `counterfactual_run_id`. An outcome error and its causes are different records. Gold comparisons are evaluator-only. Do not force a single root cause when several upstream faults interact.
 
 | Code | Definition | Deterministic evidence / limits |
@@ -18,3 +20,8 @@ Use multi-label diagnostic events with `stage`, `checkpoint`, `item/probe`, `evi
 Existing logs contain immutable states/actions, completion, ledger, observed corruption masks and fixed answers/used IDs. These support E10 and controlled E2 incidence checks now. They do not record natural-language retrieval/proposal/verifier prompts, so E1/E7/E8 causal assignment remains unavailable. Add these records with real adapters before freeze; no post-hoc gold feedback to policies.
 
 Attribution procedure: retain all wrong outcomes; label directly observed stage failures; run only prespecified component-replacement oracle contrasts on a separate diagnostic budget; have two blinded reviewers assess ambiguous semantic failures and adjudicate disagreement. Report unassigned and multi-cause counts. Error-table denominator is all attempted probes, with an additional conditional denominator among errors. Overlapping categories need not sum to 100%. A cap-induced stale answer is not proof of bad inference; a bad edge that never affects any decision is not a causal failure.
+## Final non-human integration update
+
+Actual four-call historical Qwen traces are now inspectable. Future/oracle contamination is a protocol_violation with no generation and cannot receive a successful answer score. Persistent-memory correctness, required-evidence coverage and answer correctness remain separate: the current B10 example answers K29 while stored K17 remains stale. No semantic fixture mistakes were tuned away or reclassified as repair success.
+
+See [ARM_RESOURCE_INTEGRATION.md](ARM_RESOURCE_INTEGRATION.md), [SHARED_COMPUTE_POLICY.md](SHARED_COMPUTE_POLICY.md) and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md) for the contract, evidence and unchanged-criteria readiness assessment. **ENGINEERING VALIDATION ONLY.**

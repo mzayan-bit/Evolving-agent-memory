@@ -1,5 +1,7 @@
 # Real resource enforcement — development implementation, 2026-09-26
 
+> Current integration status: see the final update below and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md). Earlier dated limitations are retained as history.
+
 Implemented in `src/evomem/models/client.py`, `execution.py` and `cost.py`. **Offline validated; live validation SKIPPED. Not yet pilot certified.** No tokens are estimated from character counts. No local tokenizer fallback is claimed: missing returned input/output counts stop further dispatch.
 
 ## Transaction semantics
@@ -50,3 +52,8 @@ Provider reservation rejections now create explicit blocked_before_dispatch atte
 The manifest reports runtime latency from a runtime event if present, otherwise summed physical phase latency. The legacy usage.wall_latency_ms aggregation can contain nested events and is explicitly not end-to-end elapsed time. Raw events are retained. Overruns retain the response/actual usage and halt; controlled offline tests cover them without intentionally wasting a paid call. Actual provider costs remain unvalidated because credentials/deployment are missing.
 
 ModelCachedReplay uses actual model calls on cache misses rather than symbolic replay-step prices. Each regeneration increments model calls and replay steps and bills provider-returned tokens through the same executor. Failed sweeps do not commit generated state or pending derivation-cache entries, but previously paid calls remain charged. No claim of real replay latency/cost can be made until that path runs on a real language model.
+## Final non-human integration update
+
+Revision-credit release, reservation reconciliation and arm-level integration are implemented and tested. The tiny real historical run executed four calls (2,053 input / 134 output tokens) and blocked the fifth before dispatch. Prior real one-call/second-stop evidence remains intact. Historical queries spend at the dispatch checkpoint, without resetting their ledger to evidence time. No additional scientific run was performed.
+
+See [ARM_RESOURCE_INTEGRATION.md](ARM_RESOURCE_INTEGRATION.md), [SHARED_COMPUTE_POLICY.md](SHARED_COMPUTE_POLICY.md) and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md) for the contract, evidence and unchanged-criteria readiness assessment. **ENGINEERING VALIDATION ONLY.**

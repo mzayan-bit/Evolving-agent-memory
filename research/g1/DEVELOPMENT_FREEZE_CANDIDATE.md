@@ -1,33 +1,36 @@
-# Development freeze candidate — local protocol hardening, 2026-09-27
+# Non-human development freeze review
 
-**ENGINEERING VALIDATION, not a pilot freeze.** READY TO FREEZE means the engineering contract is concrete for its declared scope. It does not establish semantic quality, select label-dependent settings, or sign a study freeze. Readiness is assessed against the unchanged R1_READINESS_CRITERIA.md in QWEN_ENGINEERING_ERROR_AUDIT.md. No human annotations were accessed or changed.
+**No pilot freeze is signed.** READY_TO_FREEZE means the tested contract can be fixed before annotations; it does not assert model quality or select data-dependent values. The R1 criteria file is unchanged. See NON_HUMAN_PROTOCOL_SNAPSHOT.md for the complete gate assessment and stop decision.
 
-| Component | Status | Candidate / outstanding evidence |
+| Component | Status | Frozen candidate / limit |
 |---|---|---|
-| Qwen revision | READY TO FREEZE | Qwen/Qwen3.5-9B c202236235762e1c871ad0ccb60c8ee5ba337b9a; real generation, exact tokenizer checks; source/conversion provenance retained |
-| Quantization | READY TO FREEZE | Bartowski Q4_K_M conversion 182be2fd6c7bc44887d88a91cb03ff009cc9f549, weight SHA-256 in qwen_local/deployment.json; mixed imatrix-calibrated quantization changes weights, not a full-precision equivalence claim; converter does not attest exact source commit |
-| llama.cpp runtime | READY TO FREEZE | b9222 / 9a532ae4bab1b164052ce60a738f78538b421c66, CPU+Accelerate on M4 16 GB, 4096 context, one slot; Metal unavailable in this session |
-| B5 prompt | READY TO FREEZE | Generic ID-grounding v2 contract and distinct pairwise/support-set elicitation; exact constants at b1d38c7; freeze the protocol, not a claim of competent study-wide inference |
-| B5 schema | READY TO FREEZE | Existing ontology, strict complete target assessments, per-view ID enums; B5a singleton links / B5b AND/OR sets; native grammar plus local semantic schema checks |
-| Retry policy | READY TO FREEZE | At most one protocol-invalid retry using original evidence, fixed reminder and malformed output; every physical call/token/latency charged; no semantic/refusal/timeout/truncation retry |
-| Parser | READY TO FREEZE | Strict JSON, exact fields, visible literal IDs, unique keys/targets/groups, finite confidence and consistent structures; no guessed IDs or logical repair |
-| B5 threshold procedure | NEEDS DEVELOPMENT DATA | Review support-set loss/precision-recall objective and preservation guardrails before threshold search; deterministic grid/tie-break and disjoint validation required |
-| B5 threshold value | NEEDS DEVELOPMENT DATA | .7 remains an untuned engineering candidate, not newly frozen; scores only commit a deterministic structure |
-| B8 replay semantics | READY TO FREEZE | Explicit visible acyclic derivations, dependency/config/scope/time cache identity, charged local checks, staged atomic commit; only the tiny current-time contract is covered |
-| B10 audit semantics | READY TO FREEZE | Current-time query-only audit, cache disabled, every recurrence charged, persistent state unchanged; distinct state versus answer outcomes |
-| Embedding model/runtime | READY TO FREEZE | MiniLM 1110a243fdf4706b3f48f1d95db1a4f5529b4d41, normalized 384-dimensional CPU float32; prior actual load/encode/cache/cap evidence retained |
-| B4 threshold procedure | READY TO FREEZE | Existing development-only rubric/grid/F1/tie-break and disjoint validation in SEMANTIC_BASELINE_PROTOCOL.md |
-| B4 threshold value | NEEDS DEVELOPMENT DATA | .7 is provisional. No labeled development selection or new freeze occurred |
-| Per-call accounting | READY TO FREEZE | Local returned input/output usage checked against actual token IDs; predispatch reservation, reconciliation, explicit unknowns/overruns, charged retry, real stopping evidence; no invented local USD/energy |
-| Study-level accounting | BLOCKED | Final arm construction and revision-credit release scheduling remain unvalidated under matched study budgets |
-| Response/derived caching | READY TO FREEZE | Immutable content-addressed responses, exact prompt/model/settings/schema identity; dependency-sensitive derived cache; tested physical versus reused work |
-| Cache parity across study arms | BLOCKED | Final multi-arm construction/reuse policy and equal resource charging require integrated validation; tiny full/incremental equivalence does not establish this |
-| Result/manifest schema | READY TO FREEZE | Commit/dirty/environment/runtime/settings, raw usage, prompt/wire hashes, attempts/retry IDs, failure categories, separate semantic audit, measured latency and unavailable cost fields |
-| B7/B9 semantics | READY TO FREEZE | Simplified positive AND/OR maintenance and support-aware rollback; explicit fidelity limits remain, no ATMS reproduction claim |
-| Structured readout | READY TO FREEZE | Existing immutable Trace interface with three time views and separate evaluator state/retrieval/answer outcomes |
-| Historical model readout/replay coverage | BLOCKED | Current-time model checks do not validate historical natural-language outcomes; scope must be reviewed without silently narrowing the research question |
-| Claude execution | BLOCKED | No credential obtained or invented. Claude remains unvalidated; the pre-existing R1 gate table does not independently require Claude/API-only accounting. MODEL_PROMPT_PROTOCOL.md's broader future evaluation-freeze review still calls for both model families |
+| Qwen source/revision | READY_TO_FREEZE | Qwen/Qwen3.5-9B c202236235762e1c871ad0ccb60c8ee5ba337b9a; actual generation and tokenizer checks |
+| Q4_K_M conversion | READY_TO_FREEZE | Bartowski 182be2fd6c7bc44887d88a91cb03ff009cc9f549; weight SHA-256 d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43. Mixed imatrix K-quants; converter does not attest the exact source commit; no full-precision equivalence claim |
+| llama.cpp revision | READY_TO_FREEZE | b9222 / 9a532ae4bab1b164052ce60a738f78538b421c66; launcher checks runtime and weight hashes |
+| Generation deployment | READY_TO_FREEZE | CPU+Accelerate, M4 16 GB, 4096 context, one slot, four threads, f16 KV, batch 256/ubatch 128; temperature 0, seed 0, thinking/prompt cache off. Exact command in qwen_local/deployment.json |
+| Study context/output/resource values | NEEDS_DEVELOPMENT_DATA | Deployment limits and smoke caps are not selected study budgets. Choose common feasible limits from development lengths/cost/completion data and obtain approval |
+| Embedding model | READY_TO_FREEZE | all-MiniLM-L6-v2 1110a243fdf4706b3f48f1d95db1a4f5529b4d41; normalized CPU float32, 384 dimensions, max length 256; runtime snapshot retained |
+| B4b selection procedure | READY_TO_FREEZE | Existing independently labeled neighborhood rubric/grid/F1/tie-break and disjoint validation contract; objective still subject to stated reviewer approval |
+| B4b threshold value | NEEDS_DEVELOPMENT_DATA | .7 remains an engineering default, not selected or newly frozen |
+| B5a prompt | READY_TO_FREEZE | point-pairwise-development-v2 singleton-link elicitation, unchanged b1d38c7 constants; named shared-proposal projection alternative only in isolation |
+| B5b prompt | READY_TO_FREEZE | point-support-development-v2 AND/OR elicitation, unchanged b1d38c7 constants; no fixture-semantic prompt tuning |
+| B5 structured schema | READY_TO_FREEZE | Literal visible-ID enums, complete targets, frozen relation ontology, confidence bounds and exact fields |
+| Parser | READY_TO_FREEZE | Strict JSON/ID/structure checking; no guessed IDs, semantic repair or gold feedback. Existing self-support failure remains an explicit outcome |
+| Retry policy | READY_TO_FREEZE | One paid protocol-invalid B5 retry; no semantic/transport/refusal/truncation retry; audit/readout have no retries |
+| B5 thresholds and selection approval | NEEDS_DEVELOPMENT_DATA | Approve logical-support objective/grid/guardrails before selection; choose with adjudicated development support labels. Shared isolation recipients must use one identical threshold; .7 unselected |
+| B7 semantics | READY_TO_FREEZE | Simplified positive AND/OR grounding, measured candidate checks, paid/allocated construction; no full ATMS/JTMS claim |
+| B8 replay/cache semantics | READY_TO_FREEZE | Explicit acyclic public provenance tasks; public version rebinding; generated text committed; affected invalidation/unaffected reuse and atomic failure. No arbitrary tool/cyclic replay or privileged inferred graph |
+| B9 rollback semantics | READY_TO_FREEZE | Paid/allocated support construction, affected closure and known-disjoint-origin rescue; unknown/copy origins never certify independence |
+| B10 audit semantics | READY_TO_FREEZE | Query-only audit on selected current/historical prefix, paid every time, no storage mutation; same query schedule as other arms |
+| Current model readout | READY_TO_FREEZE | Bound active visible records; strict citations/output; common per-checkpoint schedule and ledger |
+| Historical model readout | READY_TO_FREEZE | Immutable known-time frame, no future records/supports; supersession preserves past; retrospective corrections and present permissions follow existing Trace semantics. Observed prefix support grounding, never gold rules |
+| Accounting contract | READY_TO_FREEZE | One serial arm ledger/executor; non-mutating reservation; actual reconciliation; unknown/overrun retention; staged released calls with carry, no negative refunds or historical credit reset |
+| Cache policy | READY_TO_FREEZE | Cold arm-local namespaces; material identity/invalidation; physical vs reused work; B8 legal reuse, B10/readout no response reuse |
+| Shared-compute policy | READY_TO_FREEZE | Common immutable inputs; explicit same-artifact/same-condition proposal sharing, equal original-cost allocation and separate physical ledger; no free B7/B9 construction |
+| Experiment manifests | READY_TO_FREEZE | Source/config/prompt/schema/runtime hashes, original usage/attempts, allocations, counters, cache scope, separate local/physical/runtime timing, current versus evidence clock, failure outcomes |
+| Failure taxonomy | READY_TO_FREEZE | Protocol/semantic/transport/refusal/timeout/truncation/budget categories retained; future/oracle prefix rejection is protocol_violation and cannot score as success |
+| Statistical unit/oracle boundaries | READY_TO_FREEZE | Source/scenario family; repeated revisions/queries/seeds are not independent units; explicit O-level diagnostics excluded from ordinary arms |
+| Stress strength/practical margins/final horizon and study approval | NEEDS_DEVELOPMENT_DATA | Development/adjudication, resource feasibility and stakeholder approvals required; provisional constants are not promoted to selected values |
+| Claude/two-backbone study execution | BLOCKED | Credentials/access and actual run unvalidated. External operational dependency for the proposed two-backbone study, not additional infrastructure needed before annotations; not an independent API-only R1 gate |
 
-No confidence drives evidence acquisition, verification, replay or repair scheduling. READY TO FREEZE entries should stop receiving generic architecture or semantic fixture-driven prompt changes. Reconsider only a concrete defect, agreed scope requirement, or development-data finding.
-
-A pilot freeze additionally needs independent A/B/adjudication, approved comparator/access set, development thresholds, scope agreement, practical margins and statistical expansion/kill rules. Human adjudication remains an R2 condition, not a new retroactive R1 definition. The existing R1 assessment already requires resource/cache integration and development prompt/threshold review; these must not be erased merely because local inference now works.
+No unfinished code issue has been identified that needs work before independent annotation. READY_TO_FREEZE contracts should stop changing unless a concrete defect or adjudicated development finding requires it. Human signatures, final dataset/split/mask hashes and selected numerical parameters remain outside this non-human engineering snapshot. No Annotator A/B files were changed.

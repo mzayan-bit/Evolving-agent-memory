@@ -1,0 +1,47 @@
+{
+  "label": "ENGINEERING VALIDATION ONLY",
+  "call_checks": [
+    {
+      "call": 1,
+      "input_tokens": 631,
+      "output_tokens": 42,
+      "request_latency_ms": 16412.400915985927,
+      "historical_future_strings_absent": null,
+      "historical_check_note": "Not applicable: current query is allowed current K29/s2 evidence."
+    },
+    {
+      "call": 2,
+      "input_tokens": 561,
+      "output_tokens": 40,
+      "request_latency_ms": 16045.22183293011,
+      "historical_future_strings_absent": true
+    },
+    {
+      "call": 3,
+      "input_tokens": 430,
+      "output_tokens": 25,
+      "request_latency_ms": 11643.300499999896,
+      "historical_future_strings_absent": true
+    },
+    {
+      "call": 4,
+      "input_tokens": 431,
+      "output_tokens": 27,
+      "request_latency_ms": 12494.548917049542,
+      "historical_future_strings_absent": true
+    }
+  ],
+  "physical_latency_ms": 56595.472165965475,
+  "tests": {
+    "pytest": "176 passed",
+    "ruff": "clean",
+    "mypy": "clean, 43 source files"
+  },
+  "criteria_unchanged": true,
+  "post_smoke_change": "Common checkpoint query scheduling/current-clock guard and exposed threshold configuration were validated offline after the four-call smoke; B5 prompts/model settings unchanged.",
+  "validation_commands": [
+    "UV_CACHE_DIR=/private/tmp/evomem-uv-cache uv run pytest",
+    "UV_CACHE_DIR=/private/tmp/evomem-uv-cache uv run ruff check .",
+    "UV_CACHE_DIR=/private/tmp/evomem-uv-cache uv run mypy src tests"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "label": "ENGINEERING VALIDATION ONLY",
+  "starting_remote_main": "859d4dd047e5f9351ed6951cdfdbcc2ee1e3e6f3",
+  "implementation_commits": [
+    "1633c2e6ed46816c4bca61a3617e964a3a54c3b8",
+    "8459db11f1e08339cce3b0ced3f0578cd23f5284"
+  ],
+  "live_smoke_recorded_head": "1633c2e6ed46816c4bca61a3617e964a3a54c3b8",
+  "live_smoke_recorded_dirty": true,
+  "scope_note": "Four real historical/readout generations only. Common per-checkpoint query scheduling, dispatch-clock guard and configurable existing thresholds were validated offline at 8459db1. All live probes use dispatch checkpoint 2. Offline seven-arm receipts are scripted doubles, not actual model performance.",
+  "criteria_sha256": "6499b4da9500aee980e7dab4e8d948286d333daf6cc3f1c76173f302ccd7dfa6",
+  "criteria_identical_to_starting_remote": true,
+  "b5_inference_module_unchanged": true,
+  "tracked_annotation_paths_unchanged": true,
+  "receipt_verification": "Four response token counts and native output lengths agree; 3 historical requests exclude future K29/s2; state remains unchanged; fifth request blocked before dispatch.",
+  "artifact_sha256": {
+    "research/g1/integration/checks.json": "c90c4ed8d14a411863d05e254a1372ae638e5e525665035a5d343cc05f104cc0",
+    "research/g1/integration/offline-arm-accounting.json": "0e141b7858cf337c75c8d9c7ec28e157b3df7bba28ea5d0014eb3c07775bf31a",
+    "research/g1/integration/qwen-temporal-manifest.json": "beee07f600945ea9bdebde6b7a8c48793dd5c057b195b23b167b6e6376840f24",
+    "research/g1/integration/qwen-temporal-traces.json": "53b5db6cbba9034bb05a20be6b3f2ddee3812e925f15ec57d8cf6b879bed43eb"
+  },
+  "implementation_sha256": {
+    "src/evomem/arms.py": "38a06d2fea2e6fc37c6e311bc6e0bfe480818e8e3147825029278be4a9a0c16d",
+    "src/evomem/comparators.py": "05a75231f9d4ca93851ff261b14e0a5b6118acfee6576c66e1e6e54414deee02",
+    "src/evomem/cost.py": "3c77e975ada00f64c1096e4c7d2b1f3bf2a4b9cf916df82748e06cc92dd26987",
+    "src/evomem/experiment/temporal_smoke.py": "1f0486f8f40ad232b4fdc1a25bd5beea918e43bb6fc7593591b7de2c54c5eded",
+    "src/evomem/model.py": "a26139dd3bf0d93a6f8aa7add32195c2c9d932ab180c31c414209f38cca801df",
+    "src/evomem/models/embeddings.py": "2f4553aed36362c79427bbeb68c0c811fe53b0885396cfeea9f068bfe368c6a1",
+    "src/evomem/models/execution.py": "df70d9c0bf6a1e57e5a397614e3eee5cec24cf16b6208551c308b4a0aa82b9b2",
+    "src/evomem/policies.py": "a228e322ee718ac47e23e996af70720bcd5d14efe4d0b551add1aba9e49f35c9",
+    "src/evomem/readout.py": "afddda87daa037954eb9d198ec11778b49721524aa03978880d90727da7bbb59",
+    "src/evomem/simulation.py": "0567c5f0e6f943190e1e5e3e91e209a2488c0f739bf8f7d39166e86ad2a83421",
+    "tests/test_arm_temporal_integration.py": "d34170b4ff4064175e1c45ad08671ef732d8978524eb7beb9a57f57c3d80c77a",
+    "tests/test_live_paths.py": "5cee5a3b4cc373d35181e979d914ed13a1195b2b98a4c10937369668c986eea4",
+    "tests/test_models.py": "74b9a95d42aee327d9e8bae33d59553faae2ad0f05f7c1618521fa1fa9572323"
+  },
+  "non_human_documents_sha256": {
+    "research/g1/ARM_RESOURCE_INTEGRATION.md": "bc61e76cf094b5914b937a24f69ceb9c9bf9f1664c78baedcd9785e17b628bdb",
+    "research/g1/DEVELOPMENT_DATA_REQUIREMENTS.md": "36f9392cd2f3d4d263401f1b98d973592d3781786bcfd959a00b08c53d071cb6",
+    "research/g1/DEVELOPMENT_FREEZE_CANDIDATE.md": "6d05bed79e383fff74f723ed1830ba882676f6a3e465ec69ef3218706e497831",
+    "research/g1/NON_HUMAN_PROTOCOL_SNAPSHOT.md": "47e1fe82be4bec67478ac16263d9595c2c8b3c8a4a9c8182fadb0248de2f2248",
+    "research/g1/SHARED_COMPUTE_POLICY.md": "82cffa8b6603e071f539a6285292924a551632747e75eea6a7d6f3daa3cb183f"
+  }
+}

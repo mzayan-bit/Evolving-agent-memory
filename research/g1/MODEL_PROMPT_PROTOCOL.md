@@ -1,5 +1,7 @@
 # Model prompt protocol — development candidate v2
 
+> Current integration status: see the final update below and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md). Earlier dated limitations are retained as history.
+
 **Not evaluation-frozen.** No prompt has been tuned on evaluation outcomes or human annotations. Code constants are the canonical exact text: `models/inference.py:SYSTEM,SCHEMA,request_for`; `comparators.py:AUDIT_SYSTEM,AUDIT_SCHEMA`. Their full text is hashed into every response-cache identity. Freeze their Git revision and SHA-256 after development review; do not substitute prose from this document for the executable prompt.
 
 ## Input and ontology
@@ -72,3 +74,8 @@ Only protocol-invalid output gets one retry. It contains the original allowliste
 The .7 B5 threshold is an unchanged engineering candidate, not a newly selected or evaluation-frozen value. Scores only select a deterministic structure; no confidence-driven acquisition, replay, audit or quarantine is implemented. Full gold/model structures and declared audit targets are retained. Some legacy natural-language evidence underidentifies its authored formal structure; disagreement there is an engineering comparison, not an accuracy estimate.
 
 Run the fixed tiny regression with `EVOMEM_RUN_LIVE_TESTS=1 QWEN_DEPLOYMENT_MANIFEST=research/g1/qwen_local/deployment.json uv run python -m evomem.experiment.qwen_hardening --output results/unique-hardening-run`. Output directories are create-only. All seven legacy fixture families (both repeated checkpoints), the existing multi-target observable view, and two ID-only copies relabelings are included for each B5 variant. B8 compares initial/warm/changed/full regeneration and an atomic budget failure; B10 audits the same query twice. See QWEN_ENGINEERING_ERROR_AUDIT.md for actual outcomes and limits. No scientific pilot was run.
+## Final non-human integration update
+
+B5a/B5b v2 prompts, schema and retry rules are unchanged in this integration phase. Current readout and B10 prompt procedures now receive a temporally bound immutable prefix through TemporalModelReadout; requested evidence time and actual dispatch/budget time are separate. No gold, future support graph or expected answer is introduced. Historical raw requests are retained in integration/qwen-temporal-traces.json.
+
+See [ARM_RESOURCE_INTEGRATION.md](ARM_RESOURCE_INTEGRATION.md), [SHARED_COMPUTE_POLICY.md](SHARED_COMPUTE_POLICY.md) and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md) for the contract, evidence and unchanged-criteria readiness assessment. **ENGINEERING VALIDATION ONLY.**

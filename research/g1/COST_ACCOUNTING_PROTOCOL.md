@@ -1,5 +1,7 @@
 # Cost accounting and matching
 
+> Current integration status: see the final update below and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md). Earlier dated limitations are retained as history.
+
 Count **all phases**: initial memory construction, lineage extraction, maintenance, diagnosis, candidate retrieval, verification, repair, replay, answering and summary rewrites. Report setup and amortized per-query costs separately with an explicit query horizon. A shared frozen representation is charged equally to all arms in the policy-isolation experiment; end-to-end runs charge each arm its real construction costs.
 
 Per-operation ledger: scenario/revision/policy/backbone/seed, phase, model/checkpoint/version, input/output/cached tokens, call count, embeddings (items/tokens), retrieval count and returned items, tool calls, verifier calls, replay steps, wall latency, errors/retries, provider pricing snapshot, monetary cost if applicable, local device/runtime and energy only if actually measured. Store no secrets. Count failed calls/retries and unsuccessful checks. Do not estimate local cost as zero.
@@ -24,3 +26,8 @@ Publish quality at each realized cost and feasible operating point. A method dom
 ## Implementation delta — 2026-09-26
 
 See [REAL_RESOURCE_ENFORCEMENT.md](REAL_RESOURCE_ENFORCEMENT.md) for implemented cumulative input/output/total/call/verifier/replay reservations, actual usage reconciliation, unknown/overshoot stopping, retry charging and cache fairness. Versioned post-hoc prices are separate from policy logic. This replaces the prior “counters only” implementation limitation for model execution **offline**; live validation remains absent. The candidate revision-credit release schedule remains unimplemented and cannot be inferred from cumulative caps. B8 now reports dependency-check counts even on cache hits. Use trajectory wall latency once; phase latency is nested, not additive elapsed time.
+## Final non-human integration update
+
+All seven comparator arms now use the common serial Ledger/executor boundary. Non-mutating reservations preserve released-credit state; actual usage alone is reconciled, valid hits spend no new calls, and past charges never disappear. Credits carry forward but cannot be borrowed from later revisions. Common queries execute before the next revision releases credits. Original shared construction costs are allocated equally to every recipient and reported separately from physical work. Numeric study budgets remain unselected.
+
+See [ARM_RESOURCE_INTEGRATION.md](ARM_RESOURCE_INTEGRATION.md), [SHARED_COMPUTE_POLICY.md](SHARED_COMPUTE_POLICY.md) and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md) for the contract, evidence and unchanged-criteria readiness assessment. **ENGINEERING VALIDATION ONLY.**

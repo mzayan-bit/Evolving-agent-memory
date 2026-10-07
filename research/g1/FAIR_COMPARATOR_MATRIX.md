@@ -1,5 +1,7 @@
 # Fair comparator matrix — candidate, not frozen, 2026-09-26
 
+> Current integration status: see the final update below and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md). Earlier dated limitations are retained as history.
+
 All ordinary arms receive projected visible records only. External evidence is disabled throughout this harness. `H` means common immutable archive plus existing fixed-proposition historical readout; it does not imply a model-backed historical reader. “Conditional” matched eligibility means accounting/plumbing exists but live validation and the final resource schedule are missing. No row uses confidence adaptively downstream. No ordinary row receives gold; explicit O-level variants must be separately labeled.
 
 | Comparator | Persistent mutation | Model calls | Support structure | History | Matched eligibility | Provenance/fidelity |
@@ -34,3 +36,8 @@ Readout has a common bound-state Reader interface. StructuredReadout preserves t
 
 
 Local protocol v2 (2026-09-27) distinguishes real pairwise B5a elicitation from B5b support-set elicitation. Evidence hashes must match across variants, while representation prompts/schema differ. Both construction costs are paid separately in the engineering regression. Historical shared-proposal isolation comparisons remain possible through FrozenInference, but must be named explicitly and charged consistently. Neither procedure is a published-method reproduction. See MODEL_PROMPT_PROTOCOL.md and QWEN_ENGINEERING_ERROR_AUDIT.md.
+## Final non-human integration update
+
+The earlier current-only and unresolved integration statements are historical. B4b/B5a/B5b/B7/B8/B9/B10 now execute through one boundary with cold per-arm caches, identical declared query schedules and charged construction. Generated B8 text is committed through the simulator. TemporalModelReadout binds existing model readout/B10 to saved current or historical prefixes. Shared-proposal B5a is explicitly a projection exception, distinct from independently elicited pairwise B5a. This is engineering availability, not demonstrated scientific competence or a paper reproduction.
+
+See [ARM_RESOURCE_INTEGRATION.md](ARM_RESOURCE_INTEGRATION.md), [SHARED_COMPUTE_POLICY.md](SHARED_COMPUTE_POLICY.md) and [NON_HUMAN_PROTOCOL_SNAPSHOT.md](NON_HUMAN_PROTOCOL_SNAPSHOT.md) for the contract, evidence and unchanged-criteria readiness assessment. **ENGINEERING VALIDATION ONLY.**
